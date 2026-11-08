@@ -1,0 +1,180 @@
+leyendo obs de IFNB: /datos/ref/convertido/Seurat_object_IFNB_Perturb_seq.h5ad
+  n_obs=328542
+  A549: total=32233 n_perts=61 n_control_cells=1379 n_control_guides=14
+  BXPC3: total=84057 n_perts=61 n_control_cells=3228 n_control_guides=14
+  HAP1: total=67959 n_perts=61 n_control_cells=3172 n_control_guides=14
+  HT29: total=56836 n_perts=61 n_control_cells=2736 n_control_guides=14
+  K562: total=28554 n_perts=61 n_control_cells=1398 n_control_guides=14
+  MCF7: total=58903 n_perts=61 n_control_cells=2669 n_control_guides=14
+panel comun: 33 perturbaciones. Escrito en /home/ubuntu/vcc/modelo/out/suelo_panel.json
+{
+  "condicion": "IFNB",
+  "min_cells": 400,
+  "lineas": [
+    "A549",
+    "BXPC3",
+    "HAP1",
+    "HT29",
+    "K562",
+    "MCF7"
+  ],
+  "n_perts_union_ifnb": 61,
+  "n_panel_comun": 33,
+  "panel_comun": [
+    "AKT1",
+    "BATF2",
+    "BRD9",
+    "CEBPG",
+    "DTX3L",
+    "ELK1",
+    "ETS1",
+    "ETS2",
+    "H1F0",
+    "HERC5",
+    "HERC6",
+    "ID2",
+    "IFNAR1",
+    "IFNAR2",
+    "IRF1",
+    "IRF7",
+    "JAK1",
+    "JUN",
+    "MAP3K14",
+    "MAPK8",
+    "PARP12",
+    "RAP1GAP",
+    "RNF114",
+    "SOCS1",
+    "SP100",
+    "STAT1",
+    "STAT3",
+    "STAT4",
+    "STAT5A",
+    "TRAFD1",
+    "TYK2",
+    "VAV1",
+    "ZBP1"
+  ],
+  "descartes_por_linea": {
+    "A549": {
+      "n_descartadas": 17,
+      "perts": [
+        "ADAR",
+        "CEBPB",
+        "CRKL",
+        "HES4",
+        "ID1",
+        "IFI16",
+        "IRF3",
+        "IRF9",
+        "NFKB1",
+        "POU2F1",
+        "RAPGEF1",
+        "SMARCA5",
+        "SP110",
+        "TRIM21",
+        "TRIM22",
+        "USP18",
+        "ZNFX1"
+      ]
+    },
+    "HAP1": {
+      "n_descartadas": 6,
+      "perts": [
+        "ADAR",
+        "CRKL",
+        "IFI16",
+        "NFKB1",
+        "POU2F1",
+        "STAT6"
+      ]
+    },
+    "HT29": {
+      "n_descartadas": 6,
+      "perts": [
+        "ADAR",
+        "ID1",
+        "IFI16",
+        "NFKB1",
+        "POU2F1",
+        "STAT6"
+      ]
+    },
+    "K562": {
+      "n_descartadas": 22,
+      "perts": [
+        "CEBPB",
+        "DRAP1",
+        "ID1",
+        "ID3",
+        "IFI16",
+        "IRF3",
+        "IRF9",
+        "MAPK14",
+        "MYC",
+        "NFE2L3",
+        "NFKB1",
+        "POU2F1",
+        "RAPGEF1",
+        "SMARCA5",
+        "SP110",
+        "STAT2",
+        "STAT6",
+        "TRIM21",
+        "TRIM22",
+        "UBA7",
+        "UBE2L6",
+        "ZNFX1"
+      ]
+    },
+    "BXPC3": {
+      "n_descartadas": 8,
+      "perts": [
+        "FOS",
+        "ID1",
+        "IFI16",
+        "IRF3",
+        "MEF2A",
+        "NFKB1",
+        "STAT6",
+        "TRIM21"
+      ]
+    },
+    "MCF7": {
+      "n_descartadas": 4,
+      "perts": [
+        "IFI16",
+        "IRF9",
+        "NFKB1",
+        "POU2F1"
+      ]
+    }
+  },
+  "per_line_control": {
+    "A549": {
+      "n_control_cells": 1379,
+      "n_control_guides": 14
+    },
+    "BXPC3": {
+      "n_control_cells": 3228,
+      "n_control_guides": 14
+    },
+    "HAP1": {
+      "n_control_cells": 3172,
+      "n_control_guides": 14
+    },
+    "HT29": {
+      "n_control_cells": 2736,
+      "n_control_guides": 14
+    },
+    "K562": {
+      "n_control_cells": 1398,
+      "n_control_guides": 14
+    },
+    "MCF7": {
+      "n_control_cells": 2669,
+      "n_control_guides": 14
+    }
+  }
+}
+EXITCODE:0

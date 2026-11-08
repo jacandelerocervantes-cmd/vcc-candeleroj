@@ -1,0 +1,1133 @@
+{
+  "panel_final_n": 300,
+  "panel_val_n": 300,
+  "panel_interseccion_val_final_n": 129,
+  "query1_cobertura_panel_final": [
+    {
+      "fuente": "reto_final_pert_counts",
+      "linea": NaN,
+      "n_targets_distintos": 300,
+      "cobertura_panel_final": 300
+    },
+    {
+      "fuente": "replogle_k562_gwps_sc",
+      "linea": "k562_gwps",
+      "n_targets_distintos": 9866,
+      "cobertura_panel_final": 277
+    },
+    {
+      "fuente": "feng_genomewide",
+      "linea": NaN,
+      "n_targets_distintos": 6673,
+      "cobertura_panel_final": 185
+    },
+    {
+      "fuente": "orion_hct116",
+      "linea": "hct116",
+      "n_targets_distintos": 8987,
+      "cobertura_panel_final": 148
+    },
+    {
+      "fuente": "reto_val_pert_counts",
+      "linea": NaN,
+      "n_targets_distintos": 300,
+      "cobertura_panel_final": 129
+    },
+    {
+      "fuente": "orion_hek293t",
+      "linea": "hek293t",
+      "n_targets_distintos": 4297,
+      "cobertura_panel_final": 14
+    },
+    {
+      "fuente": "vcc2025_train",
+      "linea": NaN,
+      "n_targets_distintos": 150,
+      "cobertura_panel_final": 12
+    },
+    {
+      "fuente": "vcc2025_train_pert_counts",
+      "linea": NaN,
+      "n_targets_distintos": 150,
+      "cobertura_panel_final": 12
+    },
+    {
+      "fuente": "vcc2025_test_pert_counts",
+      "linea": NaN,
+      "n_targets_distintos": 100,
+      "cobertura_panel_final": 11
+    },
+    {
+      "fuente": "vcc2025_test",
+      "linea": NaN,
+      "n_targets_distintos": 100,
+      "cobertura_panel_final": 11
+    },
+    {
+      "fuente": "feng_targeted_perline",
+      "linea": "eipl_3",
+      "n_targets_distintos": 444,
+      "cobertura_panel_final": 7
+    },
+    {
+      "fuente": "feng_targeted_perline",
+      "linea": "eipl_1",
+      "n_targets_distintos": 444,
+      "cobertura_panel_final": 7
+    },
+    {
+      "fuente": "feng_targeted",
+      "linea": NaN,
+      "n_targets_distintos": 444,
+      "cobertura_panel_final": 7
+    },
+    {
+      "fuente": "feng_targeted_perline",
+      "linea": "fiaj_1",
+      "n_targets_distintos": 443,
+      "cobertura_panel_final": 7
+    },
+    {
+      "fuente": "feng_targeted_perline",
+      "linea": "iudw_1",
+      "n_targets_distintos": 444,
+      "cobertura_panel_final": 7
+    },
+    {
+      "fuente": "feng_targeted_perline",
+      "linea": "jejf_2",
+      "n_targets_distintos": 444,
+      "cobertura_panel_final": 7
+    },
+    {
+      "fuente": "feng_targeted_perline",
+      "linea": "iudw_4",
+      "n_targets_distintos": 444,
+      "cobertura_panel_final": 7
+    },
+    {
+      "fuente": "feng_targeted_perline",
+      "linea": "kolf_3",
+      "n_targets_distintos": 442,
+      "cobertura_panel_final": 7
+    },
+    {
+      "fuente": "feng_targeted_perline",
+      "linea": "kolf_2",
+      "n_targets_distintos": 442,
+      "cobertura_panel_final": 7
+    },
+    {
+      "fuente": "feng_targeted_perline",
+      "linea": "oikd_2",
+      "n_targets_distintos": 436,
+      "cobertura_panel_final": 7
+    },
+    {
+      "fuente": "feng_targeted_perline",
+      "linea": "jejf_3",
+      "n_targets_distintos": 443,
+      "cobertura_panel_final": 7
+    },
+    {
+      "fuente": "feng_targeted_perline",
+      "linea": "oikd_5",
+      "n_targets_distintos": 444,
+      "cobertura_panel_final": 7
+    },
+    {
+      "fuente": "feng_targeted_perline",
+      "linea": "zapk_3",
+      "n_targets_distintos": 444,
+      "cobertura_panel_final": 7
+    },
+    {
+      "fuente": "feng_targeted_perline",
+      "linea": "tolg_4",
+      "n_targets_distintos": 435,
+      "cobertura_panel_final": 7
+    },
+    {
+      "fuente": "feng_targeted_perline",
+      "linea": "tolg_6",
+      "n_targets_distintos": 444,
+      "cobertura_panel_final": 7
+    },
+    {
+      "fuente": "feng_targeted_perline",
+      "linea": "pipw_4",
+      "n_targets_distintos": 444,
+      "cobertura_panel_final": 7
+    },
+    {
+      "fuente": "feng_targeted_perline",
+      "linea": "paab_4",
+      "n_targets_distintos": 444,
+      "cobertura_panel_final": 7
+    },
+    {
+      "fuente": "feng_targeted_perline",
+      "linea": "paab_3",
+      "n_targets_distintos": 444,
+      "cobertura_panel_final": 7
+    },
+    {
+      "fuente": "feng_targeted_perline",
+      "linea": "pipw_5",
+      "n_targets_distintos": 387,
+      "cobertura_panel_final": 7
+    },
+    {
+      "fuente": "feng_targeted_perline",
+      "linea": "fiaj_3",
+      "n_targets_distintos": 292,
+      "cobertura_panel_final": 6
+    },
+    {
+      "fuente": "zenodo_TNFA",
+      "linea": "HT29",
+      "n_targets_distintos": 55,
+      "cobertura_panel_final": 5
+    },
+    {
+      "fuente": "zenodo_TNFA",
+      "linea": "MCF7",
+      "n_targets_distintos": 55,
+      "cobertura_panel_final": 5
+    },
+    {
+      "fuente": "zenodo_TNFA",
+      "linea": "K562",
+      "n_targets_distintos": 55,
+      "cobertura_panel_final": 5
+    },
+    {
+      "fuente": "zenodo_TNFA",
+      "linea": "A549",
+      "n_targets_distintos": 55,
+      "cobertura_panel_final": 5
+    },
+    {
+      "fuente": "zenodo_TNFA",
+      "linea": "BXPC3",
+      "n_targets_distintos": 55,
+      "cobertura_panel_final": 5
+    },
+    {
+      "fuente": "vcc2025_validation_pert_counts",
+      "linea": NaN,
+      "n_targets_distintos": 50,
+      "cobertura_panel_final": 5
+    },
+    {
+      "fuente": "vcc2025_validation",
+      "linea": NaN,
+      "n_targets_distintos": 50,
+      "cobertura_panel_final": 5
+    },
+    {
+      "fuente": "zenodo_TNFA",
+      "linea": "HAP1",
+      "n_targets_distintos": 55,
+      "cobertura_panel_final": 5
+    },
+    {
+      "fuente": "zenodo_IFNB",
+      "linea": "HAP1",
+      "n_targets_distintos": 61,
+      "cobertura_panel_final": 2
+    },
+    {
+      "fuente": "zenodo_IFNB",
+      "linea": "A549",
+      "n_targets_distintos": 61,
+      "cobertura_panel_final": 2
+    },
+    {
+      "fuente": "zenodo_IFNB",
+      "linea": "HT29",
+      "n_targets_distintos": 61,
+      "cobertura_panel_final": 2
+    },
+    {
+      "fuente": "zenodo_IFNB",
+      "linea": "K562",
+      "n_targets_distintos": 61,
+      "cobertura_panel_final": 2
+    },
+    {
+      "fuente": "zenodo_IFNB",
+      "linea": "MCF7",
+      "n_targets_distintos": 61,
+      "cobertura_panel_final": 2
+    },
+    {
+      "fuente": "zenodo_IFNB",
+      "linea": "BXPC3",
+      "n_targets_distintos": 61,
+      "cobertura_panel_final": 2
+    },
+    {
+      "fuente": "zenodo_IFNG",
+      "linea": "A549",
+      "n_targets_distintos": 59,
+      "cobertura_panel_final": 1
+    },
+    {
+      "fuente": "zenodo_IFNG",
+      "linea": "HT29",
+      "n_targets_distintos": 59,
+      "cobertura_panel_final": 1
+    },
+    {
+      "fuente": "zenodo_IFNG",
+      "linea": "HAP1",
+      "n_targets_distintos": 59,
+      "cobertura_panel_final": 1
+    },
+    {
+      "fuente": "zenodo_IFNG",
+      "linea": "MCF7",
+      "n_targets_distintos": 59,
+      "cobertura_panel_final": 1
+    },
+    {
+      "fuente": "zenodo_IFNG",
+      "linea": "K562",
+      "n_targets_distintos": 59,
+      "cobertura_panel_final": 1
+    },
+    {
+      "fuente": "zenodo_IFNG",
+      "linea": "BXPC3",
+      "n_targets_distintos": 59,
+      "cobertura_panel_final": 1
+    },
+    {
+      "fuente": "nadig_hepg2",
+      "linea": "hepg2",
+      "n_targets_distintos": 2393,
+      "cobertura_panel_final": 0
+    },
+    {
+      "fuente": "replogle_k562_gwps_bulk",
+      "linea": "k562_gwps",
+      "n_targets_distintos": 10673,
+      "cobertura_panel_final": 0
+    },
+    {
+      "fuente": "replogle_k562_essential_bulk",
+      "linea": "k562_essential",
+      "n_targets_distintos": 2176,
+      "cobertura_panel_final": 0
+    },
+    {
+      "fuente": "replogle_rpe1_sc",
+      "linea": "rpe1",
+      "n_targets_distintos": 2393,
+      "cobertura_panel_final": 0
+    },
+    {
+      "fuente": "replogle_rpe1_bulk",
+      "linea": "rpe1",
+      "n_targets_distintos": 2549,
+      "cobertura_panel_final": 0
+    },
+    {
+      "fuente": "replogle_k562_essential_sc",
+      "linea": "k562_essential",
+      "n_targets_distintos": 2057,
+      "cobertura_panel_final": 0
+    },
+    {
+      "fuente": "nadig_jurkat",
+      "linea": "jurkat",
+      "n_targets_distintos": 2393,
+      "cobertura_panel_final": 0
+    },
+    {
+      "fuente": "zenodo_INS",
+      "linea": "BXPC3",
+      "n_targets_distintos": 44,
+      "cobertura_panel_final": 0
+    },
+    {
+      "fuente": "zenodo_INS",
+      "linea": "A549",
+      "n_targets_distintos": 44,
+      "cobertura_panel_final": 0
+    },
+    {
+      "fuente": "zenodo_INS",
+      "linea": "HAP1",
+      "n_targets_distintos": 44,
+      "cobertura_panel_final": 0
+    },
+    {
+      "fuente": "zenodo_INS",
+      "linea": "HT29",
+      "n_targets_distintos": 44,
+      "cobertura_panel_final": 0
+    },
+    {
+      "fuente": "zenodo_TGFB",
+      "linea": "HT29",
+      "n_targets_distintos": 52,
+      "cobertura_panel_final": 0
+    },
+    {
+      "fuente": "zenodo_TGFB",
+      "linea": "HAP1",
+      "n_targets_distintos": 52,
+      "cobertura_panel_final": 0
+    },
+    {
+      "fuente": "zenodo_TGFB",
+      "linea": "BXPC3",
+      "n_targets_distintos": 52,
+      "cobertura_panel_final": 0
+    },
+    {
+      "fuente": "zenodo_TGFB",
+      "linea": "A549",
+      "n_targets_distintos": 52,
+      "cobertura_panel_final": 0
+    },
+    {
+      "fuente": "zenodo_INS",
+      "linea": "MCF7",
+      "n_targets_distintos": 44,
+      "cobertura_panel_final": 0
+    },
+    {
+      "fuente": "zenodo_INS",
+      "linea": "K562",
+      "n_targets_distintos": 44,
+      "cobertura_panel_final": 0
+    },
+    {
+      "fuente": "zenodo_TGFB",
+      "linea": "K562",
+      "n_targets_distintos": 52,
+      "cobertura_panel_final": 0
+    },
+    {
+      "fuente": "zenodo_TGFB",
+      "linea": "MCF7",
+      "n_targets_distintos": 52,
+      "cobertura_panel_final": 0
+    }
+  ],
+  "query2_cobertura_panel_val": [
+    {
+      "fuente": "reto_val_pert_counts",
+      "linea": NaN,
+      "n_targets_distintos": 300,
+      "cobertura_panel_val": 300
+    },
+    {
+      "fuente": "replogle_k562_gwps_sc",
+      "linea": "k562_gwps",
+      "n_targets_distintos": 9866,
+      "cobertura_panel_val": 272
+    },
+    {
+      "fuente": "feng_genomewide",
+      "linea": NaN,
+      "n_targets_distintos": 6673,
+      "cobertura_panel_val": 182
+    },
+    {
+      "fuente": "orion_hct116",
+      "linea": "hct116",
+      "n_targets_distintos": 8987,
+      "cobertura_panel_val": 146
+    },
+    {
+      "fuente": "reto_final_pert_counts",
+      "linea": NaN,
+      "n_targets_distintos": 300,
+      "cobertura_panel_val": 129
+    },
+    {
+      "fuente": "vcc2025_train",
+      "linea": NaN,
+      "n_targets_distintos": 150,
+      "cobertura_panel_val": 13
+    },
+    {
+      "fuente": "vcc2025_train_pert_counts",
+      "linea": NaN,
+      "n_targets_distintos": 150,
+      "cobertura_panel_val": 13
+    },
+    {
+      "fuente": "orion_hek293t",
+      "linea": "hek293t",
+      "n_targets_distintos": 4297,
+      "cobertura_panel_val": 11
+    },
+    {
+      "fuente": "vcc2025_test_pert_counts",
+      "linea": NaN,
+      "n_targets_distintos": 100,
+      "cobertura_panel_val": 8
+    },
+    {
+      "fuente": "vcc2025_test",
+      "linea": NaN,
+      "n_targets_distintos": 100,
+      "cobertura_panel_val": 8
+    },
+    {
+      "fuente": "feng_targeted_perline",
+      "linea": "eipl_3",
+      "n_targets_distintos": 444,
+      "cobertura_panel_val": 5
+    },
+    {
+      "fuente": "feng_targeted_perline",
+      "linea": "eipl_1",
+      "n_targets_distintos": 444,
+      "cobertura_panel_val": 5
+    },
+    {
+      "fuente": "feng_targeted",
+      "linea": NaN,
+      "n_targets_distintos": 444,
+      "cobertura_panel_val": 5
+    },
+    {
+      "fuente": "feng_targeted_perline",
+      "linea": "fiaj_1",
+      "n_targets_distintos": 443,
+      "cobertura_panel_val": 5
+    },
+    {
+      "fuente": "feng_targeted_perline",
+      "linea": "fiaj_3",
+      "n_targets_distintos": 292,
+      "cobertura_panel_val": 5
+    },
+    {
+      "fuente": "feng_targeted_perline",
+      "linea": "iudw_4",
+      "n_targets_distintos": 444,
+      "cobertura_panel_val": 5
+    },
+    {
+      "fuente": "feng_targeted_perline",
+      "linea": "iudw_1",
+      "n_targets_distintos": 444,
+      "cobertura_panel_val": 5
+    },
+    {
+      "fuente": "feng_targeted_perline",
+      "linea": "jejf_3",
+      "n_targets_distintos": 443,
+      "cobertura_panel_val": 5
+    },
+    {
+      "fuente": "feng_targeted_perline",
+      "linea": "kolf_2",
+      "n_targets_distintos": 442,
+      "cobertura_panel_val": 5
+    },
+    {
+      "fuente": "feng_targeted_perline",
+      "linea": "kolf_3",
+      "n_targets_distintos": 442,
+      "cobertura_panel_val": 5
+    },
+    {
+      "fuente": "feng_targeted_perline",
+      "linea": "jejf_2",
+      "n_targets_distintos": 444,
+      "cobertura_panel_val": 5
+    },
+    {
+      "fuente": "feng_targeted_perline",
+      "linea": "zapk_3",
+      "n_targets_distintos": 444,
+      "cobertura_panel_val": 5
+    },
+    {
+      "fuente": "feng_targeted_perline",
+      "linea": "tolg_6",
+      "n_targets_distintos": 444,
+      "cobertura_panel_val": 5
+    },
+    {
+      "fuente": "feng_targeted_perline",
+      "linea": "tolg_4",
+      "n_targets_distintos": 435,
+      "cobertura_panel_val": 5
+    },
+    {
+      "fuente": "feng_targeted_perline",
+      "linea": "pipw_5",
+      "n_targets_distintos": 387,
+      "cobertura_panel_val": 5
+    },
+    {
+      "fuente": "feng_targeted_perline",
+      "linea": "pipw_4",
+      "n_targets_distintos": 444,
+      "cobertura_panel_val": 5
+    },
+    {
+      "fuente": "feng_targeted_perline",
+      "linea": "paab_4",
+      "n_targets_distintos": 444,
+      "cobertura_panel_val": 5
+    },
+    {
+      "fuente": "feng_targeted_perline",
+      "linea": "paab_3",
+      "n_targets_distintos": 444,
+      "cobertura_panel_val": 5
+    },
+    {
+      "fuente": "feng_targeted_perline",
+      "linea": "oikd_5",
+      "n_targets_distintos": 444,
+      "cobertura_panel_val": 5
+    },
+    {
+      "fuente": "feng_targeted_perline",
+      "linea": "oikd_2",
+      "n_targets_distintos": 436,
+      "cobertura_panel_val": 5
+    },
+    {
+      "fuente": "zenodo_IFNB",
+      "linea": "K562",
+      "n_targets_distintos": 61,
+      "cobertura_panel_val": 4
+    },
+    {
+      "fuente": "zenodo_IFNB",
+      "linea": "HT29",
+      "n_targets_distintos": 61,
+      "cobertura_panel_val": 4
+    },
+    {
+      "fuente": "zenodo_IFNB",
+      "linea": "HAP1",
+      "n_targets_distintos": 61,
+      "cobertura_panel_val": 4
+    },
+    {
+      "fuente": "zenodo_IFNB",
+      "linea": "BXPC3",
+      "n_targets_distintos": 61,
+      "cobertura_panel_val": 4
+    },
+    {
+      "fuente": "zenodo_IFNB",
+      "linea": "A549",
+      "n_targets_distintos": 61,
+      "cobertura_panel_val": 4
+    },
+    {
+      "fuente": "vcc2025_validation_pert_counts",
+      "linea": NaN,
+      "n_targets_distintos": 50,
+      "cobertura_panel_val": 4
+    },
+    {
+      "fuente": "vcc2025_validation",
+      "linea": NaN,
+      "n_targets_distintos": 50,
+      "cobertura_panel_val": 4
+    },
+    {
+      "fuente": "zenodo_IFNB",
+      "linea": "MCF7",
+      "n_targets_distintos": 61,
+      "cobertura_panel_val": 4
+    },
+    {
+      "fuente": "zenodo_TNFA",
+      "linea": "K562",
+      "n_targets_distintos": 55,
+      "cobertura_panel_val": 2
+    },
+    {
+      "fuente": "zenodo_TNFA",
+      "linea": "A549",
+      "n_targets_distintos": 55,
+      "cobertura_panel_val": 2
+    },
+    {
+      "fuente": "zenodo_TNFA",
+      "linea": "MCF7",
+      "n_targets_distintos": 55,
+      "cobertura_panel_val": 2
+    },
+    {
+      "fuente": "zenodo_INS",
+      "linea": "MCF7",
+      "n_targets_distintos": 44,
+      "cobertura_panel_val": 2
+    },
+    {
+      "fuente": "zenodo_INS",
+      "linea": "K562",
+      "n_targets_distintos": 44,
+      "cobertura_panel_val": 2
+    },
+    {
+      "fuente": "zenodo_INS",
+      "linea": "HT29",
+      "n_targets_distintos": 44,
+      "cobertura_panel_val": 2
+    },
+    {
+      "fuente": "zenodo_TNFA",
+      "linea": "BXPC3",
+      "n_targets_distintos": 55,
+      "cobertura_panel_val": 2
+    },
+    {
+      "fuente": "zenodo_INS",
+      "linea": "A549",
+      "n_targets_distintos": 44,
+      "cobertura_panel_val": 2
+    },
+    {
+      "fuente": "zenodo_INS",
+      "linea": "BXPC3",
+      "n_targets_distintos": 44,
+      "cobertura_panel_val": 2
+    },
+    {
+      "fuente": "zenodo_TNFA",
+      "linea": "HT29",
+      "n_targets_distintos": 55,
+      "cobertura_panel_val": 2
+    },
+    {
+      "fuente": "zenodo_TNFA",
+      "linea": "HAP1",
+      "n_targets_distintos": 55,
+      "cobertura_panel_val": 2
+    },
+    {
+      "fuente": "zenodo_INS",
+      "linea": "HAP1",
+      "n_targets_distintos": 44,
+      "cobertura_panel_val": 2
+    },
+    {
+      "fuente": "zenodo_IFNG",
+      "linea": "BXPC3",
+      "n_targets_distintos": 59,
+      "cobertura_panel_val": 1
+    },
+    {
+      "fuente": "zenodo_IFNG",
+      "linea": "HAP1",
+      "n_targets_distintos": 59,
+      "cobertura_panel_val": 1
+    },
+    {
+      "fuente": "zenodo_IFNG",
+      "linea": "A549",
+      "n_targets_distintos": 59,
+      "cobertura_panel_val": 1
+    },
+    {
+      "fuente": "zenodo_IFNG",
+      "linea": "K562",
+      "n_targets_distintos": 59,
+      "cobertura_panel_val": 1
+    },
+    {
+      "fuente": "zenodo_IFNG",
+      "linea": "MCF7",
+      "n_targets_distintos": 59,
+      "cobertura_panel_val": 1
+    },
+    {
+      "fuente": "zenodo_TGFB",
+      "linea": "BXPC3",
+      "n_targets_distintos": 52,
+      "cobertura_panel_val": 1
+    },
+    {
+      "fuente": "zenodo_TGFB",
+      "linea": "A549",
+      "n_targets_distintos": 52,
+      "cobertura_panel_val": 1
+    },
+    {
+      "fuente": "zenodo_TGFB",
+      "linea": "HT29",
+      "n_targets_distintos": 52,
+      "cobertura_panel_val": 1
+    },
+    {
+      "fuente": "zenodo_TGFB",
+      "linea": "HAP1",
+      "n_targets_distintos": 52,
+      "cobertura_panel_val": 1
+    },
+    {
+      "fuente": "zenodo_TGFB",
+      "linea": "K562",
+      "n_targets_distintos": 52,
+      "cobertura_panel_val": 1
+    },
+    {
+      "fuente": "zenodo_IFNG",
+      "linea": "HT29",
+      "n_targets_distintos": 59,
+      "cobertura_panel_val": 1
+    },
+    {
+      "fuente": "zenodo_TGFB",
+      "linea": "MCF7",
+      "n_targets_distintos": 52,
+      "cobertura_panel_val": 1
+    },
+    {
+      "fuente": "replogle_rpe1_sc",
+      "linea": "rpe1",
+      "n_targets_distintos": 2393,
+      "cobertura_panel_val": 0
+    },
+    {
+      "fuente": "replogle_k562_essential_sc",
+      "linea": "k562_essential",
+      "n_targets_distintos": 2057,
+      "cobertura_panel_val": 0
+    },
+    {
+      "fuente": "replogle_rpe1_bulk",
+      "linea": "rpe1",
+      "n_targets_distintos": 2549,
+      "cobertura_panel_val": 0
+    },
+    {
+      "fuente": "nadig_hepg2",
+      "linea": "hepg2",
+      "n_targets_distintos": 2393,
+      "cobertura_panel_val": 0
+    },
+    {
+      "fuente": "replogle_k562_essential_bulk",
+      "linea": "k562_essential",
+      "n_targets_distintos": 2176,
+      "cobertura_panel_val": 0
+    },
+    {
+      "fuente": "replogle_k562_gwps_bulk",
+      "linea": "k562_gwps",
+      "n_targets_distintos": 10673,
+      "cobertura_panel_val": 0
+    },
+    {
+      "fuente": "nadig_jurkat",
+      "linea": "jurkat",
+      "n_targets_distintos": 2393,
+      "cobertura_panel_val": 0
+    }
+  ],
+  "query3_lineas_multi_fuente": {},
+  "query5_n_genes_panel_final_con_celula": 277,
+  "query5_genes_cubiertos": [
+    "ABCC1",
+    "ACLY",
+    "ADNP",
+    "AGO1",
+    "AKAP1",
+    "AKIRIN1",
+    "AKT2",
+    "AMPD3",
+    "ANKRD52",
+    "ANKZF1",
+    "ANP32B",
+    "ANP32E",
+    "AP2A2",
+    "AP5Z1",
+    "APEX1",
+    "API5",
+    "ARFIP2",
+    "ARL14EP",
+    "ARL8B",
+    "ASF1A",
+    "ASPM",
+    "ATP13A3",
+    "ATXN2",
+    "BCKDK",
+    "BID",
+    "BRPF1",
+    "BRPF3",
+    "C11orf58",
+    "C1RL",
+    "C5orf22",
+    "CAND1",
+    "CARM1",
+    "CCDC106",
+    "CCDC71",
+    "CCNE2",
+    "CHIC2",
+    "CLEC16A",
+    "CLN5",
+    "CNOT6",
+    "COMMD1",
+    "COMMD7",
+    "COMMD8",
+    "COQ10B",
+    "CPSF7",
+    "CREB3",
+    "CUX1",
+    "CWC27",
+    "CXXC5",
+    "DCK",
+    "DCP2",
+    "DDX50",
+    "DEK",
+    "DHRS1",
+    "DHX32",
+    "DIAPH3",
+    "DNAJC14",
+    "DNAJC25",
+    "DNTTIP1",
+    "DPY30",
+    "DTNBP1",
+    "DYM",
+    "E2F1",
+    "EIF4ENIF1",
+    "EME1",
+    "EMP3",
+    "EPC2",
+    "EPM2AIP1",
+    "ERGIC2",
+    "FADS1",
+    "FAM120A",
+    "FAM200B",
+    "FBXW4",
+    "FOXK1",
+    "FOXN2",
+    "FUBP1",
+    "FXYD5",
+    "GATAD2B",
+    "GMEB2",
+    "GPATCH1",
+    "GPATCH8",
+    "GPBP1",
+    "GPBP1L1",
+    "GRAMD1A",
+    "HDAC1",
+    "HDAC8",
+    "HMGB2",
+    "HMGN4",
+    "HMGXB3",
+    "HMGXB4",
+    "HSD3B7",
+    "IFI27L2",
+    "IFNAR2",
+    "IFNGR2",
+    "IKBKE",
+    "JKAMP",
+    "JRKL",
+    "JUND",
+    "KDM3A",
+    "KDM5A",
+    "KLF6",
+    "KMT2E",
+    "KNTC1",
+    "L3MBTL2",
+    "LCOR",
+    "LDLR",
+    "LENG1",
+    "LMBRD2",
+    "LSM14B",
+    "LTBR",
+    "LTO1",
+    "M6PR",
+    "MAN2A1",
+    "MAP2K2",
+    "MAP2K3",
+    "MAP3K11",
+    "MAP3K3",
+    "MAPK12",
+    "MARCKSL1",
+    "MED13",
+    "MED25",
+    "MLLT1",
+    "MRC2",
+    "MSANTD4",
+    "MTA1",
+    "MTF1",
+    "MYNN",
+    "MYPOP",
+    "N4BP1",
+    "NABP2",
+    "NAGK",
+    "NDUFS6",
+    "NGLY1",
+    "NIT1",
+    "NPRL2",
+    "NR2C2",
+    "NSD1",
+    "NUDT5",
+    "NUP37",
+    "PA2G4",
+    "PAN2",
+    "PANK4",
+    "PAPOLA",
+    "PBX2",
+    "PDK1",
+    "PGLS",
+    "PHF14",
+    "PHF23",
+    "PHF6",
+    "PHF8",
+    "PIGO",
+    "PIM2",
+    "PIM3",
+    "PLAGL2",
+    "PQBP1",
+    "PRCP",
+    "PRDM15",
+    "PRMT2",
+    "PRMT6",
+    "PRNP",
+    "PTBP2",
+    "PUM2",
+    "R3HCC1L",
+    "RAB5A",
+    "RAB8A",
+    "RAVER1",
+    "RBM18",
+    "RBM27",
+    "RBM4B",
+    "RBM5",
+    "RBM6",
+    "RBM7",
+    "REL",
+    "RELB",
+    "REV1",
+    "RLF",
+    "RNF115",
+    "RNF126",
+    "RNF41",
+    "RPP25L",
+    "S100A11",
+    "SAP30L",
+    "SCAF8",
+    "SERPINH1",
+    "SHARPIN",
+    "SHPRH",
+    "SIN3B",
+    "SLC25A51",
+    "SLC30A1",
+    "SLC39A1",
+    "SLC52A2",
+    "SLIRP",
+    "SMARCC2",
+    "SMARCD1",
+    "SND1",
+    "SORBS3",
+    "SPOP",
+    "SRSF5",
+    "SSR4",
+    "STAT6",
+    "STAU2",
+    "STK3",
+    "STRN",
+    "STT3A",
+    "STUB1",
+    "SUPT7L",
+    "SURF2",
+    "SURF4",
+    "TAF9B",
+    "TARBP2",
+    "TBK1",
+    "TCIRG1",
+    "THAP3",
+    "THAP6",
+    "THAP7",
+    "TIGD5",
+    "TIMM17A",
+    "TIMM17B",
+    "TIMM50",
+    "TM2D3",
+    "TMED4",
+    "TMED7",
+    "TMEM106B",
+    "TMEM147",
+    "TMEM167A",
+    "TMEM186",
+    "TMEM41B",
+    "TMEM43",
+    "TOP3B",
+    "TRAM2",
+    "TRIM27",
+    "TXNDC17",
+    "TYRO3",
+    "U2AF1L4",
+    "UBAP2L",
+    "UROS",
+    "USP45",
+    "VAPB",
+    "VEZF1",
+    "VIM",
+    "VPS36",
+    "VTA1",
+    "WBP4",
+    "WDR62",
+    "XPO7",
+    "YIPF6",
+    "ZBTB1",
+    "ZBTB34",
+    "ZBTB37",
+    "ZBTB48",
+    "ZBTB7B",
+    "ZC3H7A",
+    "ZC3HAV1",
+    "ZFAT",
+    "ZFP1",
+    "ZFP62",
+    "ZHX3",
+    "ZKSCAN1",
+    "ZNF121",
+    "ZNF263",
+    "ZNF264",
+    "ZNF280D",
+    "ZNF383",
+    "ZNF48",
+    "ZNF496",
+    "ZNF507",
+    "ZNF526",
+    "ZNF530",
+    "ZNF619",
+    "ZNF627",
+    "ZNF628",
+    "ZNF641",
+    "ZNF653",
+    "ZNF700",
+    "ZNF780A",
+    "ZNF783",
+    "ZNF784",
+    "ZNF805"
+  ],
+  "query5_por_fuente": {
+    "replogle_k562_essential_sc": 0,
+    "replogle_k562_gwps_sc": 277,
+    "replogle_rpe1_sc": 0,
+    "nadig_hepg2": 0,
+    "nadig_jurkat": 0,
+    "zenodo_IFNB": 2,
+    "zenodo_IFNG": 1,
+    "zenodo_INS": 0,
+    "zenodo_TGFB": 0,
+    "zenodo_TNFA": 5,
+    "vcc2025_train": 12,
+    "vcc2025_validation": 5,
+    "vcc2025_test": 11
+  }
+}

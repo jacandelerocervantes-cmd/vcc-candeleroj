@@ -1,0 +1,37 @@
+[21:03:35] replogle sc: replogle_k562_essential_sc
+[21:03:37] replogle bulk: replogle_k562_essential_bulk
+[21:03:37] replogle sc: replogle_k562_gwps_sc
+[21:03:42] replogle bulk: replogle_k562_gwps_bulk
+[21:03:43] replogle sc: replogle_rpe1_sc
+[21:03:44] replogle bulk: replogle_rpe1_bulk
+[21:03:44] nadig: nadig_hepg2
+[21:03:46] nadig: nadig_jurkat
+[21:03:47] convertido: zenodo_IFNB
+[21:03:48] convertido: zenodo_IFNG
+[21:03:49] convertido: zenodo_INS
+[21:03:50] convertido: zenodo_TGFB
+[21:03:51] convertido: zenodo_TNFA
+[21:03:52] orion: orion_hct116
+[21:04:21]   orion orion_hct116: n_targets=8987 target_ncells inconsistentes entre features=0 espacio=ambos
+[21:04:22] orion: orion_hek293t
+[21:04:37]   orion orion_hek293t: n_targets=4297 target_ncells inconsistentes entre features=0 espacio=ambos
+[21:04:38] feng: feng_genomewide
+[21:05:36] feng: feng_targeted
+[21:05:40] feng perline: feng_targeted_perline
+[21:07:31] reto context: reto_val_context_A
+[21:07:31] reto context: reto_val_context_B
+[21:07:31] reto context: reto_val_context_C
+[21:07:32] reto context: reto_final_context_D
+[21:07:32] reto context: reto_final_context_E
+[21:07:32] reto context: reto_final_context_F
+[21:07:32] reto pert_counts: reto_val_pert_counts
+[21:07:32] reto pert_counts: reto_final_pert_counts
+[21:07:32] vcc2025: vcc2025_train
+[21:07:33] vcc2025: vcc2025_validation
+[21:07:33] vcc2025: vcc2025_test
+[21:07:33] vcc2025 pert_counts: vcc2025_train_pert_counts
+[21:07:33] vcc2025 pert_counts: vcc2025_validation_pert_counts
+[21:07:33] vcc2025 pert_counts: vcc2025_test_pert_counts
+[21:07:34] total filas: 72863
+[21:07:34] escrito /home/ubuntu/vcc/corpus/inventario.parquet -- elapsed=238s
+EXITCODE:0

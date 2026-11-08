@@ -1,0 +1,37 @@
+A549   todos            R_agr=+0.1334 med=+0.1276 media=+0.2191 pos=26/31 | nulo=-0.0261 sd=0.0759 z=+2.10 MDE80=0.2127 p=0.0220
+A549   sin_autoblanco   R_agr=+0.0820 med=+0.0818 media=+0.1542 pos=23/31 | nulo=-0.0265 sd=0.0778 z=+1.39 MDE80=0.2180 p=0.0758
+A549   solo_covarianza  R_agr=+0.0529 med=+0.0600 media=+0.0932 pos=21/31 | nulo=-0.0143 sd=0.0465 z=+1.45 MDE80=0.1303 p=0.0519
+A549   solo_h           R_agr=-0.0033 med=-0.0197 media=-0.0200 pos=13/31 | nulo=+0.0003 sd=0.0000 z=-2042705.90 MDE80=0.0000 p=1.0000
+A549   todos            GB R_agr=+0.0059 med=+0.0077 pos=20/31 | nulo=+0.0007 sd=0.0108
+A549   sin_autoblanco   GB R_agr=+0.0059 med=+0.0077 pos=20/31 | nulo=n/d
+BXPC3  todos            R_agr=+0.1542 med=+0.1208 media=+0.1481 pos=30/33 | nulo=-0.0255 sd=0.0904 z=+1.99 MDE80=0.2533 p=0.0160
+BXPC3  sin_autoblanco   R_agr=+0.1167 med=+0.0965 media=+0.1090 pos=27/33 | nulo=-0.0261 sd=0.0909 z=+1.57 MDE80=0.2547 p=0.0539
+BXPC3  solo_covarianza  R_agr=+0.0956 med=+0.0875 media=+0.0714 pos=23/33 | nulo=-0.0190 sd=0.0632 z=+1.81 MDE80=0.1771 p=0.0180
+BXPC3  solo_h           R_agr=+0.0000 med=+0.0080 media=+0.0094 pos=18/33 | nulo=+0.0000 sd=0.0000 z=-0.34 MDE80=0.0000 p=0.6687
+BXPC3  todos            GB R_agr=-0.0055 med=-0.0010 pos=14/33 | nulo=+0.0025 sd=0.0083
+BXPC3  sin_autoblanco   GB R_agr=-0.0055 med=-0.0010 pos=14/33 | nulo=n/d
+HAP1   todos            R_agr=+0.2955 med=+0.1416 media=+0.2670 pos=29/33 | nulo=-0.0228 sd=0.1040 z=+3.06 MDE80=0.2913 p=0.0020
+HAP1   sin_autoblanco   R_agr=+0.2491 med=+0.1082 media=+0.2296 pos=29/33 | nulo=-0.0207 sd=0.1023 z=+2.64 MDE80=0.2865 p=0.0020
+HAP1   solo_covarianza  R_agr=+0.1882 med=+0.0968 media=+0.1696 pos=27/33 | nulo=-0.0150 sd=0.0775 z=+2.62 MDE80=0.2172 p=0.0020
+HAP1   solo_h           R_agr=+0.0000 med=-0.0284 media=-0.0488 pos=15/33 | nulo=+0.0000 sd=0.0000 z=-0.39 MDE80=0.0000 p=0.6667
+HAP1   todos            GB R_agr=-0.0105 med=-0.0062 pos=14/33 | nulo=-0.0090 sd=0.0067
+HAP1   sin_autoblanco   GB R_agr=-0.0105 med=-0.0062 pos=14/33 | nulo=n/d
+HT29   todos            R_agr=+0.2256 med=+0.2158 media=+0.2068 pos=25/33 | nulo=-0.0289 sd=0.1009 z=+2.52 MDE80=0.2827 p=0.0040
+HT29   sin_autoblanco   R_agr=+0.1957 med=+0.2182 media=+0.1877 pos=26/33 | nulo=-0.0264 sd=0.0969 z=+2.29 MDE80=0.2714 p=0.0140
+HT29   solo_covarianza  R_agr=+0.0645 med=+0.0448 media=+0.0430 pos=22/33 | nulo=-0.0229 sd=0.0825 z=+1.06 MDE80=0.2312 p=0.1816
+HT29   solo_h           R_agr=+0.0000 med=-0.0006 media=+0.0095 pos=16/33 | nulo=+0.0000 sd=0.0000 z=-0.09 MDE80=0.0000 p=0.5569
+HT29   todos            GB R_agr=+0.0111 med=+0.0030 pos=17/33 | nulo=-0.0133 sd=0.0287
+HT29   sin_autoblanco   GB R_agr=+0.0111 med=+0.0030 pos=17/33 | nulo=n/d
+K562   todos            R_agr=+0.2717 med=+0.2759 media=+0.2848 pos=29/32 | nulo=-0.0194 sd=0.0602 z=+4.84 MDE80=0.1686 p=0.0020
+K562   sin_autoblanco   R_agr=+0.2182 med=+0.2274 media=+0.2308 pos=27/32 | nulo=-0.0189 sd=0.0602 z=+3.94 MDE80=0.1688 p=0.0020
+K562   solo_covarianza  R_agr=+0.1526 med=+0.1316 media=+0.1596 pos=26/32 | nulo=-0.0128 sd=0.0467 z=+3.54 MDE80=0.1309 p=0.0020
+K562   solo_h           R_agr=-0.0009 med=-0.0036 media=-0.0394 pos=15/32 | nulo=-0.0009 sd=0.0000 z=+1.64 MDE80=0.0000 p=0.0359
+K562   todos            GB R_agr=-0.0014 med=-0.0040 pos=15/32 | nulo=-0.0006 sd=0.0116
+K562   sin_autoblanco   GB R_agr=-0.0014 med=-0.0040 pos=15/32 | nulo=n/d
+MCF7   todos            R_agr=+0.1535 med=+0.1211 media=+0.1461 pos=28/33 | nulo=-0.0138 sd=0.0502 z=+3.33 MDE80=0.1405 p=0.0020
+MCF7   sin_autoblanco   R_agr=+0.1170 med=+0.0898 media=+0.1210 pos=28/33 | nulo=-0.0120 sd=0.0480 z=+2.68 MDE80=0.1346 p=0.0080
+MCF7   solo_covarianza  R_agr=+0.0882 med=+0.0754 media=+0.0893 pos=25/33 | nulo=-0.0143 sd=0.0409 z=+2.51 MDE80=0.1146 p=0.0040
+MCF7   solo_h           R_agr=-0.0000 med=-0.0109 media=+0.0034 pos=16/33 | nulo=+0.0000 sd=0.0000 z=-1.09 MDE80=0.0000 p=0.8663
+MCF7   todos            GB R_agr=+0.0106 med=+0.0106 pos=20/33 | nulo=-0.0014 sd=0.0038
+MCF7   sin_autoblanco   GB R_agr=+0.0106 med=+0.0106 pos=20/33 | nulo=n/d
+escrito /home/ubuntu/vcc/modelo/out/control_o_no/loto.json

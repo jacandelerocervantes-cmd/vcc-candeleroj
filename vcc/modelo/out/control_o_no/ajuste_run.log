@@ -1,0 +1,126 @@
+  todos            ridge_loto media=+0.2065  nulo media=-0.0162 sd=0.0711
+  sin_autoblanco   ridge_loto media=+0.1380  nulo media=-0.0170 sd=0.0735
+  solo_covarianza  ridge_loto media=+0.0924  nulo media=+0.0007 sd=0.0387
+  solo_h           ridge_loto media=-0.1989  nulo media=-0.1989 sd=0.0000
+  todos            gb_loto    media=-0.0058  nulo media=+0.0004 sd=0.0196 (8 perm)
+/home/ubuntu/mf/envs/vcc/lib/python3.11/site-packages/numpy/_core/fromnumeric.py:3824: RuntimeWarning: Mean of empty slice
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/home/ubuntu/mf/envs/vcc/lib/python3.11/site-packages/numpy/_core/_methods.py:142: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/home/ubuntu/mf/envs/vcc/lib/python3.11/site-packages/numpy/_core/_methods.py:219: RuntimeWarning: Degrees of freedom <= 0 for slice
+  ret = _var(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+/home/ubuntu/mf/envs/vcc/lib/python3.11/site-packages/numpy/_core/_methods.py:178: RuntimeWarning: invalid value encountered in divide
+  arrmean = um.true_divide(arrmean, div, out=arrmean,
+/home/ubuntu/mf/envs/vcc/lib/python3.11/site-packages/numpy/_core/_methods.py:211: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+  sin_autoblanco   gb_loto    media=-0.0058  nulo media=+nan sd=nan (0 perm)
+/home/ubuntu/vcc/modelo/src/control_o_no_ajuste.py:213: RuntimeWarning: Mean of empty slice
+  out["gb"].append(float(np.nanmean(obs_g)))
+/home/ubuntu/vcc/modelo/src/control_o_no_ajuste.py:214: RuntimeWarning: Mean of empty slice
+  out["ridge"].append(float(np.nanmean(obs_r)))
+/home/ubuntu/vcc/modelo/src/control_o_no_ajuste.py:213: RuntimeWarning: Mean of empty slice
+  out["gb"].append(float(np.nanmean(obs_g)))
+/home/ubuntu/vcc/modelo/src/control_o_no_ajuste.py:214: RuntimeWarning: Mean of empty slice
+  out["ridge"].append(float(np.nanmean(obs_r)))
+  mismo_blanco     gb media=+0.1334  nulo media=+0.0043 sd=0.0156
+A549   listo en 776s
+
+  todos            ridge_loto media=+0.1348  nulo media=-0.0319 sd=0.0609
+  sin_autoblanco   ridge_loto media=+0.0953  nulo media=-0.0321 sd=0.0612
+  solo_covarianza  ridge_loto media=+0.0691  nulo media=-0.0148 sd=0.0426
+  solo_h           ridge_loto media=-0.1328  nulo media=-0.1328 sd=0.0000
+  todos            gb_loto    media=-0.0011  nulo media=+0.0001 sd=0.0077 (8 perm)
+/home/ubuntu/mf/envs/vcc/lib/python3.11/site-packages/numpy/_core/fromnumeric.py:3824: RuntimeWarning: Mean of empty slice
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/home/ubuntu/mf/envs/vcc/lib/python3.11/site-packages/numpy/_core/_methods.py:142: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/home/ubuntu/mf/envs/vcc/lib/python3.11/site-packages/numpy/_core/_methods.py:219: RuntimeWarning: Degrees of freedom <= 0 for slice
+  ret = _var(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+/home/ubuntu/mf/envs/vcc/lib/python3.11/site-packages/numpy/_core/_methods.py:178: RuntimeWarning: invalid value encountered in divide
+  arrmean = um.true_divide(arrmean, div, out=arrmean,
+/home/ubuntu/mf/envs/vcc/lib/python3.11/site-packages/numpy/_core/_methods.py:211: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+  sin_autoblanco   gb_loto    media=-0.0011  nulo media=+nan sd=nan (0 perm)
+  mismo_blanco     gb media=+0.1524  nulo media=+0.0002 sd=0.0048
+BXPC3  listo en 785s
+
+  todos            ridge_loto media=+0.2524  nulo media=-0.0221 sd=0.0678
+  sin_autoblanco   ridge_loto media=+0.2230  nulo media=-0.0244 sd=0.0673
+  solo_covarianza  ridge_loto media=+0.1691  nulo media=+0.0019 sd=0.0384
+  solo_h           ridge_loto media=-0.1718  nulo media=-0.1681 sd=0.0000
+  todos            gb_loto    media=+0.0026  nulo media=+0.0007 sd=0.0099 (8 perm)
+/home/ubuntu/mf/envs/vcc/lib/python3.11/site-packages/numpy/_core/fromnumeric.py:3824: RuntimeWarning: Mean of empty slice
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/home/ubuntu/mf/envs/vcc/lib/python3.11/site-packages/numpy/_core/_methods.py:142: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/home/ubuntu/mf/envs/vcc/lib/python3.11/site-packages/numpy/_core/_methods.py:219: RuntimeWarning: Degrees of freedom <= 0 for slice
+  ret = _var(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+/home/ubuntu/mf/envs/vcc/lib/python3.11/site-packages/numpy/_core/_methods.py:178: RuntimeWarning: invalid value encountered in divide
+  arrmean = um.true_divide(arrmean, div, out=arrmean,
+/home/ubuntu/mf/envs/vcc/lib/python3.11/site-packages/numpy/_core/_methods.py:211: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+  sin_autoblanco   gb_loto    media=+0.0026  nulo media=+nan sd=nan (0 perm)
+  mismo_blanco     gb media=+0.1579  nulo media=-0.0012 sd=0.0083
+HAP1   listo en 792s
+
+  todos            ridge_loto media=+0.2019  nulo media=-0.0075 sd=0.1189
+  sin_autoblanco   ridge_loto media=+0.1809  nulo media=-0.0107 sd=0.1154
+  solo_covarianza  ridge_loto media=+0.0413  nulo media=+0.0035 sd=0.0830
+  solo_h           ridge_loto media=-0.1604  nulo media=-0.1583 sd=0.0000
+  todos            gb_loto    media=+0.0036  nulo media=-0.0029 sd=0.0188 (8 perm)
+/home/ubuntu/mf/envs/vcc/lib/python3.11/site-packages/numpy/_core/fromnumeric.py:3824: RuntimeWarning: Mean of empty slice
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/home/ubuntu/mf/envs/vcc/lib/python3.11/site-packages/numpy/_core/_methods.py:142: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/home/ubuntu/mf/envs/vcc/lib/python3.11/site-packages/numpy/_core/_methods.py:219: RuntimeWarning: Degrees of freedom <= 0 for slice
+  ret = _var(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+/home/ubuntu/mf/envs/vcc/lib/python3.11/site-packages/numpy/_core/_methods.py:178: RuntimeWarning: invalid value encountered in divide
+  arrmean = um.true_divide(arrmean, div, out=arrmean,
+/home/ubuntu/mf/envs/vcc/lib/python3.11/site-packages/numpy/_core/_methods.py:211: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+  sin_autoblanco   gb_loto    media=+0.0036  nulo media=+nan sd=nan (0 perm)
+  mismo_blanco     gb media=+0.1736  nulo media=+0.0004 sd=0.0117
+HT29   listo en 775s
+
+  todos            ridge_loto media=+0.2654  nulo media=-0.0275 sd=0.0539
+  sin_autoblanco   ridge_loto media=+0.2229  nulo media=-0.0293 sd=0.0552
+  solo_covarianza  ridge_loto media=+0.1583  nulo media=+0.0011 sd=0.0339
+  solo_h           ridge_loto media=-0.2196  nulo media=-0.2174 sd=0.0000
+  todos            gb_loto    media=+0.0091  nulo media=-0.0056 sd=0.0148 (8 perm)
+/home/ubuntu/mf/envs/vcc/lib/python3.11/site-packages/numpy/_core/fromnumeric.py:3824: RuntimeWarning: Mean of empty slice
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/home/ubuntu/mf/envs/vcc/lib/python3.11/site-packages/numpy/_core/_methods.py:142: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/home/ubuntu/mf/envs/vcc/lib/python3.11/site-packages/numpy/_core/_methods.py:219: RuntimeWarning: Degrees of freedom <= 0 for slice
+  ret = _var(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+/home/ubuntu/mf/envs/vcc/lib/python3.11/site-packages/numpy/_core/_methods.py:178: RuntimeWarning: invalid value encountered in divide
+  arrmean = um.true_divide(arrmean, div, out=arrmean,
+/home/ubuntu/mf/envs/vcc/lib/python3.11/site-packages/numpy/_core/_methods.py:211: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+  sin_autoblanco   gb_loto    media=+0.0091  nulo media=+nan sd=nan (0 perm)
+/home/ubuntu/vcc/modelo/src/control_o_no_ajuste.py:213: RuntimeWarning: Mean of empty slice
+  out["gb"].append(float(np.nanmean(obs_g)))
+/home/ubuntu/vcc/modelo/src/control_o_no_ajuste.py:214: RuntimeWarning: Mean of empty slice
+  out["ridge"].append(float(np.nanmean(obs_r)))
+  mismo_blanco     gb media=+0.1687  nulo media=+0.0054 sd=0.0163
+K562   listo en 781s
+
+  todos            ridge_loto media=+0.1381  nulo media=-0.0221 sd=0.0423
+  sin_autoblanco   ridge_loto media=+0.1126  nulo media=-0.0249 sd=0.0421
+  solo_covarianza  ridge_loto media=+0.0885  nulo media=-0.0054 sd=0.0280
+  solo_h           ridge_loto media=-0.1449  nulo media=-0.1449 sd=0.0000
+  todos            gb_loto    media=+0.0111  nulo media=+0.0009 sd=0.0047 (8 perm)
+/home/ubuntu/mf/envs/vcc/lib/python3.11/site-packages/numpy/_core/fromnumeric.py:3824: RuntimeWarning: Mean of empty slice
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/home/ubuntu/mf/envs/vcc/lib/python3.11/site-packages/numpy/_core/_methods.py:142: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/home/ubuntu/mf/envs/vcc/lib/python3.11/site-packages/numpy/_core/_methods.py:219: RuntimeWarning: Degrees of freedom <= 0 for slice
+  ret = _var(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+/home/ubuntu/mf/envs/vcc/lib/python3.11/site-packages/numpy/_core/_methods.py:178: RuntimeWarning: invalid value encountered in divide
+  arrmean = um.true_divide(arrmean, div, out=arrmean,
+/home/ubuntu/mf/envs/vcc/lib/python3.11/site-packages/numpy/_core/_methods.py:211: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+  sin_autoblanco   gb_loto    media=+0.0111  nulo media=+nan sd=nan (0 perm)
+  mismo_blanco     gb media=+0.1442  nulo media=+0.0022 sd=0.0070
+MCF7   listo en 778s
+

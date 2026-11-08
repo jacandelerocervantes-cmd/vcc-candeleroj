@@ -1,0 +1,50 @@
+/home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+/home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+/home/ubuntu/vcc/modelo/src/cand01_refuta.py:104: RuntimeWarning: divide by zero encountered in log2
+  D_pred.append(np.log2(pb(Xp, np.where(lp == g)[0])[exp] / cp[exp]))
+A549   expresados= 6934  A=+0.1575  B=+0.2004  C=+0.0009  D=-0.0045  signo=0.4996
+/home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+/home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+/home/ubuntu/vcc/modelo/src/cand01_refuta.py:102: RuntimeWarning: divide by zero encountered in log2
+  D_h1.append(np.log2(pb(Xr, perm[:mitad])[exp] / cr[exp]))
+/home/ubuntu/vcc/modelo/src/cand01_refuta.py:104: RuntimeWarning: divide by zero encountered in log2
+  D_pred.append(np.log2(pb(Xp, np.where(lp == g)[0])[exp] / cp[exp]))
+/home/ubuntu/vcc/modelo/src/cand01_refuta.py:101: RuntimeWarning: divide by zero encountered in log2
+  D_real.append(np.log2(pb(Xr, ix)[exp] / cr[exp]))
+/home/ubuntu/vcc/modelo/src/cand01_refuta.py:103: RuntimeWarning: divide by zero encountered in log2
+  D_h2.append(np.log2(pb(Xr, perm[mitad:])[exp] / cr[exp]))
+BXPC3  expresados= 7475  A=+0.1544  B=+0.1198  C=+0.0009  D=-0.0067  signo=0.4964
+/home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+/home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+/home/ubuntu/vcc/modelo/src/cand01_refuta.py:104: RuntimeWarning: divide by zero encountered in log2
+  D_pred.append(np.log2(pb(Xp, np.where(lp == g)[0])[exp] / cp[exp]))
+HAP1   expresados= 7857  A=+0.0820  B=+0.1053  C=+0.0046  D=+0.0001  signo=0.5159
+/home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+/home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+/home/ubuntu/vcc/modelo/src/cand01_refuta.py:104: RuntimeWarning: divide by zero encountered in log2
+  D_pred.append(np.log2(pb(Xp, np.where(lp == g)[0])[exp] / cp[exp]))
+HT29   expresados= 6999  A=+0.1020  B=+0.1298  C=-0.0054  D=-0.0052  signo=0.4959
+/home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+/home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+/home/ubuntu/vcc/modelo/src/cand01_refuta.py:104: RuntimeWarning: divide by zero encountered in log2
+  D_pred.append(np.log2(pb(Xp, np.where(lp == g)[0])[exp] / cp[exp]))
+K562   expresados= 7403  A=+0.1609  B=+0.2184  C=+0.0108  D=+0.0113  signo=0.5094
+/home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+/home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+/home/ubuntu/vcc/modelo/src/cand01_refuta.py:104: RuntimeWarning: divide by zero encountered in log2
+  D_pred.append(np.log2(pb(Xp, np.where(lp == g)[0])[exp] / cp[exp]))
+MCF7   expresados= 7266  A=+0.2012  B=+0.2133  C=-0.0042  D=-0.0099  signo=0.5021
+
+escrito /home/ubuntu/vcc/modelo/out/cand01_refuta.json

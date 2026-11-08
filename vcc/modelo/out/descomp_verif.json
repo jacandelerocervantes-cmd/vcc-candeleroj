@@ -1,0 +1,278 @@
+{
+  "contingencia": {
+    "jac!=1.0 y union NO vacia": 18,
+    "jac!=1.0 y union vacia": 0,
+    "jac==1.0 y union NO vacia": 0,
+    "jac==1.0 y union vacia": 15
+  },
+  "emision": "suelo_floor.predict_floor",
+  "equivalencia_verificada": true,
+  "linea": "A549",
+  "n_perts": 33,
+  "tabla": [
+    {
+      "jac_marcador": 1.0,
+      "n_DE_pred": 0,
+      "n_DE_real": 0,
+      "n_union": 0,
+      "pert": "AKT1",
+      "union_vacia": true
+    },
+    {
+      "jac_marcador": 1.0,
+      "n_DE_pred": 0,
+      "n_DE_real": 0,
+      "n_union": 0,
+      "pert": "BATF2",
+      "union_vacia": true
+    },
+    {
+      "jac_marcador": 1.0,
+      "n_DE_pred": 0,
+      "n_DE_real": 0,
+      "n_union": 0,
+      "pert": "ELK1",
+      "union_vacia": true
+    },
+    {
+      "jac_marcador": 1.0,
+      "n_DE_pred": 0,
+      "n_DE_real": 0,
+      "n_union": 0,
+      "pert": "ETS1",
+      "union_vacia": true
+    },
+    {
+      "jac_marcador": 1.0,
+      "n_DE_pred": 0,
+      "n_DE_real": 0,
+      "n_union": 0,
+      "pert": "H1F0",
+      "union_vacia": true
+    },
+    {
+      "jac_marcador": 1.0,
+      "n_DE_pred": 0,
+      "n_DE_real": 0,
+      "n_union": 0,
+      "pert": "HERC5",
+      "union_vacia": true
+    },
+    {
+      "jac_marcador": 1.0,
+      "n_DE_pred": 0,
+      "n_DE_real": 0,
+      "n_union": 0,
+      "pert": "HERC6",
+      "union_vacia": true
+    },
+    {
+      "jac_marcador": 1.0,
+      "n_DE_pred": 0,
+      "n_DE_real": 0,
+      "n_union": 0,
+      "pert": "ID2",
+      "union_vacia": true
+    },
+    {
+      "jac_marcador": 1.0,
+      "n_DE_pred": 0,
+      "n_DE_real": 0,
+      "n_union": 0,
+      "pert": "IRF7",
+      "union_vacia": true
+    },
+    {
+      "jac_marcador": 1.0,
+      "n_DE_pred": 0,
+      "n_DE_real": 0,
+      "n_union": 0,
+      "pert": "PARP12",
+      "union_vacia": true
+    },
+    {
+      "jac_marcador": 1.0,
+      "n_DE_pred": 0,
+      "n_DE_real": 0,
+      "n_union": 0,
+      "pert": "RNF114",
+      "union_vacia": true
+    },
+    {
+      "jac_marcador": 1.0,
+      "n_DE_pred": 0,
+      "n_DE_real": 0,
+      "n_union": 0,
+      "pert": "SOCS1",
+      "union_vacia": true
+    },
+    {
+      "jac_marcador": 1.0,
+      "n_DE_pred": 0,
+      "n_DE_real": 0,
+      "n_union": 0,
+      "pert": "STAT4",
+      "union_vacia": true
+    },
+    {
+      "jac_marcador": 1.0,
+      "n_DE_pred": 0,
+      "n_DE_real": 0,
+      "n_union": 0,
+      "pert": "STAT5A",
+      "union_vacia": true
+    },
+    {
+      "jac_marcador": 1.0,
+      "n_DE_pred": 0,
+      "n_DE_real": 0,
+      "n_union": 0,
+      "pert": "VAV1",
+      "union_vacia": true
+    },
+    {
+      "jac_marcador": 0.0,
+      "n_DE_pred": 0,
+      "n_DE_real": 1,
+      "n_union": 1,
+      "pert": "BRD9",
+      "union_vacia": false
+    },
+    {
+      "jac_marcador": 0.0,
+      "n_DE_pred": 0,
+      "n_DE_real": 4,
+      "n_union": 4,
+      "pert": "CEBPG",
+      "union_vacia": false
+    },
+    {
+      "jac_marcador": 0.0,
+      "n_DE_pred": 0,
+      "n_DE_real": 3,
+      "n_union": 3,
+      "pert": "DTX3L",
+      "union_vacia": false
+    },
+    {
+      "jac_marcador": 0.0,
+      "n_DE_pred": 0,
+      "n_DE_real": 19,
+      "n_union": 19,
+      "pert": "ETS2",
+      "union_vacia": false
+    },
+    {
+      "jac_marcador": 0.0,
+      "n_DE_pred": 0,
+      "n_DE_real": 494,
+      "n_union": 494,
+      "pert": "IFNAR1",
+      "union_vacia": false
+    },
+    {
+      "jac_marcador": 0.0,
+      "n_DE_pred": 0,
+      "n_DE_real": 751,
+      "n_union": 751,
+      "pert": "IFNAR2",
+      "union_vacia": false
+    },
+    {
+      "jac_marcador": 0.0,
+      "n_DE_pred": 0,
+      "n_DE_real": 10,
+      "n_union": 10,
+      "pert": "IRF1",
+      "union_vacia": false
+    },
+    {
+      "jac_marcador": 0.0,
+      "n_DE_pred": 0,
+      "n_DE_real": 94,
+      "n_union": 94,
+      "pert": "JAK1",
+      "union_vacia": false
+    },
+    {
+      "jac_marcador": 0.0,
+      "n_DE_pred": 0,
+      "n_DE_real": 6,
+      "n_union": 6,
+      "pert": "JUN",
+      "union_vacia": false
+    },
+    {
+      "jac_marcador": 0.0,
+      "n_DE_pred": 0,
+      "n_DE_real": 40,
+      "n_union": 40,
+      "pert": "MAP3K14",
+      "union_vacia": false
+    },
+    {
+      "jac_marcador": 0.0,
+      "n_DE_pred": 0,
+      "n_DE_real": 1,
+      "n_union": 1,
+      "pert": "MAPK8",
+      "union_vacia": false
+    },
+    {
+      "jac_marcador": 0.0,
+      "n_DE_pred": 0,
+      "n_DE_real": 2,
+      "n_union": 2,
+      "pert": "RAP1GAP",
+      "union_vacia": false
+    },
+    {
+      "jac_marcador": 0.0,
+      "n_DE_pred": 0,
+      "n_DE_real": 1,
+      "n_union": 1,
+      "pert": "SP100",
+      "union_vacia": false
+    },
+    {
+      "jac_marcador": 0.0,
+      "n_DE_pred": 0,
+      "n_DE_real": 1,
+      "n_union": 1,
+      "pert": "STAT1",
+      "union_vacia": false
+    },
+    {
+      "jac_marcador": 0.0,
+      "n_DE_pred": 0,
+      "n_DE_real": 84,
+      "n_union": 84,
+      "pert": "STAT3",
+      "union_vacia": false
+    },
+    {
+      "jac_marcador": 0.0,
+      "n_DE_pred": 0,
+      "n_DE_real": 3,
+      "n_union": 3,
+      "pert": "TRAFD1",
+      "union_vacia": false
+    },
+    {
+      "jac_marcador": 0.0,
+      "n_DE_pred": 0,
+      "n_DE_real": 1021,
+      "n_union": 1021,
+      "pert": "TYK2",
+      "union_vacia": false
+    },
+    {
+      "jac_marcador": 0.0,
+      "n_DE_pred": 0,
+      "n_DE_real": 2,
+      "n_union": 2,
+      "pert": "ZBP1",
+      "union_vacia": false
+    }
+  ]
+}

@@ -1,0 +1,311 @@
+================================================================
+TRABAJO NOCTURNO
+  arranque      : 2026-11-05 05:01:05 UTC
+  compuerta     : 2026-11-05 11:30:00 UTC
+                  (pasada esa hora no se arranca otro bloque;
+                   el que este corriendo se deja terminar)
+  /datos libre  : 36 GiB   (aborta por debajo de 10)
+  bloques       : 6 en orden: B1, B2, B3, B4a, B4b, B4c
+  python        : /home/ubuntu/mf/envs/vcc/bin/python
+================================================================
+
+================================================================
+>>> B1   INICIO : 2026-11-05 05:01:05 UTC
+    script         : /home/ubuntu/vcc/modelo/src/noche/b1_venn_ed.py
+    salida esperada: /home/ubuntu/vcc/modelo/out/venn_ed.md
+    /datos libre   : 36 GiB
+================================================================
+[05:01:06] B1 sonda A549 (1/6)
+/home/ubuntu/mf/envs/vcc/lib/python3.11/functools.py:909: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+/home/ubuntu/mf/envs/vcc/lib/python3.11/functools.py:909: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+[05:02:19] B1 A549: |ED| suma=2537 iguales_al_cache=33/33 dt=72s
+[05:02:19] B1 sonda BXPC3 (2/6)
+/home/ubuntu/mf/envs/vcc/lib/python3.11/functools.py:909: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+/home/ubuntu/mf/envs/vcc/lib/python3.11/functools.py:909: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+[05:04:06] B1 BXPC3: |ED| suma=4642 iguales_al_cache=33/33 dt=106s
+[05:04:06] B1 sonda HAP1 (3/6)
+/home/ubuntu/mf/envs/vcc/lib/python3.11/functools.py:909: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+/home/ubuntu/mf/envs/vcc/lib/python3.11/functools.py:909: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+[05:05:53] B1 HAP1: |ED| suma=817 iguales_al_cache=33/33 dt=108s
+[05:05:53] B1 sonda HT29 (4/6)
+/home/ubuntu/mf/envs/vcc/lib/python3.11/functools.py:909: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+/home/ubuntu/mf/envs/vcc/lib/python3.11/functools.py:909: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+[05:07:25] B1 HT29: |ED| suma=2505 iguales_al_cache=33/33 dt=91s
+[05:07:25] B1 sonda K562 (5/6)
+/home/ubuntu/mf/envs/vcc/lib/python3.11/functools.py:909: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+/home/ubuntu/mf/envs/vcc/lib/python3.11/functools.py:909: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+[05:08:39] B1 K562: |ED| suma=1042 iguales_al_cache=33/33 dt=74s
+[05:08:39] B1 sonda MCF7 (6/6)
+/home/ubuntu/mf/envs/vcc/lib/python3.11/functools.py:909: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+/home/ubuntu/mf/envs/vcc/lib/python3.11/functools.py:909: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+[05:10:24] B1 MCF7: |ED| suma=12867 iguales_al_cache=33/33 dt=105s
+[05:10:24] B1 listo: /home/ubuntu/vcc/modelo/out/venn_ed.md
+
+<<< B1   FIN    : 2026-11-05 05:10:24 UTC
+    duracion       : 559 s  (9 min)
+    estado         : OK
+    salida         : /home/ubuntu/vcc/modelo/out/venn_ed.md  (355 lineas, 05:10:24)
+    /datos libre   : 36 GiB
+
+================================================================
+>>> B2   INICIO : 2026-11-05 05:10:24 UTC
+    script         : /home/ubuntu/vcc/modelo/src/noche/b2_sobredispersion.py
+    salida esperada: /home/ubuntu/vcc/modelo/out/sobredispersion.md
+    /datos libre   : 36 GiB
+================================================================
+[05:10:25] B2 A549 (1/6)
+/home/ubuntu/mf/envs/vcc/lib/python3.11/functools.py:909: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+/home/ubuntu/mf/envs/vcc/lib/python3.11/functools.py:909: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+[05:10:34] B2 A549: fano_ctrl=1.007 dt=9s
+[05:10:34] B2 BXPC3 (2/6)
+/home/ubuntu/mf/envs/vcc/lib/python3.11/functools.py:909: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+/home/ubuntu/mf/envs/vcc/lib/python3.11/functools.py:909: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+[05:10:46] B2 BXPC3: fano_ctrl=1.070 dt=11s
+[05:10:46] B2 HAP1 (3/6)
+/home/ubuntu/mf/envs/vcc/lib/python3.11/functools.py:909: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+/home/ubuntu/mf/envs/vcc/lib/python3.11/functools.py:909: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+[05:10:58] B2 HAP1: fano_ctrl=1.058 dt=12s
+[05:10:58] B2 HT29 (4/6)
+/home/ubuntu/mf/envs/vcc/lib/python3.11/functools.py:909: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+/home/ubuntu/mf/envs/vcc/lib/python3.11/functools.py:909: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+[05:11:07] B2 HT29: fano_ctrl=1.027 dt=9s
+[05:11:07] B2 K562 (5/6)
+/home/ubuntu/mf/envs/vcc/lib/python3.11/functools.py:909: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+/home/ubuntu/mf/envs/vcc/lib/python3.11/functools.py:909: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+[05:11:16] B2 K562: fano_ctrl=1.039 dt=9s
+[05:11:16] B2 MCF7 (6/6)
+/home/ubuntu/mf/envs/vcc/lib/python3.11/functools.py:909: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+/home/ubuntu/mf/envs/vcc/lib/python3.11/functools.py:909: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+[05:11:28] B2 MCF7: fano_ctrl=1.116 dt=12s
+[05:11:28] B2 listo: /home/ubuntu/vcc/modelo/out/sobredispersion.md
+
+<<< B2   FIN    : 2026-11-05 05:11:28 UTC
+    duracion       : 64 s  (1 min)
+    estado         : OK
+    salida         : /home/ubuntu/vcc/modelo/out/sobredispersion.md  (391 lineas, 05:11:28)
+    /datos libre   : 36 GiB
+
+================================================================
+>>> B3   INICIO : 2026-11-05 05:11:28 UTC
+    script         : /home/ubuntu/vcc/modelo/src/noche/b3_posicion.py
+    salida esperada: /home/ubuntu/vcc/modelo/out/posicion_emisiones.md
+    /datos libre   : 36 GiB
+================================================================
+[05:11:29] B3 A549 (1/6)
+/home/ubuntu/mf/envs/vcc/lib/python3.11/functools.py:909: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+/home/ubuntu/mf/envs/vcc/lib/python3.11/functools.py:909: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+[05:11:36] B3 A549 suelo: 2s
+[05:11:41] B3 A549 gwps_real: 5s
+[05:11:46] B3 A549 gwps_perm: 5s
+[05:11:51] B3 A549 completo: 5s
+[05:11:55] B3 A549 cola: 3s
+[05:12:00] B3 A549 bulto: 5s
+[05:12:00] B3 A549: listo dt=31s
+[05:12:00] B3 BXPC3 (2/6)
+/home/ubuntu/mf/envs/vcc/lib/python3.11/functools.py:909: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+/home/ubuntu/mf/envs/vcc/lib/python3.11/functools.py:909: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+[05:12:10] B3 BXPC3 suelo: 3s
+[05:12:17] B3 BXPC3 gwps_real: 7s
+[05:12:24] B3 BXPC3 gwps_perm: 7s
+[05:12:30] B3 BXPC3 completo: 7s
+[05:12:35] B3 BXPC3 cola: 5s
+[05:12:42] B3 BXPC3 bulto: 7s
+[05:12:42] B3 BXPC3: listo dt=42s
+[05:12:42] B3 HAP1 (3/6)
+/home/ubuntu/mf/envs/vcc/lib/python3.11/functools.py:909: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+/home/ubuntu/mf/envs/vcc/lib/python3.11/functools.py:909: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+[05:12:53] B3 HAP1 suelo: 3s
+[05:13:01] B3 HAP1 gwps_real: 8s
+[05:13:08] B3 HAP1 gwps_perm: 8s
+[05:13:15] B3 HAP1 completo: 7s
+[05:13:21] B3 HAP1 cola: 5s
+[05:13:28] B3 HAP1 bulto: 7s
+[05:13:28] B3 HAP1: listo dt=46s
+[05:13:28] B3 HT29 (4/6)
+/home/ubuntu/mf/envs/vcc/lib/python3.11/functools.py:909: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+/home/ubuntu/mf/envs/vcc/lib/python3.11/functools.py:909: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+[05:13:37] B3 HT29 suelo: 2s
+[05:13:44] B3 HT29 gwps_real: 6s
+[05:13:50] B3 HT29 gwps_perm: 6s
+[05:13:55] B3 HT29 completo: 5s
+[05:14:00] B3 HT29 cola: 4s
+[05:14:05] B3 HT29 bulto: 5s
+[05:14:05] B3 HT29: listo dt=37s
+[05:14:05] B3 K562 (5/6)
+/home/ubuntu/mf/envs/vcc/lib/python3.11/functools.py:909: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+/home/ubuntu/mf/envs/vcc/lib/python3.11/functools.py:909: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+[05:14:13] B3 K562 suelo: 2s
+[05:14:20] B3 K562 gwps_real: 6s
+[05:14:26] B3 K562 gwps_perm: 6s
+[05:14:31] B3 K562 completo: 6s
+[05:14:36] B3 K562 cola: 4s
+[05:14:41] B3 K562 bulto: 6s
+[05:14:41] B3 K562: listo dt=36s
+[05:14:41] B3 MCF7 (6/6)
+/home/ubuntu/mf/envs/vcc/lib/python3.11/functools.py:909: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+/home/ubuntu/mf/envs/vcc/lib/python3.11/functools.py:909: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+[05:14:53] B3 MCF7 suelo: 3s
+[05:15:01] B3 MCF7 gwps_real: 8s
+[05:15:09] B3 MCF7 gwps_perm: 8s
+[05:15:16] B3 MCF7 completo: 7s
+[05:15:22] B3 MCF7 cola: 6s
+[05:15:29] B3 MCF7 bulto: 7s
+[05:15:29] B3 MCF7: listo dt=48s
+[05:15:29] B3 listo: /home/ubuntu/vcc/modelo/out/posicion_emisiones.md
+
+<<< B3   FIN    : 2026-11-05 05:15:29 UTC
+    duracion       : 241 s  (4 min)
+    estado         : OK
+    salida         : /home/ubuntu/vcc/modelo/out/posicion_emisiones.md  (367 lineas, 05:15:29)
+    /datos libre   : 36 GiB
+
+================================================================
+>>> B4a   INICIO : 2026-11-05 05:15:29 UTC
+    script         : /home/ubuntu/vcc/modelo/src/noche/b4a_inventario.py
+    salida esperada: /home/ubuntu/vcc/modelo/out/vcc2025_inventario.md
+    /datos libre   : 36 GiB
+================================================================
+[05:15:30] B4a inventario train
+[05:15:31] B4a sha256 train (14.4 GiB)...
+[05:17:28] B4a inventario validation
+[05:17:28] B4a sha256 validation (6.5 GiB)...
+[05:18:06] B4a inventario test
+[05:18:06] B4a sha256 test (11.1 GiB)...
+[05:19:37] B4a pareados
+[05:19:38] B4a listo: /home/ubuntu/vcc/modelo/out/vcc2025_inventario.md
+
+<<< B4a   FIN    : 2026-11-05 05:19:38 UTC
+    duracion       : 249 s  (4 min)
+    estado         : OK
+    salida         : /home/ubuntu/vcc/modelo/out/vcc2025_inventario.md  (236 lineas, 05:19:38)
+    /datos libre   : 36 GiB
+
+================================================================
+>>> B4b   INICIO : 2026-11-05 05:19:38 UTC
+    script         : /home/ubuntu/vcc/modelo/src/noche/b4b_anclajes.py
+    salida esperada: /home/ubuntu/vcc/modelo/out/vcc2025_anclajes.md
+    /datos libre   : 36 GiB
+================================================================
+[05:19:39] B4 real 2025: leyendo 55557 filas de 170846
+/home/ubuntu/mf/envs/vcc/lib/python3.11/functools.py:909: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+[05:20:02] B4 real 2025 escrito: 5.42 GiB, nnz 485.0 M
+[05:20:02] B4b cell-eval2 baseline...
+[05:37:02] B4b baseline exit=0 1020s
+[05:37:02] B4b cell-eval2 prep-real-bundle (5 splits de anclaje)...
+[07:10:17] B4b bundle exit=0 5595s
+[07:10:20] B4b listo: /home/ubuntu/vcc/modelo/out/vcc2025_anclajes.md
+
+<<< B4b   FIN    : 2026-11-05 07:10:21 UTC
+    duracion       : 6643 s  (110 min)
+    estado         : OK
+    salida         : /home/ubuntu/vcc/modelo/out/vcc2025_anclajes.md  (132 lineas, 07:10:20)
+    /datos libre   : 31 GiB
+
+================================================================
+>>> B4c   INICIO : 2026-11-05 07:10:21 UTC
+    script         : /home/ubuntu/vcc/modelo/src/noche/b4c_suelo.py
+    salida esperada: /home/ubuntu/vcc/modelo/out/vcc2025_suelo.md
+    /datos libre   : 31 GiB
+================================================================
+[07:10:25] B4c control (18400, 18080) perts=100 bundle=si
+[07:10:25] B4c semilla j=0 (1/8)
+/home/ubuntu/mf/envs/vcc/lib/python3.11/functools.py:909: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+[07:10:37] B4c j=0 cell-eval2 run...
+[07:26:56] B4c j=0 run_ok=True dt=991s
+[07:26:56] B4c semilla j=1 (2/8)
+/home/ubuntu/mf/envs/vcc/lib/python3.11/functools.py:909: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+[07:27:07] B4c j=1 cell-eval2 run...
+[07:43:23] B4c j=1 run_ok=True dt=987s
+[07:43:23] B4c semilla j=2 (3/8)
+/home/ubuntu/mf/envs/vcc/lib/python3.11/functools.py:909: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+[07:43:34] B4c j=2 cell-eval2 run...
+[07:59:50] B4c j=2 run_ok=True dt=986s
+[07:59:50] B4c semilla j=3 (4/8)
+/home/ubuntu/mf/envs/vcc/lib/python3.11/functools.py:909: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+[08:00:00] B4c j=3 cell-eval2 run...
+[08:16:16] B4c j=3 run_ok=True dt=986s
+[08:16:16] B4c semilla j=4 (5/8)
+/home/ubuntu/mf/envs/vcc/lib/python3.11/functools.py:909: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+[08:16:26] B4c j=4 cell-eval2 run...
+[08:32:42] B4c j=4 run_ok=True dt=986s
+[08:32:42] B4c semilla j=5 (6/8)
+/home/ubuntu/mf/envs/vcc/lib/python3.11/functools.py:909: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+[08:32:52] B4c j=5 cell-eval2 run...
+[08:49:08] B4c j=5 run_ok=True dt=986s
+[08:49:08] B4c semilla j=6 (7/8)
+/home/ubuntu/mf/envs/vcc/lib/python3.11/functools.py:909: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+[08:49:19] B4c j=6 cell-eval2 run...
+[09:05:35] B4c j=6 run_ok=True dt=987s
+[09:05:35] B4c semilla j=7 (8/8)
+/home/ubuntu/mf/envs/vcc/lib/python3.11/functools.py:909: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+[09:05:45] B4c j=7 cell-eval2 run...
+[09:22:02] B4c j=7 run_ok=True dt=987s
+[09:22:03] B4c listo: /home/ubuntu/vcc/modelo/out/vcc2025_suelo.md
+
+<<< B4c   FIN    : 2026-11-05 09:22:03 UTC
+    duracion       : 7902 s  (131 min)
+    estado         : OK
+    salida         : /home/ubuntu/vcc/modelo/out/vcc2025_suelo.md  (121 lineas, 09:22:02)
+    /datos libre   : 36 GiB
+
+================================================================
+RESUMEN
+  fin           : 2026-11-05 09:22:03 UTC
+  duracion total: 15658 s  (260 min)
+  OK            : B1 B2 B3 B4a B4b B4c
+  FALLARON      : (ninguno)
+  SIN EMPEZAR   : (ninguno)
+  /datos libre  : 36 GiB
+  salidas en disco:
+    B1  /home/ubuntu/vcc/modelo/out/venn_ed.md  (355 lineas)
+    B2  /home/ubuntu/vcc/modelo/out/sobredispersion.md  (391 lineas)
+    B3  /home/ubuntu/vcc/modelo/out/posicion_emisiones.md  (367 lineas)
+    B4a  /home/ubuntu/vcc/modelo/out/vcc2025_inventario.md  (236 lineas)
+    B4b  /home/ubuntu/vcc/modelo/out/vcc2025_anclajes.md  (132 lineas)
+    B4c  /home/ubuntu/vcc/modelo/out/vcc2025_suelo.md  (121 lineas)
+================================================================

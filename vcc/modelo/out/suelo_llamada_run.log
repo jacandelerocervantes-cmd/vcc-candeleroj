@@ -1,0 +1,138 @@
+================================================================
+SUELO DE LA LLAMADA  (sondas por mitades -> analisis -> reporte)
+  arranque      : 2026-11-05 16:24:19 UTC
+  pasos         : 9 en orden (6 lineas Jiang, 2025, analisis, reporte)
+  /datos libre  : 33 GiB   (aborta por debajo de 10)
+  sondas        : /home/ubuntu/vcc/modelo/src/suelo_llamada/sl_sondas.py   -> /datos/modelo/out/suelo_llamada/sets/<tag>_j<j>.json
+  analisis      : /home/ubuntu/vcc/modelo/src/suelo_llamada/sl_analisis.py -> /home/ubuntu/vcc/modelo/out/suelo_llamada.json
+  reporte       : /home/ubuntu/vcc/modelo/src/suelo_llamada/sl_reporte.py  -> /home/ubuntu/vcc/modelo/out/suelo_llamada.md
+  python        : /home/ubuntu/mf/envs/vcc/bin/python
+  hecho ya      : 55 sondas en disco de 56 (7 tags x 8)
+================================================================
+
+================================================================
+>>> SONDAS A549   INICIO : 2026-11-05 16:24:20 UTC
+    /datos libre   : 33 GiB
+
+<<< SONDAS A549   FIN    : 2026-11-05 16:24:24 UTC
+    duracion       : 4 s  (0 min)
+    estado         : OK
+    sondas en disco: 8 de 8 de A549
+    /datos libre   : 33 GiB
+
+================================================================
+>>> SONDAS BXPC3   INICIO : 2026-11-05 16:24:24 UTC
+    /datos libre   : 33 GiB
+
+<<< SONDAS BXPC3   FIN    : 2026-11-05 16:24:28 UTC
+    duracion       : 4 s  (0 min)
+    estado         : OK
+    sondas en disco: 8 de 8 de BXPC3
+    /datos libre   : 33 GiB
+
+================================================================
+>>> SONDAS HAP1   INICIO : 2026-11-05 16:24:28 UTC
+    /datos libre   : 33 GiB
+
+<<< SONDAS HAP1   FIN    : 2026-11-05 16:24:32 UTC
+    duracion       : 4 s  (0 min)
+    estado         : OK
+    sondas en disco: 8 de 8 de HAP1
+    /datos libre   : 33 GiB
+
+================================================================
+>>> SONDAS HT29   INICIO : 2026-11-05 16:24:32 UTC
+    /datos libre   : 33 GiB
+
+<<< SONDAS HT29   FIN    : 2026-11-05 16:24:36 UTC
+    duracion       : 4 s  (0 min)
+    estado         : OK
+    sondas en disco: 8 de 8 de HT29
+    /datos libre   : 33 GiB
+
+================================================================
+>>> SONDAS K562   INICIO : 2026-11-05 16:24:36 UTC
+    /datos libre   : 33 GiB
+
+<<< SONDAS K562   FIN    : 2026-11-05 16:24:40 UTC
+    duracion       : 4 s  (0 min)
+    estado         : OK
+    sondas en disco: 8 de 8 de K562
+    /datos libre   : 33 GiB
+
+================================================================
+>>> SONDAS MCF7   INICIO : 2026-11-05 16:24:40 UTC
+    /datos libre   : 33 GiB
+
+<<< SONDAS MCF7   FIN    : 2026-11-05 16:24:44 UTC
+    duracion       : 4 s  (0 min)
+    estado         : OK
+    sondas en disco: 8 de 8 de MCF7
+    /datos libre   : 33 GiB
+
+================================================================
+>>> SONDAS v2025   INICIO : 2026-11-05 16:24:44 UTC
+    /datos libre   : 33 GiB
+    relevo: vive(n) PID(s) [29208 ] sobre v2025; se les DEJA acabar (tope 3600s)
+    relevo: esperando (0 min) — sets: 7 de 8 de v2025
+    relevo: esperando (5 min) — sets: 7 de 8 de v2025
+    relevo: libre a las 16:32:15 UTC; sigo yo
+    integridad: los 63 json de sets parsean
+/home/ubuntu/mf/envs/vcc/lib/python3.11/functools.py:909: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+[16:32:39] 2025: huella coincide = True
+[16:32:40] v2025 j=0: ya hecho
+[16:32:40] v2025 j=1: ya hecho
+[16:32:40] v2025 j=2: ya hecho
+[16:32:40] v2025 j=3: ya hecho
+[16:32:40] v2025 j=4: ya hecho
+[16:32:40] v2025 j=5: ya hecho
+[16:32:40] v2025 j=6: ya hecho
+[16:32:40] v2025 j=7: ya hecho
+
+<<< SONDAS v2025   FIN    : 2026-11-05 16:32:41 UTC
+    duracion       : 477 s  (7 min)
+    estado         : OK
+    sondas en disco: 8 de 8 de v2025
+    /datos libre   : 36 GiB
+
+================================================================
+>>> ANALISIS   INICIO : 2026-11-05 16:32:41 UTC
+    /datos libre   : 36 GiB
+    integridad: los 63 json de sets parsean
+
+<<< ANALISIS   FIN    : 2026-11-05 16:32:51 UTC
+    duracion       : 10 s  (0 min)
+    estado         : OK
+    salida         : /home/ubuntu/vcc/modelo/out/suelo_llamada.json (148324 bytes, 16:32:51)
+    /datos libre   : 36 GiB
+
+================================================================
+>>> REPORTE   INICIO : 2026-11-05 16:32:51 UTC
+    /datos libre   : 36 GiB
+
+<<< REPORTE   FIN    : 2026-11-05 16:33:00 UTC
+    duracion       : 9 s  (0 min)
+    estado         : OK
+    salida         : /home/ubuntu/vcc/modelo/out/suelo_llamada.md (589 lineas, 16:33:00)
+    /datos libre   : 36 GiB
+
+================================================================
+RESUMEN
+  fin           : 2026-11-05 16:33:00 UTC
+  duracion total: 520 s  (8 min)
+  OK            : SONDAS A549 SONDAS BXPC3 SONDAS HAP1 SONDAS HT29 SONDAS K562 SONDAS MCF7 SONDAS v2025 ANALISIS REPORTE
+  FALLARON      : (ninguno)
+  SIN EMPEZAR   : (ninguno)
+  /datos libre  : 36 GiB
+  sondas por tag:
+    A549  8/8
+    BXPC3  8/8
+    HAP1  8/8
+    HT29  8/8
+    K562  8/8
+    MCF7  8/8
+    v2025  8/8
+  /home/ubuntu/vcc/modelo/out/suelo_llamada.json  (148324 bytes, 16:33:00 UTC)
+  /home/ubuntu/vcc/modelo/out/suelo_llamada.md  (45967 bytes, 16:33:00 UTC)
+================================================================

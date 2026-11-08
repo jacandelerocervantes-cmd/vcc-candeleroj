@@ -1,0 +1,6 @@
+corrida: n_sig=0 m=9619
+1. conjunto probado: esperado 9619, obtenido 9619, IGUAL = True
+2. p_adj == BH(p_value) dentro del conjunto: max|dif| = 0.000e+00 -> IGUAL = True
+3. conjunto DE: n_sig del arnes = 0, recontado de BH = 0 -> IGUAL = True
+4. log2FC == log2((tgt+eps)/(ref+eps)): max|dif| = 1.289e-15 -> IGUAL = True
+   (eps = 1e-09, mean_calc = arithmetic, target_sum = 1000000.0)

@@ -1,0 +1,131 @@
+{
+  "query6": {
+    "IFNB": {
+      "shape_h5ad": [
+        328542,
+        34025
+      ],
+      "shape_R_reportado": [
+        328542,
+        34025
+      ],
+      "shape_coincide": true,
+      "nnz_data": 980979021,
+      "nnz_indices": 980979021,
+      "indptr_len": 328543,
+      "indptr_ultimo_valor": 980979021,
+      "n_obs_rows_leido": 328542,
+      "consistencia_interna_ok": true
+    },
+    "IFNG": {
+      "shape_h5ad": [
+        245240,
+        33525
+      ],
+      "shape_R_reportado": [
+        245240,
+        33525
+      ],
+      "shape_coincide": true,
+      "nnz_data": 667070362,
+      "nnz_indices": 667070362,
+      "indptr_len": 245241,
+      "indptr_ultimo_valor": 667070362,
+      "n_obs_rows_leido": 245240,
+      "consistencia_interna_ok": true
+    },
+    "INS": {
+      "shape_h5ad": [
+        431457,
+        34025
+      ],
+      "shape_R_reportado": [
+        431457,
+        34025
+      ],
+      "shape_coincide": true,
+      "nnz_data": 1280241271,
+      "nnz_indices": 1280241271,
+      "indptr_len": 431458,
+      "indptr_ultimo_valor": 1280241271,
+      "n_obs_rows_leido": 431457,
+      "consistencia_interna_ok": true
+    },
+    "TGFB": {
+      "shape_h5ad": [
+        236606,
+        33525
+      ],
+      "shape_R_reportado": [
+        236606,
+        33525
+      ],
+      "shape_coincide": true,
+      "nnz_data": 605806920,
+      "nnz_indices": 605806920,
+      "indptr_len": 236607,
+      "indptr_ultimo_valor": 605806920,
+      "n_obs_rows_leido": 236606,
+      "consistencia_interna_ok": true
+    },
+    "TNFA": {
+      "shape_h5ad": [
+        386631,
+        33525
+      ],
+      "shape_R_reportado": [
+        386631,
+        33525
+      ],
+      "shape_coincide": true,
+      "nnz_data": 1066935493,
+      "nnz_indices": 1066935493,
+      "indptr_len": 386632,
+      "indptr_ultimo_valor": 1066935493,
+      "n_obs_rows_leido": 386631,
+      "consistencia_interna_ok": true
+    }
+  },
+  "query7_cell_type_categories": {
+    "IFNB": [
+      "A549",
+      "BXPC3",
+      "HAP1",
+      "HT29",
+      "K562",
+      "MCF7"
+    ],
+    "IFNG": [
+      "A549",
+      "BXPC3",
+      "HAP1",
+      "HT29",
+      "K562",
+      "MCF7"
+    ],
+    "INS": [
+      "A549",
+      "BXPC3",
+      "HAP1",
+      "HT29",
+      "K562",
+      "MCF7"
+    ],
+    "TGFB": [
+      "A549",
+      "BXPC3",
+      "HAP1",
+      "HT29",
+      "K562",
+      "MCF7"
+    ],
+    "TNFA": [
+      "A549",
+      "BXPC3",
+      "HAP1",
+      "HT29",
+      "K562",
+      "MCF7"
+    ]
+  }
+}

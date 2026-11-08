@@ -1,0 +1,623 @@
+{
+ "split": "test",
+ "shape": [
+  55557,
+  18080
+ ],
+ "n_perturbaciones": 100,
+ "n_celulas_perturbadas": 37157,
+ "n_control_pool": 38176,
+ "n_control_usadas": 18400,
+ "n_por_pert_objetivo": 400,
+ "n_truncadas": 15,
+ "por_pert": [
+  {
+   "pert": "AASS",
+   "disponibles": 1376,
+   "tomadas": 400,
+   "truncada": false
+  },
+  {
+   "pert": "ACTN1",
+   "disponibles": 1278,
+   "tomadas": 400,
+   "truncada": false
+  },
+  {
+   "pert": "ADNP",
+   "disponibles": 291,
+   "tomadas": 291,
+   "truncada": true
+  },
+  {
+   "pert": "ANKZF1",
+   "disponibles": 1063,
+   "tomadas": 400,
+   "truncada": false
+  },
+  {
+   "pert": "APOE",
+   "disponibles": 1798,
+   "tomadas": 400,
+   "truncada": false
+  },
+  {
+   "pert": "ARID3A",
+   "disponibles": 1447,
+   "tomadas": 400,
+   "truncada": false
+  },
+  {
+   "pert": "ASF1A",
+   "disponibles": 537,
+   "tomadas": 400,
+   "truncada": false
+  },
+  {
+   "pert": "ATF4",
+   "disponibles": 570,
+   "tomadas": 400,
+   "truncada": false
+  },
+  {
+   "pert": "BECN1",
+   "disponibles": 349,
+   "tomadas": 349,
+   "truncada": true
+  },
+  {
+   "pert": "BRPF1",
+   "disponibles": 366,
+   "tomadas": 366,
+   "truncada": true
+  },
+  {
+   "pert": "CD276",
+   "disponibles": 1552,
+   "tomadas": 400,
+   "truncada": false
+  },
+  {
+   "pert": "CDC25B",
+   "disponibles": 913,
+   "tomadas": 400,
+   "truncada": false
+  },
+  {
+   "pert": "CNN3",
+   "disponibles": 2496,
+   "tomadas": 400,
+   "truncada": false
+  },
+  {
+   "pert": "COASY",
+   "disponibles": 1937,
+   "tomadas": 400,
+   "truncada": false
+  },
+  {
+   "pert": "COL6A1",
+   "disponibles": 1744,
+   "tomadas": 400,
+   "truncada": false
+  },
+  {
+   "pert": "CREM",
+   "disponibles": 2247,
+   "tomadas": 400,
+   "truncada": false
+  },
+  {
+   "pert": "CSNK1E",
+   "disponibles": 1139,
+   "tomadas": 400,
+   "truncada": false
+  },
+  {
+   "pert": "CTBP2",
+   "disponibles": 538,
+   "tomadas": 400,
+   "truncada": false
+  },
+  {
+   "pert": "CTNNB1",
+   "disponibles": 1652,
+   "tomadas": 400,
+   "truncada": false
+  },
+  {
+   "pert": "CYCS",
+   "disponibles": 770,
+   "tomadas": 400,
+   "truncada": false
+  },
+  {
+   "pert": "CYFIP1",
+   "disponibles": 2040,
+   "tomadas": 400,
+   "truncada": false
+  },
+  {
+   "pert": "DCK",
+   "disponibles": 1737,
+   "tomadas": 400,
+   "truncada": false
+  },
+  {
+   "pert": "DHX9",
+   "disponibles": 273,
+   "tomadas": 273,
+   "truncada": true
+  },
+  {
+   "pert": "DPF2",
+   "disponibles": 1144,
+   "tomadas": 400,
+   "truncada": false
+  },
+  {
+   "pert": "EHMT2",
+   "disponibles": 1499,
+   "tomadas": 400,
+   "truncada": false
+  },
+  {
+   "pert": "ELAC2",
+   "disponibles": 184,
+   "tomadas": 184,
+   "truncada": true
+  },
+  {
+   "pert": "EP300",
+   "disponibles": 2217,
+   "tomadas": 400,
+   "truncada": false
+  },
+  {
+   "pert": "EPHX1",
+   "disponibles": 1042,
+   "tomadas": 400,
+   "truncada": false
+  },
+  {
+   "pert": "FGFR1",
+   "disponibles": 1061,
+   "tomadas": 400,
+   "truncada": false
+  },
+  {
+   "pert": "FIBP",
+   "disponibles": 2094,
+   "tomadas": 400,
+   "truncada": false
+  },
+  {
+   "pert": "GRB10",
+   "disponibles": 4074,
+   "tomadas": 400,
+   "truncada": false
+  },
+  {
+   "pert": "GULP1",
+   "disponibles": 1065,
+   "tomadas": 400,
+   "truncada": false
+  },
+  {
+   "pert": "HAX1",
+   "disponibles": 780,
+   "tomadas": 400,
+   "truncada": false
+  },
+  {
+   "pert": "HDGF",
+   "disponibles": 3271,
+   "tomadas": 400,
+   "truncada": false
+  },
+  {
+   "pert": "HMGCS1",
+   "disponibles": 910,
+   "tomadas": 400,
+   "truncada": false
+  },
+  {
+   "pert": "HSP90B1",
+   "disponibles": 503,
+   "tomadas": 400,
+   "truncada": false
+  },
+  {
+   "pert": "INO80B",
+   "disponibles": 170,
+   "tomadas": 170,
+   "truncada": true
+  },
+  {
+   "pert": "JMJD1C",
+   "disponibles": 438,
+   "tomadas": 400,
+   "truncada": false
+  },
+  {
+   "pert": "LAP3",
+   "disponibles": 703,
+   "tomadas": 400,
+   "truncada": false
+  },
+  {
+   "pert": "LBR",
+   "disponibles": 930,
+   "tomadas": 400,
+   "truncada": false
+  },
+  {
+   "pert": "LTBR",
+   "disponibles": 1206,
+   "tomadas": 400,
+   "truncada": false
+  },
+  {
+   "pert": "MED15",
+   "disponibles": 3637,
+   "tomadas": 400,
+   "truncada": false
+  },
+  {
+   "pert": "MED19",
+   "disponibles": 1511,
+   "tomadas": 400,
+   "truncada": false
+  },
+  {
+   "pert": "MED23",
+   "disponibles": 955,
+   "tomadas": 400,
+   "truncada": false
+  },
+  {
+   "pert": "MED25",
+   "disponibles": 2028,
+   "tomadas": 400,
+   "truncada": false
+  },
+  {
+   "pert": "MFSD10",
+   "disponibles": 2300,
+   "tomadas": 400,
+   "truncada": false
+  },
+  {
+   "pert": "MLLT1",
+   "disponibles": 1629,
+   "tomadas": 400,
+   "truncada": false
+  },
+  {
+   "pert": "MORN2",
+   "disponibles": 1987,
+   "tomadas": 400,
+   "truncada": false
+  },
+  {
+   "pert": "MPC2",
+   "disponibles": 992,
+   "tomadas": 400,
+   "truncada": false
+  },
+  {
+   "pert": "NCAPH2",
+   "disponibles": 98,
+   "tomadas": 98,
+   "truncada": true
+  },
+  {
+   "pert": "NCKAP1",
+   "disponibles": 1056,
+   "tomadas": 400,
+   "truncada": false
+  },
+  {
+   "pert": "NDUFB9",
+   "disponibles": 1059,
+   "tomadas": 400,
+   "truncada": false
+  },
+  {
+   "pert": "NDUFC2",
+   "disponibles": 1595,
+   "tomadas": 400,
+   "truncada": false
+  },
+  {
+   "pert": "NEK2",
+   "disponibles": 1523,
+   "tomadas": 400,
+   "truncada": false
+  },
+  {
+   "pert": "NELFE",
+   "disponibles": 67,
+   "tomadas": 67,
+   "truncada": true
+  },
+  {
+   "pert": "NFATC3",
+   "disponibles": 1050,
+   "tomadas": 400,
+   "truncada": false
+  },
+  {
+   "pert": "NFX1",
+   "disponibles": 1530,
+   "tomadas": 400,
+   "truncada": false
+  },
+  {
+   "pert": "NGRN",
+   "disponibles": 1548,
+   "tomadas": 400,
+   "truncada": false
+  },
+  {
+   "pert": "NSDHL",
+   "disponibles": 374,
+   "tomadas": 374,
+   "truncada": true
+  },
+  {
+   "pert": "NUDT9",
+   "disponibles": 2484,
+   "tomadas": 400,
+   "truncada": false
+  },
+  {
+   "pert": "OAZ1",
+   "disponibles": 813,
+   "tomadas": 400,
+   "truncada": false
+  },
+  {
+   "pert": "OSTC",
+   "disponibles": 159,
+   "tomadas": 159,
+   "truncada": true
+  },
+  {
+   "pert": "PBX3",
+   "disponibles": 1196,
+   "tomadas": 400,
+   "truncada": false
+  },
+  {
+   "pert": "PCCB",
+   "disponibles": 2751,
+   "tomadas": 400,
+   "truncada": false
+  },
+  {
+   "pert": "PGAM1",
+   "disponibles": 972,
+   "tomadas": 400,
+   "truncada": false
+  },
+  {
+   "pert": "PHF12",
+   "disponibles": 2069,
+   "tomadas": 400,
+   "truncada": false
+  },
+  {
+   "pert": "PIAS1",
+   "disponibles": 1123,
+   "tomadas": 400,
+   "truncada": false
+  },
+  {
+   "pert": "PLAGL2",
+   "disponibles": 3642,
+   "tomadas": 400,
+   "truncada": false
+  },
+  {
+   "pert": "PSME1",
+   "disponibles": 1065,
+   "tomadas": 400,
+   "truncada": false
+  },
+  {
+   "pert": "PSMG1",
+   "disponibles": 139,
+   "tomadas": 139,
+   "truncada": true
+  },
+  {
+   "pert": "RBPJ",
+   "disponibles": 710,
+   "tomadas": 400,
+   "truncada": false
+  },
+  {
+   "pert": "RFX5",
+   "disponibles": 919,
+   "tomadas": 400,
+   "truncada": false
+  },
+  {
+   "pert": "RNF40",
+   "disponibles": 150,
+   "tomadas": 150,
+   "truncada": true
+  },
+  {
+   "pert": "RRM2",
+   "disponibles": 1881,
+   "tomadas": 400,
+   "truncada": false
+  },
+  {
+   "pert": "SAFB2",
+   "disponibles": 2144,
+   "tomadas": 400,
+   "truncada": false
+  },
+  {
+   "pert": "SBDS",
+   "disponibles": 916,
+   "tomadas": 400,
+   "truncada": false
+  },
+  {
+   "pert": "SCCPDH",
+   "disponibles": 1300,
+   "tomadas": 400,
+   "truncada": false
+  },
+  {
+   "pert": "SET",
+   "disponibles": 1225,
+   "tomadas": 400,
+   "truncada": false
+  },
+  {
+   "pert": "SETDB1",
+   "disponibles": 1044,
+   "tomadas": 400,
+   "truncada": false
+  },
+  {
+   "pert": "SLC5A6",
+   "disponibles": 677,
+   "tomadas": 400,
+   "truncada": false
+  },
+  {
+   "pert": "SOX4",
+   "disponibles": 3343,
+   "tomadas": 400,
+   "truncada": false
+  },
+  {
+   "pert": "STUB1",
+   "disponibles": 2615,
+   "tomadas": 400,
+   "truncada": false
+  },
+  {
+   "pert": "STXBP1",
+   "disponibles": 3751,
+   "tomadas": 400,
+   "truncada": false
+  },
+  {
+   "pert": "TAF11",
+   "disponibles": 257,
+   "tomadas": 257,
+   "truncada": true
+  },
+  {
+   "pert": "THAP11",
+   "disponibles": 807,
+   "tomadas": 400,
+   "truncada": false
+  },
+  {
+   "pert": "TNFRSF12A",
+   "disponibles": 1725,
+   "tomadas": 400,
+   "truncada": false
+  },
+  {
+   "pert": "TOR1A",
+   "disponibles": 1640,
+   "tomadas": 400,
+   "truncada": false
+  },
+  {
+   "pert": "TRAFD1",
+   "disponibles": 1627,
+   "tomadas": 400,
+   "truncada": false
+  },
+  {
+   "pert": "TSFM",
+   "disponibles": 1364,
+   "tomadas": 400,
+   "truncada": false
+  },
+  {
+   "pert": "TSKU",
+   "disponibles": 886,
+   "tomadas": 400,
+   "truncada": false
+  },
+  {
+   "pert": "UGDH",
+   "disponibles": 1474,
+   "tomadas": 400,
+   "truncada": false
+  },
+  {
+   "pert": "UGP2",
+   "disponibles": 2027,
+   "tomadas": 400,
+   "truncada": false
+  },
+  {
+   "pert": "ZBTB39",
+   "disponibles": 417,
+   "tomadas": 400,
+   "truncada": false
+  },
+  {
+   "pert": "ZFP62",
+   "disponibles": 204,
+   "tomadas": 204,
+   "truncada": true
+  },
+  {
+   "pert": "ZNF107",
+   "disponibles": 1527,
+   "tomadas": 400,
+   "truncada": false
+  },
+  {
+   "pert": "ZNF32",
+   "disponibles": 699,
+   "tomadas": 400,
+   "truncada": false
+  },
+  {
+   "pert": "ZNF664",
+   "disponibles": 2318,
+   "tomadas": 400,
+   "truncada": false
+  },
+  {
+   "pert": "ZNF850",
+   "disponibles": 1305,
+   "tomadas": 400,
+   "truncada": false
+  },
+  {
+   "pert": "ZNF92",
+   "disponibles": 886,
+   "tomadas": 400,
+   "truncada": false
+  },
+  {
+   "pert": "ZRSR2",
+   "disponibles": 76,
+   "tomadas": 76,
+   "truncada": true
+  }
+ ],
+ "seed_pert": 20280201,
+ "seed_control": 20280202,
+ "etiqueta_control": "non-targeting",
+ "nnz": 485028540,
+ "dtype_origen": "float32 -> int64",
+ "n_genes": 18080,
+ "huella": "816d6c0bec7ccdca79beaef6024dc24ad0163a420955f60b1aea24b683bdb943",
+ "bytes_h5ad": 5824864341
+}

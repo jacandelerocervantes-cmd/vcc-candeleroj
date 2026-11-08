@@ -1,0 +1,13 @@
+/home/ubuntu/vcc/modelo/src/control_o_no_disc.py:120: RuntimeWarning: Mean of empty slice
+  por_b.append(float(np.nanmean(rr))); N += n_; D += d_
+A549   con gb    R_agr=+0.1763 med=+0.1332 pos=30/33 | nulo=+0.0022 sd=0.0074 z=+23.43
+/home/ubuntu/vcc/modelo/src/control_o_no_disc.py:120: RuntimeWarning: Mean of empty slice
+  por_b.append(float(np.nanmean(rr))); N += n_; D += d_
+A549   con ridge R_agr=+0.3493 med=+0.2972 pos=31/33 | nulo=+0.0029 sd=0.0046 z=+74.69
+/home/ubuntu/vcc/modelo/src/control_o_no_disc.py:120: RuntimeWarning: Mean of empty slice
+  por_b.append(float(np.nanmean(rr))); N += n_; D += d_
+A549   sin gb    R_agr=+0.1771 med=+0.1534 pos=27/33 | nulo=-0.0005 sd=0.0057 z=+31.09
+/home/ubuntu/vcc/modelo/src/control_o_no_disc.py:120: RuntimeWarning: Mean of empty slice
+  por_b.append(float(np.nanmean(rr))); N += n_; D += d_
+A549   sin ridge R_agr=+0.3626 med=+0.3369 pos=31/33 | nulo=-0.0001 sd=0.0072 z=+50.63
+escrito /home/ubuntu/vcc/modelo/out/control_o_no/disc.json

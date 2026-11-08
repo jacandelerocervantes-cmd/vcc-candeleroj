@@ -1,0 +1,108 @@
+{
+  "final": {
+    "cobertura_pct": 41.445,
+    "en_gwps_medidos": 7681,
+    "en_gwps_medidos_sin_duplicados": 7679,
+    "fuera_de_gwps": 10852,
+    "gene_names_cabecera": [
+      "gene_name"
+    ],
+    "gene_names_n_simbolos": 18533,
+    "gene_names_unicos": 18533,
+    "n_genes_h5ad": 18533,
+    "orden_identico_a_var_index": true,
+    "pert_cabecera": [
+      "target_gene"
+    ],
+    "pert_con_perfil_en_gwps": 277,
+    "pert_lista_sin_perfil": [
+      "ANG",
+      "ARSA",
+      "ATP10D",
+      "CAPRIN2",
+      "HCFC2",
+      "HEATR6",
+      "ITPRIPL1",
+      "LYSMD4",
+      "MAPK7",
+      "MLKL",
+      "NEK3",
+      "PARP3",
+      "PDK3",
+      "PSMB9",
+      "RAB26",
+      "SEMA4F",
+      "SIK2",
+      "STK10",
+      "TBC1D19",
+      "TESK2",
+      "TMEM79",
+      "UBTD2",
+      "ZDHHC13"
+    ],
+    "pert_n": 300,
+    "pert_sin_perfil_en_gwps": 23,
+    "pert_todas_en_gene_names": true
+  },
+  "gwps": {
+    "blancos_con_perfil_unicos": 9867,
+    "filas": 11258,
+    "filas_core_control": 514,
+    "var_columnas": 8248,
+    "var_nombres_duplicados": [
+      "HSPA14",
+      "TBCE"
+    ],
+    "var_nombres_unicos": 8246
+  },
+  "val": {
+    "cobertura_pct": 41.445,
+    "en_gwps_medidos": 7681,
+    "en_gwps_medidos_sin_duplicados": 7679,
+    "fuera_de_gwps": 10852,
+    "gene_names_cabecera": [
+      "gene_name"
+    ],
+    "gene_names_n_simbolos": 18533,
+    "gene_names_unicos": 18533,
+    "n_genes_h5ad": 18533,
+    "orden_identico_a_var_index": true,
+    "pert_cabecera": [
+      "target_gene"
+    ],
+    "pert_con_perfil_en_gwps": 272,
+    "pert_lista_sin_perfil": [
+      "ABCD1",
+      "CAPRIN2",
+      "EPHB2",
+      "HEATR6",
+      "KIF21B",
+      "MAPK7",
+      "MLKL",
+      "NICN1",
+      "PARP3",
+      "PBLD",
+      "PDK3",
+      "PHF11",
+      "PSMB9",
+      "RAB11FIP5",
+      "SEMA4F",
+      "SLC44A1",
+      "SNN",
+      "SOCS5",
+      "SPATA20",
+      "TAF4",
+      "TBC1D19",
+      "TDRD7",
+      "TESK2",
+      "TMEM104",
+      "TMEM79",
+      "TTBK2",
+      "TXNDC16",
+      "ZC2HC1A"
+    ],
+    "pert_n": 300,
+    "pert_sin_perfil_en_gwps": 28,
+    "pert_todas_en_gene_names": true
+  }
+}

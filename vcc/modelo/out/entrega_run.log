@@ -1,0 +1,157 @@
+================================================================
+LA ENTREGA: entrenar -> emitir -> contrato -> empaquetar
+  arranque      : 2026-11-05 19:03:37 UTC
+  pasos         : 5 (sin corte por reloj)
+  /datos libre  : 40 GiB   (aborta por debajo de 10)
+  h5ad          : /datos/modelo/out/entrega/prediction.h5ad
+  vcc           : /datos/modelo/out/entrega/prediction.vcc
+  reporte       : /home/ubuntu/vcc/modelo/out/entrega.md
+  🔴 ningun paso envia nada
+================================================================
+
+================================================================
+>>> 1 AJUSTE (la funcion en VCC 2025)   INICIO : 2026-11-05 19:03:37 UTC  (/datos 40 GiB)
+[19:03:41] 2025: 300 blancos, 18080 genes, 114,528 celulas de control
+[19:03:48] diseno: 3,234,000 filas x 10 rasgos
+[19:03:54] alpha=0.1: pearson +0.0735 R2 +0.0052 por blanco +0.0518
+[19:04:00] alpha=1.0: pearson +0.0735 R2 +0.0052 por blanco +0.0518
+[19:04:06] alpha=10.0: pearson +0.0735 R2 +0.0052 por blanco +0.0518
+[19:04:12] alpha=100.0: pearson +0.0735 R2 +0.0052 por blanco +0.0518
+[19:04:18] alpha=1000.0: pearson +0.0735 R2 +0.0052 por blanco +0.0518
+[19:04:20] ajuste listo: alpha=1000.0 pearson_por_blanco=+0.0518 en 0.7 min
+escrito /home/ubuntu/vcc/modelo/out/entrega.md: 138 lineas
+<<< 1 AJUSTE (la funcion en VCC 2025)   FIN    : 2026-11-05 19:04:22 UTC
+    duracion       : 43 s  (0 min)
+    estado         : OK
+    /datos libre   : 40 GiB
+
+================================================================
+>>> 2 EMISION (D/E/F -> h5ad)   INICIO : 2026-11-05 19:04:22 UTC  (/datos 40 GiB)
+[19:04:37] D: rasgos y prediccion listos en 13s | y sd 0.0520 p1 -0.037 p99 +0.158 | recortados 0
+[19:04:38] D: 1/300 perts | filas 400 | nnz 2,277,024 | 0.32 s/pert | 39 GiB
+[19:04:45] D: 26/300 perts | filas 10,400 | nnz 59,106,274 | 0.28 s/pert | 39 GiB
+[19:04:52] D: 51/300 perts | filas 20,400 | nnz 115,604,122 | 0.28 s/pert | 39 GiB
+[19:04:59] D: 76/300 perts | filas 30,400 | nnz 172,228,734 | 0.28 s/pert | 38 GiB
+[19:05:06] D: 101/300 perts | filas 40,400 | nnz 228,900,849 | 0.28 s/pert | 38 GiB
+[19:05:13] D: 126/300 perts | filas 50,400 | nnz 285,690,863 | 0.28 s/pert | 37 GiB
+[19:05:20] D: 151/300 perts | filas 60,400 | nnz 342,519,837 | 0.28 s/pert | 37 GiB
+[19:05:27] D: 176/300 perts | filas 70,400 | nnz 399,205,104 | 0.28 s/pert | 37 GiB
+[19:05:33] D: 201/300 perts | filas 80,400 | nnz 455,761,811 | 0.28 s/pert | 36 GiB
+[19:05:40] D: 226/300 perts | filas 90,400 | nnz 512,284,335 | 0.28 s/pert | 36 GiB
+[19:05:47] D: 251/300 perts | filas 100,400 | nnz 568,912,624 | 0.28 s/pert | 35 GiB
+[19:05:54] D: 276/300 perts | filas 110,400 | nnz 625,388,323 | 0.28 s/pert | 35 GiB
+[19:06:01] D: 300/300 perts | filas 120,000 | nnz 679,708,021 | 0.28 s/pert | 34 GiB
+[19:06:01] D COMPLETO en 1.6 min
+[19:06:15] E: rasgos y prediccion listos en 13s | y sd 0.0519 p1 -0.037 p99 +0.158 | recortados 0
+[19:06:15] E: 1/300 perts | filas 120,400 | nnz 681,875,744 | 0.28 s/pert | 34 GiB
+[19:06:21] E: 26/300 perts | filas 130,400 | nnz 736,919,228 | 0.26 s/pert | 34 GiB
+[19:06:28] E: 51/300 perts | filas 140,400 | nnz 792,066,783 | 0.27 s/pert | 34 GiB
+[19:06:35] E: 76/300 perts | filas 150,400 | nnz 847,078,776 | 0.27 s/pert | 33 GiB
+[19:06:42] E: 101/300 perts | filas 160,400 | nnz 902,053,763 | 0.27 s/pert | 33 GiB
+[19:06:48] E: 126/300 perts | filas 170,400 | nnz 957,231,698 | 0.27 s/pert | 32 GiB
+[19:06:55] E: 151/300 perts | filas 180,400 | nnz 1,012,344,498 | 0.27 s/pert | 32 GiB
+[19:07:02] E: 176/300 perts | filas 190,400 | nnz 1,067,492,130 | 0.27 s/pert | 32 GiB
+[19:07:08] E: 201/300 perts | filas 200,400 | nnz 1,122,603,944 | 0.27 s/pert | 31 GiB
+[19:07:15] E: 226/300 perts | filas 210,400 | nnz 1,177,788,528 | 0.27 s/pert | 31 GiB
+[19:07:22] E: 251/300 perts | filas 220,400 | nnz 1,232,712,699 | 0.27 s/pert | 30 GiB
+[19:07:28] E: 276/300 perts | filas 230,400 | nnz 1,287,852,430 | 0.27 s/pert | 30 GiB
+[19:07:35] E: 300/300 perts | filas 240,000 | nnz 1,340,462,863 | 0.27 s/pert | 30 GiB
+[19:07:35] E COMPLETO en 1.6 min
+[19:07:48] F: rasgos y prediccion listos en 13s | y sd 0.0533 p1 -0.037 p99 +0.156 | recortados 0
+[19:07:49] F: 1/300 perts | filas 240,400 | nnz 1,342,627,680 | 0.27 s/pert | 29 GiB
+[19:07:55] F: 26/300 perts | filas 250,400 | nnz 1,397,232,175 | 0.27 s/pert | 29 GiB
+[19:08:02] F: 51/300 perts | filas 260,400 | nnz 1,451,821,306 | 0.27 s/pert | 29 GiB
+[19:08:09] F: 76/300 perts | filas 270,400 | nnz 1,506,474,436 | 0.27 s/pert | 28 GiB
+[19:08:15] F: 101/300 perts | filas 280,400 | nnz 1,561,193,227 | 0.27 s/pert | 28 GiB
+[19:08:22] F: 126/300 perts | filas 290,400 | nnz 1,615,805,160 | 0.27 s/pert | 27 GiB
+[19:08:29] F: 151/300 perts | filas 300,400 | nnz 1,670,364,118 | 0.27 s/pert | 27 GiB
+[19:08:36] F: 176/300 perts | filas 310,400 | nnz 1,725,169,304 | 0.27 s/pert | 27 GiB
+[19:08:42] F: 201/300 perts | filas 320,400 | nnz 1,779,991,179 | 0.27 s/pert | 26 GiB
+[19:08:49] F: 226/300 perts | filas 330,400 | nnz 1,834,781,078 | 0.27 s/pert | 26 GiB
+[19:08:56] F: 251/300 perts | filas 340,400 | nnz 1,889,478,525 | 0.27 s/pert | 25 GiB
+[19:09:03] F: 276/300 perts | filas 350,400 | nnz 1,944,075,201 | 0.27 s/pert | 25 GiB
+[19:09:09] F: 300/300 perts | filas 360,000 | nnz 1,996,620,401 | 0.27 s/pert | 25 GiB
+[19:09:09] F COMPLETO en 1.6 min
+[19:09:10] h5ad cerrado: 360,000 filas, 1,996,620,401 nnz, 14.93 GiB
+escrito /home/ubuntu/vcc/modelo/out/entrega.md: 157 lineas
+<<< 2 EMISION (D/E/F -> h5ad)   FIN    : 2026-11-05 19:09:11 UTC
+    duracion       : 288 s  (4 min)
+    estado         : OK
+    h5ad           : 15G
+    /datos libre   : 25 GiB
+
+================================================================
+>>> 3 CONTRATO (comprobacion propia)   INICIO : 2026-11-05 19:09:11 UTC  (/datos 25 GiB)
+[19:09:12] OK  encoding de X: csr_matrix
+[19:09:12] OK  forma: [360000, 18533]
+[19:09:12] OK  var = gene_names.csv, mismo orden elemento a elemento: 18533 nombres, primer desajuste: None
+[19:09:13] OK  filas de obs: [360000, 360000]
+[19:09:13] OK  CERO filas non-targeting: 0
+[19:09:13] OK  blancos = las 300 de pert_counts.csv: 300 distintos
+[19:09:13] OK  1,200 filas por blanco (400 x 3): min 1200 max 1200
+[19:09:13] OK  simbolos, no identificadores de constructo: ninguno con sufijo -N
+[19:09:13] OK  contextos: {'D': 120000, 'E': 120000, 'F': 120000}
+[19:09:13] OK  120,000 filas por contexto: [120000, 120000, 120000]
+[19:09:13] OK  nnz <= 4,750,000,000: 1,996,620,401
+[19:09:13] OK  indptr consistente: [0, 1996620401, 360001]
+[19:09:30] OK  X entera: 0 valores no enteros
+[19:09:30] OK  X no negativa: min 1.0
+[19:09:30] OK  X finita: 0 no finitos
+[19:09:30] OK  indices dentro de rango: [0, 18532]
+[19:09:30] OK  ninguna celula suma > 1,000,000: maxima 53,536
+[19:09:30] CONTRATO: 17/17 comprobaciones OK | nnz 1,996,620,401 (margen x2.379) | 14.934 GiB
+escrito /home/ubuntu/vcc/modelo/out/entrega.md: 183 lineas
+<<< 3 CONTRATO (comprobacion propia)   FIN    : 2026-11-05 19:09:32 UTC
+    duracion       : 19 s  (0 min)
+    estado         : OK
+    h5ad           : 15G
+    /datos libre   : 25 GiB
+
+================================================================
+>>> 4 PREP --dry-run   INICIO : 2026-11-05 19:09:32 UTC  (/datos 25 GiB)
+✓ dry run — no .vcc written
+  input:         /datos/modelo/out/entrega/prediction.h5ad
+  output:        (dry run)
+  cells:         360000
+  genes:         18533  (encoding: float32)
+  perturbations: column 'target_gene' → 'target_gene'
+  contexts:      column 'context' → D=120000, E=120000, F=120000
+  targets:       verified against the official list
+  normalization: counts-preserved
+escrito /home/ubuntu/vcc/modelo/out/entrega.md: 198 lineas
+<<< 4 PREP --dry-run   FIN    : 2026-11-05 19:10:18 UTC
+    duracion       : 44 s  (0 min)
+    estado         : OK
+    h5ad           : 15G
+    /datos libre   : 25 GiB
+
+================================================================
+>>> 5 PREP (escribe el .vcc)   INICIO : 2026-11-05 19:10:18 UTC  (/datos 25 GiB)
+✓ prep complete
+  input:         /datos/modelo/out/entrega/prediction.h5ad
+  output:        /datos/modelo/out/entrega/prediction.vcc
+  cells:         360000
+  genes:         18533  (encoding: float32)
+  perturbations: column 'target_gene' → 'target_gene'
+  contexts:      column 'context' → D=120000, E=120000, F=120000
+  targets:       verified against the official list
+  normalization: counts-preserved
+escrito /home/ubuntu/vcc/modelo/out/entrega.md: 213 lineas
+<<< 5 PREP (escribe el .vcc)   FIN    : 2026-11-05 19:12:08 UTC
+    duracion       : 108 s  (1 min)
+    estado         : OK
+    h5ad           : 15G
+    vcc            : 3.0G
+    /datos libre   : 22 GiB
+
+================================================================
+RESUMEN
+  fin           : 2026-11-05 19:12:08 UTC
+  duracion total: 511 s  (8 min)
+  OK            : 1 AJUSTE (la funcion en VCC 2025) 2 EMISION (D/E/F -> h5ad) 3 CONTRATO (comprobacion propia) 4 PREP --dry-run 5 PREP (escribe el .vcc)
+  FALLARON      : (ninguno)
+  SIN EMPEZAR   : (ninguno)
+  h5ad: /datos/modelo/out/entrega/prediction.h5ad  (16035651360 bytes)
+  🔴 ENTREGABLE LISTO (NO ENVIADO): /datos/modelo/out/entrega/prediction.vcc  (3186462720 bytes)
+  /datos libre  : 22 GiB
+================================================================

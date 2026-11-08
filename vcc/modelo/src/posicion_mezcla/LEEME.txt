@@ -1,0 +1,23 @@
+PASO 3c -- PARTE C (el Venn literal de los ED entre contextos). INCOMPLETO:
+faltan la PARTE A, la PARTE B y el reporte `modelo/out/posicion_mezcla.md`.
+
+Interprete: /home/ubuntu/mf/envs/vcc/bin/python -I
+
+Hecho:
+  pc_semillas.py  familia nueva 20279000 + 100*fold + j (j = indice de pert,
+                  0..32) -> 198 semillas, sin choque -> semillas.json
+  pc_de.py        recomputa las tablas DE REALES con la puerta vcc2026 para tener
+                  `p` por gen (el cache ed_real.json no la trae) ->
+                  /datos/.../de_<linea>.parquet + de_meta.json
+                  VERIFICADO: huella sha256 igual al cache en 6/6 lineas y
+                  conjunto ED identico en 33/33 perts en las seis.
+  pc_venn.py      Venn, multiplicidad, barrido del corte de frecuencia y el
+                  techo (cota inferior) en las dos versiones (a) crudo y
+                  (b) igualado en potencia -> venn.json
+
+Las cuatro correcciones del encargo estan aplicadas y declaradas en el docstring
+de pc_venn.py: (1) el techo se MIDE barriendo el corte, no es la interseccion;
+(2) las dos versiones (a)/(b) y su diferencia; (3) es una cota DE JIANG, no se
+extrapola a D/E/F; (4) rangos por linea y por perturbacion, nunca medias sueltas.
+
+TRANSDUCTIVO: lee el lado real perturbado. Estante del `b`.

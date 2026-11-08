@@ -1,0 +1,177 @@
+{
+ "archivo": "/datos/modelo/out/entrega/prediction_k3.4.h5ad",
+ "tam_bytes": 15884656416,
+ "tam_GiB": 14.794,
+ "comprobaciones": [
+  {
+   "#": 1,
+   "que": "encoding de X",
+   "medido": "csr_matrix",
+   "esperado": "csr_matrix",
+   "ok": true
+  },
+  {
+   "#": 2,
+   "que": "forma",
+   "medido": [
+    360000,
+    18533
+   ],
+   "esperado": [
+    360000,
+    18533
+   ],
+   "ok": true
+  },
+  {
+   "#": 3,
+   "que": "var = gene_names.csv, mismo orden elemento a elemento",
+   "medido": "18533 nombres, primer desajuste: None",
+   "esperado": "18533, None",
+   "ok": true
+  },
+  {
+   "#": 4,
+   "que": "filas de obs",
+   "medido": [
+    360000,
+    360000
+   ],
+   "esperado": [
+    360000,
+    360000
+   ],
+   "ok": true
+  },
+  {
+   "#": 5,
+   "que": "CERO filas non-targeting",
+   "medido": 0,
+   "esperado": 0,
+   "ok": true
+  },
+  {
+   "#": 6,
+   "que": "blancos = las 300 de pert_counts.csv",
+   "medido": "300 distintos",
+   "esperado": "300",
+   "ok": true
+  },
+  {
+   "#": 7,
+   "que": "1,200 filas por blanco (400 x 3)",
+   "medido": "min 1200 max 1200",
+   "esperado": 1200,
+   "ok": true
+  },
+  {
+   "#": 8,
+   "que": "simbolos, no identificadores de constructo",
+   "medido": "ninguno con sufijo -N",
+   "esperado": "ninguno",
+   "ok": true
+  },
+  {
+   "#": 9,
+   "que": "contextos",
+   "medido": {
+    "D": 120000,
+    "E": 120000,
+    "F": 120000
+   },
+   "esperado": {
+    "D": 120000,
+    "E": 120000,
+    "F": 120000
+   },
+   "ok": true
+  },
+  {
+   "#": 10,
+   "que": "120,000 filas por contexto",
+   "medido": [
+    120000,
+    120000,
+    120000
+   ],
+   "esperado": [
+    120000,
+    120000,
+    120000
+   ],
+   "ok": true
+  },
+  {
+   "#": 11,
+   "que": "nnz <= 4,750,000,000",
+   "medido": "1,979,711,452",
+   "esperado": "<= 4,750,000,000",
+   "ok": true
+  },
+  {
+   "#": 12,
+   "que": "indptr consistente",
+   "medido": [
+    0,
+    1979711452,
+    360001
+   ],
+   "esperado": [
+    0,
+    1979711452,
+    360001
+   ],
+   "ok": true
+  },
+  {
+   "#": 13,
+   "que": "X entera",
+   "medido": "0 valores no enteros",
+   "esperado": 0,
+   "ok": true
+  },
+  {
+   "#": 14,
+   "que": "X no negativa",
+   "medido": "min 1.0",
+   "esperado": ">= 0",
+   "ok": true
+  },
+  {
+   "#": 15,
+   "que": "X finita",
+   "medido": "0 no finitos",
+   "esperado": 0,
+   "ok": true
+  },
+  {
+   "#": 16,
+   "que": "indices dentro de rango",
+   "medido": [
+    0,
+    18532
+   ],
+   "esperado": [
+    0,
+    18532
+   ],
+   "ok": true
+  },
+  {
+   "#": 17,
+   "que": "ninguna celula suma > 1,000,000",
+   "medido": "maxima 52,861",
+   "esperado": "<= 1,000,000",
+   "ok": true
+  }
+ ],
+ "nnz": 1979711452,
+ "margen_nnz": 2.399,
+ "densidad": 0.29672,
+ "nnz_por_celula": 5499.2,
+ "max_valor": 4121.0,
+ "suma_mediana_aprox": 20379.9,
+ "todas_ok": true,
+ "n_ok": 17,
+ "n_total": 17
+}

@@ -1,0 +1,71 @@
+panel comun: 33 perturbaciones
+leyendo obs global de IFNB...
+n_obs=328542 n_genes=34025
+
+=== 1/6: A549 ===
+/home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+/home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+  [A549] cell-eval2 run... OK 61s
+  [A549] cell-eval2 score --real-bundle... OK 3s
+  [A549] columnas de scored.csv: ['from_baseline', 'from_replicate', 'anchor_source', 'anchor_digest', 'real_bundle_id', 'real_bundle_digest']
+  [A549] avg_score: {'from_baseline': None, 'from_replicate': -0.15013599303799566, 'anchor_source': 'real_bundle', 'anchor_digest': 'b3ba695211d5a87db5a43ab1d5819ceae9134e494ffe5c061b7884cfa58ccc52', 'real_bundle_id': 'BUNDLE_A549', 'real_bundle_digest': '4ac661f9ec2868d3b37c721989c0d5b4be45e535f1601752da34c90d9bd59b97'}
+  [A549] config_hash de competencia: True
+
+=== 2/6: BXPC3 ===
+/home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+/home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+  [BXPC3] cell-eval2 run... OK 81s
+  [BXPC3] cell-eval2 score --real-bundle... OK 3s
+  [BXPC3] columnas de scored.csv: ['from_baseline', 'from_replicate', 'anchor_source', 'anchor_digest', 'real_bundle_id', 'real_bundle_digest']
+  [BXPC3] avg_score: {'from_baseline': None, 'from_replicate': -0.16884367934171937, 'anchor_source': 'real_bundle', 'anchor_digest': '95391b425f312b9b6d03dca1d1a55ff8625c30a350a50ea91b84fdd17dc9bd5c', 'real_bundle_id': 'BUNDLE_BXPC3', 'real_bundle_digest': '642f423d5527660953611c77483f3b2ad2a319178aa0215d14ecfbcdd9eb3b7e'}
+  [BXPC3] config_hash de competencia: True
+
+=== 3/6: HAP1 ===
+/home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+/home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+  [HAP1] cell-eval2 run... OK 84s
+  [HAP1] cell-eval2 score --real-bundle... OK 3s
+  [HAP1] columnas de scored.csv: ['from_baseline', 'from_replicate', 'anchor_source', 'anchor_digest', 'real_bundle_id', 'real_bundle_digest']
+  [HAP1] avg_score: {'from_baseline': None, 'from_replicate': -0.0715621124562219, 'anchor_source': 'real_bundle', 'anchor_digest': '836b6f2fb6cb9b4bc73eb62061ec3db0b7c4557a732a586982c899ff6490d43f', 'real_bundle_id': 'BUNDLE_HAP1', 'real_bundle_digest': 'dad1d25707b1f2f1b701636d30f70b13a7d419603f4af0f87508c88829a0f30a'}
+  [HAP1] config_hash de competencia: True
+
+=== 4/6: HT29 ===
+/home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+/home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+  [HT29] cell-eval2 run... OK 74s
+  [HT29] cell-eval2 score --real-bundle... OK 3s
+  [HT29] columnas de scored.csv: ['from_baseline', 'from_replicate', 'anchor_source', 'anchor_digest', 'real_bundle_id', 'real_bundle_digest']
+  [HT29] avg_score: {'from_baseline': None, 'from_replicate': -0.12054671960315695, 'anchor_source': 'real_bundle', 'anchor_digest': '5f02c9373faf995332c06656eae0fd9aa067b725fb5022128f2626323a167ee1', 'real_bundle_id': 'BUNDLE_HT29', 'real_bundle_digest': 'e4ddc02de2f84d32b60b3ecb2cdc634941e70a96e9f2b46e35c4134b81d8bd30'}
+  [HT29] config_hash de competencia: True
+
+=== 5/6: K562 ===
+/home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+/home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+  [K562] cell-eval2 run... OK 64s
+  [K562] cell-eval2 score --real-bundle... OK 3s
+  [K562] columnas de scored.csv: ['from_baseline', 'from_replicate', 'anchor_source', 'anchor_digest', 'real_bundle_id', 'real_bundle_digest']
+  [K562] avg_score: {'from_baseline': None, 'from_replicate': -0.19788062206074628, 'anchor_source': 'real_bundle', 'anchor_digest': 'bdb5448803c232ef05e26f8fd30c76c0e9c0d4ad9181af32e4cd2f9c7676e07f', 'real_bundle_id': 'BUNDLE_K562', 'real_bundle_digest': '54859d4ba8f58038cc730391881acb428effde67c9edf35cc79b0cf2447f3713'}
+  [K562] config_hash de competencia: True
+
+=== 6/6: MCF7 ===
+/home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+/home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+  [MCF7] cell-eval2 run... OK 82s
+  [MCF7] cell-eval2 score --real-bundle... OK 3s
+  [MCF7] columnas de scored.csv: ['from_baseline', 'from_replicate', 'anchor_source', 'anchor_digest', 'real_bundle_id', 'real_bundle_digest']
+  [MCF7] avg_score: {'from_baseline': None, 'from_replicate': -0.17013109172294527, 'anchor_source': 'real_bundle', 'anchor_digest': 'ec71abf164e77242745d73eb3be1c211bfbda2555cf838ab90763906eda273ad', 'real_bundle_id': 'BUNDLE_MCF7', 'real_bundle_digest': '94de5efc1f70b2f55add39958acc294720a40982193944ee3f695cbe5fb828b1'}
+  [MCF7] config_hash de competencia: True
+
+listo: /home/ubuntu/vcc/modelo/out/cable_suelo.json

@@ -1,0 +1,109 @@
+================================================================
+MAPA DE SENSIBILIDAD DE LA ENTREGA   (plan: medio)
+  arranque      : 2026-11-05 18:42:27 UTC
+  compuerta     : 2026-11-06 11:30:00 UTC
+  pasos         : 10
+  /datos libre  : 36 GiB   (aborta por debajo de 12)
+  celdas ya en disco: 1
+  salida        : /home/ubuntu/vcc/modelo/out/sensibilidad_entrega.md (+ .json)
+================================================================
+
+================================================================
+>>> A de   INICIO : 2026-11-05 18:42:27 UTC   (/datos 36 GiB)
+    /home/ubuntu/mf/envs/vcc/bin/python /home/ubuntu/vcc/modelo/src/sensib/a_bio.py de
+/home/ubuntu/mf/envs/vcc/lib/python3.11/functools.py:909: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+/home/ubuntu/mf/envs/vcc/lib/python3.11/functools.py:909: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+Traceback (most recent call last):
+  File "/home/ubuntu/vcc/modelo/src/sensib/a_bio.py", line 384, in <module>
+    main()
+  File "/home/ubuntu/vcc/modelo/src/sensib/a_bio.py", line 366, in main
+    de_jiang(res)
+  File "/home/ubuntu/vcc/modelo/src/sensib/a_bio.py", line 148, in de_jiang
+    tab, tcol, T = puerta_tab(X, lab, var_names)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/vcc/modelo/src/sensib/a_bio.py", line 80, in puerta_tab
+    from puerta import CFG
+ModuleNotFoundError: No module named 'puerta'
+escrito /home/ubuntu/vcc/modelo/out/sensibilidad_entrega.md: 157 lineas; 1 celdas
+<<< A de   FIN    : 2026-11-05 18:42:33 UTC
+    duracion       : 5 s  (0 min)
+    estado         : FALLO exit=1 <-- traza arriba
+    celdas en disco: 1
+    reporte        : exit=0  157 lineas
+    /datos libre   : 36 GiB
+
+================================================================
+>>> A reparto   INICIO : 2026-11-05 18:42:33 UTC   (/datos 36 GiB)
+    /home/ubuntu/mf/envs/vcc/bin/python /home/ubuntu/vcc/modelo/src/sensib/a_bio.py reparto
+[18:42:35] A2b A549: frac comun anclada +0.1046 rango [-0.041740846624084144, 0.13224667129374126]
+[18:42:37] A2b BXPC3: frac comun anclada +0.1973 rango [0.18619050062560022, 0.20911981261449544]
+[18:42:38] A2b HAP1: frac comun anclada +0.1053 rango [0.09804899115519512, 0.11208736210404895]
+[18:42:40] A2b HT29: frac comun anclada +0.1505 rango [0.13998472109171647, 0.1684717911941817]
+[18:42:42] A2b K562: frac comun anclada +0.1328 rango [0.053668051758253045, 0.14240005733208239]
+[18:42:43] A2b MCF7: frac comun anclada +0.3735 rango [0.36873596621549665, 0.3830946856936829]
+/home/ubuntu/mf/envs/vcc/lib/python3.11/functools.py:909: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+[18:42:58] A2b 2025 j=0: obs +0.0515 control +0.0094 anclada +0.0424
+/home/ubuntu/mf/envs/vcc/lib/python3.11/functools.py:909: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+[18:43:01] A2b 2025 j=1: obs +0.0512 control +0.0095 anclada +0.0421
+/home/ubuntu/mf/envs/vcc/lib/python3.11/functools.py:909: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+[18:43:04] A2b 2025 j=2: obs +0.0516 control +0.0095 anclada +0.0425
+/home/ubuntu/mf/envs/vcc/lib/python3.11/functools.py:909: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+[18:43:07] A2b 2025 j=3: obs +0.0515 control +0.0095 anclada +0.0424
+escrito /home/ubuntu/vcc/modelo/out/sensibilidad_entrega.md: 157 lineas; 1 celdas
+<<< A reparto   FIN    : 2026-11-05 18:43:09 UTC
+    duracion       : 35 s  (0 min)
+    estado         : OK
+    celdas en disco: 1
+    reporte        : exit=0  157 lineas
+    /datos libre   : 36 GiB
+
+================================================================
+>>> A resumen   INICIO : 2026-11-05 18:43:09 UTC   (/datos 36 GiB)
+    /home/ubuntu/mf/envs/vcc/bin/python /home/ubuntu/vcc/modelo/src/sensib/a_bio.py resumen
+Traceback (most recent call last):
+  File "/home/ubuntu/vcc/modelo/src/sensib/a_bio.py", line 384, in <module>
+    main()
+  File "/home/ubuntu/vcc/modelo/src/sensib/a_bio.py", line 380, in main
+    resumen()
+  File "/home/ubuntu/vcc/modelo/src/sensib/a_bio.py", line 308, in resumen
+    de = json.load(open(OUT_DE))
+                   ^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/datos/modelo/out/sensib/a_de.json'
+escrito /home/ubuntu/vcc/modelo/out/sensibilidad_entrega.md: 157 lineas; 1 celdas
+<<< A resumen   FIN    : 2026-11-05 18:43:11 UTC
+    duracion       : 0 s  (0 min)
+    estado         : FALLO exit=1 <-- traza arriba
+    celdas en disco: 1
+    reporte        : exit=0  157 lineas
+    /datos libre   : 36 GiB
+
+================================================================
+>>> C D   INICIO : 2026-11-05 18:43:11 UTC   (/datos 36 GiB)
+    /home/ubuntu/mf/envs/vcc/bin/python /home/ubuntu/vcc/modelo/src/sensib/c_union.py D
+Traceback (most recent call last):
+  File "/home/ubuntu/vcc/modelo/src/sensib/c_union.py", line 56, in <module>
+    main()
+  File "/home/ubuntu/vcc/modelo/src/sensib/c_union.py", line 38, in main
+    pts = json.load(open(RES))["puntos_C"]
+                    ^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/datos/modelo/out/sensib/a_resumen.json'
+escrito /home/ubuntu/vcc/modelo/out/sensibilidad_entrega.md: 157 lineas; 1 celdas
+<<< C D   FIN    : 2026-11-05 18:43:13 UTC
+    duracion       : 1 s  (0 min)
+    estado         : FALLO exit=1 <-- traza arriba
+    celdas en disco: 1
+    reporte        : exit=0  157 lineas
+    /datos libre   : 36 GiB
+
+================================================================
+>>> B cruz D   INICIO : 2026-11-05 18:43:13 UTC   (/datos 36 GiB)
+    /home/ubuntu/mf/envs/vcc/bin/python /home/ubuntu/vcc/modelo/src/sensib/b_sens.py D cruz
+[18:43:14] BRAZO B D: 7 celdas [3, 7, 8, 9, 11, 15, 21]
+/home/ubuntu/mf/envs/vcc/lib/python3.11/functools.py:909: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)

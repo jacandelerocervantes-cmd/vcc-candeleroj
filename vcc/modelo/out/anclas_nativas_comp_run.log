@@ -1,0 +1,65 @@
+panel comun: 33 perturbaciones
+leyendo obs global de IFNB...
+n_obs=328542 n_genes=34025
+
+=== 1/6: A549 (seed_real=20260001, control='non-targeting') ===
+/home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+/home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+  [A549] cell-eval2 baseline (control del preset)... OK 63s
+  [A549] cell-eval2 prep-real-bundle (k=5)... OK 237s
+  [A549] bundle competencia -- 301s
+  [A549] guarda: wrote competition bundle 'BUNDLE_A549' to /datos/modelo/out/nativas_comp/BUNDLE_A549
+
+=== 2/6: BXPC3 (seed_real=20260002, control='non-targeting') ===
+/home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+/home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+  [BXPC3] cell-eval2 baseline (control del preset)... OK 85s
+  [BXPC3] cell-eval2 prep-real-bundle (k=5)... OK 362s
+  [BXPC3] bundle competencia -- 449s
+  [BXPC3] guarda: wrote competition bundle 'BUNDLE_BXPC3' to /datos/modelo/out/nativas_comp/BUNDLE_BXPC3
+
+=== 3/6: HAP1 (seed_real=20260003, control='non-targeting') ===
+/home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+/home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+  [HAP1] cell-eval2 baseline (control del preset)... OK 88s
+  [HAP1] cell-eval2 prep-real-bundle (k=5)... OK 381s
+  [HAP1] bundle competencia -- 472s
+  [HAP1] guarda: wrote competition bundle 'BUNDLE_HAP1' to /datos/modelo/out/nativas_comp/BUNDLE_HAP1
+
+=== 4/6: HT29 (seed_real=20260004, control='non-targeting') ===
+/home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+/home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+  [HT29] cell-eval2 baseline (control del preset)... OK 77s
+  [HT29] cell-eval2 prep-real-bundle (k=5)... OK 324s
+  [HT29] bundle competencia -- 404s
+  [HT29] guarda: wrote competition bundle 'BUNDLE_HT29' to /datos/modelo/out/nativas_comp/BUNDLE_HT29
+
+=== 5/6: K562 (seed_real=20260005, control='non-targeting') ===
+/home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+/home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+  [K562] cell-eval2 baseline (control del preset)... OK 66s
+  [K562] cell-eval2 prep-real-bundle (k=5)... OK 258s
+  [K562] bundle competencia -- 325s
+  [K562] guarda: wrote competition bundle 'BUNDLE_K562' to /datos/modelo/out/nativas_comp/BUNDLE_K562
+
+=== 6/6: MCF7 (seed_real=20260006, control='non-targeting') ===
+/home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+/home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+  [MCF7] cell-eval2 baseline (control del preset)... OK 85s
+  [MCF7] cell-eval2 prep-real-bundle (k=5)... OK 367s
+  [MCF7] bundle competencia -- 455s
+  [MCF7] guarda: wrote competition bundle 'BUNDLE_MCF7' to /datos/modelo/out/nativas_comp/BUNDLE_MCF7
+
+listo: /home/ubuntu/vcc/modelo/out/anclas_nativas_comp.json

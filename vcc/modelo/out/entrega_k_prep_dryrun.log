@@ -1,0 +1,9 @@
+✓ dry run — no .vcc written
+  input:         /datos/modelo/out/entrega/prediction_k3.4.h5ad
+  output:        (dry run)
+  cells:         360000
+  genes:         18533  (encoding: float32)
+  perturbations: column 'target_gene' → 'target_gene'
+  contexts:      column 'context' → D=120000, E=120000, F=120000
+  targets:       verified against the official list
+  normalization: counts-preserved

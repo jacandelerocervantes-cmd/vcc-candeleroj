@@ -1,0 +1,22 @@
+cubiertos 27/33 ; no cubiertos 6 ; multi-construccion 2
+  no cubiertos: DTX3L, H1F0, HERC5, HERC6, MAP3K14, ZBP1
+  ID2: [np.str_('P2'), np.str_('P1')]
+  RAP1GAP: [np.str_('P2'), np.str_('P1')]
+controles gwps: 514 filas core_control ; perturbadas: 10744
+A549   genes comunes 4825 de 7169
+/home/ubuntu/vcc/modelo/src/gwps_jiang_datos.py:264: RuntimeWarning: Mean of empty slice
+  "nulo_media": float(np.nanmean(nulo)),
+/home/ubuntu/celleval2_venv/lib/python3.12/site-packages/numpy/lib/_nanfunctions_impl.py:1997: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+  A549   sin_gb: G_mismo media +0.0303 ; G_otro media -0.0020
+BXPC3  genes comunes 5213 de 7673
+  BXPC3  sin_gb: G_mismo media +0.0022 ; G_otro media +0.0006
+HAP1   genes comunes 5776 de 8045
+  HAP1   sin_gb: G_mismo media +0.0108 ; G_otro media -0.0043
+HT29   genes comunes 5186 de 7224
+  HT29   sin_gb: G_mismo media -0.0041 ; G_otro media -0.0022
+K562   genes comunes 5844 de 7616
+  K562   sin_gb: G_mismo media +0.0200 ; G_otro media -0.0007
+MCF7   genes comunes 5266 de 7444
+  MCF7   sin_gb: G_mismo media +0.0017 ; G_otro media -0.0013
+escrito /home/ubuntu/vcc/modelo/out/gwps_jiang_datos.json

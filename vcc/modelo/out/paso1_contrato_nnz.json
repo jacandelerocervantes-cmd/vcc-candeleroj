@@ -1,0 +1,15 @@
+{
+  "n_rows_total": 360000,
+  "n_genes": 18533,
+  "predicted_nnz_by_context": {
+    "A": 717022642,
+    "B": 661574281,
+    "C": 705732356
+  },
+  "total_predicted_nnz": 2084329279,
+  "cap_nnz": 4750000000,
+  "fits_under_cap": true,
+  "per_cell_avg_predicted": 5789.803552777777,
+  "per_cell_budget_from_cap": 13194.444444444445,
+  "margin_factor": 2.278910557874479
+}

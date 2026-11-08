@@ -1,0 +1,19 @@
+Scripts del encargo `ntc_nulo` (el nulo de ntc_id en contexto).
+Interprete: /home/ubuntu/mf/envs/vcc/bin/python -I   (el del marcador; backend pdex)
+
+Orden de ejecucion:
+  p0.py          PARTE 0a y 0c -> out/ntc_nulo/p0.json
+  p0b_fix.py     PARTE 0b corregida (gene_names.csv trae cabecera) -> p0b.json
+  verif_puerta.py  verifica que `puerta.py` CORRE la puerta del preset -> verif_puerta.log
+  p1.py          PARTE 1, 144 corridas -> p1.json + crudo_*.npz   (~50 min)
+  p2ab.py        PARTE 2a y 2b, lee los .npz de p1 -> p2ab.json
+  p2c.py         PARTE 2c -> p2c.json                              (~12 min)
+  p3.py          PARTE 3 -> p3.json
+  rep_all.py     ensambla modelo/out/ntc_nulo.md de las 7 secciones
+
+puerta.py es el modulo comun: lee CADA parametro de
+EvalConfig.from_preset("vcc2026") y corre compute_de + prep_de_side de
+cell_eval2. Ninguna constante numerica de la puerta esta escrita a mano.
+
+Los rep_*.py se usan como modulos desde rep_all.py; su bloque __main__ escribe
+un .txt de prueba en el scratchpad de la sesion y no es parte del flujo.

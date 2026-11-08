@@ -1,0 +1,20 @@
+PASO 2 -- la descomposicion de la magnitud entre contextos (`magnitud_centro.md`).
+Interprete: /home/ubuntu/mf/envs/vcc/bin/python -I
+
+Orden de ejecucion:
+  mc_semillas.py  comprueba EN CODIGO que la familia nueva (20278000+100*fold+j,
+                  mas 20278800 del bootstrap y 20278900+k de la permutacion) no
+                  choca con ninguna ya usada -> semillas.json
+  mc_deltas.py    los deltas por (linea, particion, blanco, mitad), con el
+                  control PARTIDO -> /datos/.../deltas_<linea>.npz + deltas_meta.json
+  mc_calc.py      fiabilidad, G_mismo/G_otro, desatenuadas, fraccion centro con
+                  bootstrap, signo y magnitud -> calc.json          (~6 min)
+  mc_ctrl.py      control negativo de la fraccion centro por permutacion de
+                  blancos sin punto fijo -> ctrl.json               (~8 min)
+  mc_signo.py     de donde sale la concordancia de signo -> signo.json
+  mc_zeros.py     si el bloque de ceros contamina el Pearson -> zeros.json
+  mcrep_all.py    ensambla modelo/out/magnitud_centro.md
+
+NO pasa por la puerta de DE en ningun paso: no hay Wilcoxon, ni BH, ni p_adj.
+El espacio es bulk_lognorm con bulk_target_sum=50000.0 y los 33 genes del panel
+fuera; si cambia, el reparto cambia.

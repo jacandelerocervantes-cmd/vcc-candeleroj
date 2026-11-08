@@ -1,0 +1,708 @@
+{
+  "a_validez_datos": {
+    "archivos": [
+      {
+        "archivo": "context_A.h5ad",
+        "bytes": 224973316,
+        "particion": "val",
+        "sha256": "f22e71968487d3da9402769dcd0c73a47851fad4cd7dd25510283c923031fe3e"
+      },
+      {
+        "archivo": "context_B.h5ad",
+        "bytes": 210966111,
+        "particion": "val",
+        "sha256": "41557555b3febf6db19fd930b4dd7db88941840077bf985d14dfff959c782380"
+      },
+      {
+        "archivo": "context_C.h5ad",
+        "bytes": 226056691,
+        "particion": "val",
+        "sha256": "e090e7c7cfdd0006f689214ba38ba0cd2669578e89c9bc325b65f0bd940c02e0"
+      },
+      {
+        "archivo": "gene_names.csv",
+        "bytes": 119295,
+        "particion": "val",
+        "sha256": "25bfa66715e186bebabce7ac788bbcea47e2bf59ca70be1f8f3a06f2f0e47201"
+      },
+      {
+        "archivo": "manifest.json",
+        "bytes": 715,
+        "particion": "val",
+        "sha256": "2c2b5d425df817ca35e9edf08282d12494ce42913ba824375bf0f98a1cc676f5"
+      },
+      {
+        "archivo": "pert_counts.csv",
+        "bytes": 1906,
+        "particion": "val",
+        "sha256": "f57edd7b912ebd718efc7ee9d0f334772513e7cc418d133ce525470e373b3276"
+      },
+      {
+        "archivo": "vcc_2026_controls.zip",
+        "bytes": 662118680,
+        "particion": "val",
+        "sha256": "329a22bc29cac4f43ad0b846b9bb1a383f7a945c83a8cb0450c465f6dc5cc4b5"
+      },
+      {
+        "archivo": "context_D.h5ad",
+        "bytes": 217126334,
+        "particion": "final",
+        "sha256": "97dfff32570748677fef6ee732955f71af5e7596a3747a11aac36903206a0d13"
+      },
+      {
+        "archivo": "context_E.h5ad",
+        "bytes": 213808470,
+        "particion": "final",
+        "sha256": "1942a0b6e00331da4503a9f67101a002564675bc775c2b8534a9628941436e93"
+      },
+      {
+        "archivo": "context_F.h5ad",
+        "bytes": 212299193,
+        "particion": "final",
+        "sha256": "5d835a036045fdf3849b5c3f8633282498aba75038ef77c999e596815a2ee38c"
+      },
+      {
+        "archivo": "gene_names.csv",
+        "bytes": 119295,
+        "particion": "final",
+        "sha256": "25bfa66715e186bebabce7ac788bbcea47e2bf59ca70be1f8f3a06f2f0e47201"
+      },
+      {
+        "archivo": "manifest.json",
+        "bytes": 717,
+        "particion": "final",
+        "sha256": "7fd5a2ea490c40b6d156dd189db2c8cbddedabab13dec1c27b69089a04b34e28"
+      },
+      {
+        "archivo": "pert_counts.csv",
+        "bytes": 1913,
+        "particion": "final",
+        "sha256": "6a472047d58ddb2a59b2345f962dabaf4120276c381a5e97ec19ea03f640b118"
+      },
+      {
+        "archivo": "vcc_2026_controls_final.zip",
+        "bytes": 643356568,
+        "particion": "final",
+        "sha256": "d625f47f56a6b582d009f88ed5ca9473de0a19260c36cdf0a71c6bb67a59b2e9"
+      }
+    ],
+    "contextos": [
+      {
+        "archivo": "context_A.h5ad",
+        "context_categorias": [
+          "A"
+        ],
+        "contexto": "A",
+        "n_celulas": 18400,
+        "n_genes": 18533,
+        "nnz_consistente_con_indptr": true,
+        "nnz_total": 109910478,
+        "ntc_id_celulas_max": 400,
+        "ntc_id_celulas_min": 400,
+        "ntc_id_n_categorias": 46,
+        "ntc_id_suma": 18400,
+        "ntc_id_todas_400": true,
+        "particion": "val",
+        "primer_gen": "TSPAN6",
+        "shape": [
+          18400,
+          18533
+        ],
+        "target_gene_categorias": [
+          "non-targeting"
+        ],
+        "ultimo_gen": "PRH1"
+      },
+      {
+        "archivo": "context_B.h5ad",
+        "context_categorias": [
+          "B"
+        ],
+        "contexto": "B",
+        "n_celulas": 18400,
+        "n_genes": 18533,
+        "nnz_consistente_con_indptr": true,
+        "nnz_total": 101546777,
+        "ntc_id_celulas_max": 400,
+        "ntc_id_celulas_min": 400,
+        "ntc_id_n_categorias": 46,
+        "ntc_id_suma": 18400,
+        "ntc_id_todas_400": true,
+        "particion": "val",
+        "primer_gen": "TSPAN6",
+        "shape": [
+          18400,
+          18533
+        ],
+        "target_gene_categorias": [
+          "non-targeting"
+        ],
+        "ultimo_gen": "PRH1"
+      },
+      {
+        "archivo": "context_C.h5ad",
+        "context_categorias": [
+          "C"
+        ],
+        "contexto": "C",
+        "n_celulas": 18400,
+        "n_genes": 18533,
+        "nnz_consistente_con_indptr": true,
+        "nnz_total": 108213983,
+        "ntc_id_celulas_max": 400,
+        "ntc_id_celulas_min": 400,
+        "ntc_id_n_categorias": 46,
+        "ntc_id_suma": 18400,
+        "ntc_id_todas_400": true,
+        "particion": "val",
+        "primer_gen": "TSPAN6",
+        "shape": [
+          18400,
+          18533
+        ],
+        "target_gene_categorias": [
+          "non-targeting"
+        ],
+        "ultimo_gen": "PRH1"
+      },
+      {
+        "archivo": "context_D.h5ad",
+        "context_categorias": [
+          "D"
+        ],
+        "contexto": "D",
+        "n_celulas": 18400,
+        "n_genes": 18533,
+        "nnz_consistente_con_indptr": true,
+        "nnz_total": 104487981,
+        "ntc_id_celulas_max": 400,
+        "ntc_id_celulas_min": 400,
+        "ntc_id_n_categorias": 46,
+        "ntc_id_suma": 18400,
+        "ntc_id_todas_400": true,
+        "particion": "final",
+        "primer_gen": "TSPAN6",
+        "shape": [
+          18400,
+          18533
+        ],
+        "target_gene_categorias": [
+          "non-targeting"
+        ],
+        "ultimo_gen": "PRH1"
+      },
+      {
+        "archivo": "context_E.h5ad",
+        "context_categorias": [
+          "E"
+        ],
+        "contexto": "E",
+        "n_celulas": 18400,
+        "n_genes": 18533,
+        "nnz_consistente_con_indptr": true,
+        "nnz_total": 101608841,
+        "ntc_id_celulas_max": 400,
+        "ntc_id_celulas_min": 400,
+        "ntc_id_n_categorias": 46,
+        "ntc_id_suma": 18400,
+        "ntc_id_todas_400": true,
+        "particion": "final",
+        "primer_gen": "TSPAN6",
+        "shape": [
+          18400,
+          18533
+        ],
+        "target_gene_categorias": [
+          "non-targeting"
+        ],
+        "ultimo_gen": "PRH1"
+      },
+      {
+        "archivo": "context_F.h5ad",
+        "context_categorias": [
+          "F"
+        ],
+        "contexto": "F",
+        "n_celulas": 18400,
+        "n_genes": 18533,
+        "nnz_consistente_con_indptr": true,
+        "nnz_total": 100855632,
+        "ntc_id_celulas_max": 400,
+        "ntc_id_celulas_min": 400,
+        "ntc_id_n_categorias": 46,
+        "ntc_id_suma": 18400,
+        "ntc_id_todas_400": true,
+        "particion": "final",
+        "primer_gen": "TSPAN6",
+        "shape": [
+          18400,
+          18533
+        ],
+        "target_gene_categorias": [
+          "non-targeting"
+        ],
+        "ultimo_gen": "PRH1"
+      }
+    ],
+    "disparadores": [],
+    "manifest": {
+      "final": {
+        "contenido": {
+          "cells_per_pert": 400,
+          "context_col": "context",
+          "contexts": [
+            "D",
+            "E",
+            "F"
+          ],
+          "control_label": "non-targeting",
+          "n_constructs": 300,
+          "n_genes": 18533,
+          "panel_id": "vcc2026-test-1",
+          "partition": "test",
+          "per_context": {
+            "D": {
+              "control_cells": 18400,
+              "ground_truth_cells": 138400,
+              "n_ntc_ids": 46,
+              "n_perturbations": 300
+            },
+            "E": {
+              "control_cells": 18400,
+              "ground_truth_cells": 138400,
+              "n_ntc_ids": 46,
+              "n_perturbations": 300
+            },
+            "F": {
+              "control_cells": 18400,
+              "ground_truth_cells": 138400,
+              "n_ntc_ids": 46,
+              "n_perturbations": 300
+            }
+          },
+          "pert_col": "target_gene",
+          "season": "2026"
+        },
+        "manifest_existe": true,
+        "manifest_path": "/datos/reto/final/manifest.json",
+        "mismo_directorio": true,
+        "pert_counts_existe": true,
+        "pert_counts_path": "/datos/reto/final/pert_counts.csv"
+      },
+      "val": {
+        "contenido": {
+          "cells_per_pert": 400,
+          "context_col": "context",
+          "contexts": [
+            "A",
+            "B",
+            "C"
+          ],
+          "control_label": "non-targeting",
+          "n_constructs": 300,
+          "n_genes": 18533,
+          "panel_id": "vcc2026-val-1",
+          "partition": "val",
+          "per_context": {
+            "A": {
+              "control_cells": 18400,
+              "ground_truth_cells": 138400,
+              "n_ntc_ids": 46,
+              "n_perturbations": 300
+            },
+            "B": {
+              "control_cells": 18400,
+              "ground_truth_cells": 138400,
+              "n_ntc_ids": 46,
+              "n_perturbations": 300
+            },
+            "C": {
+              "control_cells": 18400,
+              "ground_truth_cells": 138400,
+              "n_ntc_ids": 46,
+              "n_perturbations": 300
+            }
+          },
+          "pert_col": "target_gene",
+          "season": "2026"
+        },
+        "manifest_existe": true,
+        "manifest_path": "/datos/reto/val/manifest.json",
+        "mismo_directorio": true,
+        "pert_counts_existe": true,
+        "pert_counts_path": "/datos/reto/val/pert_counts.csv"
+      }
+    },
+    "ntc_id_identicos_los_6": true,
+    "ntc_id_lista": [
+      "non-targeting-11",
+      "non-targeting-12",
+      "non-targeting-13",
+      "non-targeting-15",
+      "non-targeting-17",
+      "non-targeting-20",
+      "non-targeting-21",
+      "non-targeting-22",
+      "non-targeting-24",
+      "non-targeting-25",
+      "non-targeting-28",
+      "non-targeting-29",
+      "non-targeting-3",
+      "non-targeting-30",
+      "non-targeting-36",
+      "non-targeting-37",
+      "non-targeting-39",
+      "non-targeting-40",
+      "non-targeting-44",
+      "non-targeting-45",
+      "non-targeting-52",
+      "non-targeting-53",
+      "non-targeting-55",
+      "non-targeting-58",
+      "non-targeting-59",
+      "non-targeting-61",
+      "non-targeting-65",
+      "non-targeting-68",
+      "non-targeting-7",
+      "non-targeting-70",
+      "non-targeting-71",
+      "non-targeting-72",
+      "non-targeting-73",
+      "non-targeting-74",
+      "non-targeting-77",
+      "non-targeting-8",
+      "non-targeting-80",
+      "non-targeting-82",
+      "non-targeting-83",
+      "non-targeting-85",
+      "non-targeting-88",
+      "non-targeting-89",
+      "non-targeting-91",
+      "non-targeting-93",
+      "non-targeting-98",
+      "non-targeting-99"
+    ]
+  },
+  "b_cobertura_simbolos": {
+    "gene_names_duplicados_internos": 0,
+    "gene_names_en_gwps_medidos": 7681,
+    "gene_names_en_gwps_medidos_sin_dup": 7679,
+    "gene_names_final_n": 18534,
+    "gene_names_fuera_de_gwps": 10853,
+    "gene_names_val_igual_final": true,
+    "gene_names_val_n": 18534,
+    "gwps_blancos_con_perfil_unicos": 9867,
+    "gwps_filas_core_control": 514,
+    "gwps_filas_totales": 11258,
+    "gwps_var_columnas": 8248,
+    "gwps_var_nombres_duplicados": [
+      "HSPA14",
+      "TBCE"
+    ],
+    "gwps_var_nombres_unicos": 8246,
+    "pert_final": {
+      "columna_leida": "target_gene",
+      "con_2_construcciones": [
+        "MAP3K11",
+        "NABP2",
+        "PRCP",
+        "RAVER1",
+        "ZFAT",
+        "ZNF263"
+      ],
+      "con_perfil_en_gwps": 277,
+      "en_gene_names": 300,
+      "fuera_de_gene_names": [],
+      "lista_sin_perfil": [
+        "ANG",
+        "ARSA",
+        "ATP10D",
+        "CAPRIN2",
+        "HCFC2",
+        "HEATR6",
+        "ITPRIPL1",
+        "LYSMD4",
+        "MAPK7",
+        "MLKL",
+        "NEK3",
+        "PARP3",
+        "PDK3",
+        "PSMB9",
+        "RAB26",
+        "SEMA4F",
+        "SIK2",
+        "STK10",
+        "TBC1D19",
+        "TESK2",
+        "TMEM79",
+        "UBTD2",
+        "ZDHHC13"
+      ],
+      "n_duplicadas": 0,
+      "n_perts": 300,
+      "sin_perfil_en_gwps": 23
+    },
+    "pert_val": {
+      "columna_leida": "target_gene",
+      "con_2_construcciones": [
+        "CAT",
+        "MED15",
+        "MYD88",
+        "MYRF",
+        "NABP2",
+        "PDCD4",
+        "ZNF514",
+        "ZNF768"
+      ],
+      "con_perfil_en_gwps": 272,
+      "en_gene_names": 300,
+      "fuera_de_gene_names": [],
+      "lista_sin_perfil": [
+        "ABCD1",
+        "CAPRIN2",
+        "EPHB2",
+        "HEATR6",
+        "KIF21B",
+        "MAPK7",
+        "MLKL",
+        "NICN1",
+        "PARP3",
+        "PBLD",
+        "PDK3",
+        "PHF11",
+        "PSMB9",
+        "RAB11FIP5",
+        "SEMA4F",
+        "SLC44A1",
+        "SNN",
+        "SOCS5",
+        "SPATA20",
+        "TAF4",
+        "TBC1D19",
+        "TDRD7",
+        "TESK2",
+        "TMEM104",
+        "TMEM79",
+        "TTBK2",
+        "TXNDC16",
+        "ZC2HC1A"
+      ],
+      "n_duplicadas": 0,
+      "n_perts": 300,
+      "sin_perfil_en_gwps": 28
+    }
+  },
+  "c_nnz_por_contexto": [
+    {
+      "contexto": "A",
+      "frac_tope_max": 0.6406484210526315,
+      "frac_tope_media": 0.45272050434782607,
+      "margen_sobre_max": 1.5609185430550627,
+      "margen_sobre_media": 2.2088683644681972,
+      "n_celulas": 18400,
+      "nnz_max": 8453,
+      "nnz_media": 5973.395543478261,
+      "nnz_mediana": 6147.0,
+      "nnz_min": 2205,
+      "nnz_p99": 8003.009999999998,
+      "nnz_sd": 1185.5448530434808,
+      "tope_por_celula": 13194.444444444445
+    },
+    {
+      "contexto": "B",
+      "frac_tope_max": 0.5797136842105263,
+      "frac_tope_media": 0.41827047734553774,
+      "margen_sobre_max": 1.7249894684853504,
+      "margen_sobre_media": 2.3907974723587513,
+      "n_celulas": 18400,
+      "nnz_max": 7649,
+      "nnz_media": 5518.846576086957,
+      "nnz_mediana": 5756.0,
+      "nnz_min": 580,
+      "nnz_p99": 7178.0,
+      "nnz_sd": 1189.4103039439385,
+      "tope_por_celula": 13194.444444444445
+    },
+    {
+      "contexto": "C",
+      "frac_tope_max": 0.6428463157894736,
+      "frac_tope_media": 0.44573265308924487,
+      "margen_sobre_max": 1.555581754827216,
+      "margen_sobre_media": 2.243497291637235,
+      "n_celulas": 18400,
+      "nnz_max": 8482,
+      "nnz_media": 5881.19472826087,
+      "nnz_mediana": 6006.0,
+      "nnz_min": 1937,
+      "nnz_p99": 7944.0,
+      "nnz_sd": 1144.3793844801023,
+      "tope_por_celula": 13194.444444444445
+    },
+    {
+      "contexto": "D",
+      "frac_tope_max": 0.6173810526315789,
+      "frac_tope_media": 0.4303852764302059,
+      "margen_sobre_max": 1.6197452055541917,
+      "margen_sobre_media": 2.3234995590332805,
+      "n_celulas": 18400,
+      "nnz_max": 8146,
+      "nnz_media": 5678.694619565217,
+      "nnz_mediana": 5891.5,
+      "nnz_min": 787,
+      "nnz_p99": 7673.009999999998,
+      "nnz_sd": 1255.4306127063114,
+      "tope_por_celula": 13194.444444444445
+    },
+    {
+      "contexto": "E",
+      "frac_tope_max": 0.6144252631578947,
+      "frac_tope_media": 0.4185261185354691,
+      "margen_sobre_max": 1.6275372449049519,
+      "margen_sobre_media": 2.3893371422057434,
+      "n_celulas": 18400,
+      "nnz_max": 8107,
+      "nnz_media": 5522.219619565218,
+      "nnz_mediana": 5634.0,
+      "nnz_min": 1607,
+      "nnz_p99": 7606.009999999998,
+      "nnz_sd": 1140.4846002486786,
+      "tope_por_celula": 13194.444444444445
+    },
+    {
+      "contexto": "F",
+      "frac_tope_max": 0.5997978947368421,
+      "frac_tope_media": 0.4154236558352402,
+      "margen_sobre_max": 1.6672282593434982,
+      "margen_sobre_media": 2.4071811654284,
+      "n_celulas": 18400,
+      "nnz_max": 7914,
+      "nnz_media": 5481.284347826087,
+      "nnz_mediana": 5630.0,
+      "nnz_min": 1571,
+      "nnz_p99": 7423.009999999998,
+      "nnz_sd": 1107.7074237014479,
+      "tope_por_celula": 13194.444444444445
+    }
+  ],
+  "c_poisson": {
+    "brazos": [
+      {
+        "blanco": "ABCC1",
+        "delta_nnz": -17075,
+        "emision": "cand01_covar.construye_respuesta (en contexto)",
+        "frac_tope_max": 0.6150315789473684,
+        "n_genes_r_igual_1": 10588,
+        "n_genes_r_mayor_1": 3335,
+        "n_genes_r_menor_1": 4610,
+        "nnz_despues": 2215403,
+        "nnz_despues_por_celula_media": 5538.5075,
+        "nnz_max_por_celula": 8115,
+        "r_max": 1.1994088022401441,
+        "r_min": 1.0000000000287557e-06,
+        "revienta_tope": false,
+        "suma_antes": 8156733.0,
+        "suma_despues": 8252150.0
+      },
+      {
+        "blanco": "ACLY",
+        "delta_nnz": -50708,
+        "emision": "cand01_covar.construye_respuesta (en contexto)",
+        "frac_tope_max": 0.6110147368421053,
+        "n_genes_r_igual_1": 8989,
+        "n_genes_r_mayor_1": 3080,
+        "n_genes_r_menor_1": 6464,
+        "nnz_despues": 2181770,
+        "nnz_despues_por_celula_media": 5454.425,
+        "nnz_max_por_celula": 8062,
+        "r_max": 1.2929362308869847,
+        "r_min": 1.0000000000287557e-06,
+        "revienta_tope": false,
+        "suma_antes": 8156733.0,
+        "suma_despues": 7593674.0
+      },
+      {
+        "blanco": "ADNP",
+        "delta_nnz": -29802,
+        "emision": "cand01_covar.construye_respuesta (en contexto)",
+        "frac_tope_max": 0.6151073684210526,
+        "n_genes_r_igual_1": 11047,
+        "n_genes_r_mayor_1": 1230,
+        "n_genes_r_menor_1": 6256,
+        "nnz_despues": 2202676,
+        "nnz_despues_por_celula_media": 5506.69,
+        "nnz_max_por_celula": 8116,
+        "r_max": 1.1297337309114912,
+        "r_min": 1.0000000000287557e-06,
+        "revienta_tope": false,
+        "suma_antes": 8156733.0,
+        "suma_despues": 7833194.0
+      },
+      {
+        "blanco": "ABCC1",
+        "delta_nnz": -418611,
+        "emision": "gwps_emision.construye_ratios (externa)",
+        "frac_tope_max": 0.5416673684210526,
+        "n_genes_r_igual_1": 10854,
+        "n_genes_r_mayor_1": 2003,
+        "n_genes_r_menor_1": 5676,
+        "nnz_despues": 1813867,
+        "nnz_despues_por_celula_media": 4534.6675,
+        "nnz_max_por_celula": 7147,
+        "r_max": 2.0,
+        "r_min": 0.0,
+        "revienta_tope": false,
+        "suma_antes": 8156733.0,
+        "suma_despues": 6446926.0
+      },
+      {
+        "blanco": "ACLY",
+        "delta_nnz": -339972,
+        "emision": "gwps_emision.construye_ratios (externa)",
+        "frac_tope_max": 0.5516715789473684,
+        "n_genes_r_igual_1": 10854,
+        "n_genes_r_mayor_1": 3101,
+        "n_genes_r_menor_1": 4578,
+        "nnz_despues": 1892506,
+        "nnz_despues_por_celula_media": 4731.265,
+        "nnz_max_por_celula": 7279,
+        "r_max": 2.0,
+        "r_min": 0.0,
+        "revienta_tope": false,
+        "suma_antes": 8156733.0,
+        "suma_despues": 7454481.0
+      },
+      {
+        "blanco": "ADNP",
+        "delta_nnz": -400977,
+        "emision": "gwps_emision.construye_ratios (externa)",
+        "frac_tope_max": 0.5414399999999999,
+        "n_genes_r_igual_1": 10854,
+        "n_genes_r_mayor_1": 2348,
+        "n_genes_r_menor_1": 5331,
+        "nnz_despues": 1831501,
+        "nnz_despues_por_celula_media": 4578.7525,
+        "nnz_max_por_celula": 7144,
+        "r_max": 1.9996113486202876,
+        "r_min": 0.0,
+        "revienta_tope": false,
+        "suma_antes": 8156733.0,
+        "suma_despues": 6642554.0
+      }
+    ],
+    "contexto": "D",
+    "cota_estructural": {
+      "afirmacion": "_reescala_entero opera sobre b.data (entradas ya guardadas) y llama eliminate_zeros(); el brazo Poisson no puede crear un no-cero nuevo, asi que nnz_despues <= nnz_antes siempre",
+      "verificado_en_todos_los_brazos": true
+    },
+    "n_celulas": 400,
+    "nnz_antes": 2232478,
+    "nnz_antes_por_celula_media": 5581.195,
+    "semilla_muestra": 20274999,
+    "tope_por_celula": 13194.444444444445
+  },
+  "constantes": {
+    "HARD_CAP_NNZ": 4750000000,
+    "filas_entrega": 360000,
+    "tope_por_celula": 13194.444444444445
+  }
+}

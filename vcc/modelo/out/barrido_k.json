@@ -1,0 +1,6267 @@
+{
+ "que_es": "barrido de k sobre VCC 2025, blancos retenidos del pliegue 0 de la MISMA particion por blanco de la CV; el modelo se reajusta sin ellos. No se toca D/E/F. Lo unico que viaja es k.",
+ "semillas": {
+  "semillas": {
+   "muestra_real": 20284600,
+   "control": 20284601,
+   "pred_k1.0": 20284700,
+   "pred_k3.4": 20284701,
+   "pred_r8_k1.0": 20284702,
+   "pred_k2.0": 20284703,
+   "pred_k1.5": 20284704,
+   "pred_k2.5": 20284705
+  },
+  "n_nuevas": 8,
+  "n_gastadas_enumeradas": 19028,
+  "choques": [],
+  "sin_choques": true
+ },
+ "n_por_etiqueta": 400,
+ "n_control_objetivo": 9200,
+ "recorte_log2": 2.0,
+ "orden_declarado": [
+  "k1.0",
+  "k3.4",
+  "r8_k1.0",
+  "k2.0",
+  "k1.5",
+  "k2.5"
+ ],
+ "brazos": {
+  "k1.0": {
+   "estado": "OK",
+   "modelo": "10_rasgos",
+   "k": 1.0,
+   "semilla": 20284700,
+   "u": {
+    "pds_cosine": 0.6305084745762711,
+    "expr_mse_unbiased_capped_norm": 0.9921796873882628,
+    "de_wilcoxon_lfc_nmae": 0.9909356994209378,
+    "de_wilcoxon_direction_fidelity_yield_raw": 0.0023188500701904,
+    "de_wilcoxon_direction_reach_raw": 0.0398206315425758,
+    "de_wilcoxon_sig_jaccard": 0.0333458735545878
+   },
+   "s": {
+    "de_wilcoxon_lfc_nmae": {
+     "from_baseline": -0.064044814729725,
+     "from_replicate": -0.1025358132453893,
+     "anchor_source": "real_bundle",
+     "anchor_digest": "79174a675534cb3192461aa9f1a4eb561cbdace235362097f78be63e02067742",
+     "real_bundle_id": "bundle",
+     "real_bundle_digest": "da872f6c8409ff6cfa67f054385743a5aa917b32aede2020bb0068ec81bf6eba"
+    },
+    "expr_mse_unbiased_capped_norm": {
+     "from_baseline": 0.0,
+     "from_replicate": 0.0,
+     "anchor_source": "real_bundle",
+     "anchor_digest": "79174a675534cb3192461aa9f1a4eb561cbdace235362097f78be63e02067742",
+     "real_bundle_id": "bundle",
+     "real_bundle_digest": "da872f6c8409ff6cfa67f054385743a5aa917b32aede2020bb0068ec81bf6eba"
+    },
+    "de_wilcoxon_direction_fidelity_yield_raw": {
+     "from_baseline": -0.1735262066774603,
+     "from_replicate": -0.2034600975636308,
+     "anchor_source": "real_bundle",
+     "anchor_digest": "79174a675534cb3192461aa9f1a4eb561cbdace235362097f78be63e02067742",
+     "real_bundle_id": "bundle",
+     "real_bundle_digest": "da872f6c8409ff6cfa67f054385743a5aa917b32aede2020bb0068ec81bf6eba"
+    },
+    "de_wilcoxon_direction_reach_raw": {
+     "from_baseline": -0.0796361239767461,
+     "from_replicate": -0.0802394610099929,
+     "anchor_source": "real_bundle",
+     "anchor_digest": "79174a675534cb3192461aa9f1a4eb561cbdace235362097f78be63e02067742",
+     "real_bundle_id": "bundle",
+     "real_bundle_digest": "da872f6c8409ff6cfa67f054385743a5aa917b32aede2020bb0068ec81bf6eba"
+    },
+    "de_wilcoxon_sig_jaccard": {
+     "from_baseline": 0.025585713762045,
+     "from_replicate": 0.059824013621107,
+     "anchor_source": "real_bundle",
+     "anchor_digest": "79174a675534cb3192461aa9f1a4eb561cbdace235362097f78be63e02067742",
+     "real_bundle_id": "bundle",
+     "real_bundle_digest": "da872f6c8409ff6cfa67f054385743a5aa917b32aede2020bb0068ec81bf6eba"
+    },
+    "pds_cosine": {
+     "from_baseline": 0.2635135135135132,
+     "from_replicate": 0.2792696025778728,
+     "anchor_source": "real_bundle",
+     "anchor_digest": "79174a675534cb3192461aa9f1a4eb561cbdace235362097f78be63e02067742",
+     "real_bundle_id": "bundle",
+     "real_bundle_digest": "da872f6c8409ff6cfa67f054385743a5aa917b32aede2020bb0068ec81bf6eba"
+    },
+    "avg_score": {
+     "from_baseline": null,
+     "from_replicate": -0.0078569592700055,
+     "anchor_source": "real_bundle",
+     "anchor_digest": "79174a675534cb3192461aa9f1a4eb561cbdace235362097f78be63e02067742",
+     "real_bundle_id": "bundle",
+     "real_bundle_digest": "da872f6c8409ff6cfa67f054385743a5aa917b32aede2020bb0068ec81bf6eba"
+    }
+   },
+   "score_ec": 0,
+   "sd_log2_razon": 0.05375772342085838,
+   "sd_razon": 0.03911730647087097,
+   "razon_min_max": [
+    0.9234331250190735,
+    1.1661205291748047
+   ],
+   "n_recortados": 0,
+   "pred": {
+    "shape": [
+     24400,
+     18080
+    ],
+    "nnz": 213449682
+   },
+   "cuatro_celdas": {
+    "archivos": [
+     "de_pred.parquet",
+     "de_real.parquet"
+    ],
+    "de_real_columnas": [
+     "target",
+     "feature",
+     "log2_fold_change",
+     "p_value",
+     "p_adj",
+     "abs_log2_fold_change"
+    ],
+    "de_real_filas": 646860,
+    "de_pred_columnas": [
+     "target",
+     "feature",
+     "log2_fold_change",
+     "p_value",
+     "p_adj",
+     "abs_log2_fold_change"
+    ],
+    "de_pred_filas": 646860,
+    "columnas_usadas": {
+     "target": "feature"
+    },
+    "filtro_q": "p_adj",
+    "n_blancos": 60,
+    "media_interseccion": 0.03333333333333333,
+    "media_solo_real": 1950.1333333333334,
+    "media_solo_pred_FALSOS_POSITIVOS": 0.1,
+    "ambos_vacios": 2,
+    "media_genes_llamados_real": 1950.1666666666667,
+    "media_genes_llamados_pred": 0.13333333333333333,
+    "por_blanco": [
+     {
+      "blanco": "ACAT2",
+      "n_real": 3139,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 3139,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "ADNP",
+      "n_real": 4740,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 4740,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "ANKZF1",
+      "n_real": 547,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 547,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "ARID1A",
+      "n_real": 2636,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 2636,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "ATF4",
+      "n_real": 1584,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 1584,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "C1QBP",
+      "n_real": 2246,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 2246,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "CD276",
+      "n_real": 26,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 26,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "CLDN6",
+      "n_real": 24,
+      "n_pred": 1,
+      "interseccion": 0,
+      "solo_real": 24,
+      "solo_pred": 1
+     },
+     {
+      "blanco": "CNN3",
+      "n_real": 0,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 0,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "COX4I1",
+      "n_real": 610,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 610,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "CTNNB1",
+      "n_real": 3718,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 3718,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "DCK",
+      "n_real": 1127,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 1127,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "DNMT1",
+      "n_real": 6665,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 6665,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "DOT1L",
+      "n_real": 5534,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 5534,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "DPH2",
+      "n_real": 5853,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 5853,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "DZIP3",
+      "n_real": 3,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 3,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "EID2",
+      "n_real": 13,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 13,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "EPHX1",
+      "n_real": 40,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 40,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "GSTZ1",
+      "n_real": 1,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 1,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "HDAC8",
+      "n_real": 273,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 273,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "HIRA",
+      "n_real": 200,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 200,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "HSBP1",
+      "n_real": 1646,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 1646,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "HSP90B1",
+      "n_real": 3683,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 3683,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "KDR",
+      "n_real": 11,
+      "n_pred": 1,
+      "interseccion": 0,
+      "solo_real": 11,
+      "solo_pred": 1
+     },
+     {
+      "blanco": "KLF10",
+      "n_real": 319,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 319,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "LZTR1",
+      "n_real": 3141,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 3141,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "MBTPS1",
+      "n_real": 4454,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 4454,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "MED15",
+      "n_real": 2038,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 2038,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "MED25",
+      "n_real": 2907,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 2907,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "METTL3",
+      "n_real": 8449,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 8449,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "MLLT1",
+      "n_real": 1064,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 1064,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "MTA1",
+      "n_real": 683,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 683,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "MTFR1",
+      "n_real": 7,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 7,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "NGRN",
+      "n_real": 1766,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 1766,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "NREP",
+      "n_real": 2707,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 2707,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "OXCT1",
+      "n_real": 2499,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 2499,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "PCCB",
+      "n_real": 0,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 0,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "PLCB3",
+      "n_real": 4,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 4,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "SDC1",
+      "n_real": 698,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 698,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "SIN3B",
+      "n_real": 7059,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 7059,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "SIX4",
+      "n_real": 268,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 268,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "SLC25A3",
+      "n_real": 957,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 957,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "SMARCB1",
+      "n_real": 4627,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 4627,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "SOX4",
+      "n_real": 2981,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 2981,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "STAT6",
+      "n_real": 1062,
+      "n_pred": 1,
+      "interseccion": 0,
+      "solo_real": 1062,
+      "solo_pred": 1
+     },
+     {
+      "blanco": "STRAP",
+      "n_real": 6562,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 6562,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "TAF13",
+      "n_real": 4474,
+      "n_pred": 2,
+      "interseccion": 0,
+      "solo_real": 4474,
+      "solo_pred": 2
+     },
+     {
+      "blanco": "TARBP2",
+      "n_real": 173,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 173,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "TCF7L2",
+      "n_real": 790,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 790,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "TET1",
+      "n_real": 440,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 440,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "TFAM",
+      "n_real": 2811,
+      "n_pred": 1,
+      "interseccion": 1,
+      "solo_real": 2810,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "TMSB4X",
+      "n_real": 3,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 3,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "TSFM",
+      "n_real": 2521,
+      "n_pred": 1,
+      "interseccion": 1,
+      "solo_real": 2520,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "USF2",
+      "n_real": 6412,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 6412,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "VCL",
+      "n_real": 194,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 194,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "WFS1",
+      "n_real": 6,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 6,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "ZNF286A",
+      "n_real": 3,
+      "n_pred": 1,
+      "interseccion": 0,
+      "solo_real": 3,
+      "solo_pred": 1
+     },
+     {
+      "blanco": "ZNF593",
+      "n_real": 583,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 583,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "ZNF664",
+      "n_real": 14,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 14,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "ZNF92",
+      "n_real": 15,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 15,
+      "solo_pred": 0
+     }
+    ]
+   },
+   "segundos": 371.7
+  },
+  "k3.4": {
+   "estado": "OK",
+   "modelo": "10_rasgos",
+   "k": 3.4,
+   "semilla": 20284701,
+   "u": {
+    "pds_cosine": 0.6542372881355931,
+    "expr_mse_unbiased_capped_norm": 1.0509058162515752,
+    "de_wilcoxon_lfc_nmae": 0.9760609564493076,
+    "de_wilcoxon_direction_fidelity_yield_raw": 0.2460836161318833,
+    "de_wilcoxon_direction_reach_raw": 0.0509213841751855,
+    "de_wilcoxon_sig_jaccard": 0.0272264397792536
+   },
+   "s": {
+    "de_wilcoxon_lfc_nmae": {
+     "from_baseline": -0.0480726450534791,
+     "from_replicate": -0.0769643534174775,
+     "anchor_source": "real_bundle",
+     "anchor_digest": "79174a675534cb3192461aa9f1a4eb561cbdace235362097f78be63e02067742",
+     "real_bundle_id": "bundle",
+     "real_bundle_digest": "da872f6c8409ff6cfa67f054385743a5aa917b32aede2020bb0068ec81bf6eba"
+    },
+    "expr_mse_unbiased_capped_norm": {
+     "from_baseline": 0.0,
+     "from_replicate": 0.0,
+     "anchor_source": "real_bundle",
+     "anchor_digest": "79174a675534cb3192461aa9f1a4eb561cbdace235362097f78be63e02067742",
+     "real_bundle_id": "bundle",
+     "real_bundle_digest": "da872f6c8409ff6cfa67f054385743a5aa917b32aede2020bb0068ec81bf6eba"
+    },
+    "de_wilcoxon_direction_fidelity_yield_raw": {
+     "from_baseline": 0.1132030166401522,
+     "from_replicate": 0.1327309416318521,
+     "anchor_source": "real_bundle",
+     "anchor_digest": "79174a675534cb3192461aa9f1a4eb561cbdace235362097f78be63e02067742",
+     "real_bundle_id": "bundle",
+     "real_bundle_digest": "da872f6c8409ff6cfa67f054385743a5aa917b32aede2020bb0068ec81bf6eba"
+    },
+    "de_wilcoxon_direction_reach_raw": {
+     "from_baseline": -0.0671543169944221,
+     "from_replicate": -0.0676630897016041,
+     "anchor_source": "real_bundle",
+     "anchor_digest": "79174a675534cb3192461aa9f1a4eb561cbdace235362097f78be63e02067742",
+     "real_bundle_id": "bundle",
+     "real_bundle_digest": "da872f6c8409ff6cfa67f054385743a5aa917b32aede2020bb0068ec81bf6eba"
+    },
+    "de_wilcoxon_sig_jaccard": {
+     "from_baseline": 0.0194171540556904,
+     "from_replicate": 0.045400808416529,
+     "anchor_source": "real_bundle",
+     "anchor_digest": "79174a675534cb3192461aa9f1a4eb561cbdace235362097f78be63e02067742",
+     "real_bundle_id": "bundle",
+     "real_bundle_digest": "da872f6c8409ff6cfa67f054385743a5aa917b32aede2020bb0068ec81bf6eba"
+    },
+    "pds_cosine": {
+     "from_baseline": 0.3108108108108104,
+     "from_replicate": 0.3293949158610808,
+     "anchor_source": "real_bundle",
+     "anchor_digest": "79174a675534cb3192461aa9f1a4eb561cbdace235362097f78be63e02067742",
+     "real_bundle_id": "bundle",
+     "real_bundle_digest": "da872f6c8409ff6cfa67f054385743a5aa917b32aede2020bb0068ec81bf6eba"
+    },
+    "avg_score": {
+     "from_baseline": null,
+     "from_replicate": 0.0604832037983967,
+     "anchor_source": "real_bundle",
+     "anchor_digest": "79174a675534cb3192461aa9f1a4eb561cbdace235362097f78be63e02067742",
+     "real_bundle_id": "bundle",
+     "real_bundle_digest": "da872f6c8409ff6cfa67f054385743a5aa917b32aede2020bb0068ec81bf6eba"
+    }
+   },
+   "score_ec": 0,
+   "sd_log2_razon": 0.18277627229690552,
+   "sd_razon": 0.15029966831207275,
+   "razon_min_max": [
+    0.7627435922622681,
+    1.686272382736206
+   ],
+   "n_recortados": 0,
+   "pred": {
+    "shape": [
+     24400,
+     18080
+    ],
+    "nnz": 213429901
+   },
+   "cuatro_celdas": {
+    "archivos": [
+     "de_pred.parquet",
+     "de_real.parquet"
+    ],
+    "de_real_columnas": [
+     "target",
+     "feature",
+     "log2_fold_change",
+     "p_value",
+     "p_adj",
+     "abs_log2_fold_change"
+    ],
+    "de_real_filas": 646860,
+    "de_pred_columnas": [
+     "target",
+     "feature",
+     "log2_fold_change",
+     "p_value",
+     "p_adj",
+     "abs_log2_fold_change"
+    ],
+    "de_pred_filas": 646860,
+    "columnas_usadas": {
+     "target": "feature"
+    },
+    "filtro_q": "p_adj",
+    "n_blancos": 60,
+    "media_interseccion": 78.13333333333334,
+    "media_solo_real": 1872.0333333333333,
+    "media_solo_pred_FALSOS_POSITIVOS": 188.06666666666666,
+    "ambos_vacios": 0,
+    "media_genes_llamados_real": 1950.1666666666667,
+    "media_genes_llamados_pred": 266.2,
+    "por_blanco": [
+     {
+      "blanco": "ACAT2",
+      "n_real": 3139,
+      "n_pred": 284,
+      "interseccion": 118,
+      "solo_real": 3021,
+      "solo_pred": 166
+     },
+     {
+      "blanco": "ADNP",
+      "n_real": 4740,
+      "n_pred": 414,
+      "interseccion": 216,
+      "solo_real": 4524,
+      "solo_pred": 198
+     },
+     {
+      "blanco": "ANKZF1",
+      "n_real": 547,
+      "n_pred": 199,
+      "interseccion": 18,
+      "solo_real": 529,
+      "solo_pred": 181
+     },
+     {
+      "blanco": "ARID1A",
+      "n_real": 2636,
+      "n_pred": 228,
+      "interseccion": 67,
+      "solo_real": 2569,
+      "solo_pred": 161
+     },
+     {
+      "blanco": "ATF4",
+      "n_real": 1584,
+      "n_pred": 372,
+      "interseccion": 108,
+      "solo_real": 1476,
+      "solo_pred": 264
+     },
+     {
+      "blanco": "C1QBP",
+      "n_real": 2246,
+      "n_pred": 472,
+      "interseccion": 156,
+      "solo_real": 2090,
+      "solo_pred": 316
+     },
+     {
+      "blanco": "CD276",
+      "n_real": 26,
+      "n_pred": 237,
+      "interseccion": 1,
+      "solo_real": 25,
+      "solo_pred": 236
+     },
+     {
+      "blanco": "CLDN6",
+      "n_real": 24,
+      "n_pred": 235,
+      "interseccion": 1,
+      "solo_real": 23,
+      "solo_pred": 234
+     },
+     {
+      "blanco": "CNN3",
+      "n_real": 0,
+      "n_pred": 4,
+      "interseccion": 0,
+      "solo_real": 0,
+      "solo_pred": 4
+     },
+     {
+      "blanco": "COX4I1",
+      "n_real": 610,
+      "n_pred": 287,
+      "interseccion": 42,
+      "solo_real": 568,
+      "solo_pred": 245
+     },
+     {
+      "blanco": "CTNNB1",
+      "n_real": 3718,
+      "n_pred": 279,
+      "interseccion": 118,
+      "solo_real": 3600,
+      "solo_pred": 161
+     },
+     {
+      "blanco": "DCK",
+      "n_real": 1127,
+      "n_pred": 229,
+      "interseccion": 44,
+      "solo_real": 1083,
+      "solo_pred": 185
+     },
+     {
+      "blanco": "DNMT1",
+      "n_real": 6665,
+      "n_pred": 262,
+      "interseccion": 205,
+      "solo_real": 6460,
+      "solo_pred": 57
+     },
+     {
+      "blanco": "DOT1L",
+      "n_real": 5534,
+      "n_pred": 217,
+      "interseccion": 141,
+      "solo_real": 5393,
+      "solo_pred": 76
+     },
+     {
+      "blanco": "DPH2",
+      "n_real": 5853,
+      "n_pred": 304,
+      "interseccion": 223,
+      "solo_real": 5630,
+      "solo_pred": 81
+     },
+     {
+      "blanco": "DZIP3",
+      "n_real": 3,
+      "n_pred": 7,
+      "interseccion": 0,
+      "solo_real": 3,
+      "solo_pred": 7
+     },
+     {
+      "blanco": "EID2",
+      "n_real": 13,
+      "n_pred": 211,
+      "interseccion": 1,
+      "solo_real": 12,
+      "solo_pred": 210
+     },
+     {
+      "blanco": "EPHX1",
+      "n_real": 40,
+      "n_pred": 305,
+      "interseccion": 3,
+      "solo_real": 37,
+      "solo_pred": 302
+     },
+     {
+      "blanco": "GSTZ1",
+      "n_real": 1,
+      "n_pred": 239,
+      "interseccion": 0,
+      "solo_real": 1,
+      "solo_pred": 239
+     },
+     {
+      "blanco": "HDAC8",
+      "n_real": 273,
+      "n_pred": 183,
+      "interseccion": 7,
+      "solo_real": 266,
+      "solo_pred": 176
+     },
+     {
+      "blanco": "HIRA",
+      "n_real": 200,
+      "n_pred": 191,
+      "interseccion": 10,
+      "solo_real": 190,
+      "solo_pred": 181
+     },
+     {
+      "blanco": "HSBP1",
+      "n_real": 1646,
+      "n_pred": 313,
+      "interseccion": 73,
+      "solo_real": 1573,
+      "solo_pred": 240
+     },
+     {
+      "blanco": "HSP90B1",
+      "n_real": 3683,
+      "n_pred": 232,
+      "interseccion": 123,
+      "solo_real": 3560,
+      "solo_pred": 109
+     },
+     {
+      "blanco": "KDR",
+      "n_real": 11,
+      "n_pred": 9,
+      "interseccion": 0,
+      "solo_real": 11,
+      "solo_pred": 9
+     },
+     {
+      "blanco": "KLF10",
+      "n_real": 319,
+      "n_pred": 256,
+      "interseccion": 15,
+      "solo_real": 304,
+      "solo_pred": 241
+     },
+     {
+      "blanco": "LZTR1",
+      "n_real": 3141,
+      "n_pred": 286,
+      "interseccion": 146,
+      "solo_real": 2995,
+      "solo_pred": 140
+     },
+     {
+      "blanco": "MBTPS1",
+      "n_real": 4454,
+      "n_pred": 348,
+      "interseccion": 179,
+      "solo_real": 4275,
+      "solo_pred": 169
+     },
+     {
+      "blanco": "MED15",
+      "n_real": 2038,
+      "n_pred": 498,
+      "interseccion": 145,
+      "solo_real": 1893,
+      "solo_pred": 353
+     },
+     {
+      "blanco": "MED25",
+      "n_real": 2907,
+      "n_pred": 255,
+      "interseccion": 99,
+      "solo_real": 2808,
+      "solo_pred": 156
+     },
+     {
+      "blanco": "METTL3",
+      "n_real": 8449,
+      "n_pred": 469,
+      "interseccion": 415,
+      "solo_real": 8034,
+      "solo_pred": 54
+     },
+     {
+      "blanco": "MLLT1",
+      "n_real": 1064,
+      "n_pred": 395,
+      "interseccion": 62,
+      "solo_real": 1002,
+      "solo_pred": 333
+     },
+     {
+      "blanco": "MTA1",
+      "n_real": 683,
+      "n_pred": 290,
+      "interseccion": 38,
+      "solo_real": 645,
+      "solo_pred": 252
+     },
+     {
+      "blanco": "MTFR1",
+      "n_real": 7,
+      "n_pred": 267,
+      "interseccion": 0,
+      "solo_real": 7,
+      "solo_pred": 267
+     },
+     {
+      "blanco": "NGRN",
+      "n_real": 1766,
+      "n_pred": 462,
+      "interseccion": 149,
+      "solo_real": 1617,
+      "solo_pred": 313
+     },
+     {
+      "blanco": "NREP",
+      "n_real": 2707,
+      "n_pred": 15,
+      "interseccion": 6,
+      "solo_real": 2701,
+      "solo_pred": 9
+     },
+     {
+      "blanco": "OXCT1",
+      "n_real": 2499,
+      "n_pred": 214,
+      "interseccion": 92,
+      "solo_real": 2407,
+      "solo_pred": 122
+     },
+     {
+      "blanco": "PCCB",
+      "n_real": 0,
+      "n_pred": 240,
+      "interseccion": 0,
+      "solo_real": 0,
+      "solo_pred": 240
+     },
+     {
+      "blanco": "PLCB3",
+      "n_real": 4,
+      "n_pred": 207,
+      "interseccion": 0,
+      "solo_real": 4,
+      "solo_pred": 207
+     },
+     {
+      "blanco": "SDC1",
+      "n_real": 698,
+      "n_pred": 284,
+      "interseccion": 56,
+      "solo_real": 642,
+      "solo_pred": 228
+     },
+     {
+      "blanco": "SIN3B",
+      "n_real": 7059,
+      "n_pred": 257,
+      "interseccion": 203,
+      "solo_real": 6856,
+      "solo_pred": 54
+     },
+     {
+      "blanco": "SIX4",
+      "n_real": 268,
+      "n_pred": 312,
+      "interseccion": 8,
+      "solo_real": 260,
+      "solo_pred": 304
+     },
+     {
+      "blanco": "SLC25A3",
+      "n_real": 957,
+      "n_pred": 261,
+      "interseccion": 55,
+      "solo_real": 902,
+      "solo_pred": 206
+     },
+     {
+      "blanco": "SMARCB1",
+      "n_real": 4627,
+      "n_pred": 256,
+      "interseccion": 144,
+      "solo_real": 4483,
+      "solo_pred": 112
+     },
+     {
+      "blanco": "SOX4",
+      "n_real": 2981,
+      "n_pred": 309,
+      "interseccion": 125,
+      "solo_real": 2856,
+      "solo_pred": 184
+     },
+     {
+      "blanco": "STAT6",
+      "n_real": 1062,
+      "n_pred": 367,
+      "interseccion": 49,
+      "solo_real": 1013,
+      "solo_pred": 318
+     },
+     {
+      "blanco": "STRAP",
+      "n_real": 6562,
+      "n_pred": 477,
+      "interseccion": 347,
+      "solo_real": 6215,
+      "solo_pred": 130
+     },
+     {
+      "blanco": "TAF13",
+      "n_real": 4474,
+      "n_pred": 355,
+      "interseccion": 199,
+      "solo_real": 4275,
+      "solo_pred": 156
+     },
+     {
+      "blanco": "TARBP2",
+      "n_real": 173,
+      "n_pred": 243,
+      "interseccion": 13,
+      "solo_real": 160,
+      "solo_pred": 230
+     },
+     {
+      "blanco": "TCF7L2",
+      "n_real": 790,
+      "n_pred": 215,
+      "interseccion": 23,
+      "solo_real": 767,
+      "solo_pred": 192
+     },
+     {
+      "blanco": "TET1",
+      "n_real": 440,
+      "n_pred": 273,
+      "interseccion": 10,
+      "solo_real": 430,
+      "solo_pred": 263
+     },
+     {
+      "blanco": "TFAM",
+      "n_real": 2811,
+      "n_pred": 273,
+      "interseccion": 122,
+      "solo_real": 2689,
+      "solo_pred": 151
+     },
+     {
+      "blanco": "TMSB4X",
+      "n_real": 3,
+      "n_pred": 320,
+      "interseccion": 1,
+      "solo_real": 2,
+      "solo_pred": 319
+     },
+     {
+      "blanco": "TSFM",
+      "n_real": 2521,
+      "n_pred": 292,
+      "interseccion": 123,
+      "solo_real": 2398,
+      "solo_pred": 169
+     },
+     {
+      "blanco": "USF2",
+      "n_real": 6412,
+      "n_pred": 212,
+      "interseccion": 147,
+      "solo_real": 6265,
+      "solo_pred": 65
+     },
+     {
+      "blanco": "VCL",
+      "n_real": 194,
+      "n_pred": 261,
+      "interseccion": 7,
+      "solo_real": 187,
+      "solo_pred": 254
+     },
+     {
+      "blanco": "WFS1",
+      "n_real": 6,
+      "n_pred": 12,
+      "interseccion": 0,
+      "solo_real": 6,
+      "solo_pred": 12
+     },
+     {
+      "blanco": "ZNF286A",
+      "n_real": 3,
+      "n_pred": 219,
+      "interseccion": 0,
+      "solo_real": 3,
+      "solo_pred": 219
+     },
+     {
+      "blanco": "ZNF593",
+      "n_real": 583,
+      "n_pred": 242,
+      "interseccion": 32,
+      "solo_real": 551,
+      "solo_pred": 210
+     },
+     {
+      "blanco": "ZNF664",
+      "n_real": 14,
+      "n_pred": 397,
+      "interseccion": 1,
+      "solo_real": 13,
+      "solo_pred": 396
+     },
+     {
+      "blanco": "ZNF92",
+      "n_real": 15,
+      "n_pred": 220,
+      "interseccion": 2,
+      "solo_real": 13,
+      "solo_pred": 218
+     }
+    ]
+   },
+   "segundos": 372.5
+  },
+  "r8_k1.0": {
+   "estado": "OK",
+   "modelo": "8_rasgos",
+   "k": 1.0,
+   "semilla": 20284702,
+   "u": {
+    "pds_cosine": 0.6454802259887006,
+    "expr_mse_unbiased_capped_norm": 0.9958964793610374,
+    "de_wilcoxon_lfc_nmae": 0.9914810234680308,
+    "de_wilcoxon_direction_fidelity_yield_raw": 0.0001513804975126,
+    "de_wilcoxon_direction_reach_raw": 0.0448351399143029,
+    "de_wilcoxon_sig_jaccard": 0.0333620897564472
+   },
+   "s": {
+    "de_wilcoxon_lfc_nmae": {
+     "from_baseline": -0.0646303716180232,
+     "from_replicate": -0.1034732904165933,
+     "anchor_source": "real_bundle",
+     "anchor_digest": "79174a675534cb3192461aa9f1a4eb561cbdace235362097f78be63e02067742",
+     "real_bundle_id": "bundle",
+     "real_bundle_digest": "da872f6c8409ff6cfa67f054385743a5aa917b32aede2020bb0068ec81bf6eba"
+    },
+    "expr_mse_unbiased_capped_norm": {
+     "from_baseline": 0.0,
+     "from_replicate": 0.0,
+     "anchor_source": "real_bundle",
+     "anchor_digest": "79174a675534cb3192461aa9f1a4eb561cbdace235362097f78be63e02067742",
+     "real_bundle_id": "bundle",
+     "real_bundle_digest": "da872f6c8409ff6cfa67f054385743a5aa917b32aede2020bb0068ec81bf6eba"
+    },
+    "de_wilcoxon_direction_fidelity_yield_raw": {
+     "from_baseline": -0.1760757009180725,
+     "from_replicate": -0.2064493886733998,
+     "anchor_source": "real_bundle",
+     "anchor_digest": "79174a675534cb3192461aa9f1a4eb561cbdace235362097f78be63e02067742",
+     "real_bundle_id": "bundle",
+     "real_bundle_digest": "da872f6c8409ff6cfa67f054385743a5aa917b32aede2020bb0068ec81bf6eba"
+    },
+    "de_wilcoxon_direction_reach_raw": {
+     "from_baseline": -0.0739977562301053,
+     "from_replicate": -0.0745583760152147,
+     "anchor_source": "real_bundle",
+     "anchor_digest": "79174a675534cb3192461aa9f1a4eb561cbdace235362097f78be63e02067742",
+     "real_bundle_id": "bundle",
+     "real_bundle_digest": "da872f6c8409ff6cfa67f054385743a5aa917b32aede2020bb0068ec81bf6eba"
+    },
+    "de_wilcoxon_sig_jaccard": {
+     "from_baseline": 0.0256020601452322,
+     "from_replicate": 0.059862234413364,
+     "anchor_source": "real_bundle",
+     "anchor_digest": "79174a675534cb3192461aa9f1a4eb561cbdace235362097f78be63e02067742",
+     "real_bundle_id": "bundle",
+     "real_bundle_digest": "da872f6c8409ff6cfa67f054385743a5aa917b32aede2020bb0068ec81bf6eba"
+    },
+    "pds_cosine": {
+     "from_baseline": 0.2933558558558557,
+     "from_replicate": 0.3108962883398972,
+     "anchor_source": "real_bundle",
+     "anchor_digest": "79174a675534cb3192461aa9f1a4eb561cbdace235362097f78be63e02067742",
+     "real_bundle_id": "bundle",
+     "real_bundle_digest": "da872f6c8409ff6cfa67f054385743a5aa917b32aede2020bb0068ec81bf6eba"
+    },
+    "avg_score": {
+     "from_baseline": null,
+     "from_replicate": -0.0022870887253244,
+     "anchor_source": "real_bundle",
+     "anchor_digest": "79174a675534cb3192461aa9f1a4eb561cbdace235362097f78be63e02067742",
+     "real_bundle_id": "bundle",
+     "real_bundle_digest": "da872f6c8409ff6cfa67f054385743a5aa917b32aede2020bb0068ec81bf6eba"
+    }
+   },
+   "score_ec": 0,
+   "sd_log2_razon": 0.05390574410557747,
+   "sd_razon": 0.03922664374113083,
+   "razon_min_max": [
+    0.9245312809944153,
+    1.1629555225372314
+   ],
+   "n_recortados": 0,
+   "pred": {
+    "shape": [
+     24400,
+     18080
+    ],
+    "nnz": 213563696
+   },
+   "cuatro_celdas": {
+    "archivos": [
+     "de_pred.parquet",
+     "de_real.parquet"
+    ],
+    "de_real_columnas": [
+     "target",
+     "feature",
+     "log2_fold_change",
+     "p_value",
+     "p_adj",
+     "abs_log2_fold_change"
+    ],
+    "de_real_filas": 646860,
+    "de_pred_columnas": [
+     "target",
+     "feature",
+     "log2_fold_change",
+     "p_value",
+     "p_adj",
+     "abs_log2_fold_change"
+    ],
+    "de_pred_filas": 646860,
+    "columnas_usadas": {
+     "target": "feature"
+    },
+    "filtro_q": "p_adj",
+    "n_blancos": 60,
+    "media_interseccion": 0.11666666666666667,
+    "media_solo_real": 1950.05,
+    "media_solo_pred_FALSOS_POSITIVOS": 0.08333333333333333,
+    "ambos_vacios": 2,
+    "media_genes_llamados_real": 1950.1666666666667,
+    "media_genes_llamados_pred": 0.2,
+    "por_blanco": [
+     {
+      "blanco": "ACAT2",
+      "n_real": 3139,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 3139,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "ADNP",
+      "n_real": 4740,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 4740,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "ANKZF1",
+      "n_real": 547,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 547,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "ARID1A",
+      "n_real": 2636,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 2636,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "ATF4",
+      "n_real": 1584,
+      "n_pred": 1,
+      "interseccion": 1,
+      "solo_real": 1583,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "C1QBP",
+      "n_real": 2246,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 2246,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "CD276",
+      "n_real": 26,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 26,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "CLDN6",
+      "n_real": 24,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 24,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "CNN3",
+      "n_real": 0,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 0,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "COX4I1",
+      "n_real": 610,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 610,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "CTNNB1",
+      "n_real": 3718,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 3718,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "DCK",
+      "n_real": 1127,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 1127,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "DNMT1",
+      "n_real": 6665,
+      "n_pred": 6,
+      "interseccion": 5,
+      "solo_real": 6660,
+      "solo_pred": 1
+     },
+     {
+      "blanco": "DOT1L",
+      "n_real": 5534,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 5534,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "DPH2",
+      "n_real": 5853,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 5853,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "DZIP3",
+      "n_real": 3,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 3,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "EID2",
+      "n_real": 13,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 13,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "EPHX1",
+      "n_real": 40,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 40,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "GSTZ1",
+      "n_real": 1,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 1,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "HDAC8",
+      "n_real": 273,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 273,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "HIRA",
+      "n_real": 200,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 200,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "HSBP1",
+      "n_real": 1646,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 1646,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "HSP90B1",
+      "n_real": 3683,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 3683,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "KDR",
+      "n_real": 11,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 11,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "KLF10",
+      "n_real": 319,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 319,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "LZTR1",
+      "n_real": 3141,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 3141,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "MBTPS1",
+      "n_real": 4454,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 4454,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "MED15",
+      "n_real": 2038,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 2038,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "MED25",
+      "n_real": 2907,
+      "n_pred": 1,
+      "interseccion": 1,
+      "solo_real": 2906,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "METTL3",
+      "n_real": 8449,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 8449,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "MLLT1",
+      "n_real": 1064,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 1064,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "MTA1",
+      "n_real": 683,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 683,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "MTFR1",
+      "n_real": 7,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 7,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "NGRN",
+      "n_real": 1766,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 1766,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "NREP",
+      "n_real": 2707,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 2707,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "OXCT1",
+      "n_real": 2499,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 2499,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "PCCB",
+      "n_real": 0,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 0,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "PLCB3",
+      "n_real": 4,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 4,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "SDC1",
+      "n_real": 698,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 698,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "SIN3B",
+      "n_real": 7059,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 7059,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "SIX4",
+      "n_real": 268,
+      "n_pred": 1,
+      "interseccion": 0,
+      "solo_real": 268,
+      "solo_pred": 1
+     },
+     {
+      "blanco": "SLC25A3",
+      "n_real": 957,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 957,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "SMARCB1",
+      "n_real": 4627,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 4627,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "SOX4",
+      "n_real": 2981,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 2981,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "STAT6",
+      "n_real": 1062,
+      "n_pred": 1,
+      "interseccion": 0,
+      "solo_real": 1062,
+      "solo_pred": 1
+     },
+     {
+      "blanco": "STRAP",
+      "n_real": 6562,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 6562,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "TAF13",
+      "n_real": 4474,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 4474,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "TARBP2",
+      "n_real": 173,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 173,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "TCF7L2",
+      "n_real": 790,
+      "n_pred": 2,
+      "interseccion": 0,
+      "solo_real": 790,
+      "solo_pred": 2
+     },
+     {
+      "blanco": "TET1",
+      "n_real": 440,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 440,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "TFAM",
+      "n_real": 2811,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 2811,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "TMSB4X",
+      "n_real": 3,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 3,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "TSFM",
+      "n_real": 2521,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 2521,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "USF2",
+      "n_real": 6412,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 6412,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "VCL",
+      "n_real": 194,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 194,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "WFS1",
+      "n_real": 6,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 6,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "ZNF286A",
+      "n_real": 3,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 3,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "ZNF593",
+      "n_real": 583,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 583,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "ZNF664",
+      "n_real": 14,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 14,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "ZNF92",
+      "n_real": 15,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 15,
+      "solo_pred": 0
+     }
+    ]
+   },
+   "segundos": 373.7
+  },
+  "k2.0": {
+   "estado": "OK",
+   "modelo": "10_rasgos",
+   "k": 2.0,
+   "semilla": 20284703,
+   "u": {
+    "pds_cosine": 0.6279661016949148,
+    "expr_mse_unbiased_capped_norm": 1.0075782794567485,
+    "de_wilcoxon_lfc_nmae": 0.9859674028185172,
+    "de_wilcoxon_direction_fidelity_yield_raw": 0.0630807718374907,
+    "de_wilcoxon_direction_reach_raw": 0.054066475951907,
+    "de_wilcoxon_sig_jaccard": 0.0182617366648987
+   },
+   "s": {
+    "de_wilcoxon_lfc_nmae": {
+     "from_baseline": -0.0587099678360927,
+     "from_replicate": -0.0939947179656752,
+     "anchor_source": "real_bundle",
+     "anchor_digest": "79174a675534cb3192461aa9f1a4eb561cbdace235362097f78be63e02067742",
+     "real_bundle_id": "bundle",
+     "real_bundle_digest": "da872f6c8409ff6cfa67f054385743a5aa917b32aede2020bb0068ec81bf6eba"
+    },
+    "expr_mse_unbiased_capped_norm": {
+     "from_baseline": 0.0,
+     "from_replicate": 0.0,
+     "anchor_source": "real_bundle",
+     "anchor_digest": "79174a675534cb3192461aa9f1a4eb561cbdace235362097f78be63e02067742",
+     "real_bundle_id": "bundle",
+     "real_bundle_digest": "da872f6c8409ff6cfa67f054385743a5aa917b32aede2020bb0068ec81bf6eba"
+    },
+    "de_wilcoxon_direction_fidelity_yield_raw": {
+     "from_baseline": -0.1020547675638425,
+     "from_replicate": -0.1196595797427188,
+     "anchor_source": "real_bundle",
+     "anchor_digest": "79174a675534cb3192461aa9f1a4eb561cbdace235362097f78be63e02067742",
+     "real_bundle_id": "bundle",
+     "real_bundle_digest": "da872f6c8409ff6cfa67f054385743a5aa917b32aede2020bb0068ec81bf6eba"
+    },
+    "de_wilcoxon_direction_reach_raw": {
+     "from_baseline": -0.0636179415973691,
+     "from_replicate": -0.064099922113596,
+     "anchor_source": "real_bundle",
+     "anchor_digest": "79174a675534cb3192461aa9f1a4eb561cbdace235362097f78be63e02067742",
+     "real_bundle_id": "bundle",
+     "real_bundle_digest": "da872f6c8409ff6cfa67f054385743a5aa917b32aede2020bb0068ec81bf6eba"
+    },
+    "de_wilcoxon_sig_jaccard": {
+     "from_baseline": 0.01038048359877,
+     "from_replicate": 0.0242714429615687,
+     "anchor_source": "real_bundle",
+     "anchor_digest": "79174a675534cb3192461aa9f1a4eb561cbdace235362097f78be63e02067742",
+     "real_bundle_id": "bundle",
+     "real_bundle_digest": "da872f6c8409ff6cfa67f054385743a5aa917b32aede2020bb0068ec81bf6eba"
+    },
+    "pds_cosine": {
+     "from_baseline": 0.2584459459459449,
+     "from_replicate": 0.2738990332975284,
+     "anchor_source": "real_bundle",
+     "anchor_digest": "79174a675534cb3192461aa9f1a4eb561cbdace235362097f78be63e02067742",
+     "real_bundle_id": "bundle",
+     "real_bundle_digest": "da872f6c8409ff6cfa67f054385743a5aa917b32aede2020bb0068ec81bf6eba"
+    },
+    "avg_score": {
+     "from_baseline": null,
+     "from_replicate": 0.0034027094061844,
+     "anchor_source": "real_bundle",
+     "anchor_digest": "79174a675534cb3192461aa9f1a4eb561cbdace235362097f78be63e02067742",
+     "real_bundle_id": "bundle",
+     "real_bundle_digest": "da872f6c8409ff6cfa67f054385743a5aa917b32aede2020bb0068ec81bf6eba"
+    }
+   },
+   "score_ec": 0,
+   "sd_log2_razon": 0.10751544684171677,
+   "sd_razon": 0.08224401623010635,
+   "razon_min_max": [
+    0.8527287840843201,
+    1.3598370552062988
+   ],
+   "n_recortados": 0,
+   "pred": {
+    "shape": [
+     24400,
+     18080
+    ],
+    "nnz": 213411677
+   },
+   "cuatro_celdas": {
+    "archivos": [
+     "de_pred.parquet",
+     "de_real.parquet"
+    ],
+    "de_real_columnas": [
+     "target",
+     "feature",
+     "log2_fold_change",
+     "p_value",
+     "p_adj",
+     "abs_log2_fold_change"
+    ],
+    "de_real_filas": 646860,
+    "de_pred_columnas": [
+     "target",
+     "feature",
+     "log2_fold_change",
+     "p_value",
+     "p_adj",
+     "abs_log2_fold_change"
+    ],
+    "de_pred_filas": 646860,
+    "columnas_usadas": {
+     "target": "feature"
+    },
+    "filtro_q": "p_adj",
+    "n_blancos": 60,
+    "media_interseccion": 4.15,
+    "media_solo_real": 1946.0166666666667,
+    "media_solo_pred_FALSOS_POSITIVOS": 7.65,
+    "ambos_vacios": 1,
+    "media_genes_llamados_real": 1950.1666666666667,
+    "media_genes_llamados_pred": 11.8,
+    "por_blanco": [
+     {
+      "blanco": "ACAT2",
+      "n_real": 3139,
+      "n_pred": 9,
+      "interseccion": 3,
+      "solo_real": 3136,
+      "solo_pred": 6
+     },
+     {
+      "blanco": "ADNP",
+      "n_real": 4740,
+      "n_pred": 16,
+      "interseccion": 7,
+      "solo_real": 4733,
+      "solo_pred": 9
+     },
+     {
+      "blanco": "ANKZF1",
+      "n_real": 547,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 547,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "ARID1A",
+      "n_real": 2636,
+      "n_pred": 13,
+      "interseccion": 4,
+      "solo_real": 2632,
+      "solo_pred": 9
+     },
+     {
+      "blanco": "ATF4",
+      "n_real": 1584,
+      "n_pred": 10,
+      "interseccion": 4,
+      "solo_real": 1580,
+      "solo_pred": 6
+     },
+     {
+      "blanco": "C1QBP",
+      "n_real": 2246,
+      "n_pred": 10,
+      "interseccion": 2,
+      "solo_real": 2244,
+      "solo_pred": 8
+     },
+     {
+      "blanco": "CD276",
+      "n_real": 26,
+      "n_pred": 13,
+      "interseccion": 0,
+      "solo_real": 26,
+      "solo_pred": 13
+     },
+     {
+      "blanco": "CLDN6",
+      "n_real": 24,
+      "n_pred": 3,
+      "interseccion": 0,
+      "solo_real": 24,
+      "solo_pred": 3
+     },
+     {
+      "blanco": "CNN3",
+      "n_real": 0,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 0,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "COX4I1",
+      "n_real": 610,
+      "n_pred": 8,
+      "interseccion": 4,
+      "solo_real": 606,
+      "solo_pred": 4
+     },
+     {
+      "blanco": "CTNNB1",
+      "n_real": 3718,
+      "n_pred": 16,
+      "interseccion": 7,
+      "solo_real": 3711,
+      "solo_pred": 9
+     },
+     {
+      "blanco": "DCK",
+      "n_real": 1127,
+      "n_pred": 4,
+      "interseccion": 0,
+      "solo_real": 1127,
+      "solo_pred": 4
+     },
+     {
+      "blanco": "DNMT1",
+      "n_real": 6665,
+      "n_pred": 32,
+      "interseccion": 25,
+      "solo_real": 6640,
+      "solo_pred": 7
+     },
+     {
+      "blanco": "DOT1L",
+      "n_real": 5534,
+      "n_pred": 12,
+      "interseccion": 10,
+      "solo_real": 5524,
+      "solo_pred": 2
+     },
+     {
+      "blanco": "DPH2",
+      "n_real": 5853,
+      "n_pred": 26,
+      "interseccion": 20,
+      "solo_real": 5833,
+      "solo_pred": 6
+     },
+     {
+      "blanco": "DZIP3",
+      "n_real": 3,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 3,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "EID2",
+      "n_real": 13,
+      "n_pred": 2,
+      "interseccion": 0,
+      "solo_real": 13,
+      "solo_pred": 2
+     },
+     {
+      "blanco": "EPHX1",
+      "n_real": 40,
+      "n_pred": 20,
+      "interseccion": 0,
+      "solo_real": 40,
+      "solo_pred": 20
+     },
+     {
+      "blanco": "GSTZ1",
+      "n_real": 1,
+      "n_pred": 1,
+      "interseccion": 0,
+      "solo_real": 1,
+      "solo_pred": 1
+     },
+     {
+      "blanco": "HDAC8",
+      "n_real": 273,
+      "n_pred": 7,
+      "interseccion": 1,
+      "solo_real": 272,
+      "solo_pred": 6
+     },
+     {
+      "blanco": "HIRA",
+      "n_real": 200,
+      "n_pred": 13,
+      "interseccion": 1,
+      "solo_real": 199,
+      "solo_pred": 12
+     },
+     {
+      "blanco": "HSBP1",
+      "n_real": 1646,
+      "n_pred": 3,
+      "interseccion": 1,
+      "solo_real": 1645,
+      "solo_pred": 2
+     },
+     {
+      "blanco": "HSP90B1",
+      "n_real": 3683,
+      "n_pred": 5,
+      "interseccion": 3,
+      "solo_real": 3680,
+      "solo_pred": 2
+     },
+     {
+      "blanco": "KDR",
+      "n_real": 11,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 11,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "KLF10",
+      "n_real": 319,
+      "n_pred": 7,
+      "interseccion": 0,
+      "solo_real": 319,
+      "solo_pred": 7
+     },
+     {
+      "blanco": "LZTR1",
+      "n_real": 3141,
+      "n_pred": 6,
+      "interseccion": 5,
+      "solo_real": 3136,
+      "solo_pred": 1
+     },
+     {
+      "blanco": "MBTPS1",
+      "n_real": 4454,
+      "n_pred": 3,
+      "interseccion": 3,
+      "solo_real": 4451,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "MED15",
+      "n_real": 2038,
+      "n_pred": 15,
+      "interseccion": 9,
+      "solo_real": 2029,
+      "solo_pred": 6
+     },
+     {
+      "blanco": "MED25",
+      "n_real": 2907,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 2907,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "METTL3",
+      "n_real": 8449,
+      "n_pred": 18,
+      "interseccion": 14,
+      "solo_real": 8435,
+      "solo_pred": 4
+     },
+     {
+      "blanco": "MLLT1",
+      "n_real": 1064,
+      "n_pred": 35,
+      "interseccion": 7,
+      "solo_real": 1057,
+      "solo_pred": 28
+     },
+     {
+      "blanco": "MTA1",
+      "n_real": 683,
+      "n_pred": 9,
+      "interseccion": 0,
+      "solo_real": 683,
+      "solo_pred": 9
+     },
+     {
+      "blanco": "MTFR1",
+      "n_real": 7,
+      "n_pred": 1,
+      "interseccion": 0,
+      "solo_real": 7,
+      "solo_pred": 1
+     },
+     {
+      "blanco": "NGRN",
+      "n_real": 1766,
+      "n_pred": 18,
+      "interseccion": 8,
+      "solo_real": 1758,
+      "solo_pred": 10
+     },
+     {
+      "blanco": "NREP",
+      "n_real": 2707,
+      "n_pred": 4,
+      "interseccion": 1,
+      "solo_real": 2706,
+      "solo_pred": 3
+     },
+     {
+      "blanco": "OXCT1",
+      "n_real": 2499,
+      "n_pred": 3,
+      "interseccion": 2,
+      "solo_real": 2497,
+      "solo_pred": 1
+     },
+     {
+      "blanco": "PCCB",
+      "n_real": 0,
+      "n_pred": 3,
+      "interseccion": 0,
+      "solo_real": 0,
+      "solo_pred": 3
+     },
+     {
+      "blanco": "PLCB3",
+      "n_real": 4,
+      "n_pred": 9,
+      "interseccion": 0,
+      "solo_real": 4,
+      "solo_pred": 9
+     },
+     {
+      "blanco": "SDC1",
+      "n_real": 698,
+      "n_pred": 9,
+      "interseccion": 5,
+      "solo_real": 693,
+      "solo_pred": 4
+     },
+     {
+      "blanco": "SIN3B",
+      "n_real": 7059,
+      "n_pred": 9,
+      "interseccion": 8,
+      "solo_real": 7051,
+      "solo_pred": 1
+     },
+     {
+      "blanco": "SIX4",
+      "n_real": 268,
+      "n_pred": 9,
+      "interseccion": 0,
+      "solo_real": 268,
+      "solo_pred": 9
+     },
+     {
+      "blanco": "SLC25A3",
+      "n_real": 957,
+      "n_pred": 15,
+      "interseccion": 1,
+      "solo_real": 956,
+      "solo_pred": 14
+     },
+     {
+      "blanco": "SMARCB1",
+      "n_real": 4627,
+      "n_pred": 1,
+      "interseccion": 1,
+      "solo_real": 4626,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "SOX4",
+      "n_real": 2981,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 2981,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "STAT6",
+      "n_real": 1062,
+      "n_pred": 42,
+      "interseccion": 5,
+      "solo_real": 1057,
+      "solo_pred": 37
+     },
+     {
+      "blanco": "STRAP",
+      "n_real": 6562,
+      "n_pred": 57,
+      "interseccion": 44,
+      "solo_real": 6518,
+      "solo_pred": 13
+     },
+     {
+      "blanco": "TAF13",
+      "n_real": 4474,
+      "n_pred": 33,
+      "interseccion": 21,
+      "solo_real": 4453,
+      "solo_pred": 12
+     },
+     {
+      "blanco": "TARBP2",
+      "n_real": 173,
+      "n_pred": 10,
+      "interseccion": 0,
+      "solo_real": 173,
+      "solo_pred": 10
+     },
+     {
+      "blanco": "TCF7L2",
+      "n_real": 790,
+      "n_pred": 24,
+      "interseccion": 3,
+      "solo_real": 787,
+      "solo_pred": 21
+     },
+     {
+      "blanco": "TET1",
+      "n_real": 440,
+      "n_pred": 28,
+      "interseccion": 2,
+      "solo_real": 438,
+      "solo_pred": 26
+     },
+     {
+      "blanco": "TFAM",
+      "n_real": 2811,
+      "n_pred": 19,
+      "interseccion": 12,
+      "solo_real": 2799,
+      "solo_pred": 7
+     },
+     {
+      "blanco": "TMSB4X",
+      "n_real": 3,
+      "n_pred": 2,
+      "interseccion": 0,
+      "solo_real": 3,
+      "solo_pred": 2
+     },
+     {
+      "blanco": "TSFM",
+      "n_real": 2521,
+      "n_pred": 8,
+      "interseccion": 3,
+      "solo_real": 2518,
+      "solo_pred": 5
+     },
+     {
+      "blanco": "USF2",
+      "n_real": 6412,
+      "n_pred": 3,
+      "interseccion": 2,
+      "solo_real": 6410,
+      "solo_pred": 1
+     },
+     {
+      "blanco": "VCL",
+      "n_real": 194,
+      "n_pred": 3,
+      "interseccion": 0,
+      "solo_real": 194,
+      "solo_pred": 3
+     },
+     {
+      "blanco": "WFS1",
+      "n_real": 6,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 6,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "ZNF286A",
+      "n_real": 3,
+      "n_pred": 12,
+      "interseccion": 0,
+      "solo_real": 3,
+      "solo_pred": 12
+     },
+     {
+      "blanco": "ZNF593",
+      "n_real": 583,
+      "n_pred": 7,
+      "interseccion": 1,
+      "solo_real": 582,
+      "solo_pred": 6
+     },
+     {
+      "blanco": "ZNF664",
+      "n_real": 14,
+      "n_pred": 60,
+      "interseccion": 0,
+      "solo_real": 14,
+      "solo_pred": 60
+     },
+     {
+      "blanco": "ZNF92",
+      "n_real": 15,
+      "n_pred": 3,
+      "interseccion": 0,
+      "solo_real": 15,
+      "solo_pred": 3
+     }
+    ]
+   },
+   "segundos": 376.3
+  },
+  "k1.5": {
+   "estado": "OK",
+   "modelo": "10_rasgos",
+   "k": 1.5,
+   "semilla": 20284704,
+   "u": {
+    "pds_cosine": 0.6271186440677963,
+    "expr_mse_unbiased_capped_norm": 0.9964098248878712,
+    "de_wilcoxon_lfc_nmae": 0.9895239466638772,
+    "de_wilcoxon_direction_fidelity_yield_raw": 0.0218343248989794,
+    "de_wilcoxon_direction_reach_raw": 0.0658134738617172,
+    "de_wilcoxon_sig_jaccard": 0.0180973123615651
+   },
+   "s": {
+    "de_wilcoxon_lfc_nmae": {
+     "from_baseline": -0.0625289058753879,
+     "from_replicate": -0.1001088416343185,
+     "anchor_source": "real_bundle",
+     "anchor_digest": "79174a675534cb3192461aa9f1a4eb561cbdace235362097f78be63e02067742",
+     "real_bundle_id": "bundle",
+     "real_bundle_digest": "da872f6c8409ff6cfa67f054385743a5aa917b32aede2020bb0068ec81bf6eba"
+    },
+    "expr_mse_unbiased_capped_norm": {
+     "from_baseline": 0.0,
+     "from_replicate": 0.0,
+     "anchor_source": "real_bundle",
+     "anchor_digest": "79174a675534cb3192461aa9f1a4eb561cbdace235362097f78be63e02067742",
+     "real_bundle_id": "bundle",
+     "real_bundle_digest": "da872f6c8409ff6cfa67f054385743a5aa917b32aede2020bb0068ec81bf6eba"
+    },
+    "de_wilcoxon_direction_fidelity_yield_raw": {
+     "from_baseline": -0.1505710559773098,
+     "from_replicate": -0.1765451013191636,
+     "anchor_source": "real_bundle",
+     "anchor_digest": "79174a675534cb3192461aa9f1a4eb561cbdace235362097f78be63e02067742",
+     "real_bundle_id": "bundle",
+     "real_bundle_digest": "da872f6c8409ff6cfa67f054385743a5aa917b32aede2020bb0068ec81bf6eba"
+    },
+    "de_wilcoxon_direction_reach_raw": {
+     "from_baseline": -0.0504094893973542,
+     "from_replicate": -0.0507914003978113,
+     "anchor_source": "real_bundle",
+     "anchor_digest": "79174a675534cb3192461aa9f1a4eb561cbdace235362097f78be63e02067742",
+     "real_bundle_id": "bundle",
+     "real_bundle_digest": "da872f6c8409ff6cfa67f054385743a5aa917b32aede2020bb0068ec81bf6eba"
+    },
+    "de_wilcoxon_sig_jaccard": {
+     "from_baseline": 0.0102147393208636,
+     "from_replicate": 0.0238839029448503,
+     "anchor_source": "real_bundle",
+     "anchor_digest": "79174a675534cb3192461aa9f1a4eb561cbdace235362097f78be63e02067742",
+     "real_bundle_id": "bundle",
+     "real_bundle_digest": "da872f6c8409ff6cfa67f054385743a5aa917b32aede2020bb0068ec81bf6eba"
+    },
+    "pds_cosine": {
+     "from_baseline": 0.2567567567567558,
+     "from_replicate": 0.272108843537414,
+     "anchor_source": "real_bundle",
+     "anchor_digest": "79174a675534cb3192461aa9f1a4eb561cbdace235362097f78be63e02067742",
+     "real_bundle_id": "bundle",
+     "real_bundle_digest": "da872f6c8409ff6cfa67f054385743a5aa917b32aede2020bb0068ec81bf6eba"
+    },
+    "avg_score": {
+     "from_baseline": null,
+     "from_replicate": -0.0052420994781715,
+     "anchor_source": "real_bundle",
+     "anchor_digest": "79174a675534cb3192461aa9f1a4eb561cbdace235362097f78be63e02067742",
+     "real_bundle_id": "bundle",
+     "real_bundle_digest": "da872f6c8409ff6cfa67f054385743a5aa917b32aede2020bb0068ec81bf6eba"
+    }
+   },
+   "score_ec": 0,
+   "sd_log2_razon": 0.08063659071922302,
+   "sd_razon": 0.06015023961663246,
+   "razon_min_max": [
+    0.8873770236968994,
+    1.2592593431472778
+   ],
+   "n_recortados": 0,
+   "pred": {
+    "shape": [
+     24400,
+     18080
+    ],
+    "nnz": 213458628
+   },
+   "cuatro_celdas": {
+    "archivos": [
+     "de_pred.parquet",
+     "de_real.parquet"
+    ],
+    "de_real_columnas": [
+     "target",
+     "feature",
+     "log2_fold_change",
+     "p_value",
+     "p_adj",
+     "abs_log2_fold_change"
+    ],
+    "de_real_filas": 646860,
+    "de_pred_columnas": [
+     "target",
+     "feature",
+     "log2_fold_change",
+     "p_value",
+     "p_adj",
+     "abs_log2_fold_change"
+    ],
+    "de_pred_filas": 646860,
+    "columnas_usadas": {
+     "target": "feature"
+    },
+    "filtro_q": "p_adj",
+    "n_blancos": 60,
+    "media_interseccion": 0.6333333333333333,
+    "media_solo_real": 1949.5333333333333,
+    "media_solo_pred_FALSOS_POSITIVOS": 1.2666666666666666,
+    "ambos_vacios": 1,
+    "media_genes_llamados_real": 1950.1666666666667,
+    "media_genes_llamados_pred": 1.9,
+    "por_blanco": [
+     {
+      "blanco": "ACAT2",
+      "n_real": 3139,
+      "n_pred": 22,
+      "interseccion": 10,
+      "solo_real": 3129,
+      "solo_pred": 12
+     },
+     {
+      "blanco": "ADNP",
+      "n_real": 4740,
+      "n_pred": 1,
+      "interseccion": 1,
+      "solo_real": 4739,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "ANKZF1",
+      "n_real": 547,
+      "n_pred": 1,
+      "interseccion": 0,
+      "solo_real": 547,
+      "solo_pred": 1
+     },
+     {
+      "blanco": "ARID1A",
+      "n_real": 2636,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 2636,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "ATF4",
+      "n_real": 1584,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 1584,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "C1QBP",
+      "n_real": 2246,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 2246,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "CD276",
+      "n_real": 26,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 26,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "CLDN6",
+      "n_real": 24,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 24,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "CNN3",
+      "n_real": 0,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 0,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "COX4I1",
+      "n_real": 610,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 610,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "CTNNB1",
+      "n_real": 3718,
+      "n_pred": 2,
+      "interseccion": 1,
+      "solo_real": 3717,
+      "solo_pred": 1
+     },
+     {
+      "blanco": "DCK",
+      "n_real": 1127,
+      "n_pred": 2,
+      "interseccion": 0,
+      "solo_real": 1127,
+      "solo_pred": 2
+     },
+     {
+      "blanco": "DNMT1",
+      "n_real": 6665,
+      "n_pred": 3,
+      "interseccion": 3,
+      "solo_real": 6662,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "DOT1L",
+      "n_real": 5534,
+      "n_pred": 1,
+      "interseccion": 1,
+      "solo_real": 5533,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "DPH2",
+      "n_real": 5853,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 5853,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "DZIP3",
+      "n_real": 3,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 3,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "EID2",
+      "n_real": 13,
+      "n_pred": 2,
+      "interseccion": 1,
+      "solo_real": 12,
+      "solo_pred": 1
+     },
+     {
+      "blanco": "EPHX1",
+      "n_real": 40,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 40,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "GSTZ1",
+      "n_real": 1,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 1,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "HDAC8",
+      "n_real": 273,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 273,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "HIRA",
+      "n_real": 200,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 200,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "HSBP1",
+      "n_real": 1646,
+      "n_pred": 5,
+      "interseccion": 1,
+      "solo_real": 1645,
+      "solo_pred": 4
+     },
+     {
+      "blanco": "HSP90B1",
+      "n_real": 3683,
+      "n_pred": 3,
+      "interseccion": 3,
+      "solo_real": 3680,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "KDR",
+      "n_real": 11,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 11,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "KLF10",
+      "n_real": 319,
+      "n_pred": 1,
+      "interseccion": 0,
+      "solo_real": 319,
+      "solo_pred": 1
+     },
+     {
+      "blanco": "LZTR1",
+      "n_real": 3141,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 3141,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "MBTPS1",
+      "n_real": 4454,
+      "n_pred": 4,
+      "interseccion": 1,
+      "solo_real": 4453,
+      "solo_pred": 3
+     },
+     {
+      "blanco": "MED15",
+      "n_real": 2038,
+      "n_pred": 3,
+      "interseccion": 0,
+      "solo_real": 2038,
+      "solo_pred": 3
+     },
+     {
+      "blanco": "MED25",
+      "n_real": 2907,
+      "n_pred": 1,
+      "interseccion": 0,
+      "solo_real": 2907,
+      "solo_pred": 1
+     },
+     {
+      "blanco": "METTL3",
+      "n_real": 8449,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 8449,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "MLLT1",
+      "n_real": 1064,
+      "n_pred": 9,
+      "interseccion": 3,
+      "solo_real": 1061,
+      "solo_pred": 6
+     },
+     {
+      "blanco": "MTA1",
+      "n_real": 683,
+      "n_pred": 1,
+      "interseccion": 0,
+      "solo_real": 683,
+      "solo_pred": 1
+     },
+     {
+      "blanco": "MTFR1",
+      "n_real": 7,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 7,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "NGRN",
+      "n_real": 1766,
+      "n_pred": 1,
+      "interseccion": 1,
+      "solo_real": 1765,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "NREP",
+      "n_real": 2707,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 2707,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "OXCT1",
+      "n_real": 2499,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 2499,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "PCCB",
+      "n_real": 0,
+      "n_pred": 2,
+      "interseccion": 0,
+      "solo_real": 0,
+      "solo_pred": 2
+     },
+     {
+      "blanco": "PLCB3",
+      "n_real": 4,
+      "n_pred": 5,
+      "interseccion": 0,
+      "solo_real": 4,
+      "solo_pred": 5
+     },
+     {
+      "blanco": "SDC1",
+      "n_real": 698,
+      "n_pred": 1,
+      "interseccion": 1,
+      "solo_real": 697,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "SIN3B",
+      "n_real": 7059,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 7059,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "SIX4",
+      "n_real": 268,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 268,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "SLC25A3",
+      "n_real": 957,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 957,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "SMARCB1",
+      "n_real": 4627,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 4627,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "SOX4",
+      "n_real": 2981,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 2981,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "STAT6",
+      "n_real": 1062,
+      "n_pred": 21,
+      "interseccion": 2,
+      "solo_real": 1060,
+      "solo_pred": 19
+     },
+     {
+      "blanco": "STRAP",
+      "n_real": 6562,
+      "n_pred": 6,
+      "interseccion": 5,
+      "solo_real": 6557,
+      "solo_pred": 1
+     },
+     {
+      "blanco": "TAF13",
+      "n_real": 4474,
+      "n_pred": 5,
+      "interseccion": 3,
+      "solo_real": 4471,
+      "solo_pred": 2
+     },
+     {
+      "blanco": "TARBP2",
+      "n_real": 173,
+      "n_pred": 2,
+      "interseccion": 0,
+      "solo_real": 173,
+      "solo_pred": 2
+     },
+     {
+      "blanco": "TCF7L2",
+      "n_real": 790,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 790,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "TET1",
+      "n_real": 440,
+      "n_pred": 2,
+      "interseccion": 0,
+      "solo_real": 440,
+      "solo_pred": 2
+     },
+     {
+      "blanco": "TFAM",
+      "n_real": 2811,
+      "n_pred": 2,
+      "interseccion": 0,
+      "solo_real": 2811,
+      "solo_pred": 2
+     },
+     {
+      "blanco": "TMSB4X",
+      "n_real": 3,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 3,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "TSFM",
+      "n_real": 2521,
+      "n_pred": 5,
+      "interseccion": 1,
+      "solo_real": 2520,
+      "solo_pred": 4
+     },
+     {
+      "blanco": "USF2",
+      "n_real": 6412,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 6412,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "VCL",
+      "n_real": 194,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 194,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "WFS1",
+      "n_real": 6,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 6,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "ZNF286A",
+      "n_real": 3,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 3,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "ZNF593",
+      "n_real": 583,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 583,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "ZNF664",
+      "n_real": 14,
+      "n_pred": 1,
+      "interseccion": 0,
+      "solo_real": 14,
+      "solo_pred": 1
+     },
+     {
+      "blanco": "ZNF92",
+      "n_real": 15,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 15,
+      "solo_pred": 0
+     }
+    ]
+   },
+   "segundos": 429.5
+  },
+  "k2.5": {
+   "estado": "OK",
+   "modelo": "10_rasgos",
+   "k": 2.5,
+   "semilla": 20284705,
+   "u": {
+    "pds_cosine": 0.6228813559322034,
+    "expr_mse_unbiased_capped_norm": 1.0221665545166387,
+    "de_wilcoxon_lfc_nmae": 0.9841896431682248,
+    "de_wilcoxon_direction_fidelity_yield_raw": 0.1216121199147917,
+    "de_wilcoxon_direction_reach_raw": 0.0818804862086347,
+    "de_wilcoxon_sig_jaccard": 0.0073392694948815
+   },
+   "s": {
+    "de_wilcoxon_lfc_nmae": {
+     "from_baseline": -0.0568010488831933,
+     "from_replicate": -0.0909385367887745,
+     "anchor_source": "real_bundle",
+     "anchor_digest": "79174a675534cb3192461aa9f1a4eb561cbdace235362097f78be63e02067742",
+     "real_bundle_id": "bundle",
+     "real_bundle_digest": "da872f6c8409ff6cfa67f054385743a5aa917b32aede2020bb0068ec81bf6eba"
+    },
+    "expr_mse_unbiased_capped_norm": {
+     "from_baseline": 0.0,
+     "from_replicate": 0.0,
+     "anchor_source": "real_bundle",
+     "anchor_digest": "79174a675534cb3192461aa9f1a4eb561cbdace235362097f78be63e02067742",
+     "real_bundle_id": "bundle",
+     "real_bundle_digest": "da872f6c8409ff6cfa67f054385743a5aa917b32aede2020bb0068ec81bf6eba"
+    },
+    "de_wilcoxon_direction_fidelity_yield_raw": {
+     "from_baseline": -0.0332070491462844,
+     "from_replicate": -0.0389353838158954,
+     "anchor_source": "real_bundle",
+     "anchor_digest": "79174a675534cb3192461aa9f1a4eb561cbdace235362097f78be63e02067742",
+     "real_bundle_id": "bundle",
+     "real_bundle_digest": "da872f6c8409ff6cfa67f054385743a5aa917b32aede2020bb0068ec81bf6eba"
+    },
+    "de_wilcoxon_direction_reach_raw": {
+     "from_baseline": -0.0323435659835022,
+     "from_replicate": -0.0325886064270929,
+     "anchor_source": "real_bundle",
+     "anchor_digest": "79174a675534cb3192461aa9f1a4eb561cbdace235362097f78be63e02067742",
+     "real_bundle_id": "bundle",
+     "real_bundle_digest": "da872f6c8409ff6cfa67f054385743a5aa917b32aede2020bb0068ec81bf6eba"
+    },
+    "de_wilcoxon_sig_jaccard": {
+     "from_baseline": -0.0006296675610519,
+     "from_replicate": -0.0014722763296532,
+     "anchor_source": "real_bundle",
+     "anchor_digest": "79174a675534cb3192461aa9f1a4eb561cbdace235362097f78be63e02067742",
+     "real_bundle_id": "bundle",
+     "real_bundle_digest": "da872f6c8409ff6cfa67f054385743a5aa917b32aede2020bb0068ec81bf6eba"
+    },
+    "pds_cosine": {
+     "from_baseline": 0.2483108108108106,
+     "from_replicate": 0.2631578947368418,
+     "anchor_source": "real_bundle",
+     "anchor_digest": "79174a675534cb3192461aa9f1a4eb561cbdace235362097f78be63e02067742",
+     "real_bundle_id": "bundle",
+     "real_bundle_digest": "da872f6c8409ff6cfa67f054385743a5aa917b32aede2020bb0068ec81bf6eba"
+    },
+    "avg_score": {
+     "from_baseline": null,
+     "from_replicate": 0.0165371818959042,
+     "anchor_source": "real_bundle",
+     "anchor_digest": "79174a675534cb3192461aa9f1a4eb561cbdace235362097f78be63e02067742",
+     "real_bundle_id": "bundle",
+     "real_bundle_digest": "da872f6c8409ff6cfa67f054385743a5aa917b32aede2020bb0068ec81bf6eba"
+    }
+   },
+   "score_ec": 0,
+   "sd_log2_razon": 0.1343943178653717,
+   "sd_razon": 0.1054614782333374,
+   "razon_min_max": [
+    0.819433331489563,
+    1.4684481620788574
+   ],
+   "n_recortados": 0,
+   "pred": {
+    "shape": [
+     24400,
+     18080
+    ],
+    "nnz": 213180147
+   },
+   "cuatro_celdas": {
+    "archivos": [
+     "de_pred.parquet",
+     "de_real.parquet"
+    ],
+    "de_real_columnas": [
+     "target",
+     "feature",
+     "log2_fold_change",
+     "p_value",
+     "p_adj",
+     "abs_log2_fold_change"
+    ],
+    "de_real_filas": 646860,
+    "de_pred_columnas": [
+     "target",
+     "feature",
+     "log2_fold_change",
+     "p_value",
+     "p_adj",
+     "abs_log2_fold_change"
+    ],
+    "de_pred_filas": 646860,
+    "columnas_usadas": {
+     "target": "feature"
+    },
+    "filtro_q": "p_adj",
+    "n_blancos": 60,
+    "media_interseccion": 17.116666666666667,
+    "media_solo_real": 1933.05,
+    "media_solo_pred_FALSOS_POSITIVOS": 33.61666666666667,
+    "ambos_vacios": 0,
+    "media_genes_llamados_real": 1950.1666666666667,
+    "media_genes_llamados_pred": 50.733333333333334,
+    "por_blanco": [
+     {
+      "blanco": "ACAT2",
+      "n_real": 3139,
+      "n_pred": 40,
+      "interseccion": 20,
+      "solo_real": 3119,
+      "solo_pred": 20
+     },
+     {
+      "blanco": "ADNP",
+      "n_real": 4740,
+      "n_pred": 38,
+      "interseccion": 18,
+      "solo_real": 4722,
+      "solo_pred": 20
+     },
+     {
+      "blanco": "ANKZF1",
+      "n_real": 547,
+      "n_pred": 28,
+      "interseccion": 3,
+      "solo_real": 544,
+      "solo_pred": 25
+     },
+     {
+      "blanco": "ARID1A",
+      "n_real": 2636,
+      "n_pred": 67,
+      "interseccion": 25,
+      "solo_real": 2611,
+      "solo_pred": 42
+     },
+     {
+      "blanco": "ATF4",
+      "n_real": 1584,
+      "n_pred": 48,
+      "interseccion": 15,
+      "solo_real": 1569,
+      "solo_pred": 33
+     },
+     {
+      "blanco": "C1QBP",
+      "n_real": 2246,
+      "n_pred": 138,
+      "interseccion": 58,
+      "solo_real": 2188,
+      "solo_pred": 80
+     },
+     {
+      "blanco": "CD276",
+      "n_real": 26,
+      "n_pred": 54,
+      "interseccion": 0,
+      "solo_real": 26,
+      "solo_pred": 54
+     },
+     {
+      "blanco": "CLDN6",
+      "n_real": 24,
+      "n_pred": 10,
+      "interseccion": 0,
+      "solo_real": 24,
+      "solo_pred": 10
+     },
+     {
+      "blanco": "CNN3",
+      "n_real": 0,
+      "n_pred": 1,
+      "interseccion": 0,
+      "solo_real": 0,
+      "solo_pred": 1
+     },
+     {
+      "blanco": "COX4I1",
+      "n_real": 610,
+      "n_pred": 54,
+      "interseccion": 10,
+      "solo_real": 600,
+      "solo_pred": 44
+     },
+     {
+      "blanco": "CTNNB1",
+      "n_real": 3718,
+      "n_pred": 80,
+      "interseccion": 38,
+      "solo_real": 3680,
+      "solo_pred": 42
+     },
+     {
+      "blanco": "DCK",
+      "n_real": 1127,
+      "n_pred": 34,
+      "interseccion": 3,
+      "solo_real": 1124,
+      "solo_pred": 31
+     },
+     {
+      "blanco": "DNMT1",
+      "n_real": 6665,
+      "n_pred": 60,
+      "interseccion": 49,
+      "solo_real": 6616,
+      "solo_pred": 11
+     },
+     {
+      "blanco": "DOT1L",
+      "n_real": 5534,
+      "n_pred": 45,
+      "interseccion": 33,
+      "solo_real": 5501,
+      "solo_pred": 12
+     },
+     {
+      "blanco": "DPH2",
+      "n_real": 5853,
+      "n_pred": 73,
+      "interseccion": 58,
+      "solo_real": 5795,
+      "solo_pred": 15
+     },
+     {
+      "blanco": "DZIP3",
+      "n_real": 3,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 3,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "EID2",
+      "n_real": 13,
+      "n_pred": 34,
+      "interseccion": 0,
+      "solo_real": 13,
+      "solo_pred": 34
+     },
+     {
+      "blanco": "EPHX1",
+      "n_real": 40,
+      "n_pred": 50,
+      "interseccion": 1,
+      "solo_real": 39,
+      "solo_pred": 49
+     },
+     {
+      "blanco": "GSTZ1",
+      "n_real": 1,
+      "n_pred": 30,
+      "interseccion": 0,
+      "solo_real": 1,
+      "solo_pred": 30
+     },
+     {
+      "blanco": "HDAC8",
+      "n_real": 273,
+      "n_pred": 31,
+      "interseccion": 2,
+      "solo_real": 271,
+      "solo_pred": 29
+     },
+     {
+      "blanco": "HIRA",
+      "n_real": 200,
+      "n_pred": 83,
+      "interseccion": 2,
+      "solo_real": 198,
+      "solo_pred": 81
+     },
+     {
+      "blanco": "HSBP1",
+      "n_real": 1646,
+      "n_pred": 49,
+      "interseccion": 15,
+      "solo_real": 1631,
+      "solo_pred": 34
+     },
+     {
+      "blanco": "HSP90B1",
+      "n_real": 3683,
+      "n_pred": 31,
+      "interseccion": 14,
+      "solo_real": 3669,
+      "solo_pred": 17
+     },
+     {
+      "blanco": "KDR",
+      "n_real": 11,
+      "n_pred": 0,
+      "interseccion": 0,
+      "solo_real": 11,
+      "solo_pred": 0
+     },
+     {
+      "blanco": "KLF10",
+      "n_real": 319,
+      "n_pred": 32,
+      "interseccion": 4,
+      "solo_real": 315,
+      "solo_pred": 28
+     },
+     {
+      "blanco": "LZTR1",
+      "n_real": 3141,
+      "n_pred": 46,
+      "interseccion": 26,
+      "solo_real": 3115,
+      "solo_pred": 20
+     },
+     {
+      "blanco": "MBTPS1",
+      "n_real": 4454,
+      "n_pred": 67,
+      "interseccion": 41,
+      "solo_real": 4413,
+      "solo_pred": 26
+     },
+     {
+      "blanco": "MED15",
+      "n_real": 2038,
+      "n_pred": 57,
+      "interseccion": 19,
+      "solo_real": 2019,
+      "solo_pred": 38
+     },
+     {
+      "blanco": "MED25",
+      "n_real": 2907,
+      "n_pred": 57,
+      "interseccion": 19,
+      "solo_real": 2888,
+      "solo_pred": 38
+     },
+     {
+      "blanco": "METTL3",
+      "n_real": 8449,
+      "n_pred": 43,
+      "interseccion": 37,
+      "solo_real": 8412,
+      "solo_pred": 6
+     },
+     {
+      "blanco": "MLLT1",
+      "n_real": 1064,
+      "n_pred": 69,
+      "interseccion": 16,
+      "solo_real": 1048,
+      "solo_pred": 53
+     },
+     {
+      "blanco": "MTA1",
+      "n_real": 683,
+      "n_pred": 52,
+      "interseccion": 12,
+      "solo_real": 671,
+      "solo_pred": 40
+     },
+     {
+      "blanco": "MTFR1",
+      "n_real": 7,
+      "n_pred": 48,
+      "interseccion": 0,
+      "solo_real": 7,
+      "solo_pred": 48
+     },
+     {
+      "blanco": "NGRN",
+      "n_real": 1766,
+      "n_pred": 102,
+      "interseccion": 38,
+      "solo_real": 1728,
+      "solo_pred": 64
+     },
+     {
+      "blanco": "NREP",
+      "n_real": 2707,
+      "n_pred": 13,
+      "interseccion": 2,
+      "solo_real": 2705,
+      "solo_pred": 11
+     },
+     {
+      "blanco": "OXCT1",
+      "n_real": 2499,
+      "n_pred": 90,
+      "interseccion": 45,
+      "solo_real": 2454,
+      "solo_pred": 45
+     },
+     {
+      "blanco": "PCCB",
+      "n_real": 0,
+      "n_pred": 29,
+      "interseccion": 0,
+      "solo_real": 0,
+      "solo_pred": 29
+     },
+     {
+      "blanco": "PLCB3",
+      "n_real": 4,
+      "n_pred": 53,
+      "interseccion": 0,
+      "solo_real": 4,
+      "solo_pred": 53
+     },
+     {
+      "blanco": "SDC1",
+      "n_real": 698,
+      "n_pred": 59,
+      "interseccion": 19,
+      "solo_real": 679,
+      "solo_pred": 40
+     },
+     {
+      "blanco": "SIN3B",
+      "n_real": 7059,
+      "n_pred": 78,
+      "interseccion": 62,
+      "solo_real": 6997,
+      "solo_pred": 16
+     },
+     {
+      "blanco": "SIX4",
+      "n_real": 268,
+      "n_pred": 29,
+      "interseccion": 1,
+      "solo_real": 267,
+      "solo_pred": 28
+     },
+     {
+      "blanco": "SLC25A3",
+      "n_real": 957,
+      "n_pred": 56,
+      "interseccion": 13,
+      "solo_real": 944,
+      "solo_pred": 43
+     },
+     {
+      "blanco": "SMARCB1",
+      "n_real": 4627,
+      "n_pred": 48,
+      "interseccion": 31,
+      "solo_real": 4596,
+      "solo_pred": 17
+     },
+     {
+      "blanco": "SOX4",
+      "n_real": 2981,
+      "n_pred": 69,
+      "interseccion": 32,
+      "solo_real": 2949,
+      "solo_pred": 37
+     },
+     {
+      "blanco": "STAT6",
+      "n_real": 1062,
+      "n_pred": 162,
+      "interseccion": 20,
+      "solo_real": 1042,
+      "solo_pred": 142
+     },
+     {
+      "blanco": "STRAP",
+      "n_real": 6562,
+      "n_pred": 51,
+      "interseccion": 39,
+      "solo_real": 6523,
+      "solo_pred": 12
+     },
+     {
+      "blanco": "TAF13",
+      "n_real": 4474,
+      "n_pred": 168,
+      "interseccion": 97,
+      "solo_real": 4377,
+      "solo_pred": 71
+     },
+     {
+      "blanco": "TARBP2",
+      "n_real": 173,
+      "n_pred": 10,
+      "interseccion": 2,
+      "solo_real": 171,
+      "solo_pred": 8
+     },
+     {
+      "blanco": "TCF7L2",
+      "n_real": 790,
+      "n_pred": 40,
+      "interseccion": 7,
+      "solo_real": 783,
+      "solo_pred": 33
+     },
+     {
+      "blanco": "TET1",
+      "n_real": 440,
+      "n_pred": 22,
+      "interseccion": 2,
+      "solo_real": 438,
+      "solo_pred": 20
+     },
+     {
+      "blanco": "TFAM",
+      "n_real": 2811,
+      "n_pred": 24,
+      "interseccion": 14,
+      "solo_real": 2797,
+      "solo_pred": 10
+     },
+     {
+      "blanco": "TMSB4X",
+      "n_real": 3,
+      "n_pred": 73,
+      "interseccion": 0,
+      "solo_real": 3,
+      "solo_pred": 73
+     },
+     {
+      "blanco": "TSFM",
+      "n_real": 2521,
+      "n_pred": 76,
+      "interseccion": 35,
+      "solo_real": 2486,
+      "solo_pred": 41
+     },
+     {
+      "blanco": "USF2",
+      "n_real": 6412,
+      "n_pred": 34,
+      "interseccion": 22,
+      "solo_real": 6390,
+      "solo_pred": 12
+     },
+     {
+      "blanco": "VCL",
+      "n_real": 194,
+      "n_pred": 46,
+      "interseccion": 1,
+      "solo_real": 193,
+      "solo_pred": 45
+     },
+     {
+      "blanco": "WFS1",
+      "n_real": 6,
+      "n_pred": 3,
+      "interseccion": 0,
+      "solo_real": 6,
+      "solo_pred": 3
+     },
+     {
+      "blanco": "ZNF286A",
+      "n_real": 3,
+      "n_pred": 58,
+      "interseccion": 0,
+      "solo_real": 3,
+      "solo_pred": 58
+     },
+     {
+      "blanco": "ZNF593",
+      "n_real": 583,
+      "n_pred": 37,
+      "interseccion": 7,
+      "solo_real": 576,
+      "solo_pred": 30
+     },
+     {
+      "blanco": "ZNF664",
+      "n_real": 14,
+      "n_pred": 28,
+      "interseccion": 0,
+      "solo_real": 14,
+      "solo_pred": 28
+     },
+     {
+      "blanco": "ZNF92",
+      "n_real": 15,
+      "n_pred": 37,
+      "interseccion": 0,
+      "solo_real": 15,
+      "solo_pred": 37
+     }
+    ]
+   },
+   "segundos": 453.4
+  }
+ },
+ "alpha": 1000.0,
+ "n_retenidos_pliegue": 60,
+ "rasgos_de_contexto": {
+  "en_el_modelo": false,
+  "rasgos_del_modelo": [
+   "gwps_perfil",
+   "gwps_rango",
+   "gwps_signo",
+   "tiene_gwps_par",
+   "log10_cpm_h",
+   "det_h",
+   "log_fano_h",
+   "pasa_filtro_h",
+   "g_es_TF",
+   "log10_cpm_g"
+  ],
+  "nota": "profundidad_mediana y n_control NO entran en matriz_rasgos; el modelo empaquetado ya es el que no los usa. Dentro de UNA linea ambos son escalares unicos: su sd sobre las filas del ajuste es 0 exactamente, asi que no se pueden estandarizar ni identificar.",
+  "sd_profundidad_sobre_filas_del_ajuste": 0.0,
+  "sd_n_control_sobre_filas_del_ajuste": 0.0,
+  "n_control_2025": 114528
+ },
+ "ablacion_8": {
+  "criterio_declarado_antes_de_ajustar": "los 10 menos los dos rasgos del BLANCO g",
+  "fuera": [
+   "g_es_TF",
+   "log10_cpm_g"
+  ],
+  "dentro": [
+   "gwps_perfil",
+   "gwps_rango",
+   "gwps_signo",
+   "tiene_gwps_par",
+   "log10_cpm_h",
+   "det_h",
+   "log_fano_h",
+   "pasa_filtro_h"
+  ]
+ },
+ "cv_por_modelo": {
+  "10_rasgos": {
+   "pearson_por_blanco": {
+    "mediana": 0.050670413481515755,
+    "media": 0.06275411417586056,
+    "p10_p90": [
+     0.0012349731803515348,
+     0.14554402438994737
+    ],
+    "min_max": [
+     -0.09720811930237962,
+     0.31025579712120893
+    ],
+    "frac_mayor_0": 0.9,
+    "frac_mayor_0.1": 0.22,
+    "n": 300
+   },
+   "R2_por_blanco": {
+    "mediana": -0.00915127024356277,
+    "media": -0.015234606552309397,
+    "p10_p90": [
+     -0.047797500310166406,
+     0.00985633788266841
+    ],
+    "min_max": [
+     -0.147344825711899,
+     0.022357722243732225
+    ],
+    "frac_mayor_0": 0.30666666666666664,
+    "frac_mayor_0.1": 0.0,
+    "n": 300
+   },
+   "pearson_medio_por_blanco": 0.06275411417586056,
+   "por_blanco_crudo": {
+    "ACAT2": [
+     0.061508250877806425,
+     0.0009964679579135272
+    ],
+    "ADNP": [
+     0.07201481008005912,
+     0.004439022422978778
+    ],
+    "ANKZF1": [
+     0.04914152463549462,
+     -0.006541111293690394
+    ],
+    "ARID1A": [
+     0.06031288351653622,
+     0.002949842912129297
+    ],
+    "ATF4": [
+     0.0800172028846371,
+     0.00012407115974566452
+    ],
+    "C1QBP": [
+     0.17350193998816826,
+     0.022357722243732225
+    ],
+    "CD276": [
+     0.003859427376716488,
+     -0.058261450885822796
+    ],
+    "CLDN6": [
+     0.00839558244553597,
+     -0.03172613940344715
+    ],
+    "CNN3": [
+     0.009086328364426646,
+     -0.03879308148550731
+    ],
+    "COX4I1": [
+     0.01588280431505288,
+     -0.027449246371170632
+    ],
+    "CTNNB1": [
+     0.09977912623739238,
+     0.006868772775406984
+    ],
+    "DCK": [
+     0.02113371951341819,
+     -0.015162400570004175
+    ],
+    "DNMT1": [
+     0.10199054589422456,
+     -0.015784364305093224
+    ],
+    "DOT1L": [
+     0.15275979020283426,
+     0.00424549060895596
+    ],
+    "DPH2": [
+     0.16712594132911232,
+     0.008753118321862985
+    ],
+    "DZIP3": [
+     -0.04512282988958611,
+     -0.021563109666105973
+    ],
+    "EID2": [
+     -0.05481955151328766,
+     -0.06987589463346144
+    ],
+    "EPHX1": [
+     0.042396071953463225,
+     -0.01679780615232196
+    ],
+    "GSTZ1": [
+     0.05781484184552876,
+     -0.02428897308306799
+    ],
+    "HDAC8": [
+     0.05264362130629692,
+     -0.009869672958850995
+    ],
+    "HIRA": [
+     0.07832531856021761,
+     0.00021996139145241678
+    ],
+    "HSBP1": [
+     0.05807637152048929,
+     -0.004152624067691901
+    ],
+    "HSP90B1": [
+     0.052988659419516644,
+     -0.003094679891313179
+    ],
+    "KDR": [
+     0.037735395719139996,
+     -0.00991125550587979
+    ],
+    "KLF10": [
+     0.08254659488466884,
+     -0.005082294025458678
+    ],
+    "LZTR1": [
+     0.12122182920323754,
+     0.012663423141697217
+    ],
+    "MBTPS1": [
+     0.07578902315693159,
+     0.0035069562757852335
+    ],
+    "MED15": [
+     0.11128348614814147,
+     0.002730225484153914
+    ],
+    "MED25": [
+     0.023163707567037176,
+     -0.005450653229020386
+    ],
+    "METTL3": [
+     0.24846773441316214,
+     0.012308007682133804
+    ],
+    "MLLT1": [
+     0.07217673755155453,
+     -0.0010908260904325395
+    ],
+    "MTA1": [
+     0.09358321826919011,
+     0.007216603342813377
+    ],
+    "MTFR1": [
+     0.03009475036326117,
+     -0.04775341753050055
+    ],
+    "NGRN": [
+     0.10408871978244139,
+     0.0053667917920596775
+    ],
+    "NREP": [
+     0.23344048785806976,
+     0.006821375264573937
+    ],
+    "OXCT1": [
+     0.1235608041704483,
+     0.012739137037631965
+    ],
+    "PCCB": [
+     -0.01854592287620277,
+     -0.147344825711899
+    ],
+    "PLCB3": [
+     -0.017087631904574466,
+     -0.04601538108991776
+    ],
+    "SDC1": [
+     0.13163993058295806,
+     0.01445075771914095
+    ],
+    "SIN3B": [
+     0.10762529075504218,
+     -0.013649619281372205
+    ],
+    "SIX4": [
+     0.03707862419076637,
+     -0.012336326585546287
+    ],
+    "SLC25A3": [
+     0.03433008967027797,
+     -0.010133483111455899
+    ],
+    "SMARCB1": [
+     0.09718284550381064,
+     0.007063375562487373
+    ],
+    "SOX4": [
+     0.06807630784257356,
+     0.00377715307607962
+    ],
+    "STAT6": [
+     0.04415178280289319,
+     -0.008029441669432869
+    ],
+    "STRAP": [
+     0.10687865528369986,
+     0.004300926221634804
+    ],
+    "TAF13": [
+     0.20025953469239452,
+     0.002906611932433134
+    ],
+    "TARBP2": [
+     0.03178925952162684,
+     -0.027878706897850547
+    ],
+    "TCF7L2": [
+     -0.0029571369498074926,
+     -0.029995842012461305
+    ],
+    "TET1": [
+     0.02573481966090195,
+     -0.018350055831608092
+    ],
+    "TFAM": [
+     0.06708089268292873,
+     -0.002387837201637044
+    ],
+    "TMSB4X": [
+     0.03565864035107025,
+     -0.09762545400130218
+    ],
+    "TSFM": [
+     0.1133316282631793,
+     0.010881336295624044
+    ],
+    "USF2": [
+     0.1481402209512122,
+     -0.02306591569929939
+    ],
+    "VCL": [
+     -0.01226974967835744,
+     -0.03467321160785941
+    ],
+    "WFS1": [
+     0.021297478602383898,
+     -0.030051586009425924
+    ],
+    "ZNF286A": [
+     -0.013452741613330788,
+     -0.06059429419639861
+    ],
+    "ZNF593": [
+     0.006028017115606753,
+     -0.02659537585020999
+    ],
+    "ZNF664": [
+     0.05525497556306728,
+     -0.04100692521684679
+    ],
+    "ZNF92": [
+     0.04280450104652635,
+     -0.02223608947269473
+    ],
+    "ACVR1B": [
+     0.007754074224315576,
+     -0.02049996950174804
+    ],
+    "AKT2": [
+     0.02866946381867711,
+     -0.00882718358892931
+    ],
+    "ANXA6": [
+     0.03792563927018335,
+     -0.04479901468640657
+    ],
+    "ATM": [
+     0.10544777679481067,
+     0.0065556057447285765
+    ],
+    "ATP6V0B": [
+     0.057159212338930475,
+     -0.001910182537517402
+    ],
+    "BIRC2": [
+     0.04233049633131652,
+     -0.003748770828294612
+    ],
+    "COL6A1": [
+     -0.06089016528442787,
+     -0.0589469773189466
+    ],
+    "CREG1": [
+     0.025889933506921,
+     -0.05265923586052024
+    ],
+    "CTSV": [
+     0.08957888187277148,
+     0.005773253942387924
+    ],
+    "CYFIP1": [
+     0.015926951284149747,
+     -0.03260794115612864
+    ],
+    "DAXX": [
+     0.11667172904022535,
+     0.012540815708383612
+    ],
+    "EHMT1": [
+     0.06692706630067104,
+     0.0032911452983062084
+    ],
+    "ELAC2": [
+     0.08512518439289976,
+     0.004493093408755033
+    ],
+    "FIBP": [
+     0.06390862889095533,
+     -0.010115298596230726
+    ],
+    "FOXH1": [
+     0.008326581574593633,
+     -0.018622915668107032
+    ],
+    "GNG12": [
+     -0.005127217124694325,
+     -0.0152793741194035
+    ],
+    "HDAC3": [
+     0.0875031761168241,
+     -0.010887855779794897
+    ],
+    "HMGCS1": [
+     0.08556148685334102,
+     0.005666497469533294
+    ],
+    "HMGN1": [
+     0.029863981302598375,
+     -0.03472669621885416
+    ],
+    "IKBKG": [
+     0.0654373660285156,
+     -0.010166074460922214
+    ],
+    "INO80B": [
+     0.17447563196670995,
+     0.014534481253704712
+    ],
+    "KAT2A": [
+     0.18386727674121933,
+     -0.03150165319631704
+    ],
+    "KLHDC2": [
+     0.011077519193544532,
+     -0.05705695111054876
+    ],
+    "MAST2": [
+     -0.006781914269077363,
+     -0.052799495572511734
+    ],
+    "MAX": [
+     0.2185491562383936,
+     0.012926704255765253
+    ],
+    "MED13": [
+     0.062324891627063464,
+     0.0017325496591290568
+    ],
+    "MED23": [
+     0.03649515450689103,
+     -0.00845904072710324
+    ],
+    "METTL14": [
+     0.2582498779899271,
+     0.013067778642126604
+    ],
+    "METTL17": [
+     0.1143125661876442,
+     0.012673330988943188
+    ],
+    "MPC2": [
+     0.017757783273845026,
+     -0.03884509122363977
+    ],
+    "NELFE": [
+     0.18532988803160982,
+     -0.008007841240821323
+    ],
+    "NFATC3": [
+     0.014664628806384942,
+     -0.03242317504903558
+    ],
+    "NFE2L1": [
+     -0.01690971814129045,
+     -0.05350554800372542
+    ],
+    "NFX1": [
+     0.0017360384305082203,
+     -0.048879804783597214
+    ],
+    "PAGR1": [
+     -0.027396613178754643,
+     -0.049583315116830784
+    ],
+    "PBX3": [
+     0.0015934940995810684,
+     -0.04046250488829739
+    ],
+    "PHF10": [
+     0.09150929940576016,
+     0.008192845403609095
+    ],
+    "PPP2R3C": [
+     0.07509173955066557,
+     0.0031063913416740085
+    ],
+    "PTPN1": [
+     0.05293889280404937,
+     -0.034768208265645084
+    ],
+    "RAB3B": [
+     -0.03234383589235358,
+     -0.026647328610291288
+    ],
+    "RAF1": [
+     0.021554385752809647,
+     -0.014269090773607163
+    ],
+    "RBPJ": [
+     0.053938936926808796,
+     -0.005019746952434456
+    ],
+    "SET": [
+     0.06858410797832167,
+     -0.010401327399774285
+    ],
+    "SETDB1": [
+     0.0446780389305219,
+     -0.00795771129120082
+    ],
+    "SLC39A6": [
+     0.0825057904970576,
+     0.005239060119715089
+    ],
+    "SLC5A6": [
+     0.025383510942853824,
+     -0.03354311530197163
+    ],
+    "SRC": [
+     -0.04999283814527279,
+     -0.04175031202849122
+    ],
+    "SSBP1": [
+     0.05973055515720918,
+     -0.002690829077238499
+    ],
+    "STX4": [
+     -0.02817696371167485,
+     -0.040936759366806186
+    ],
+    "TAF11": [
+     0.17046947277043337,
+     0.0003662878786127033
+    ],
+    "THAP11": [
+     0.23821296236159129,
+     -0.0025719496952856247
+    ],
+    "THY1": [
+     0.04231229380837652,
+     -0.010787158843540201
+    ],
+    "TOR1A": [
+     -0.009672977425239714,
+     -0.04898097610635488
+    ],
+    "TRAM2": [
+     0.029060966766681875,
+     -0.04942966203276877
+    ],
+    "TRAPPC6A": [
+     0.10268234438724588,
+     0.009792818356556543
+    ],
+    "TWF2": [
+     0.017342822591463407,
+     -0.027250666809531587
+    ],
+    "UBE3C": [
+     0.09482091654108929,
+     0.007001141690520796
+    ],
+    "UGDH": [
+     0.003165275524843597,
+     -0.01795823519852835
+    ],
+    "XRCC4": [
+     0.07526097257538705,
+     0.0019723639761066725
+    ],
+    "ZFP62": [
+     0.1353329468057784,
+     0.00011393443584362117
+    ],
+    "ACLY": [
+     0.10012418563736566,
+     0.006023959540897517
+    ],
+    "ANTXR1": [
+     0.021165855131026246,
+     -0.021363215721287077
+    ],
+    "APOE": [
+     0.06957822422110117,
+     -0.0400405940833608
+    ],
+    "ARID3A": [
+     0.02909335435395303,
+     -0.0002990791779551305
+    ],
+    "BECN1": [
+     0.05044893536370011,
+     -0.0018469886806116165
+    ],
+    "BRD9": [
+     0.025964234328349586,
+     -0.005514769289855392
+    ],
+    "CENPO": [
+     0.05341246919354054,
+     -0.009313894394373579
+    ],
+    "CTBP2": [
+     0.0483114405839146,
+     -0.008666304237499922
+    ],
+    "CXCL12": [
+     -0.036821640652510215,
+     -0.03211160846862371
+    ],
+    "DHX36": [
+     0.2996233102316726,
+     0.01925001262182846
+    ],
+    "DPF2": [
+     0.003146980358407273,
+     -0.07458108435665922
+    ],
+    "EHMT2": [
+     0.08546088210214152,
+     0.006457368267608343
+    ],
+    "EIF4B": [
+     0.07891232753912761,
+     0.005284678270190413
+    ],
+    "EP300": [
+     0.006437097651542175,
+     -0.001371134074953817
+    ],
+    "FDPS": [
+     0.06763811901261257,
+     -0.0034204307288565605
+    ],
+    "FGFR1": [
+     0.02468215653482193,
+     -0.003398795955325218
+    ],
+    "GRB10": [
+     0.09738571452564196,
+     -0.002941687351754485
+    ],
+    "GSK3B": [
+     0.044712268144917626,
+     -0.005548271370011459
+    ],
+    "HMGXB4": [
+     -0.03128170629375696,
+     -0.07368518175241379
+    ],
+    "IDE": [
+     0.057243428263534894,
+     -0.03106091921284504
+    ],
+    "IRF3": [
+     0.06010449276172062,
+     -0.010438228052380039
+    ],
+    "JAZF1": [
+     0.08521743812050188,
+     0.006667048175083123
+    ],
+    "JMJD1C": [
+     0.006001441192475674,
+     -0.016476367583368123
+    ],
+    "JMJD8": [
+     0.05750471526747271,
+     -0.008988646092751962
+    ],
+    "KDM1A": [
+     0.31025579712120893,
+     0.008183336595361967
+    ],
+    "KDM2B": [
+     0.08604335008746122,
+     0.0041390389097704094
+    ],
+    "KIF1B": [
+     0.0333617234029189,
+     -0.0328343246426086
+    ],
+    "KIF20A": [
+     0.27968008539563416,
+     0.017311771258678443
+    ],
+    "KRT18": [
+     0.06043584147049462,
+     -0.01726854001902889
+    ],
+    "LRPPRC": [
+     0.12034096415301904,
+     0.013858675410852728
+    ],
+    "LTBR": [
+     0.005796875668969527,
+     -0.014928879928493455
+    ],
+    "MAT2A": [
+     -0.01538432734523171,
+     -0.0725862303809115
+    ],
+    "MAU2": [
+     0.12952753768754732,
+     0.009852979282689578
+    ],
+    "MED1": [
+     0.07395263030310925,
+     -0.00034635088829237937
+    ],
+    "MGST1": [
+     0.04070964943958587,
+     -0.015013035326317814
+    ],
+    "MORN2": [
+     0.11738196608196709,
+     -0.0008557776933491024
+    ],
+    "NCAPH2": [
+     -0.0022646189343771828,
+     -0.013981630563276948
+    ],
+    "NISCH": [
+     0.03837595625680276,
+     -0.014098431326464933
+    ],
+    "NIT1": [
+     0.03914092254237645,
+     3.935927610099199e-05
+    ],
+    "OAZ1": [
+     0.019886892413910263,
+     -0.028653722093560763
+    ],
+    "OXA1L": [
+     0.18778153497848077,
+     0.015579966118970279
+    ],
+    "PBX1": [
+     0.025691520233473944,
+     -0.03563811379858173
+    ],
+    "PGAM1": [
+     0.11651742006369809,
+     0.010776660569856933
+    ],
+    "PHF12": [
+     0.14668312281974108,
+     -0.00038492416873792124
+    ],
+    "SAFB2": [
+     0.11223644081759564,
+     0.00431853907820412
+    ],
+    "SALL4": [
+     0.001378180796577174,
+     -0.002208513371321441
+    ],
+    "SMAGP": [
+     0.010124450667061824,
+     -0.01240443862486762
+    ],
+    "SMARCA4": [
+     0.08964540218731194,
+     -0.002068761574799627
+    ],
+    "SOX2": [
+     -0.032332814844949695,
+     -0.06951659125669685
+    ],
+    "STAG2": [
+     0.04844043318276658,
+     -0.00439635770272484
+    ],
+    "STUB1": [
+     -0.0007750021783722346,
+     -0.0633489870133841
+    ],
+    "STXBP1": [
+     0.005329334596693463,
+     -0.03382377726113339
+    ],
+    "SUPV3L1": [
+     0.14017078570080188,
+     0.013452031976126322
+    ],
+    "TADA1": [
+     0.1294002714950528,
+     -0.0008590653847480034
+    ],
+    "TMBIM6": [
+     0.05090756629818148,
+     -0.01201734764822504
+    ],
+    "TNFRSF12A": [
+     0.025755602196781923,
+     -0.08236655239103619
+    ],
+    "TRAFD1": [
+     -0.010101102574725055,
+     -0.08465415183298464
+    ],
+    "UGP2": [
+     0.05584314995590047,
+     -0.023433720100294986
+    ],
+    "ZNF581": [
+     0.008452083491831323,
+     -0.06804452599933497
+    ],
+    "ZNF598": [
+     0.0500677949334326,
+     0.0004548201822115461
+    ],
+    "ARPC2": [
+     0.03576823507232211,
+     -0.02172776240169627
+    ],
+    "ATP1B1": [
+     -0.0046903556435325955,
+     -0.041375199515929495
+    ],
+    "CALM3": [
+     -0.005752893432290184,
+     -0.044590737360024724
+    ],
+    "CAMSAP2": [
+     -0.05536047815965263,
+     -0.04930329070563988
+    ],
+    "CASP2": [
+     0.04558285850420476,
+     -0.04100755309787529
+    ],
+    "CASP3": [
+     0.16071829194145706,
+     -0.02033804335710121
+    ],
+    "CAST": [
+     0.09926711559730929,
+     0.003313785516219747
+    ],
+    "CDC25B": [
+     0.1308009602357521,
+     0.009886565282477888
+    ],
+    "CDCA2": [
+     0.011746943797433814,
+     -0.0356231208116593
+    ],
+    "CHMP3": [
+     0.05056735534540965,
+     -0.005994028129429951
+    ],
+    "CLDN7": [
+     -0.014037287936480831,
+     -0.0421573775566364
+    ],
+    "CREM": [
+     0.02026656048144179,
+     -0.04042913755116806
+    ],
+    "CYCS": [
+     0.1216821447453228,
+     0.014031535283413499
+    ],
+    "EIF3H": [
+     0.19967579164410618,
+     0.013952051385833775
+    ],
+    "FUBP1": [
+     0.10555002571543409,
+     0.009245074603327574
+    ],
+    "HAX1": [
+     0.05774900558495163,
+     -0.01630785717092631
+    ],
+    "HDGF": [
+     0.03349425820577918,
+     -0.033269238591834505
+    ],
+    "HTATSF1": [
+     0.019815328106301273,
+     -0.035854634334263835
+    ],
+    "IGF1R": [
+     0.01750842386279657,
+     -0.022833139508705358
+    ],
+    "LAD1": [
+     -5.3895365679248375e-05,
+     -0.032153563873549285
+    ],
+    "LAP3": [
+     0.04047456500208429,
+     -0.019907489473036888
+    ],
+    "MAP3K7": [
+     0.04509466828761944,
+     -0.03343608152462263
+    ],
+    "MAPKAPK2": [
+     0.04428999818100508,
+     -0.036647212479802294
+    ],
+    "MED13L": [
+     0.052336258000412,
+     -0.016414942876755267
+    ],
+    "MKI67": [
+     0.008621752920838468,
+     -0.03723154506971782
+    ],
+    "NCK2": [
+     0.013779724811211766,
+     -0.07669247581744454
+    ],
+    "NDUFB4": [
+     0.02002062984287282,
+     -0.029034265574532148
+    ],
+    "NDUFB6": [
+     0.034299745021928556,
+     -0.016717276563319894
+    ],
+    "NDUFB9": [
+     0.05008902997508811,
+     -0.012245003039332847
+    ],
+    "NDUFC2": [
+     0.004848820058673455,
+     -0.0318264678709117
+    ],
+    "NRAS": [
+     0.010830969432368862,
+     -0.030707252308268096
+    ],
+    "NUDT9": [
+     0.018030224261362467,
+     -0.037595916437907606
+    ],
+    "OSTC": [
+     0.07800177056671577,
+     0.0028646034249227847
+    ],
+    "PACSIN3": [
+     0.04874819035361449,
+     -0.030129804044276787
+    ],
+    "PAXIP1": [
+     0.07091968200983968,
+     -0.0022493409562396316
+    ],
+    "PHF14": [
+     0.07867395617825061,
+     -0.002098362121826236
+    ],
+    "PIAS1": [
+     0.08391804316863803,
+     0.003522687041689454
+    ],
+    "PRCP": [
+     0.021259766912303062,
+     -0.037954003092703026
+    ],
+    "PSME1": [
+     0.06245725087069472,
+     -0.005358020085874715
+    ],
+    "PSMG1": [
+     0.2516765458951215,
+     -0.015369848729811952
+    ],
+    "RFX5": [
+     0.08138705227076665,
+     -0.009621911410909512
+    ],
+    "RNF2": [
+     0.0818771521721447,
+     0.005913905349119619
+    ],
+    "RNF20": [
+     0.2132904022756463,
+     0.008942541741523646
+    ],
+    "RNF40": [
+     0.19763004562946496,
+     0.010472314680635586
+    ],
+    "RRM1": [
+     0.039179318162922125,
+     -0.018925675887027538
+    ],
+    "SEC62": [
+     0.007951179256612609,
+     -0.010422015850489963
+    ],
+    "SH3BP4": [
+     -0.09720811930237962,
+     -0.07079625451442806
+    ],
+    "SV2A": [
+     0.1227225174959584,
+     0.0078544936541457
+    ],
+    "TAZ": [
+     0.0666132556397018,
+     -0.004223524915960786
+    ],
+    "TCF3": [
+     0.026325048942492133,
+     -0.03430250265417856
+    ],
+    "TGFBR2": [
+     0.06430089683705766,
+     -0.0030165786122100524
+    ],
+    "TXNDC9": [
+     0.10882930522791995,
+     0.0033024070205588396
+    ],
+    "UQCRQ": [
+     0.0271596448857948,
+     -0.018696105443000155
+    ],
+    "WAC": [
+     0.14161344987263402,
+     0.002955221818596643
+    ],
+    "WSB2": [
+     0.04028836954411891,
+     -0.0023737825335556906
+    ],
+    "ZNF107": [
+     0.010161515034897425,
+     -0.0617555102469578
+    ],
+    "ZNF426": [
+     0.00933942141511065,
+     -0.0481942453271591
+    ],
+    "ZNF562": [
+     0.025643867338360445,
+     -0.021021371736130723
+    ],
+    "ZNF714": [
+     0.018573276610162767,
+     -0.024002413284614388
+    ],
+    "ZRSR2": [
+     0.04538775682708563,
+     -0.011649757069432276
+    ],
+    "AASS": [
+     0.021340518213250795,
+     -0.016998853911149414
+    ],
+    "ACTN1": [
+     0.13134459099181478,
+     0.012358823710951539
+    ],
+    "ASF1A": [
+     0.08272324288984986,
+     0.00458274303988826
+    ],
+    "ATP6V0C": [
+     0.026834792762573265,
+     -0.00251871022688821
+    ],
+    "BRPF1": [
+     0.06378275870638682,
+     0.00402504721426733
+    ],
+    "CENPB": [
+     0.03381249713923379,
+     -0.04874706646212568
+    ],
+    "COASY": [
+     0.03982182078861653,
+     -0.02286067072604392
+    ],
+    "COX6C": [
+     0.05609592992872332,
+     -0.007631614426160338
+    ],
+    "CSK": [
+     0.033071401378751385,
+     -0.0070455283950034975
+    ],
+    "CSNK1E": [
+     0.041291184855095614,
+     -0.0014121268819609067
+    ],
+    "DHCR24": [
+     0.04723917949100505,
+     -0.01278363759232315
+    ],
+    "DHX9": [
+     0.09093053063119294,
+     0.00793848034496314
+    ],
+    "DLG5": [
+     0.05262887510272359,
+     -0.00043117464128528127
+    ],
+    "DNAJA3": [
+     0.18526406213314436,
+     0.014900276382364686
+    ],
+    "EPB41L2": [
+     0.10734261983210709,
+     0.007197940361325372
+    ],
+    "EPHB4": [
+     0.12771571621492037,
+     0.010707159906306218
+    ],
+    "ETV4": [
+     0.20003704464292407,
+     0.012634242629254833
+    ],
+    "EWSR1": [
+     0.1463164953305809,
+     0.01424740588133433
+    ],
+    "GULP1": [
+     0.0688591280863161,
+     -0.018757738195159135
+    ],
+    "HAT1": [
+     0.02841499208732208,
+     -0.01914769853858722
+    ],
+    "HMGB2": [
+     0.09505488894909922,
+     0.0046410283540322395
+    ],
+    "HMGCR": [
+     0.09759391449921768,
+     0.0029093342246445664
+    ],
+    "IGF2R": [
+     0.02712193571895997,
+     -0.04018589004268924
+    ],
+    "INSIG1": [
+     0.15806789426601345,
+     0.012665576676346046
+    ],
+    "ITGAV": [
+     0.06637284196315675,
+     -0.02624586012913399
+    ],
+    "LBR": [
+     0.034836796811378926,
+     -0.03185606314567879
+    ],
+    "MAP1B": [
+     0.03105025533952433,
+     -0.03241083383692844
+    ],
+    "MED12": [
+     0.11607294431437438,
+     0.00695430774947936
+    ],
+    "MED19": [
+     0.17634643041624812,
+     0.003342118878838285
+    ],
+    "MED24": [
+     0.06664565240514111,
+     -0.0002566819442735291
+    ],
+    "MFSD10": [
+     0.03215705534216014,
+     -0.05726448392106698
+    ],
+    "NCKAP1": [
+     0.058588909646763665,
+     -0.0028811521997673673
+    ],
+    "NEK2": [
+     0.05077347161762186,
+     -0.013654653615556178
+    ],
+    "NSDHL": [
+     0.1106784443135833,
+     -0.008293562438317137
+    ],
+    "PLAGL2": [
+     0.02742803436785165,
+     -0.016085504613636337
+    ],
+    "PMEL": [
+     0.06460967184093361,
+     -0.0012577649115712575
+    ],
+    "PMS1": [
+     0.029004594944443022,
+     -0.03063160195709136
+    ],
+    "POLB": [
+     0.018336839609090435,
+     -0.03147410184780419
+    ],
+    "PRDM14": [
+     0.09885085947321232,
+     -2.3137769518344342e-05
+    ],
+    "PRR12": [
+     0.06708685742210797,
+     -0.003949946958634376
+    ],
+    "RRM2": [
+     0.024070342949999067,
+     -0.025776542173297612
+    ],
+    "SAFB": [
+     0.14545819428543252,
+     0.011000578002498873
+    ],
+    "SBDS": [
+     0.020799906315673432,
+     -0.007701492029208223
+    ],
+    "SCCPDH": [
+     0.043669291353599676,
+     -0.0006067791351538343
+    ],
+    "SHPRH": [
+     0.07931513039739477,
+     0.0005029112027390426
+    ],
+    "SLIRP": [
+     0.029933358702258394,
+     -0.015762063962432293
+    ],
+    "SMARCA5": [
+     0.10216087141494186,
+     0.007348644085527045
+    ],
+    "SMARCE1": [
+     0.060354842799164435,
+     0.0023266457381547756
+    ],
+    "SNCA": [
+     0.026577921227393764,
+     -0.0018453729396925578
+    ],
+    "STAT1": [
+     0.03647725448288264,
+     -0.042650960537133686
+    ],
+    "SUPT4H1": [
+     0.03147397891598102,
+     -0.008778610812011367
+    ],
+    "TMSB10": [
+     0.1697800042828217,
+     0.017397484217017256
+    ],
+    "TSC22D4": [
+     0.07526534453595023,
+     -0.0082791004450109
+    ],
+    "TSKU": [
+     0.011940753056198568,
+     -0.04751812757862606
+    ],
+    "TUSC3": [
+     0.024236035875679372,
+     -0.04087695949193115
+    ],
+    "UQCRB": [
+     0.061891322239391186,
+     -0.0021874740973333306
+    ],
+    "USP22": [
+     0.09073500101691175,
+     0.0027383207446617375
+    ],
+    "ZBTB39": [
+     0.10719667019030119,
+     0.010905302579873322
+    ],
+    "ZNF32": [
+     0.04059049060630593,
+     -0.02173728229511851
+    ],
+    "ZNF850": [
+     -0.0032173246372063265,
+     -0.052528240647005786
+    ]
+   }
+  },
+  "8_rasgos": {
+   "pearson_por_blanco": {
+    "mediana": 0.050523931450393515,
+    "media": 0.06269640125595996,
+    "p10_p90": [
+     0.0015886646877738457,
+     0.1453339578675851
+    ],
+    "min_max": [
+     -0.0972430666947741,
+     0.30869323014796696
+    ],
+    "frac_mayor_0": 0.9,
+    "frac_mayor_0.1": 0.22,
+    "n": 300
+   },
+   "R2_por_blanco": {
+    "mediana": -0.00911586770780215,
+    "media": -0.015082706114177877,
+    "p10_p90": [
+     -0.046335834225703795,
+     0.009666979278411907
+    ],
+    "min_max": [
+     -0.14958958741545447,
+     0.02375546410245921
+    ],
+    "frac_mayor_0": 0.29333333333333333,
+    "frac_mayor_0.1": 0.0,
+    "n": 300
+   },
+   "pearson_medio_por_blanco": 0.06269640125595996,
+   "por_blanco_crudo": {
+    "ACAT2": [
+     0.06137478921685771,
+     0.0001383319350498624
+    ],
+    "ADNP": [
+     0.07255550471397561,
+     0.0040920166248638035
+    ],
+    "ANKZF1": [
+     0.04880899293060845,
+     -0.006716038805243851
+    ],
+    "ARID1A": [
+     0.05956679587319369,
+     0.002346576394900768
+    ],
+    "ATF4": [
+     0.0798215781835171,
+     0.003139474577191881
+    ],
+    "C1QBP": [
+     0.17342683442703463,
+     0.02375546410245921
+    ],
+    "CD276": [
+     0.00439462832983292,
+     -0.06303157082132249
+    ],
+    "CLDN6": [
+     0.008641560777569376,
+     -0.03276490180561753
+    ],
+    "CNN3": [
+     0.008996222626227002,
+     -0.029794470965371023
+    ],
+    "COX4I1": [
+     0.01570074167447847,
+     -0.03240564519311162
+    ],
+    "CTNNB1": [
+     0.10083010738687292,
+     0.005450183928306429
+    ],
+    "DCK": [
+     0.021245611729281324,
+     -0.016637668658469718
+    ],
+    "DNMT1": [
+     0.10273453893041223,
+     -0.014065968072436652
+    ],
+    "DOT1L": [
+     0.15293652281886277,
+     0.0033539914128036807
+    ],
+    "DPH2": [
+     0.16740570320753353,
+     0.00823754933775911
+    ],
+    "DZIP3": [
+     -0.04509731476636994,
+     -0.02225339575080576
+    ],
+    "EID2": [
+     -0.05471932875384851,
+     -0.07220094032226942
+    ],
+    "EPHX1": [
+     0.04210917049926327,
+     -0.01767106668780216
+    ],
+    "GSTZ1": [
+     0.05761945832707254,
+     -0.02448378738279744
+    ],
+    "HDAC8": [
+     0.05268569999931166,
+     -0.008972503726524472
+    ],
+    "HIRA": [
+     0.0782780603479465,
+     0.000689506079086355
+    ],
+    "HSBP1": [
+     0.05824247252584064,
+     -0.005777384418580667
+    ],
+    "HSP90B1": [
+     0.05275364000682931,
+     -0.004384836223932709
+    ],
+    "KDR": [
+     0.03779460040190999,
+     -0.00788119530040321
+    ],
+    "KLF10": [
+     0.08255008358318289,
+     -0.011668251836252086
+    ],
+    "LZTR1": [
+     0.12096841212335831,
+     0.012640068192649956
+    ],
+    "MBTPS1": [
+     0.07573933422254675,
+     0.004092468549370509
+    ],
+    "MED15": [
+     0.11194504408596612,
+     -0.002414672530132611
+    ],
+    "MED25": [
+     0.023978612402301272,
+     -0.004348772715587534
+    ],
+    "METTL3": [
+     0.24778480707947148,
+     0.012689419588878814
+    ],
+    "MLLT1": [
+     0.07268459905491317,
+     -0.0033165857828181267
+    ],
+    "MTA1": [
+     0.09350878841386598,
+     0.005651421569763504
+    ],
+    "MTFR1": [
+     0.029893568711686965,
+     -0.04723019755393443
+    ],
+    "NGRN": [
+     0.10403186599966383,
+     0.004856982546573074
+    ],
+    "NREP": [
+     0.23369521161730702,
+     0.01057188200189585
+    ],
+    "OXCT1": [
+     0.12317637114062617,
+     0.012916890272081316
+    ],
+    "PCCB": [
+     -0.018533231377038998,
+     -0.14958958741545447
+    ],
+    "PLCB3": [
+     -0.017130126976595026,
+     -0.04763335946238101
+    ],
+    "SDC1": [
+     0.13141555749528194,
+     0.01461259112364477
+    ],
+    "SIN3B": [
+     0.10867849027107614,
+     -0.011155732561337617
+    ],
+    "SIX4": [
+     0.037158958159003885,
+     -0.011483439366297254
+    ],
+    "SLC25A3": [
+     0.034384562198824596,
+     -0.0127296513910935
+    ],
+    "SMARCB1": [
+     0.09703769527736286,
+     0.006578000225538672
+    ],
+    "SOX4": [
+     0.06882218186073392,
+     0.003967484283405431
+    ],
+    "STAT6": [
+     0.044354744044497955,
+     -0.005036955824409217
+    ],
+    "STRAP": [
+     0.1069752041204509,
+     0.0032936380133471443
+    ],
+    "TAF13": [
+     0.19988371052954232,
+     0.004030550768313601
+    ],
+    "TARBP2": [
+     0.031080515312890723,
+     -0.028642596907041185
+    ],
+    "TCF7L2": [
+     -0.0027890292406586746,
+     -0.023904567709740032
+    ],
+    "TET1": [
+     0.02573910847357066,
+     -0.01697027659637973
+    ],
+    "TFAM": [
+     0.06666544173677456,
+     -0.00016886599470788966
+    ],
+    "TMSB4X": [
+     0.03543119679270866,
+     -0.0732970882982944
+    ],
+    "TSFM": [
+     0.11318128982341892,
+     0.009839319973145355
+    ],
+    "USF2": [
+     0.14735026997664732,
+     -0.026082467781172403
+    ],
+    "VCL": [
+     -0.012100773417951152,
+     -0.0360175335596955
+    ],
+    "WFS1": [
+     0.02126002523973265,
+     -0.028646143558483717
+    ],
+    "ZNF286A": [
+     -0.013522645620576885,
+     -0.06252786778520525
+    ],
+    "ZNF593": [
+     0.006153363614109561,
+     -0.021781742831684214
+    ],
+    "ZNF664": [
+     0.05496088965773934,
+     -0.037895176567547706
+    ],
+    "ZNF92": [
+     0.04257975835303446,
+     -0.021494945584045855
+    ],
+    "ACVR1B": [
+     0.007091987956743046,
+     -0.020287605478758852
+    ],
+    "AKT2": [
+     0.02856280953289812,
+     -0.008782846744678663
+    ],
+    "ANXA6": [
+     0.037552828831223295,
+     -0.04413107002376915
+    ],
+    "ATM": [
+     0.10445511125255733,
+     0.0030284117940465594
+    ],
+    "ATP6V0B": [
+     0.05740353464308346,
+     -0.0010807152375962303
+    ],
+    "BIRC2": [
+     0.04251968414458834,
+     -0.0031628769982223748
+    ],
+    "COL6A1": [
+     -0.06094642858801661,
+     -0.0581018042788084
+    ],
+    "CREG1": [
+     0.025616505680586824,
+     -0.045651135931050746
+    ],
+    "CTSV": [
+     0.088985434934868,
+     0.005437278734447992
+    ],
+    "CYFIP1": [
+     0.01602978506808141,
+     -0.030355940316377117
+    ],
+    "DAXX": [
+     0.11685311774989916,
+     0.012670274856154795
+    ],
+    "EHMT1": [
+     0.0676335515191898,
+     0.004195833622450351
+    ],
+    "ELAC2": [
+     0.08505332741564887,
+     0.004090777561121417
+    ],
+    "FIBP": [
+     0.06344808587569192,
+     -0.010423753221064258
+    ],
+    "FOXH1": [
+     0.00775801356429182,
+     -0.017997610967253275
+    ],
+    "GNG12": [
+     -0.005013369198387047,
+     -0.015996849620270925
+    ],
+    "HDAC3": [
+     0.08810078245873028,
+     -0.008230587163052139
+    ],
+    "HMGCS1": [
+     0.08498777498236403,
+     0.005111907552811101
+    ],
+    "HMGN1": [
+     0.030123869291077344,
+     -0.03306942968309445
+    ],
+    "IKBKG": [
+     0.06539343740459529,
+     -0.007899274044077531
+    ],
+    "INO80B": [
+     0.17493233564175498,
+     0.014221802163977282
+    ],
+    "KAT2A": [
+     0.18427209403942116,
+     -0.029983274589768127
+    ],
+    "KLHDC2": [
+     0.010909251567909704,
+     -0.057134978106715195
+    ],
+    "MAST2": [
+     -0.007202146957603913,
+     -0.056951935083868976
+    ],
+    "MAX": [
+     0.21643027773462428,
+     0.012783794992232922
+    ],
+    "MED13": [
+     0.06358591146852996,
+     0.0010989192601404962
+    ],
+    "MED23": [
+     0.036570438930840804,
+     -0.010001828080448805
+    ],
+    "METTL14": [
+     0.25747959789049224,
+     0.01327716793244238
+    ],
+    "METTL17": [
+     0.1139571057909761,
+     0.012738996175607142
+    ],
+    "MPC2": [
+     0.01749603977709212,
+     -0.041880238367243194
+    ],
+    "NELFE": [
+     0.18456486102249456,
+     -0.006678573545897182
+    ],
+    "NFATC3": [
+     0.014787979101584525,
+     -0.03134075002065817
+    ],
+    "NFE2L1": [
+     -0.01715587085979729,
+     -0.04637363900390912
+    ],
+    "NFX1": [
+     0.0019251523919996362,
+     -0.042172746358714486
+    ],
+    "PAGR1": [
+     -0.027062896293989287,
+     -0.048468708934821914
+    ],
+    "PBX3": [
+     0.001876734597837613,
+     -0.036668965080604465
+    ],
+    "PHF10": [
+     0.09088038993549641,
+     0.007382776262572444
+    ],
+    "PPP2R3C": [
+     0.07484671638566441,
+     0.0023548093954733895
+    ],
+    "PTPN1": [
+     0.05287072040163739,
+     -0.036452144314427226
+    ],
+    "RAB3B": [
+     -0.032313827352450974,
+     -0.027814975428937183
+    ],
+    "RAF1": [
+     0.021375488588560955,
+     -0.014314150383271773
+    ],
+    "RBPJ": [
+     0.053755717099439645,
+     -0.0054509188962899024
+    ],
+    "SET": [
+     0.06798869983997456,
+     -0.010050630377610892
+    ],
+    "SETDB1": [
+     0.04584226147156249,
+     -0.006172530835841794
+    ],
+    "SLC39A6": [
+     0.0823749423644456,
+     0.00503241199165716
+    ],
+    "SLC5A6": [
+     0.024618577509991874,
+     -0.03640733058934753
+    ],
+    "SRC": [
+     -0.050065136570215794,
+     -0.03932087947158114
+    ],
+    "SSBP1": [
+     0.05928620195779738,
+     -0.007928981490071152
+    ],
+    "STX4": [
+     -0.028068586436072657,
+     -0.044549893655421835
+    ],
+    "TAF11": [
+     0.17012488050249072,
+     0.0012668478222948032
+    ],
+    "THAP11": [
+     0.23814669087026996,
+     -0.00543255219733596
+    ],
+    "THY1": [
+     0.04231326856446649,
+     -0.009729241110092657
+    ],
+    "TOR1A": [
+     -0.009602198870101433,
+     -0.04991468335218019
+    ],
+    "TRAM2": [
+     0.029414186015732008,
+     -0.04726514934655657
+    ],
+    "TRAPPC6A": [
+     0.10220058858732485,
+     0.00995020545467351
+    ],
+    "TWF2": [
+     0.017308400484404643,
+     -0.028970438791301678
+    ],
+    "UBE3C": [
+     0.09487305517103765,
+     0.007740900120918659
+    ],
+    "UGDH": [
+     0.0036598863566520744,
+     -0.018710249760640396
+    ],
+    "XRCC4": [
+     0.0746646877081749,
+     -0.00039143969578714355
+    ],
+    "ZFP62": [
+     0.13490356987706592,
+     -0.0019896318623298104
+    ],
+    "ACLY": [
+     0.09977995974770505,
+     0.0039926523985013285
+    ],
+    "ANTXR1": [
+     0.021190654889295658,
+     -0.020325704227205366
+    ],
+    "APOE": [
+     0.0691407884438674,
+     -0.031768431793694374
+    ],
+    "ARID3A": [
+     0.028699854454698474,
+     -0.0007191922372453696
+    ],
+    "BECN1": [
+     0.05024343952414577,
+     -0.0014767604387930788
+    ],
+    "BRD9": [
+     0.026309742246215007,
+     -0.006795245263065519
+    ],
+    "CENPO": [
+     0.0537040316663187,
+     -0.00849303729328188
+    ],
+    "CTBP2": [
+     0.04849596522287177,
+     -0.007995552877104295
+    ],
+    "CXCL12": [
+     -0.03681379306450788,
+     -0.03214831474473989
+    ],
+    "DHX36": [
+     0.2986791822608846,
+     0.01990114350839578
+    ],
+    "DPF2": [
+     0.003430728314261701,
+     -0.07688719889972218
+    ],
+    "EHMT2": [
+     0.08605978568878486,
+     0.0066043583034759434
+    ],
+    "EIF4B": [
+     0.0785652307769794,
+     0.0057598419664902645
+    ],
+    "EP300": [
+     0.008562622899544566,
+     -0.0010559947926156443
+    ],
+    "FDPS": [
+     0.06756294038973294,
+     -0.0034675477851981995
+    ],
+    "FGFR1": [
+     0.02418412883494493,
+     -0.003020608585586615
+    ],
+    "GRB10": [
+     0.09767104226046204,
+     -0.004755245439865385
+    ],
+    "GSK3B": [
+     0.045007054085342654,
+     -0.006964065038885803
+    ],
+    "HMGXB4": [
+     -0.031112601785822674,
+     -0.06506988579002182
+    ],
+    "IDE": [
+     0.057234471794225764,
+     -0.029748710872947948
+    ],
+    "IRF3": [
+     0.05965667089609228,
+     -0.009259231689079828
+    ],
+    "JAZF1": [
+     0.08491619701031894,
+     0.006939907015982905
+    ],
+    "JMJD1C": [
+     0.005796470039669043,
+     -0.016234234012826976
+    ],
+    "JMJD8": [
+     0.05692542587552454,
+     -0.008944285563006416
+    ],
+    "KDM1A": [
+     0.30869323014796696,
+     0.007720388094329067
+    ],
+    "KDM2B": [
+     0.08623401699108724,
+     0.0026942325502373743
+    ],
+    "KIF1B": [
+     0.03266882357125452,
+     -0.03424631217208596
+    ],
+    "KIF20A": [
+     0.2786996005378444,
+     0.017933821017247498
+    ],
+    "KRT18": [
+     0.0601508239685948,
+     -0.015626534105835255
+    ],
+    "LRPPRC": [
+     0.11988631413296644,
+     0.013403756428192137
+    ],
+    "LTBR": [
+     0.006210713745059806,
+     -0.014217374600757227
+    ],
+    "MAT2A": [
+     -0.015322901950942385,
+     -0.07566192972442076
+    ],
+    "MAU2": [
+     0.1301918778953715,
+     0.007775839288825748
+    ],
+    "MED1": [
+     0.07453957378382586,
+     0.0006760575111476319
+    ],
+    "MGST1": [
+     0.04116418771754629,
+     -0.012236143610182104
+    ],
+    "MORN2": [
+     0.11687662996686295,
+     -0.0020832236555379247
+    ],
+    "NCAPH2": [
+     -0.0017556060612440097,
+     -0.012120436093845388
+    ],
+    "NISCH": [
+     0.03828382475159624,
+     -0.01553989500441788
+    ],
+    "NIT1": [
+     0.0395134583178535,
+     -6.498388323228355e-06
+    ],
+    "OAZ1": [
+     0.020080143950211182,
+     -0.027558873642165693
+    ],
+    "OXA1L": [
+     0.1874340939524328,
+     0.015519965426280202
+    ],
+    "PBX1": [
+     0.025467485802974206,
+     -0.036536570127131185
+    ],
+    "PGAM1": [
+     0.11589162895023512,
+     0.010754272370542939
+    ],
+    "PHF12": [
+     0.14772228464786485,
+     -0.0013222985548835275
+    ],
+    "SAFB2": [
+     0.11152443375496665,
+     0.005778340048532615
+    ],
+    "SALL4": [
+     0.0017698123568751663,
+     -0.001962781798253932
+    ],
+    "SMAGP": [
+     0.010671024928875415,
+     -0.012233930294667461
+    ],
+    "SMARCA4": [
+     0.09015101316645,
+     -0.0025544316935306455
+    ],
+    "SOX2": [
+     -0.03217887661199998,
+     -0.06939953533505006
+    ],
+    "STAG2": [
+     0.04871676937878867,
+     -0.005715515145928274
+    ],
+    "STUB1": [
+     -0.0009519558650839959,
+     -0.0665486035086893
+    ],
+    "STXBP1": [
+     0.005421092035774635,
+     -0.03417514404914579
+    ],
+    "SUPV3L1": [
+     0.1398524094696233,
+     0.01353243772776258
+    ],
+    "TADA1": [
+     0.1310030031693186,
+     -0.0006704290154111447
+    ],
+    "TMBIM6": [
+     0.05065512758774949,
+     -0.012055424061394149
+    ],
+    "TNFRSF12A": [
+     0.02570946134543902,
+     -0.08201678696483117
+    ],
+    "TRAFD1": [
+     -0.010197832742896222,
+     -0.07120340720017282
+    ],
+    "UGP2": [
+     0.05540248512019036,
+     -0.021589020932017755
+    ],
+    "ZNF581": [
+     0.008461502150059277,
+     -0.06559444933434833
+    ],
+    "ZNF598": [
+     0.0496718281522729,
+     -0.0008826063242990401
+    ],
+    "ARPC2": [
+     0.035576618681334576,
+     -0.01950039870129805
+    ],
+    "ATP1B1": [
+     -0.004751746220453625,
+     -0.03856034229839178
+    ],
+    "CALM3": [
+     -0.006212501540771665,
+     -0.047421094079970416
+    ],
+    "CAMSAP2": [
+     -0.05536517393101586,
+     -0.05001497469336891
+    ],
+    "CASP2": [
+     0.04522444788723238,
+     -0.04006742922307627
+    ],
+    "CASP3": [
+     0.1598406626311667,
+     -0.01731106674973537
+    ],
+    "CAST": [
+     0.09944953752495769,
+     0.0035174689950859817
+    ],
+    "CDC25B": [
+     0.12907508421860947,
+     0.009021357812183162
+    ],
+    "CDCA2": [
+     0.01111154542769667,
+     -0.04043912450804332
+    ],
+    "CHMP3": [
+     0.05039273531303754,
+     -0.005440733784178198
+    ],
+    "CLDN7": [
+     -0.013174807591494092,
+     -0.04443517695202681
+    ],
+    "CREM": [
+     0.020165728223312116,
+     -0.03656272306713104
+    ],
+    "CYCS": [
+     0.12126574244862036,
+     0.01455612997971778
+    ],
+    "EIF3H": [
+     0.19900369953327296,
+     0.013547709135727226
+    ],
+    "FUBP1": [
+     0.10566504631740085,
+     0.0091817397437155
+    ],
+    "HAX1": [
+     0.057340159748173775,
+     -0.015566017385349351
+    ],
+    "HDGF": [
+     0.03335185882691551,
+     -0.03188933856165188
+    ],
+    "HTATSF1": [
+     0.020244275872960495,
+     -0.03887819611443044
+    ],
+    "IGF1R": [
+     0.017180243283399347,
+     -0.02059452876705037
+    ],
+    "LAD1": [
+     -4.166433413807753e-05,
+     -0.031829084767420746
+    ],
+    "LAP3": [
+     0.04069138042735482,
+     -0.020761315130378044
+    ],
+    "MAP3K7": [
+     0.0446605927087805,
+     -0.03353979069098245
+    ],
+    "MAPKAPK2": [
+     0.044047101418141756,
+     -0.0363599374555188
+    ],
+    "MED13L": [
+     0.05338573053760536,
+     -0.015648723953541
+    ],
+    "MKI67": [
+     0.008518995303459424,
+     -0.03620413551003754
+    ],
+    "NCK2": [
+     0.013960628023239578,
+     -0.07685631807304816
+    ],
+    "NDUFB4": [
+     0.020053408365362613,
+     -0.035132649700575724
+    ],
+    "NDUFB6": [
+     0.03415482217610406,
+     -0.019505392602747085
+    ],
+    "NDUFB9": [
+     0.05016351681891204,
+     -0.01664733650719774
+    ],
+    "NDUFC2": [
+     0.004890123968673114,
+     -0.03413545073455726
+    ],
+    "NRAS": [
+     0.010538828316026322,
+     -0.033215411512370174
+    ],
+    "NUDT9": [
+     0.017895062967362044,
+     -0.03984550002851184
+    ],
+    "OSTC": [
+     0.07765254344799995,
+     0.003932636562517855
+    ],
+    "PACSIN3": [
+     0.04821436436735634,
+     -0.028942821040707
+    ],
+    "PAXIP1": [
+     0.07113560821831018,
+     -0.003957493966241454
+    ],
+    "PHF14": [
+     0.07746510206426072,
+     -0.00032537559984313624
+    ],
+    "PIAS1": [
+     0.08365691534511488,
+     0.00417006314849544
+    ],
+    "PRCP": [
+     0.02113011453858927,
+     -0.04008979017645964
+    ],
+    "PSME1": [
+     0.06289025189112107,
+     -0.006470665083409655
+    ],
+    "PSMG1": [
+     0.25038453570079755,
+     -0.01317165476812443
+    ],
+    "RFX5": [
+     0.08017605501087527,
+     -0.009268419151701845
+    ],
+    "RNF2": [
+     0.08171557707581788,
+     0.005376197249950421
+    ],
+    "RNF20": [
+     0.21340442306223817,
+     0.009280100314026707
+    ],
+    "RNF40": [
+     0.19795479604776103,
+     0.010034816240557909
+    ],
+    "RRM1": [
+     0.03874526201374496,
+     -0.01836640332192574
+    ],
+    "SEC62": [
+     0.007942350786414863,
+     -0.00981185273322227
+    ],
+    "SH3BP4": [
+     -0.0972430666947741,
+     -0.07256244312221294
+    ],
+    "SV2A": [
+     0.12291098494318689,
+     0.009647830312330408
+    ],
+    "TAZ": [
+     0.06640768399751426,
+     -0.00441802946328429
+    ],
+    "TCF3": [
+     0.026082613206555087,
+     -0.032189407368687695
+    ],
+    "TGFBR2": [
+     0.06423482837368466,
+     -0.0027180639252646355
+    ],
+    "TXNDC9": [
+     0.108780099976785,
+     0.00510048850713507
+    ],
+    "UQCRQ": [
+     0.02717359349256288,
+     -0.022145066060460517
+    ],
+    "WAC": [
+     0.14230050172650235,
+     0.003007264196777548
+    ],
+    "WSB2": [
+     0.04118044820561707,
+     -0.002635601450097891
+    ],
+    "ZNF107": [
+     0.009970573753539783,
+     -0.0644792343620757
+    ],
+    "ZNF426": [
+     0.008813225776748439,
+     -0.04610864884622701
+    ],
+    "ZNF562": [
+     0.02561543173142092,
+     -0.021487287225257168
+    ],
+    "ZNF714": [
+     0.018368205710689863,
+     -0.02446416868555068
+    ],
+    "ZRSR2": [
+     0.04467460181600758,
+     -0.011542792692635917
+    ],
+    "AASS": [
+     0.021331713702697656,
+     -0.012716288335385073
+    ],
+    "ACTN1": [
+     0.13046316544848274,
+     0.014529881203869444
+    ],
+    "ASF1A": [
+     0.08261554112633768,
+     0.005343461821076256
+    ],
+    "ATP6V0C": [
+     0.027070739369515102,
+     -0.0027637765621326693
+    ],
+    "BRPF1": [
+     0.06460891176229305,
+     0.003831425396024102
+    ],
+    "CENPB": [
+     0.033681618583545826,
+     -0.046331633694792096
+    ],
+    "COASY": [
+     0.03970823525999171,
+     -0.023569417128986192
+    ],
+    "COX6C": [
+     0.055985791084619464,
+     -0.009643602364217907
+    ],
+    "CSK": [
+     0.03301621935024884,
+     -0.0065700904604455435
+    ],
+    "CSNK1E": [
+     0.042650344905227795,
+     -0.0017762501484268611
+    ],
+    "DHCR24": [
+     0.046733515738918874,
+     -0.01567261611095927
+    ],
+    "DHX9": [
+     0.09138108443882054,
+     0.008026402752862705
+    ],
+    "DLG5": [
+     0.05281621708373838,
+     -0.0002094748524974488
+    ],
+    "DNAJA3": [
+     0.18457222188149627,
+     0.014836830143806434
+    ],
+    "EPB41L2": [
+     0.10717531031516257,
+     0.0069950153373617985
+    ],
+    "EPHB4": [
+     0.1272334107895064,
+     0.0112171771791848
+    ],
+    "ETV4": [
+     0.19987971376024471,
+     0.011534954384795792
+    ],
+    "EWSR1": [
+     0.14573918500098573,
+     0.015166883986119428
+    ],
+    "GULP1": [
+     0.06855767791828142,
+     -0.016633726058622234
+    ],
+    "HAT1": [
+     0.028101504779830918,
+     -0.018979715117920293
+    ],
+    "HMGB2": [
+     0.09491719584621339,
+     0.0026924133195450617
+    ],
+    "HMGCR": [
+     0.09722873063508625,
+     -0.0001223363004252409
+    ],
+    "IGF2R": [
+     0.027290249696966813,
+     -0.04061458397343687
+    ],
+    "INSIG1": [
+     0.1579022837634868,
+     0.013136728677961784
+    ],
+    "ITGAV": [
+     0.06592719795313322,
+     -0.02496294327060755
+    ],
+    "LBR": [
+     0.034619252937476634,
+     -0.03345625927468454
+    ],
+    "MAP1B": [
+     0.03109149939112507,
+     -0.03307876547530175
+    ],
+    "MED12": [
+     0.11641885899689758,
+     0.004073328480587057
+    ],
+    "MED19": [
+     0.17735370854090526,
+     0.003533093804541143
+    ],
+    "MED24": [
+     0.06711587133692805,
+     0.00041578905253769616
+    ],
+    "MFSD10": [
+     0.0320376161516867,
+     -0.05880551377066534
+    ],
+    "NCKAP1": [
+     0.058664410577603195,
+     -0.001303180678966287
+    ],
+    "NEK2": [
+     0.05078751216610684,
+     -0.013066254125610355
+    ],
+    "NSDHL": [
+     0.11026836379145667,
+     -0.009327622945809466
+    ],
+    "PLAGL2": [
+     0.02755236864517294,
+     -0.014148992513170588
+    ],
+    "PMEL": [
+     0.06471938457334342,
+     -0.00012105146186036642
+    ],
+    "PMS1": [
+     0.028716398674859984,
+     -0.031094944576351313
+    ],
+    "POLB": [
+     0.017908660086098125,
+     -0.03211293202727128
+    ],
+    "PRDM14": [
+     0.09947579260277559,
+     -0.0005303341115994176
+    ],
+    "PRR12": [
+     0.06691645150877566,
+     -0.002655082531701103
+    ],
+    "RRM2": [
+     0.023725191168639376,
+     -0.024707689065632366
+    ],
+    "SAFB": [
+     0.14528893263054057,
+     0.00924011088297505
+    ],
+    "SBDS": [
+     0.020992979884017514,
+     -0.007538959031987202
+    ],
+    "SCCPDH": [
+     0.04341718624294464,
+     -0.000569263158027411
+    ],
+    "SHPRH": [
+     0.07892195880411726,
+     0.0013129889635135061
+    ],
+    "SLIRP": [
+     0.029907410755455326,
+     -0.01715275695791396
+    ],
+    "SMARCA5": [
+     0.10259020970819956,
+     0.007340162647353599
+    ],
+    "SMARCE1": [
+     0.06066221932957405,
+     0.002018180575949491
+    ],
+    "SNCA": [
+     0.026563075420203683,
+     -0.0017379265227261964
+    ],
+    "STAT1": [
+     0.036337125041506574,
+     -0.04121931400207002
+    ],
+    "SUPT4H1": [
+     0.033098522096417574,
+     -0.009348756981372386
+    ],
+    "TMSB10": [
+     0.16954061877207602,
+     0.01811751158956143
+    ],
+    "TSC22D4": [
+     0.07469351106988036,
+     -0.007730875844853102
+    ],
+    "TSKU": [
+     0.01195723260368651,
+     -0.04721191567802485
+    ],
+    "TUSC3": [
+     0.02416807743190038,
+     -0.040217114273888965
+    ],
+    "UQCRB": [
+     0.06184318390956501,
+     -0.0035288767181138603
+    ],
+    "USP22": [
+     0.09149885031022621,
+     0.0016179815692732857
+    ],
+    "ZBTB39": [
+     0.1065963910392874,
+     0.010650130539392122
+    ],
+    "ZNF32": [
+     0.040287653609693344,
+     -0.02070500817184473
+    ],
+    "ZNF850": [
+     -0.003121023821903136,
+     -0.05001855986524584
+    ]
+   }
+  }
+ },
+ "modelos": {
+  "10_rasgos": {
+   "alpha": 1000.0,
+   "n_rasgos": 10,
+   "b0": 0.0004283019733288931,
+   "sd_y_predicha_retenidos": 0.05375772342085838,
+   "sd_y_observada_retenidos": 0.17397883534431458
+  },
+  "8_rasgos": {
+   "alpha": 1000.0,
+   "n_rasgos": 8,
+   "b0": 0.0004283019733288931,
+   "sd_y_predicha_retenidos": 0.05390574410557747,
+   "sd_y_observada_retenidos": 0.17397883534431458
+  }
+ },
+ "lado_real": {
+  "shape": [
+   32363,
+   18080
+  ],
+  "nnz": 282452518,
+  "n_control": 9201,
+  "n_control_disponible": 114528,
+  "n_celulas_reales_por_blanco_disponibles": {
+   "ACAT2": 1765,
+   "ADNP": 291,
+   "ANKZF1": 1063,
+   "ARID1A": 1256,
+   "ATF4": 570,
+   "C1QBP": 711,
+   "CD276": 1552,
+   "CLDN6": 864,
+   "CNN3": 2496,
+   "COX4I1": 1058,
+   "CTNNB1": 1652,
+   "DCK": 1737,
+   "DNMT1": 893,
+   "DOT1L": 1484,
+   "DPH2": 670,
+   "DZIP3": 447,
+   "EID2": 1167,
+   "EPHX1": 1042,
+   "GSTZ1": 1077,
+   "HDAC8": 1204,
+   "HIRA": 3407,
+   "HSBP1": 166,
+   "HSP90B1": 503,
+   "KDR": 2056,
+   "KLF10": 1932,
+   "LZTR1": 1381,
+   "MBTPS1": 626,
+   "MED15": 3637,
+   "MED25": 2028,
+   "METTL3": 498,
+   "MLLT1": 1629,
+   "MTA1": 1434,
+   "MTFR1": 1787,
+   "NGRN": 1548,
+   "NREP": 352,
+   "OXCT1": 740,
+   "PCCB": 2751,
+   "PLCB3": 1110,
+   "SDC1": 215,
+   "SIN3B": 586,
+   "SIX4": 642,
+   "SLC25A3": 805,
+   "SMARCB1": 1706,
+   "SOX4": 3343,
+   "STAT6": 858,
+   "STRAP": 644,
+   "TAF13": 138,
+   "TARBP2": 2032,
+   "TCF7L2": 484,
+   "TET1": 2428,
+   "TFAM": 1105,
+   "TMSB4X": 4760,
+   "TSFM": 1364,
+   "USF2": 1207,
+   "VCL": 894,
+   "WFS1": 2043,
+   "ZNF286A": 1059,
+   "ZNF593": 797,
+   "ZNF664": 2318,
+   "ZNF92": 886
+  }
+ },
+ "baseline_ec": 0,
+ "bundle_ec": 0,
+ "hash_bundle": {
+  "obtenido": "a5519017556705abf9a6e553ebb4e517b9612e9546331ace7c5ec6c5c30a1a13",
+  "referencia": "a5519017556705abf9a6e553ebb4e517b9612e9546331ace7c5ec6c5c30a1a13",
+  "coincide": true
+ },
+ "segundos_total": 4754.5
+}

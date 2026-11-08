@@ -1,0 +1,52 @@
+================================================================
+>>> BARRIDO k   INICIO : 2026-11-05 21:27:43 UTC  (/datos 22 GiB)
+    respaldo intacto: 3186462720 bytes
+[21:27:44] pliegue 0: 60 blancos retenidos, alpha=1000.0
+[21:27:49] diseno 3,234,000 x 10
+[21:27:50]   CV 10_rasgos pliegue 0 hecho
+[21:27:51]   CV 10_rasgos pliegue 1 hecho
+[21:27:51]   CV 10_rasgos pliegue 2 hecho
+[21:27:52]   CV 10_rasgos pliegue 3 hecho
+[21:27:52]   CV 10_rasgos pliegue 4 hecho
+[21:27:52] CV 10_rasgos: Pearson por blanco mediana +0.0507, R2 mediana -0.0092
+[21:27:53]   CV 8_rasgos pliegue 0 hecho
+[21:27:53]   CV 8_rasgos pliegue 1 hecho
+[21:27:54]   CV 8_rasgos pliegue 2 hecho
+[21:27:55]   CV 8_rasgos pliegue 3 hecho
+[21:27:55]   CV 8_rasgos pliegue 4 hecho
+[21:27:55] CV 8_rasgos: Pearson por blanco mediana +0.0505, R2 mediana -0.0091
+[21:27:57] modelos reajustados sin el pliegue 0
+[21:27:57]   real train: 31 blancos del pliegue, 38,176 control
+[21:27:58]   real validation: 11 blancos del pliegue, 38,176 control
+[21:27:58]   real test: 18 blancos del pliegue, 38,176 control
+/home/ubuntu/mf/envs/vcc/lib/python3.11/functools.py:909: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+[21:30:49] lado real listo (18 GiB libres)
+[21:36:46] baseline listo (542s)
+[22:07:20] bundle listo (2376s)
+/home/ubuntu/mf/envs/vcc/lib/python3.11/functools.py:909: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+[22:13:31] BRAZO k1.0 OK en 372s  pds=0.6305084745762711 jac=0.0333458735545878
+/home/ubuntu/mf/envs/vcc/lib/python3.11/functools.py:909: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+[22:19:44] BRAZO k3.4 OK en 372s  pds=0.6542372881355931 jac=0.0272264397792536
+/home/ubuntu/mf/envs/vcc/lib/python3.11/functools.py:909: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+[22:25:58] BRAZO r8_k1.0 OK en 374s  pds=0.6454802259887006 jac=0.0333620897564472
+/home/ubuntu/mf/envs/vcc/lib/python3.11/functools.py:909: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+[22:32:15] BRAZO k2.0 OK en 376s  pds=0.6279661016949148 jac=0.0182617366648987
+/home/ubuntu/mf/envs/vcc/lib/python3.11/functools.py:909: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+[22:39:25] BRAZO k1.5 OK en 430s  pds=0.6271186440677963 jac=0.0180973123615651
+/home/ubuntu/mf/envs/vcc/lib/python3.11/functools.py:909: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+[22:46:58] BRAZO k2.5 OK en 453s  pds=0.6228813559322034 jac=0.0073392694948815
+[22:46:58] FIN en 4754.5s; brazos OK: ['k1.0', 'k3.4', 'r8_k1.0', 'k2.0', 'k1.5', 'k2.5']
+<<< BARRIDO k   FIN    : 2026-11-05 22:47:00 UTC   exit=0   4757s
+    /datos libre: 15 GiB
+    json        : /home/ubuntu/vcc/modelo/out/barrido_k.json
+    brazos OK   : ['k1.0', 'k3.4', 'r8_k1.0', 'k2.0', 'k1.5', 'k2.5']
+    brazos otros: (ninguno)
+    respaldo intacto: 3186462720 bytes
+================================================================

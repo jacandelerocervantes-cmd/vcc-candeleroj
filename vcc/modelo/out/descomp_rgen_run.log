@@ -1,0 +1,26 @@
+
+=== A549 ===
+/home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+/home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+  split 0 (seed 2968811710)... rep=0.490868 bundle=0.490868 dif=0.0e+00 E=14 gen_med=0.115717 (42s)
+  split 1 (seed 3677149159)... rep=0.435372 bundle=0.435372 dif=0.0e+00 E=13 gen_med=0.068364 (42s)
+  split 2 (seed 745650761)... rep=0.516056 bundle=0.516056 dif=1.1e-16 E=15 gen_med=0.112769 (42s)
+  split 3 (seed 2884920346)... rep=0.428102 bundle=0.428102 dif=0.0e+00 E=13 gen_med=0.056368 (42s)
+  split 4 (seed 2642120001)... rep=0.495873 bundle=0.495873 dif=1.1e-16 E=14 gen_med=0.124410 (42s)
+  [A549] r crudo=0.473254 sd=0.035008 | r genuina=0.055072 sd=0.014645 | max dif vs bundle=1.11e-16
+
+=== HAP1 ===
+/home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+/home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+  split 0 (seed 2968811710)... rep=0.524090 bundle=0.524090 dif=0.0e+00 E=13 gen_med=0.214749 (54s)
+  split 1 (seed 3677149159)... rep=0.567021 bundle=0.567021 dif=0.0e+00 E=14 gen_med=0.247984 (54s)
+  split 2 (seed 745650761)... rep=0.407504 bundle=0.407504 dif=5.6e-17 E=9 gen_med=0.185318 (54s)
+  split 3 (seed 2884920346)... rep=0.506686 bundle=0.506686 dif=0.0e+00 E=13 gen_med=0.186031 (54s)
+  split 4 (seed 2642120001)... rep=0.335480 bundle=0.335480 dif=0.0e+00 E=7 gen_med=0.156571 (54s)
+  [HAP1] r crudo=0.468156 sd=0.084462 | r genuina=0.128762 sd=0.010201 | max dif vs bundle=5.55e-17
+
+listo: /home/ubuntu/vcc/modelo/out/descomp_rgen.json

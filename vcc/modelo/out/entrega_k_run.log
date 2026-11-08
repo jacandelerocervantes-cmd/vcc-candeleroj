@@ -1,0 +1,129 @@
+ARRANQUE 2026-11-05 22:31:58 UTC   k=3.4   /datos 31 GiB
+respaldo al empezar: 66149bf6794c9f5d8cc062599eff9856451a62456e5a3f5ad710749656c5bff1
+
+================================================================
+>>> 1 EMISION k=3.4 (D/E/F -> h5ad NUEVO)   INICIO : 2026-11-05 22:32:02 UTC  (/datos 31 GiB)
+[22:32:18] D: rasgos y prediccion listos en 14s | y sd 0.1768 p1 -0.126 p99 +0.537 | recortados 0
+[22:32:19] D: 1/300 perts | filas 400 | nnz 2,266,125 | 0.33 s/pert | 33 GiB
+[22:32:26] D: 26/300 perts | filas 10,400 | nnz 58,339,035 | 0.29 s/pert | 33 GiB
+[22:32:33] D: 51/300 perts | filas 20,400 | nnz 114,579,876 | 0.29 s/pert | 32 GiB
+[22:32:41] D: 76/300 perts | filas 30,400 | nnz 170,488,036 | 0.29 s/pert | 32 GiB
+[22:32:48] D: 101/300 perts | filas 40,400 | nnz 226,579,182 | 0.30 s/pert | 29 GiB
+[22:32:56] D: 126/300 perts | filas 50,400 | nnz 282,642,890 | 0.30 s/pert | 29 GiB
+[22:33:03] D: 151/300 perts | filas 60,400 | nnz 338,896,709 | 0.30 s/pert | 28 GiB
+[22:33:11] D: 176/300 perts | filas 70,400 | nnz 395,091,981 | 0.30 s/pert | 28 GiB
+[22:33:19] D: 201/300 perts | filas 80,400 | nnz 451,403,993 | 0.30 s/pert | 27 GiB
+[22:33:26] D: 226/300 perts | filas 90,400 | nnz 507,477,291 | 0.30 s/pert | 27 GiB
+[22:33:34] D: 251/300 perts | filas 100,400 | nnz 563,569,123 | 0.30 s/pert | 26 GiB
+[22:33:41] D: 276/300 perts | filas 110,400 | nnz 619,828,425 | 0.30 s/pert | 26 GiB
+[22:33:49] D: 300/300 perts | filas 120,000 | nnz 673,799,982 | 0.30 s/pert | 26 GiB
+[22:33:49] D COMPLETO en 1.8 min
+[22:34:15] E: rasgos y prediccion listos en 26s | y sd 0.1765 p1 -0.126 p99 +0.537 | recortados 0
+[22:34:15] E: 1/300 perts | filas 120,400 | nnz 675,981,444 | 0.56 s/pert | 26 GiB
+[22:34:24] E: 26/300 perts | filas 130,400 | nnz 730,446,094 | 0.36 s/pert | 25 GiB
+[22:34:34] E: 51/300 perts | filas 140,400 | nnz 784,932,367 | 0.37 s/pert | 25 GiB
+[22:34:42] E: 76/300 perts | filas 150,400 | nnz 839,369,851 | 0.36 s/pert | 24 GiB
+[22:34:52] E: 101/300 perts | filas 160,400 | nnz 894,063,740 | 0.37 s/pert | 24 GiB
+[22:35:01] E: 126/300 perts | filas 170,400 | nnz 948,818,833 | 0.36 s/pert | 24 GiB
+[22:35:10] E: 151/300 perts | filas 180,400 | nnz 1,003,354,195 | 0.36 s/pert | 23 GiB
+[22:35:19] E: 176/300 perts | filas 190,400 | nnz 1,058,007,332 | 0.37 s/pert | 23 GiB
+[22:35:28] E: 201/300 perts | filas 200,400 | nnz 1,112,674,755 | 0.36 s/pert | 22 GiB
+[22:35:37] E: 226/300 perts | filas 210,400 | nnz 1,167,390,794 | 0.36 s/pert | 22 GiB
+[22:35:45] E: 251/300 perts | filas 220,400 | nnz 1,222,023,101 | 0.36 s/pert | 22 GiB
+[22:35:54] E: 276/300 perts | filas 230,400 | nnz 1,276,585,530 | 0.36 s/pert | 21 GiB
+[22:36:02] E: 300/300 perts | filas 240,000 | nnz 1,329,054,584 | 0.36 s/pert | 21 GiB
+[22:36:02] E COMPLETO en 2.2 min
+[22:36:18] F: rasgos y prediccion listos en 15s | y sd 0.1813 p1 -0.125 p99 +0.532 | recortados 0
+[22:36:18] F: 1/300 perts | filas 240,400 | nnz 1,331,274,693 | 0.31 s/pert | 21 GiB
+[22:36:26] F: 26/300 perts | filas 250,400 | nnz 1,385,513,026 | 0.31 s/pert | 20 GiB
+[22:36:35] F: 51/300 perts | filas 260,400 | nnz 1,439,831,553 | 0.34 s/pert | 20 GiB
+[22:36:44] F: 76/300 perts | filas 270,400 | nnz 1,494,102,704 | 0.35 s/pert | 20 GiB
+[22:36:54] F: 101/300 perts | filas 280,400 | nnz 1,548,256,213 | 0.35 s/pert | 19 GiB
+[22:37:03] F: 126/300 perts | filas 290,400 | nnz 1,602,469,011 | 0.36 s/pert | 19 GiB
+[22:37:12] F: 151/300 perts | filas 300,400 | nnz 1,656,706,917 | 0.36 s/pert | 18 GiB
+[22:37:22] F: 176/300 perts | filas 310,400 | nnz 1,710,753,889 | 0.36 s/pert | 18 GiB
+[22:37:31] F: 201/300 perts | filas 320,400 | nnz 1,764,991,749 | 0.36 s/pert | 18 GiB
+[22:37:40] F: 226/300 perts | filas 330,400 | nnz 1,819,203,248 | 0.36 s/pert | 17 GiB
+[22:37:48] F: 251/300 perts | filas 340,400 | nnz 1,873,289,146 | 0.36 s/pert | 17 GiB
+[22:37:57] F: 276/300 perts | filas 350,400 | nnz 1,927,387,250 | 0.36 s/pert | 16 GiB
+[22:38:07] F: 300/300 perts | filas 360,000 | nnz 1,979,711,452 | 0.36 s/pert | 16 GiB
+[22:38:07] F COMPLETO en 2.1 min
+[22:38:08] h5ad cerrado: 360,000 filas, 1,979,711,452 nnz, 14.79 GiB
+<<< 1 EMISION k=3.4 (D/E/F -> h5ad NUEVO)   FIN    : 2026-11-05 22:38:08 UTC
+    duracion    : 366 s
+    estado      : OK
+    h5ad        : 15G
+    /datos libre: 16 GiB
+
+================================================================
+>>> 2 CONTRATO (las 17, una por una)   INICIO : 2026-11-05 22:38:08 UTC  (/datos 16 GiB)
+[22:38:10] OK  encoding de X: csr_matrix
+[22:38:10] OK  forma: [360000, 18533]
+[22:38:10] OK  var = gene_names.csv, mismo orden elemento a elemento: 18533 nombres, primer desajuste: None
+[22:38:10] OK  filas de obs: [360000, 360000]
+[22:38:10] OK  CERO filas non-targeting: 0
+[22:38:10] OK  blancos = las 300 de pert_counts.csv: 300 distintos
+[22:38:10] OK  1,200 filas por blanco (400 x 3): min 1200 max 1200
+[22:38:10] OK  simbolos, no identificadores de constructo: ninguno con sufijo -N
+[22:38:10] OK  contextos: {'D': 120000, 'E': 120000, 'F': 120000}
+[22:38:10] OK  120,000 filas por contexto: [120000, 120000, 120000]
+[22:38:10] OK  nnz <= 4,750,000,000: 1,979,711,452
+[22:38:10] OK  indptr consistente: [0, 1979711452, 360001]
+[22:38:32] OK  X entera: 0 valores no enteros
+[22:38:32] OK  X no negativa: min 1.0
+[22:38:32] OK  X finita: 0 no finitos
+[22:38:32] OK  indices dentro de rango: [0, 18532]
+[22:38:32] OK  ninguna celula suma > 1,000,000: maxima 52,861
+[22:38:32] CONTRATO: 17/17 comprobaciones OK | nnz 1,979,711,452 (margen x2.399) | 14.794 GiB
+<<< 2 CONTRATO (las 17, una por una)   FIN    : 2026-11-05 22:38:32 UTC
+    duracion    : 24 s
+    estado      : OK
+    h5ad        : 15G
+    /datos libre: 16 GiB
+
+================================================================
+>>> 3 PREP --dry-run   INICIO : 2026-11-05 22:38:32 UTC  (/datos 16 GiB)
+✓ dry run — no .vcc written
+  input:         /datos/modelo/out/entrega/prediction_k3.4.h5ad
+  output:        (dry run)
+  cells:         360000
+  genes:         18533  (encoding: float32)
+  perturbations: column 'target_gene' → 'target_gene'
+  contexts:      column 'context' → D=120000, E=120000, F=120000
+  targets:       verified against the official list
+  normalization: counts-preserved
+<<< 3 PREP --dry-run   FIN    : 2026-11-05 22:39:16 UTC
+    duracion    : 44 s
+    estado      : OK
+    h5ad        : 15G
+    /datos libre: 16 GiB
+
+================================================================
+>>> 4 PREP (escribe el .vcc NUEVO)   INICIO : 2026-11-05 22:39:16 UTC  (/datos 16 GiB)
+✓ prep complete
+  input:         /datos/modelo/out/entrega/prediction_k3.4.h5ad
+  output:        /datos/modelo/out/entrega/prediction_k3.4.vcc
+  cells:         360000
+  genes:         18533  (encoding: float32)
+  perturbations: column 'target_gene' → 'target_gene'
+  contexts:      column 'context' → D=120000, E=120000, F=120000
+  targets:       verified against the official list
+  normalization: counts-preserved
+<<< 4 PREP (escribe el .vcc NUEVO)   FIN    : 2026-11-05 22:43:16 UTC
+    duracion    : 240 s
+    estado      : OK
+    h5ad        : 15G
+    vcc         : 3.0G
+    /datos libre: 13 GiB
+
+================================================================
+RESUMEN   fin 2026-11-05 22:43:16 UTC   total 674 s
+  OK      : 1 EMISION k=3.4 (D/E/F -> h5ad NUEVO) 2 CONTRATO (las 17, una por una) 3 PREP --dry-run 4 PREP (escribe el .vcc NUEVO)
+  FALLARON: (ninguno)
+  🔴 NUEVO LISTO (NO ENVIADO): /datos/modelo/out/entrega/prediction_k3.4.vcc
+     bytes : 3166535680
+     sha256: 4a2195a733c085e81618d53d09bac756e8be50e59a0eaf412871f7c9e74e256e
+  respaldo: 66149bf6794c9f5d8cc062599eff9856451a62456e5a3f5ad710749656c5bff1
+     ✓ intacto, coincide con 66149bf6...5bff1
+  /datos libre: 13 GiB
+================================================================

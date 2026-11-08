@@ -1,0 +1,11 @@
+/home/ubuntu/mf/envs/vcc/lib/python3.11/functools.py:909: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+/home/ubuntu/mf/envs/vcc/lib/python3.11/functools.py:909: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+BXPC3: espacio 33992 genes (33 del panel fuera), frac norma^2 en la cola media 0.0848 [0.0062, 0.5592], 0 perts con ED vacio
+/home/ubuntu/mf/envs/vcc/lib/python3.11/functools.py:909: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+/home/ubuntu/mf/envs/vcc/lib/python3.11/functools.py:909: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+HAP1: espacio 33992 genes (33 del panel fuera), frac norma^2 en la cola media 0.0530 [0.0000, 0.4275], 14 perts con ED vacio
+listo: /home/ubuntu/vcc/modelo/out/pds_composicion.json

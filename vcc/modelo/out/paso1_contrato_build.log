@@ -1,0 +1,5 @@
+[info] n_genes=18533 n_perts=300
+[ok] 2,084,329,279 nnz previstas <= 4,750,000,000 (margen x2.28); 5789.8 nnz/celula promedio vs presupuesto 13194.4 nnz/celula. Se procede a construir y escribir.
+[check] X_total.shape=(360000, 18533) nnz_real=2,084,329,279 umi_max_observado_en_la_muestra=52,420
+[check] adata_out.shape=(360000, 18533)
+[done] escrito /home/ubuntu/vcc/modelo/out/prueba.h5ad

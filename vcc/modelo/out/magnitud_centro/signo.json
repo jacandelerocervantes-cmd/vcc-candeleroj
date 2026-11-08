@@ -1,0 +1,89 @@
+{
+ "frac_de_genes_con_delta_negativo_por_linea": {
+  "A549": 0.44286718309834044,
+  "BXPC3": 0.4497081978290792,
+  "HAP1": 0.454609083598993,
+  "HT29": 0.43154667185505324,
+  "K562": 0.39105563831418444,
+  "MCF7": 0.4367074226912571
+ },
+ "frac_de_la_concordancia_que_es_ambos_negativos": {
+  "max": 0.8039068036853295,
+  "media": 0.384086297703384,
+  "min": 0.26107283464566927
+ },
+ "global": {},
+ "pares": {},
+ "por_decil_de_abs_delta": [
+  {
+   "concordancia": 0.4253685717768797,
+   "concordancia_nucleo": 0.4856890175269336,
+   "concordancia_resto": 0.41666938968828604,
+   "decil": 1,
+   "n": 3256557
+  },
+  {
+   "concordancia": 0.4663236209891515,
+   "concordancia_nucleo": 0.4541139240506329,
+   "concordancia_resto": 0.46658188025034303,
+   "decil": 2,
+   "n": 30511
+  },
+  {
+   "concordancia": 0.7174986202082029,
+   "concordancia_nucleo": 0.5857920413316859,
+   "concordancia_resto": 0.7472494685615596,
+   "decil": 3,
+   "n": 11327796
+  },
+  {
+   "concordancia": 0.626035855022334,
+   "concordancia_nucleo": 0.4910847191036849,
+   "concordancia_resto": 0.6485625023266663,
+   "decil": 4,
+   "n": 36800758
+  },
+  {
+   "concordancia": 0.47805629497296065,
+   "concordancia_nucleo": 0.4982957573004656,
+   "concordancia_resto": 0.4745228964342997,
+   "decil": 5,
+   "n": 15404395
+  },
+  {
+   "concordancia": 0.5008492338919052,
+   "concordancia_nucleo": 0.5077717018579447,
+   "concordancia_resto": 0.4995563564842396,
+   "decil": 6,
+   "n": 13629343
+  },
+  {
+   "concordancia": 0.5161002768547868,
+   "concordancia_nucleo": 0.5100970597560082,
+   "concordancia_resto": 0.5171973228152938,
+   "decil": 7,
+   "n": 13330454
+  },
+  {
+   "concordancia": 0.5057197344191473,
+   "concordancia_nucleo": 0.5112706220553402,
+   "concordancia_resto": 0.5047555011128546,
+   "decil": 8,
+   "n": 13872235
+  },
+  {
+   "concordancia": 0.505049312397289,
+   "concordancia_nucleo": 0.5200297574067037,
+   "concordancia_resto": 0.5023717315856738,
+   "decil": 9,
+   "n": 13483222
+  },
+  {
+   "concordancia": 0.5095905908157834,
+   "concordancia_nucleo": 0.5486612097499308,
+   "concordancia_resto": 0.5026158537620097,
+   "decil": 10,
+   "n": 13473049
+  }
+ ]
+}

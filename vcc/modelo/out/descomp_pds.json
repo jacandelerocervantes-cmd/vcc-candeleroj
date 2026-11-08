@@ -1,0 +1,218 @@
+{
+  "A549": {
+    "b_oficial": {
+      "cos_par_max": 0.8232099811373529,
+      "cos_par_media": 0.7485892281430897,
+      "cos_par_min": 0.645989571042012,
+      "etiqueta": "b oficial (control escalado al perfil)",
+      "frac_norma_cero": 0.0,
+      "n_perts": 33,
+      "norma_max": 12.411298566863803,
+      "norma_media": 11.420622025050136,
+      "norma_min": 10.972973438896172
+    },
+    "duracion_s": 66.75,
+    "real": {
+      "cos_par_max": 1.0012189933840305,
+      "cos_par_media": 0.7845705985474425,
+      "cos_par_min": 0.32538756144340597,
+      "etiqueta": "real (la verdad)",
+      "frac_norma_cero": 0.0,
+      "n_perts": 33,
+      "norma_max": 17.31221353808021,
+      "norma_media": 11.853498947907458,
+      "norma_min": 10.836205777830694
+    },
+    "suelo": {
+      "cos_par_max": 0.5641371905805371,
+      "cos_par_media": 0.48086053711882026,
+      "cos_par_min": 0.4025773657816101,
+      "etiqueta": "nuestro suelo (control sin escalar)",
+      "frac_norma_cero": 0.0,
+      "n_perts": 33,
+      "norma_max": 14.717545650223297,
+      "norma_media": 14.044990402665379,
+      "norma_min": 13.265613553491097
+    }
+  },
+  "BXPC3": {
+    "b_oficial": {
+      "cos_par_max": 0.8777113652889061,
+      "cos_par_media": 0.8041547133790664,
+      "cos_par_min": 0.7154222434288712,
+      "etiqueta": "b oficial (control escalado al perfil)",
+      "frac_norma_cero": 0.0,
+      "n_perts": 33,
+      "norma_max": 10.088610935970609,
+      "norma_media": 9.389082371369515,
+      "norma_min": 8.878882621309293
+    },
+    "duracion_s": 88.93,
+    "real": {
+      "cos_par_max": 1.0675805407767018,
+      "cos_par_media": 0.8658222500617168,
+      "cos_par_min": 0.31203021017932875,
+      "etiqueta": "real (la verdad)",
+      "frac_norma_cero": 0.0,
+      "n_perts": 33,
+      "norma_max": 16.702010709689088,
+      "norma_media": 10.308416173635006,
+      "norma_min": 9.069381697111753
+    },
+    "suelo": {
+      "cos_par_max": 0.5451987282267609,
+      "cos_par_media": 0.49844281926189876,
+      "cos_par_min": 0.4549723081726149,
+      "etiqueta": "nuestro suelo (control sin escalar)",
+      "frac_norma_cero": 0.0,
+      "n_perts": 33,
+      "norma_max": 12.266557768803805,
+      "norma_media": 11.850768115889107,
+      "norma_min": 11.421336622024755
+    }
+  },
+  "HAP1": {
+    "b_oficial": {
+      "cos_par_max": 0.9174906818995473,
+      "cos_par_media": 0.8526595755130247,
+      "cos_par_min": 0.7856292548318853,
+      "etiqueta": "b oficial (control escalado al perfil)",
+      "frac_norma_cero": 0.0,
+      "n_perts": 33,
+      "norma_max": 8.966123363847256,
+      "norma_media": 8.524506457128231,
+      "norma_min": 7.926177803064684
+    },
+    "duracion_s": 91.95,
+    "real": {
+      "cos_par_max": 1.0319334797931088,
+      "cos_par_media": 0.8853477585374918,
+      "cos_par_min": 0.3876427364280346,
+      "etiqueta": "real (la verdad)",
+      "frac_norma_cero": 0.0,
+      "n_perts": 33,
+      "norma_max": 12.75026449719919,
+      "norma_media": 8.830986464451414,
+      "norma_min": 8.101362619379865
+    },
+    "suelo": {
+      "cos_par_max": 0.5947136856463642,
+      "cos_par_media": 0.526843064001185,
+      "cos_par_min": 0.4669893372870757,
+      "etiqueta": "nuestro suelo (control sin escalar)",
+      "frac_norma_cero": 0.0,
+      "n_perts": 33,
+      "norma_max": 11.1823698549795,
+      "norma_media": 10.810314584895973,
+      "norma_min": 10.466296065242796
+    }
+  },
+  "HT29": {
+    "b_oficial": {
+      "cos_par_max": 0.898135314710805,
+      "cos_par_media": 0.8300770846184573,
+      "cos_par_min": 0.76191097765687,
+      "etiqueta": "b oficial (control escalado al perfil)",
+      "frac_norma_cero": 0.0,
+      "n_perts": 33,
+      "norma_max": 9.777034279630552,
+      "norma_media": 9.119295500767787,
+      "norma_min": 8.692826209224242
+    },
+    "duracion_s": 80.93,
+    "real": {
+      "cos_par_max": 0.9583984544359728,
+      "cos_par_media": 0.8567850646641867,
+      "cos_par_min": 0.35634815739638737,
+      "etiqueta": "real (la verdad)",
+      "frac_norma_cero": 0.0,
+      "n_perts": 33,
+      "norma_max": 14.445773354394346,
+      "norma_media": 9.33001633415081,
+      "norma_min": 8.128455734724806
+    },
+    "suelo": {
+      "cos_par_max": 0.5482996149096664,
+      "cos_par_media": 0.49260495905023177,
+      "cos_par_min": 0.44456214586372766,
+      "etiqueta": "nuestro suelo (control sin escalar)",
+      "frac_norma_cero": 0.0,
+      "n_perts": 33,
+      "norma_max": 12.034815829524346,
+      "norma_media": 11.689992238099142,
+      "norma_min": 11.381865222374296
+    }
+  },
+  "K562": {
+    "b_oficial": {
+      "cos_par_max": 0.8285738246419494,
+      "cos_par_media": 0.7521227270638284,
+      "cos_par_min": 0.6570616370017744,
+      "etiqueta": "b oficial (control escalado al perfil)",
+      "frac_norma_cero": 0.0,
+      "n_perts": 33,
+      "norma_max": 10.56300681169809,
+      "norma_media": 10.091151096391755,
+      "norma_min": 9.775235845238424
+    },
+    "duracion_s": 68.69,
+    "real": {
+      "cos_par_max": 0.9110363955060585,
+      "cos_par_media": 0.7723578534208696,
+      "cos_par_min": 0.45610295185460503,
+      "etiqueta": "real (la verdad)",
+      "frac_norma_cero": 0.0,
+      "n_perts": 33,
+      "norma_max": 13.25023577960724,
+      "norma_media": 10.252554568163466,
+      "norma_min": 9.4848362972283
+    },
+    "suelo": {
+      "cos_par_max": 0.5366706221956732,
+      "cos_par_media": 0.4813658228728823,
+      "cos_par_min": 0.3913369096102791,
+      "etiqueta": "nuestro suelo (control sin escalar)",
+      "frac_norma_cero": 0.0,
+      "n_perts": 33,
+      "norma_max": 12.902397416818824,
+      "norma_media": 12.38260339214663,
+      "norma_min": 11.580942327571792
+    }
+  },
+  "MCF7": {
+    "b_oficial": {
+      "cos_par_max": 0.8366912970950828,
+      "cos_par_media": 0.7542390323730734,
+      "cos_par_min": 0.6470172560173223,
+      "etiqueta": "b oficial (control escalado al perfil)",
+      "frac_norma_cero": 0.0,
+      "n_perts": 33,
+      "norma_max": 8.169248276075258,
+      "norma_media": 7.758301478266004,
+      "norma_min": 7.359601202805793
+    },
+    "duracion_s": 89.49,
+    "real": {
+      "cos_par_max": 0.9793033738318422,
+      "cos_par_media": 0.7880385325736372,
+      "cos_par_min": 0.502330310151941,
+      "etiqueta": "real (la verdad)",
+      "frac_norma_cero": 0.0,
+      "n_perts": 33,
+      "norma_max": 10.726756570187845,
+      "norma_media": 7.925184222041885,
+      "norma_min": 6.944951411472931
+    },
+    "suelo": {
+      "cos_par_max": 0.5613545979453779,
+      "cos_par_media": 0.502959553310527,
+      "cos_par_min": 0.43250830615154345,
+      "etiqueta": "nuestro suelo (control sin escalar)",
+      "frac_norma_cero": 0.0,
+      "n_perts": 33,
+      "norma_max": 10.145097454853566,
+      "norma_media": 9.572322009172899,
+      "norma_min": 9.072233976595127
+    }
+  }
+}

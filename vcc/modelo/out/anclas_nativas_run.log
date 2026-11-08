@@ -1,0 +1,91 @@
+panel comun: 33 perturbaciones
+leyendo obs global de IFNB...
+n_obs=328542 n_genes=34025
+
+=== 1/6: A549 (seed_real=20260001) ===
+/home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+/home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+  [A549] cell-eval2 baseline... OK 62s
+  [A549] cell-eval2 prep-real-bundle (k=5)... FALLO en A549: prep-real-bundle fallo para A549 (exit=1). Ver /datos/modelo/out/nativas/bundle_A549.log
+Traceback (most recent call last):
+  File "/home/ubuntu/vcc/modelo/src/anclas_nativas.py", line 307, in <module>
+    main()
+  File "/home/ubuntu/vcc/modelo/src/anclas_nativas.py", line 287, in main
+    rec = una_linea(fold_idx, line, panel, cell_type, gene, var_names, n_genes)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/vcc/modelo/src/anclas_nativas.py", line 202, in una_linea
+    raise RuntimeError(
+RuntimeError: prep-real-bundle fallo para A549 (exit=1). Ver /datos/modelo/out/nativas/bundle_A549.log
+panel comun: 33 perturbaciones
+leyendo obs global de IFNB...
+n_obs=328542 n_genes=34025
+
+=== 1/6: A549 (seed_real=20260001) ===
+/home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+/home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+  [A549] cell-eval2 baseline... OK 62s
+  [A549] cell-eval2 prep-real-bundle (k=5)... OK 237s
+  [A549] bundle DIAGNOSTICO -- 301s
+  [A549] guarda: wrote DIAGNOSTIC bundle 'BUNDLE_A549' to /datos/modelo/out/nativas/BUNDLE_A549 -- it will NOT take avg_score: the run config is not the competition preset's (diff it against `--preset vcc2026`); its config_hash differs
+  [A549] DETENIDO POR GUARDA: no se leyo el anchor.
+
+=== 2/6: BXPC3 (seed_real=20260002) ===
+/home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+/home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+  [BXPC3] cell-eval2 baseline... OK 84s
+  [BXPC3] cell-eval2 prep-real-bundle (k=5)... OK 362s
+  [BXPC3] bundle DIAGNOSTICO -- 449s
+  [BXPC3] guarda: wrote DIAGNOSTIC bundle 'BUNDLE_BXPC3' to /datos/modelo/out/nativas/BUNDLE_BXPC3 -- it will NOT take avg_score: the run config is not the competition preset's (diff it against `--preset vcc2026`); its config_hash differs
+  [BXPC3] DETENIDO POR GUARDA: no se leyo el anchor.
+
+=== 3/6: HAP1 (seed_real=20260003) ===
+/home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+/home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+  [HAP1] cell-eval2 baseline... OK 88s
+  [HAP1] cell-eval2 prep-real-bundle (k=5)... OK 381s
+  [HAP1] bundle DIAGNOSTICO -- 471s
+  [HAP1] guarda: wrote DIAGNOSTIC bundle 'BUNDLE_HAP1' to /datos/modelo/out/nativas/BUNDLE_HAP1 -- it will NOT take avg_score: the run config is not the competition preset's (diff it against `--preset vcc2026`); its config_hash differs
+  [HAP1] DETENIDO POR GUARDA: no se leyo el anchor.
+
+=== 4/6: HT29 (seed_real=20260004) ===
+/home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+/home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+  [HT29] cell-eval2 baseline... OK 77s
+  [HT29] cell-eval2 prep-real-bundle (k=5)... OK 320s
+  [HT29] bundle DIAGNOSTICO -- 400s
+  [HT29] guarda: wrote DIAGNOSTIC bundle 'BUNDLE_HT29' to /datos/modelo/out/nativas/BUNDLE_HT29 -- it will NOT take avg_score: the run config is not the competition preset's (diff it against `--preset vcc2026`); its config_hash differs
+  [HT29] DETENIDO POR GUARDA: no se leyo el anchor.
+
+=== 5/6: K562 (seed_real=20260005) ===
+/home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+/home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+  [K562] cell-eval2 baseline... OK 66s
+  [K562] cell-eval2 prep-real-bundle (k=5)... OK 255s
+  [K562] bundle DIAGNOSTICO -- 323s
+  [K562] guarda: wrote DIAGNOSTIC bundle 'BUNDLE_K562' to /datos/modelo/out/nativas/BUNDLE_K562 -- it will NOT take avg_score: the run config is not the competition preset's (diff it against `--preset vcc2026`); its config_hash differs
+  [K562] DETENIDO POR GUARDA: no se leyo el anchor.
+
+=== 6/6: MCF7 (seed_real=20260006) ===
+/home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+/home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+  [MCF7] cell-eval2 baseline... OK 85s
+  [MCF7] cell-eval2 prep-real-bundle (k=5)... OK 369s
+  [MCF7] bundle DIAGNOSTICO -- 457s
+  [MCF7] guarda: wrote DIAGNOSTIC bundle 'BUNDLE_MCF7' to /datos/modelo/out/nativas/BUNDLE_MCF7 -- it will NOT take avg_score: the run config is not the competition preset's (diff it against `--preset vcc2026`); its config_hash differs
+  [MCF7] DETENIDO POR GUARDA: no se leyo el anchor.
+
+listo: /home/ubuntu/vcc/modelo/out/anclas_nativas.json

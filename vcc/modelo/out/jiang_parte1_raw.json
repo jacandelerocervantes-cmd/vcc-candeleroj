@@ -1,0 +1,504 @@
+{
+  "files": {
+    "IFNB": {
+      "path": "/datos/ref/convertido/Seurat_object_IFNB_Perturb_seq.h5ad",
+      "n_obs": 328542,
+      "n_genes": 34025,
+      "obs_columns": {
+        "Batch_info": {
+          "dtype": "categorical<object>",
+          "encoding": "categorical",
+          "n_unique": 2
+        },
+        "RNA_snn_res.0.9": {
+          "dtype": "float64",
+          "encoding": "plain",
+          "n_unique": 177560
+        },
+        "bc1_well": {
+          "dtype": "categorical<object>",
+          "encoding": "categorical",
+          "n_unique": 24
+        },
+        "bc2_well": {
+          "dtype": "categorical<object>",
+          "encoding": "categorical",
+          "n_unique": 95
+        },
+        "bc3_well": {
+          "dtype": "categorical<object>",
+          "encoding": "categorical",
+          "n_unique": 96
+        },
+        "cell_type": {
+          "dtype": "categorical<object>",
+          "encoding": "categorical",
+          "n_unique": 6
+        },
+        "gene": {
+          "dtype": "categorical<object>",
+          "encoding": "categorical",
+          "n_unique": 62
+        },
+        "guide": {
+          "dtype": "categorical<object>",
+          "encoding": "categorical",
+          "n_unique": 197
+        },
+        "mixscale_score": {
+          "dtype": "float64",
+          "encoding": "plain",
+          "n_unique": 300514
+        },
+        "nCount_RNA": {
+          "dtype": "int64",
+          "encoding": "plain",
+          "n_unique": 25868
+        },
+        "nFeature_RNA": {
+          "dtype": "int64",
+          "encoding": "plain",
+          "n_unique": 8283
+        },
+        "orig.ident": {
+          "dtype": "int64",
+          "encoding": "plain",
+          "n_unique": 24
+        },
+        "pathway": {
+          "dtype": "categorical<object>",
+          "encoding": "categorical",
+          "n_unique": 1
+        },
+        "percent.mito": {
+          "dtype": "float64",
+          "encoding": "plain",
+          "n_unique": 274779
+        },
+        "sample": {
+          "dtype": "categorical<object>",
+          "encoding": "categorical",
+          "n_unique": 7
+        },
+        "sample_ID": {
+          "dtype": "categorical<object>",
+          "encoding": "categorical",
+          "n_unique": 16
+        },
+        "seurat_clusters": {
+          "dtype": "float64",
+          "encoding": "plain",
+          "n_unique": 177560
+        }
+      }
+    },
+    "IFNG": {
+      "path": "/datos/ref/convertido/Seurat_object_IFNG_Perturb_seq.h5ad",
+      "n_obs": 245240,
+      "n_genes": 33525,
+      "obs_columns": {
+        "Batch_info": {
+          "dtype": "categorical<object>",
+          "encoding": "categorical",
+          "n_unique": 2
+        },
+        "bc1_well": {
+          "dtype": "categorical<object>",
+          "encoding": "categorical",
+          "n_unique": 24
+        },
+        "bc2_well": {
+          "dtype": "categorical<object>",
+          "encoding": "categorical",
+          "n_unique": 96
+        },
+        "bc3_well": {
+          "dtype": "categorical<object>",
+          "encoding": "categorical",
+          "n_unique": 96
+        },
+        "cell_type": {
+          "dtype": "categorical<object>",
+          "encoding": "categorical",
+          "n_unique": 6
+        },
+        "gene": {
+          "dtype": "categorical<object>",
+          "encoding": "categorical",
+          "n_unique": 60
+        },
+        "guide": {
+          "dtype": "categorical<object>",
+          "encoding": "categorical",
+          "n_unique": 191
+        },
+        "mixscale_score": {
+          "dtype": "float64",
+          "encoding": "plain",
+          "n_unique": 193166
+        },
+        "nCount_RNA": {
+          "dtype": "int64",
+          "encoding": "plain",
+          "n_unique": 21905
+        },
+        "nFeature_RNA": {
+          "dtype": "int64",
+          "encoding": "plain",
+          "n_unique": 7501
+        },
+        "orig.ident": {
+          "dtype": "int64",
+          "encoding": "plain",
+          "n_unique": 28
+        },
+        "pathway": {
+          "dtype": "categorical<object>",
+          "encoding": "categorical",
+          "n_unique": 1
+        },
+        "percent.mito": {
+          "dtype": "float64",
+          "encoding": "plain",
+          "n_unique": 204791
+        },
+        "sample": {
+          "dtype": "categorical<object>",
+          "encoding": "categorical",
+          "n_unique": 7
+        },
+        "sample_ID": {
+          "dtype": "categorical<object>",
+          "encoding": "categorical",
+          "n_unique": 16
+        }
+      }
+    },
+    "INS": {
+      "path": "/datos/ref/convertido/Seurat_object_INS_Perturb_seq.h5ad",
+      "n_obs": 431457,
+      "n_genes": 34025,
+      "obs_columns": {
+        "Batch_info": {
+          "dtype": "categorical<object>",
+          "encoding": "categorical",
+          "n_unique": 2
+        },
+        "RNA_snn_res.0.9": {
+          "dtype": "float64",
+          "encoding": "plain",
+          "n_unique": 211089
+        },
+        "bc1_well": {
+          "dtype": "categorical<object>",
+          "encoding": "categorical",
+          "n_unique": 24
+        },
+        "bc2_well": {
+          "dtype": "categorical<object>",
+          "encoding": "categorical",
+          "n_unique": 95
+        },
+        "bc3_well": {
+          "dtype": "categorical<object>",
+          "encoding": "categorical",
+          "n_unique": 96
+        },
+        "cell_type": {
+          "dtype": "categorical<object>",
+          "encoding": "categorical",
+          "n_unique": 6
+        },
+        "gene": {
+          "dtype": "categorical<object>",
+          "encoding": "categorical",
+          "n_unique": 45
+        },
+        "guide": {
+          "dtype": "categorical<object>",
+          "encoding": "categorical",
+          "n_unique": 146
+        },
+        "mixscale_score": {
+          "dtype": "float64",
+          "encoding": "plain",
+          "n_unique": 405451
+        },
+        "nCount_RNA": {
+          "dtype": "int64",
+          "encoding": "plain",
+          "n_unique": 26619
+        },
+        "nFeature_RNA": {
+          "dtype": "int64",
+          "encoding": "plain",
+          "n_unique": 8002
+        },
+        "orig.ident": {
+          "dtype": "int64",
+          "encoding": "plain",
+          "n_unique": 24
+        },
+        "pathway": {
+          "dtype": "categorical<object>",
+          "encoding": "categorical",
+          "n_unique": 1
+        },
+        "percent.mito": {
+          "dtype": "float64",
+          "encoding": "plain",
+          "n_unique": 351964
+        },
+        "sample": {
+          "dtype": "categorical<object>",
+          "encoding": "categorical",
+          "n_unique": 6
+        },
+        "sample_ID": {
+          "dtype": "categorical<object>",
+          "encoding": "categorical",
+          "n_unique": 16
+        },
+        "seurat_clusters": {
+          "dtype": "float64",
+          "encoding": "plain",
+          "n_unique": 211089
+        }
+      }
+    },
+    "TGFB": {
+      "path": "/datos/ref/convertido/Seurat_object_TGFB_Perturb_seq.h5ad",
+      "n_obs": 236606,
+      "n_genes": 33525,
+      "obs_columns": {
+        "Batch_info": {
+          "dtype": "categorical<object>",
+          "encoding": "categorical",
+          "n_unique": 2
+        },
+        "bc1_well": {
+          "dtype": "categorical<object>",
+          "encoding": "categorical",
+          "n_unique": 24
+        },
+        "bc2_well": {
+          "dtype": "categorical<object>",
+          "encoding": "categorical",
+          "n_unique": 96
+        },
+        "bc3_well": {
+          "dtype": "categorical<object>",
+          "encoding": "categorical",
+          "n_unique": 96
+        },
+        "cell_type": {
+          "dtype": "categorical<object>",
+          "encoding": "categorical",
+          "n_unique": 6
+        },
+        "gene": {
+          "dtype": "categorical<object>",
+          "encoding": "categorical",
+          "n_unique": 53
+        },
+        "guide": {
+          "dtype": "categorical<object>",
+          "encoding": "categorical",
+          "n_unique": 170
+        },
+        "mixscale_score": {
+          "dtype": "float64",
+          "encoding": "plain",
+          "n_unique": 99641
+        },
+        "nCount_RNA": {
+          "dtype": "int64",
+          "encoding": "plain",
+          "n_unique": 19465
+        },
+        "nFeature_RNA": {
+          "dtype": "int64",
+          "encoding": "plain",
+          "n_unique": 7150
+        },
+        "orig.ident": {
+          "dtype": "int64",
+          "encoding": "plain",
+          "n_unique": 24
+        },
+        "pathway": {
+          "dtype": "categorical<object>",
+          "encoding": "categorical",
+          "n_unique": 1
+        },
+        "percent.mito": {
+          "dtype": "float64",
+          "encoding": "plain",
+          "n_unique": 191615
+        },
+        "sample": {
+          "dtype": "categorical<object>",
+          "encoding": "categorical",
+          "n_unique": 6
+        },
+        "sample_ID": {
+          "dtype": "categorical<object>",
+          "encoding": "categorical",
+          "n_unique": 16
+        }
+      }
+    },
+    "TNFA": {
+      "path": "/datos/ref/convertido/Seurat_object_TNFA_Perturb_seq.h5ad",
+      "n_obs": 386631,
+      "n_genes": 33525,
+      "obs_columns": {
+        "Batch_info": {
+          "dtype": "categorical<object>",
+          "encoding": "categorical",
+          "n_unique": 2
+        },
+        "bc1_well": {
+          "dtype": "categorical<object>",
+          "encoding": "categorical",
+          "n_unique": 24
+        },
+        "bc2_well": {
+          "dtype": "categorical<object>",
+          "encoding": "categorical",
+          "n_unique": 96
+        },
+        "bc3_well": {
+          "dtype": "categorical<object>",
+          "encoding": "categorical",
+          "n_unique": 96
+        },
+        "cell_type": {
+          "dtype": "categorical<object>",
+          "encoding": "categorical",
+          "n_unique": 6
+        },
+        "gene": {
+          "dtype": "categorical<object>",
+          "encoding": "categorical",
+          "n_unique": 56
+        },
+        "guide": {
+          "dtype": "categorical<object>",
+          "encoding": "categorical",
+          "n_unique": 179
+        },
+        "mixscale_score": {
+          "dtype": "float64",
+          "encoding": "plain",
+          "n_unique": 242739
+        },
+        "nCount_RNA": {
+          "dtype": "int64",
+          "encoding": "plain",
+          "n_unique": 21938
+        },
+        "nFeature_RNA": {
+          "dtype": "int64",
+          "encoding": "plain",
+          "n_unique": 7232
+        },
+        "orig.ident": {
+          "dtype": "int64",
+          "encoding": "plain",
+          "n_unique": 32
+        },
+        "pathway": {
+          "dtype": "categorical<object>",
+          "encoding": "categorical",
+          "n_unique": 1
+        },
+        "percent.mito": {
+          "dtype": "float64",
+          "encoding": "plain",
+          "n_unique": 319769
+        },
+        "sample": {
+          "dtype": "categorical<object>",
+          "encoding": "categorical",
+          "n_unique": 7
+        },
+        "sample_ID": {
+          "dtype": "categorical<object>",
+          "encoding": "categorical",
+          "n_unique": 16
+        }
+      }
+    }
+  },
+  "gene_axis_check": {
+    "IFNB": {
+      "n_genes": 34025,
+      "same_length_as_ref": true,
+      "identical_order_as_ref": true
+    },
+    "IFNG": {
+      "n_genes": 33525,
+      "same_length_as_ref": false,
+      "identical_order_as_ref": false
+    },
+    "INS": {
+      "n_genes": 34025,
+      "same_length_as_ref": true,
+      "identical_order_as_ref": true
+    },
+    "TGFB": {
+      "n_genes": 33525,
+      "same_length_as_ref": false,
+      "identical_order_as_ref": false
+    },
+    "TNFA": {
+      "n_genes": 33525,
+      "same_length_as_ref": false,
+      "identical_order_as_ref": false
+    }
+  },
+  "gene_axis_ref": "IFNB",
+  "role_guess": {
+    "IFNB": {
+      "linea_celular_col": "cell_type",
+      "perturbacion_col": "gene",
+      "guia_col": "guide",
+      "cell_type_n_unique": 6,
+      "gene_n_unique": 62,
+      "guide_n_unique": 197
+    },
+    "IFNG": {
+      "linea_celular_col": "cell_type",
+      "perturbacion_col": "gene",
+      "guia_col": "guide",
+      "cell_type_n_unique": 6,
+      "gene_n_unique": 60,
+      "guide_n_unique": 191
+    },
+    "INS": {
+      "linea_celular_col": "cell_type",
+      "perturbacion_col": "gene",
+      "guia_col": "guide",
+      "cell_type_n_unique": 6,
+      "gene_n_unique": 45,
+      "guide_n_unique": 146
+    },
+    "TGFB": {
+      "linea_celular_col": "cell_type",
+      "perturbacion_col": "gene",
+      "guia_col": "guide",
+      "cell_type_n_unique": 6,
+      "gene_n_unique": 53,
+      "guide_n_unique": 170
+    },
+    "TNFA": {
+      "linea_celular_col": "cell_type",
+      "perturbacion_col": "gene",
+      "guia_col": "guide",
+      "cell_type_n_unique": 6,
+      "gene_n_unique": 56,
+      "guide_n_unique": 179
+    }
+  }
+}

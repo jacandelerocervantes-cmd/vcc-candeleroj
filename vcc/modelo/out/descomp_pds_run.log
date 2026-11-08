@@ -1,0 +1,69 @@
+panel=33 n_genes=34025
+
+=== A549 ===
+/home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+/home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+  dispersion del REAL... ok
+  dispersion de NUESTRO SUELO... ok
+  cell-eval2 baseline --save-pred... ok
+  dispersion del B OFICIAL... ok
+  [A549] cos_par_media -- real=0.784571 suelo=0.480861 b=0.748589
+
+=== BXPC3 ===
+/home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+/home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+  dispersion del REAL... ok
+  dispersion de NUESTRO SUELO... ok
+  cell-eval2 baseline --save-pred... ok
+  dispersion del B OFICIAL... ok
+  [BXPC3] cos_par_media -- real=0.865822 suelo=0.498443 b=0.804155
+
+=== HAP1 ===
+/home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+/home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+  dispersion del REAL... ok
+  dispersion de NUESTRO SUELO... ok
+  cell-eval2 baseline --save-pred... ok
+  dispersion del B OFICIAL... ok
+  [HAP1] cos_par_media -- real=0.885348 suelo=0.526843 b=0.852660
+
+=== HT29 ===
+/home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+/home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+  dispersion del REAL... ok
+  dispersion de NUESTRO SUELO... ok
+  cell-eval2 baseline --save-pred... ok
+  dispersion del B OFICIAL... ok
+  [HT29] cos_par_media -- real=0.856785 suelo=0.492605 b=0.830077
+
+=== K562 ===
+/home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+/home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+  dispersion del REAL... ok
+  dispersion de NUESTRO SUELO... ok
+  cell-eval2 baseline --save-pred... ok
+  dispersion del B OFICIAL... ok
+  [K562] cos_par_media -- real=0.772358 suelo=0.481366 b=0.752123
+
+=== MCF7 ===
+/home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+/home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+  dispersion del REAL... ok
+  dispersion de NUESTRO SUELO... ok
+  cell-eval2 baseline --save-pred... ok
+  dispersion del B OFICIAL... ok
+  [MCF7] cos_par_media -- real=0.788039 suelo=0.502960 b=0.754239
+
+listo: /home/ubuntu/vcc/modelo/out/descomp_pds.json

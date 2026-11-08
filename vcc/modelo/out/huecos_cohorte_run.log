@@ -1,0 +1,62 @@
+
+=== A549 (fold 0) ===
+/home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+/home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+  A549: cell-eval2 baseline --seed 0 --save-pred... ok (68s)
+  A549: baseline regenerado vs oficial -> 2 DIFIEREN
+  A549/suelo: cell-eval2 run --write-degenes... ok (68s)
+  A549/b: cell-eval2 run --write-degenes... ok (68s)
+
+=== BXPC3 (fold 1) ===
+/home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+/home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+  BXPC3: cell-eval2 baseline --seed 0 --save-pred... ok (92s)
+  BXPC3: baseline regenerado vs oficial -> 13 DIFIEREN
+  BXPC3/suelo: cell-eval2 run --write-degenes... ok (88s)
+  BXPC3/b: cell-eval2 run --write-degenes... ok (92s)
+
+=== HAP1 (fold 2) ===
+/home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+/home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+  HAP1: cell-eval2 baseline --seed 0 --save-pred... ok (95s)
+  HAP1: baseline regenerado vs oficial -> IDENTICO
+  HAP1/suelo: cell-eval2 run --write-degenes... ok (91s)
+  HAP1/b: cell-eval2 run --write-degenes... ok (89s)
+
+=== HT29 (fold 3) ===
+/home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+/home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+  HT29: cell-eval2 baseline --seed 0 --save-pred... ok (77s)
+  HT29: baseline regenerado vs oficial -> IDENTICO
+  HT29/suelo: cell-eval2 run --write-degenes... ok (75s)
+  HT29/b: cell-eval2 run --write-degenes... ok (77s)
+
+=== K562 (fold 4) ===
+/home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+/home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+  K562: cell-eval2 baseline --seed 0 --save-pred... ok (66s)
+  K562: baseline regenerado vs oficial -> IDENTICO
+  K562/suelo: cell-eval2 run --write-degenes... ok (65s)
+  K562/b: cell-eval2 run --write-degenes... ok (66s)
+
+=== MCF7 (fold 5) ===
+/home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+/home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+  MCF7: cell-eval2 baseline --seed 0 --save-pred... ok (85s)
+  MCF7: baseline regenerado vs oficial -> 10 DIFIEREN
+  MCF7/suelo: cell-eval2 run --write-degenes... ok (83s)
+  MCF7/b: cell-eval2 run --write-degenes... ok (85s)
+
+listo: /home/ubuntu/vcc/modelo/out/huecos_cohorte.json

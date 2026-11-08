@@ -1,0 +1,918 @@
+{
+ "bases_ya_usadas": [
+  20260000,
+  20260001,
+  20261000,
+  20261001,
+  20261029,
+  20262000,
+  20263000,
+  20264000,
+  20265000,
+  20266000,
+  20267000,
+  20267999,
+  20268000,
+  20269000,
+  20270000,
+  20271000,
+  20272000,
+  20272500,
+  20273000,
+  20273900,
+  20274000,
+  20274500,
+  20274999,
+  20275000,
+  20276000,
+  20277000
+ ],
+ "choque_contra_expansion_de_generadores": [],
+ "choque_contra_las_registradas": [],
+ "choque_interno_entre_las_tres_familias_nuevas": [],
+ "familia_nueva": "20279000 + 100*fold + j, fold=0..5, j=0..32 (j = indice de la perturbacion)",
+ "n_semillas_nuevas": 198,
+ "n_semillas_registradas_en_los_json": 152,
+ "n_semillas_ya_usadas_expandidas": 5177,
+ "n_total_nuevas": 198,
+ "nota_exclusion": "se excluye modelo/out/magnitud_centro/ del barrido: son las salidas de ESTE encargo y ya contienen estas semillas",
+ "nota_generador": "la familia del PASO 2 se expande con SU generador real (base+k para la de permutacion), no con el gen\u00e9rico base+100*f+j, que la derramaria hasta 20279509 y daria un choque falso",
+ "rango_nuevas": [
+  20279000,
+  20279532
+ ],
+ "rango_registradas": [
+  20260000,
+  20278919
+ ],
+ "rango_ya_usadas": [
+  20260000,
+  20278919
+ ],
+ "registradas_de_donde": {
+  "20260000": [
+   "magnitud_centro/semillas.json:bases_ya_usadas",
+   "magnitud_centro/semillas.json:rango_ya_usadas"
+  ],
+  "20260001": [
+   "b_contra_a.json:semilla_real",
+   "b_contra_a_A549.json:semilla_real",
+   "huecos_cohorte.json:seed_real"
+  ],
+  "20260002": [
+   "huecos_cohorte.json:seed_real",
+   "magnitud_centro/deltas_meta.json:seed_real",
+   "magnitud_centro/semillas.json:clave:20260002"
+  ],
+  "20260003": [
+   "huecos_cohorte.json:seed_real",
+   "magnitud_centro/deltas_meta.json:seed_real",
+   "magnitud_centro/semillas.json:clave:20260003"
+  ],
+  "20260004": [
+   "huecos_cohorte.json:seed_real",
+   "magnitud_centro/deltas_meta.json:seed_real",
+   "magnitud_centro/semillas.json:clave:20260004"
+  ],
+  "20260005": [
+   "huecos_cohorte.json:seed_real",
+   "magnitud_centro/deltas_meta.json:seed_real",
+   "magnitud_centro/semillas.json:clave:20260005"
+  ],
+  "20260006": [
+   "huecos_cohorte.json:seed_real",
+   "magnitud_centro/deltas_meta.json:seed_real",
+   "magnitud_centro/semillas.json:clave:20260006"
+  ],
+  "20261000": [
+   "magnitud_centro/semillas.json:bases_ya_usadas"
+  ],
+  "20261001": [
+   "huecos_cohorte.json:seed_pred",
+   "magnitud_centro/semillas.json:bases_ya_usadas",
+   "magnitud_centro/semillas.json:clave:20261001"
+  ],
+  "20261002": [
+   "huecos_cohorte.json:seed_pred",
+   "magnitud_centro/semillas.json:clave:20261002"
+  ],
+  "20261003": [
+   "huecos_cohorte.json:seed_pred",
+   "magnitud_centro/semillas.json:clave:20261003"
+  ],
+  "20261004": [
+   "huecos_cohorte.json:seed_pred",
+   "magnitud_centro/semillas.json:clave:20261004"
+  ],
+  "20261005": [
+   "huecos_cohorte.json:seed_pred",
+   "magnitud_centro/semillas.json:clave:20261005"
+  ],
+  "20261006": [
+   "huecos_cohorte.json:seed_pred",
+   "magnitud_centro/semillas.json:clave:20261006"
+  ],
+  "20261029": [
+   "magnitud_centro/semillas.json:bases_ya_usadas"
+  ],
+  "20262000": [
+   "magnitud_centro/semillas.json:bases_ya_usadas"
+  ],
+  "20263000": [
+   "magnitud_centro/semillas.json:bases_ya_usadas"
+  ],
+  "20264000": [
+   "magnitud_centro/semillas.json:bases_ya_usadas"
+  ],
+  "20265000": [
+   "magnitud_centro/semillas.json:bases_ya_usadas"
+  ],
+  "20266000": [
+   "b_contra_a.json:semilla_emision",
+   "b_contra_a_A549.json:semilla_emision",
+   "magnitud_centro/semillas.json:bases_ya_usadas"
+  ],
+  "20267000": [
+   "b_contra_a.json:semilla_familia",
+   "b_contra_a_A549.json:semilla_familia",
+   "b_contra_a_anchor.json:semilla_familia"
+  ],
+  "20267999": [
+   "b_contra_a_anchor.json:semilla_control_partido",
+   "b_contra_a_descomp.json:semilla_control_partido",
+   "magnitud_centro/semillas.json:bases_ya_usadas"
+  ],
+  "20268000": [
+   "magnitud_centro/semillas.json:bases_ya_usadas"
+  ],
+  "20269000": [
+   "control_o_no/coef_dentro_entre.json:semilla_familia",
+   "magnitud_centro/semillas.json:bases_ya_usadas",
+   "magnitud_centro/semillas.json:clave:20269000"
+  ],
+  "20270000": [
+   "gwps_jiang_datos.json:semilla_familia",
+   "magnitud_centro/semillas.json:bases_ya_usadas",
+   "magnitud_centro/semillas.json:clave:20270000"
+  ],
+  "20271000": [
+   "magnitud_centro/semillas.json:bases_ya_usadas"
+  ],
+  "20272000": [
+   "magnitud_centro/semillas.json:bases_ya_usadas"
+  ],
+  "20272500": [
+   "magnitud_centro/semillas.json:bases_ya_usadas"
+  ],
+  "20273000": [
+   "magnitud_centro/semillas.json:bases_ya_usadas"
+  ],
+  "20273900": [
+   "magnitud_centro/semillas.json:bases_ya_usadas"
+  ],
+  "20274000": [
+   "magnitud_centro/semillas.json:bases_ya_usadas",
+   "magnitud_centro/semillas.json:clave:20274000",
+   "ntc_nulo/p1.json:semilla"
+  ],
+  "20274001": [
+   "magnitud_centro/semillas.json:clave:20274001",
+   "ntc_nulo/p1.json:semilla"
+  ],
+  "20274002": [
+   "magnitud_centro/semillas.json:clave:20274002",
+   "ntc_nulo/p1.json:semilla"
+  ],
+  "20274003": [
+   "magnitud_centro/semillas.json:clave:20274003",
+   "ntc_nulo/p1.json:semilla"
+  ],
+  "20274004": [
+   "magnitud_centro/semillas.json:clave:20274004",
+   "ntc_nulo/p1.json:semilla"
+  ],
+  "20274005": [
+   "magnitud_centro/semillas.json:clave:20274005",
+   "ntc_nulo/p1.json:semilla"
+  ],
+  "20274006": [
+   "magnitud_centro/semillas.json:clave:20274006",
+   "ntc_nulo/p1.json:semilla"
+  ],
+  "20274007": [
+   "magnitud_centro/semillas.json:clave:20274007",
+   "ntc_nulo/p1.json:semilla"
+  ],
+  "20274100": [
+   "magnitud_centro/semillas.json:clave:20274100",
+   "ntc_nulo/p1.json:semilla"
+  ],
+  "20274101": [
+   "magnitud_centro/semillas.json:clave:20274101",
+   "ntc_nulo/p1.json:semilla"
+  ],
+  "20274102": [
+   "magnitud_centro/semillas.json:clave:20274102",
+   "ntc_nulo/p1.json:semilla"
+  ],
+  "20274103": [
+   "magnitud_centro/semillas.json:clave:20274103",
+   "ntc_nulo/p1.json:semilla"
+  ],
+  "20274104": [
+   "magnitud_centro/semillas.json:clave:20274104",
+   "ntc_nulo/p1.json:semilla"
+  ],
+  "20274105": [
+   "magnitud_centro/semillas.json:clave:20274105",
+   "ntc_nulo/p1.json:semilla"
+  ],
+  "20274106": [
+   "magnitud_centro/semillas.json:clave:20274106",
+   "ntc_nulo/p1.json:semilla"
+  ],
+  "20274107": [
+   "magnitud_centro/semillas.json:clave:20274107",
+   "ntc_nulo/p1.json:semilla"
+  ],
+  "20274200": [
+   "magnitud_centro/semillas.json:clave:20274200",
+   "ntc_nulo/p1.json:semilla"
+  ],
+  "20274201": [
+   "magnitud_centro/semillas.json:clave:20274201",
+   "ntc_nulo/p1.json:semilla"
+  ],
+  "20274202": [
+   "magnitud_centro/semillas.json:clave:20274202",
+   "ntc_nulo/p1.json:semilla"
+  ],
+  "20274203": [
+   "magnitud_centro/semillas.json:clave:20274203",
+   "ntc_nulo/p1.json:semilla"
+  ],
+  "20274204": [
+   "magnitud_centro/semillas.json:clave:20274204",
+   "ntc_nulo/p1.json:semilla"
+  ],
+  "20274205": [
+   "magnitud_centro/semillas.json:clave:20274205",
+   "ntc_nulo/p1.json:semilla"
+  ],
+  "20274206": [
+   "magnitud_centro/semillas.json:clave:20274206",
+   "ntc_nulo/p1.json:semilla"
+  ],
+  "20274207": [
+   "magnitud_centro/semillas.json:clave:20274207",
+   "ntc_nulo/p1.json:semilla"
+  ],
+  "20274300": [
+   "magnitud_centro/semillas.json:clave:20274300",
+   "ntc_nulo/p1.json:semilla"
+  ],
+  "20274301": [
+   "magnitud_centro/semillas.json:clave:20274301",
+   "ntc_nulo/p1.json:semilla"
+  ],
+  "20274302": [
+   "magnitud_centro/semillas.json:clave:20274302",
+   "ntc_nulo/p1.json:semilla"
+  ],
+  "20274303": [
+   "magnitud_centro/semillas.json:clave:20274303",
+   "ntc_nulo/p1.json:semilla"
+  ],
+  "20274304": [
+   "magnitud_centro/semillas.json:clave:20274304",
+   "ntc_nulo/p1.json:semilla"
+  ],
+  "20274305": [
+   "magnitud_centro/semillas.json:clave:20274305",
+   "ntc_nulo/p1.json:semilla"
+  ],
+  "20274306": [
+   "magnitud_centro/semillas.json:clave:20274306",
+   "ntc_nulo/p1.json:semilla"
+  ],
+  "20274307": [
+   "magnitud_centro/semillas.json:clave:20274307",
+   "ntc_nulo/p1.json:semilla"
+  ],
+  "20274400": [
+   "magnitud_centro/semillas.json:clave:20274400",
+   "ntc_nulo/p1.json:semilla"
+  ],
+  "20274401": [
+   "magnitud_centro/semillas.json:clave:20274401",
+   "ntc_nulo/p1.json:semilla"
+  ],
+  "20274402": [
+   "magnitud_centro/semillas.json:clave:20274402",
+   "ntc_nulo/p1.json:semilla"
+  ],
+  "20274403": [
+   "magnitud_centro/semillas.json:clave:20274403",
+   "ntc_nulo/p1.json:semilla"
+  ],
+  "20274404": [
+   "magnitud_centro/semillas.json:clave:20274404",
+   "ntc_nulo/p1.json:semilla"
+  ],
+  "20274405": [
+   "magnitud_centro/semillas.json:clave:20274405",
+   "ntc_nulo/p1.json:semilla"
+  ],
+  "20274406": [
+   "magnitud_centro/semillas.json:clave:20274406",
+   "ntc_nulo/p1.json:semilla"
+  ],
+  "20274407": [
+   "magnitud_centro/semillas.json:clave:20274407",
+   "ntc_nulo/p1.json:semilla"
+  ],
+  "20274500": [
+   "magnitud_centro/semillas.json:bases_ya_usadas",
+   "magnitud_centro/semillas.json:clave:20274500",
+   "ntc_nulo/p1.json:semilla"
+  ],
+  "20274501": [
+   "magnitud_centro/semillas.json:clave:20274501",
+   "ntc_nulo/p1.json:semilla"
+  ],
+  "20274502": [
+   "magnitud_centro/semillas.json:clave:20274502",
+   "ntc_nulo/p1.json:semilla"
+  ],
+  "20274503": [
+   "magnitud_centro/semillas.json:clave:20274503",
+   "ntc_nulo/p1.json:semilla"
+  ],
+  "20274504": [
+   "magnitud_centro/semillas.json:clave:20274504",
+   "ntc_nulo/p1.json:semilla"
+  ],
+  "20274505": [
+   "magnitud_centro/semillas.json:clave:20274505",
+   "ntc_nulo/p1.json:semilla"
+  ],
+  "20274506": [
+   "magnitud_centro/semillas.json:clave:20274506",
+   "ntc_nulo/p1.json:semilla"
+  ],
+  "20274507": [
+   "magnitud_centro/semillas.json:clave:20274507",
+   "ntc_nulo/p1.json:semilla"
+  ],
+  "20274999": [
+   "magnitud_centro/semillas.json:bases_ya_usadas",
+   "magnitud_centro/semillas.json:clave:20274999",
+   "magnitud_centro/semillas.json:rango_registradas"
+  ],
+  "20275000": [
+   "magnitud_centro/semillas.json:bases_ya_usadas"
+  ],
+  "20276000": [
+   "magnitud_centro/semillas.json:bases_ya_usadas"
+  ],
+  "20277000": [
+   "magnitud_centro/semillas.json:bases_ya_usadas"
+  ],
+  "20277609": [
+   "magnitud_centro/semillas.json:rango_ya_usadas"
+  ],
+  "20278000": [
+   "magnitud_centro/deltas_meta.json:semilla",
+   "magnitud_centro/semillas.json:rango_nuevas",
+   "magnitud_centro/semillas.json:semillas_nuevas"
+  ],
+  "20278001": [
+   "magnitud_centro/deltas_meta.json:semilla",
+   "magnitud_centro/semillas.json:semillas_nuevas"
+  ],
+  "20278002": [
+   "magnitud_centro/deltas_meta.json:semilla",
+   "magnitud_centro/semillas.json:semillas_nuevas"
+  ],
+  "20278003": [
+   "magnitud_centro/deltas_meta.json:semilla",
+   "magnitud_centro/semillas.json:semillas_nuevas"
+  ],
+  "20278004": [
+   "magnitud_centro/deltas_meta.json:semilla",
+   "magnitud_centro/semillas.json:semillas_nuevas"
+  ],
+  "20278005": [
+   "magnitud_centro/deltas_meta.json:semilla",
+   "magnitud_centro/semillas.json:semillas_nuevas"
+  ],
+  "20278006": [
+   "magnitud_centro/deltas_meta.json:semilla",
+   "magnitud_centro/semillas.json:semillas_nuevas"
+  ],
+  "20278007": [
+   "magnitud_centro/deltas_meta.json:semilla",
+   "magnitud_centro/semillas.json:semillas_nuevas"
+  ],
+  "20278100": [
+   "magnitud_centro/deltas_meta.json:semilla",
+   "magnitud_centro/semillas.json:semillas_nuevas"
+  ],
+  "20278101": [
+   "magnitud_centro/deltas_meta.json:semilla",
+   "magnitud_centro/semillas.json:semillas_nuevas"
+  ],
+  "20278102": [
+   "magnitud_centro/deltas_meta.json:semilla",
+   "magnitud_centro/semillas.json:semillas_nuevas"
+  ],
+  "20278103": [
+   "magnitud_centro/deltas_meta.json:semilla",
+   "magnitud_centro/semillas.json:semillas_nuevas"
+  ],
+  "20278104": [
+   "magnitud_centro/deltas_meta.json:semilla",
+   "magnitud_centro/semillas.json:semillas_nuevas"
+  ],
+  "20278105": [
+   "magnitud_centro/deltas_meta.json:semilla",
+   "magnitud_centro/semillas.json:semillas_nuevas"
+  ],
+  "20278106": [
+   "magnitud_centro/deltas_meta.json:semilla",
+   "magnitud_centro/semillas.json:semillas_nuevas"
+  ],
+  "20278107": [
+   "magnitud_centro/deltas_meta.json:semilla",
+   "magnitud_centro/semillas.json:semillas_nuevas"
+  ],
+  "20278200": [
+   "magnitud_centro/deltas_meta.json:semilla",
+   "magnitud_centro/semillas.json:semillas_nuevas"
+  ],
+  "20278201": [
+   "magnitud_centro/deltas_meta.json:semilla",
+   "magnitud_centro/semillas.json:semillas_nuevas"
+  ],
+  "20278202": [
+   "magnitud_centro/deltas_meta.json:semilla",
+   "magnitud_centro/semillas.json:semillas_nuevas"
+  ],
+  "20278203": [
+   "magnitud_centro/deltas_meta.json:semilla",
+   "magnitud_centro/semillas.json:semillas_nuevas"
+  ],
+  "20278204": [
+   "magnitud_centro/deltas_meta.json:semilla",
+   "magnitud_centro/semillas.json:semillas_nuevas"
+  ],
+  "20278205": [
+   "magnitud_centro/deltas_meta.json:semilla",
+   "magnitud_centro/semillas.json:semillas_nuevas"
+  ],
+  "20278206": [
+   "magnitud_centro/deltas_meta.json:semilla",
+   "magnitud_centro/semillas.json:semillas_nuevas"
+  ],
+  "20278207": [
+   "magnitud_centro/deltas_meta.json:semilla",
+   "magnitud_centro/semillas.json:semillas_nuevas"
+  ],
+  "20278300": [
+   "magnitud_centro/deltas_meta.json:semilla",
+   "magnitud_centro/semillas.json:semillas_nuevas"
+  ],
+  "20278301": [
+   "magnitud_centro/deltas_meta.json:semilla",
+   "magnitud_centro/semillas.json:semillas_nuevas"
+  ],
+  "20278302": [
+   "magnitud_centro/deltas_meta.json:semilla",
+   "magnitud_centro/semillas.json:semillas_nuevas"
+  ],
+  "20278303": [
+   "magnitud_centro/deltas_meta.json:semilla",
+   "magnitud_centro/semillas.json:semillas_nuevas"
+  ],
+  "20278304": [
+   "magnitud_centro/deltas_meta.json:semilla",
+   "magnitud_centro/semillas.json:semillas_nuevas"
+  ],
+  "20278305": [
+   "magnitud_centro/deltas_meta.json:semilla",
+   "magnitud_centro/semillas.json:semillas_nuevas"
+  ],
+  "20278306": [
+   "magnitud_centro/deltas_meta.json:semilla",
+   "magnitud_centro/semillas.json:semillas_nuevas"
+  ],
+  "20278307": [
+   "magnitud_centro/deltas_meta.json:semilla",
+   "magnitud_centro/semillas.json:semillas_nuevas"
+  ],
+  "20278400": [
+   "magnitud_centro/deltas_meta.json:semilla",
+   "magnitud_centro/semillas.json:semillas_nuevas"
+  ],
+  "20278401": [
+   "magnitud_centro/deltas_meta.json:semilla",
+   "magnitud_centro/semillas.json:semillas_nuevas"
+  ],
+  "20278402": [
+   "magnitud_centro/deltas_meta.json:semilla",
+   "magnitud_centro/semillas.json:semillas_nuevas"
+  ],
+  "20278403": [
+   "magnitud_centro/deltas_meta.json:semilla",
+   "magnitud_centro/semillas.json:semillas_nuevas"
+  ],
+  "20278404": [
+   "magnitud_centro/deltas_meta.json:semilla",
+   "magnitud_centro/semillas.json:semillas_nuevas"
+  ],
+  "20278405": [
+   "magnitud_centro/deltas_meta.json:semilla",
+   "magnitud_centro/semillas.json:semillas_nuevas"
+  ],
+  "20278406": [
+   "magnitud_centro/deltas_meta.json:semilla",
+   "magnitud_centro/semillas.json:semillas_nuevas"
+  ],
+  "20278407": [
+   "magnitud_centro/deltas_meta.json:semilla",
+   "magnitud_centro/semillas.json:semillas_nuevas"
+  ],
+  "20278500": [
+   "magnitud_centro/deltas_meta.json:semilla",
+   "magnitud_centro/semillas.json:semillas_nuevas"
+  ],
+  "20278501": [
+   "magnitud_centro/deltas_meta.json:semilla",
+   "magnitud_centro/semillas.json:semillas_nuevas"
+  ],
+  "20278502": [
+   "magnitud_centro/deltas_meta.json:semilla",
+   "magnitud_centro/semillas.json:semillas_nuevas"
+  ],
+  "20278503": [
+   "magnitud_centro/deltas_meta.json:semilla",
+   "magnitud_centro/semillas.json:semillas_nuevas"
+  ],
+  "20278504": [
+   "magnitud_centro/deltas_meta.json:semilla",
+   "magnitud_centro/semillas.json:semillas_nuevas"
+  ],
+  "20278505": [
+   "magnitud_centro/deltas_meta.json:semilla",
+   "magnitud_centro/semillas.json:semillas_nuevas"
+  ],
+  "20278506": [
+   "magnitud_centro/deltas_meta.json:semilla",
+   "magnitud_centro/semillas.json:semillas_nuevas"
+  ],
+  "20278507": [
+   "magnitud_centro/deltas_meta.json:semilla",
+   "magnitud_centro/semillas.json:rango_nuevas",
+   "magnitud_centro/semillas.json:semillas_nuevas"
+  ],
+  "20278800": [
+   "magnitud_centro/calc.json:semilla_bootstrap_base",
+   "magnitud_centro/semillas.json:semilla_bootstrap"
+  ],
+  "20278900": [
+   "magnitud_centro/ctrl.json:semilla_perm_base",
+   "magnitud_centro/semillas.json:semillas_permutacion_control"
+  ],
+  "20278901": [
+   "magnitud_centro/semillas.json:semillas_permutacion_control"
+  ],
+  "20278902": [
+   "magnitud_centro/semillas.json:semillas_permutacion_control"
+  ],
+  "20278903": [
+   "magnitud_centro/semillas.json:semillas_permutacion_control"
+  ],
+  "20278904": [
+   "magnitud_centro/semillas.json:semillas_permutacion_control"
+  ],
+  "20278905": [
+   "magnitud_centro/semillas.json:semillas_permutacion_control"
+  ],
+  "20278906": [
+   "magnitud_centro/semillas.json:semillas_permutacion_control"
+  ],
+  "20278907": [
+   "magnitud_centro/semillas.json:semillas_permutacion_control"
+  ],
+  "20278908": [
+   "magnitud_centro/semillas.json:semillas_permutacion_control"
+  ],
+  "20278909": [
+   "magnitud_centro/semillas.json:semillas_permutacion_control"
+  ],
+  "20278910": [
+   "magnitud_centro/semillas.json:semillas_permutacion_control"
+  ],
+  "20278911": [
+   "magnitud_centro/semillas.json:semillas_permutacion_control"
+  ],
+  "20278912": [
+   "magnitud_centro/semillas.json:semillas_permutacion_control"
+  ],
+  "20278913": [
+   "magnitud_centro/semillas.json:semillas_permutacion_control"
+  ],
+  "20278914": [
+   "magnitud_centro/semillas.json:semillas_permutacion_control"
+  ],
+  "20278915": [
+   "magnitud_centro/semillas.json:semillas_permutacion_control"
+  ],
+  "20278916": [
+   "magnitud_centro/semillas.json:semillas_permutacion_control"
+  ],
+  "20278917": [
+   "magnitud_centro/semillas.json:semillas_permutacion_control"
+  ],
+  "20278918": [
+   "magnitud_centro/semillas.json:semillas_permutacion_control"
+  ],
+  "20278919": [
+   "magnitud_centro/semillas.json:semillas_permutacion_control"
+  ]
+ },
+ "semilla_bootstrap": [],
+ "semillas_exactas_del_paso2": [
+  20278000,
+  20278001,
+  20278002,
+  20278003,
+  20278004,
+  20278005,
+  20278006,
+  20278007,
+  20278100,
+  20278101,
+  20278102,
+  20278103,
+  20278104,
+  20278105,
+  20278106,
+  20278107,
+  20278200,
+  20278201,
+  20278202,
+  20278203,
+  20278204,
+  20278205,
+  20278206,
+  20278207,
+  20278300,
+  20278301,
+  20278302,
+  20278303,
+  20278304,
+  20278305,
+  20278306,
+  20278307,
+  20278400,
+  20278401,
+  20278402,
+  20278403,
+  20278404,
+  20278405,
+  20278406,
+  20278407,
+  20278500,
+  20278501,
+  20278502,
+  20278503,
+  20278504,
+  20278505,
+  20278506,
+  20278507,
+  20278800,
+  20278900,
+  20278901,
+  20278902,
+  20278903,
+  20278904,
+  20278905,
+  20278906,
+  20278907,
+  20278908,
+  20278909,
+  20278910,
+  20278911,
+  20278912,
+  20278913,
+  20278914,
+  20278915,
+  20278916,
+  20278917,
+  20278918,
+  20278919
+ ],
+ "semillas_nuevas": [
+  20279000,
+  20279001,
+  20279002,
+  20279003,
+  20279004,
+  20279005,
+  20279006,
+  20279007,
+  20279008,
+  20279009,
+  20279010,
+  20279011,
+  20279012,
+  20279013,
+  20279014,
+  20279015,
+  20279016,
+  20279017,
+  20279018,
+  20279019,
+  20279020,
+  20279021,
+  20279022,
+  20279023,
+  20279024,
+  20279025,
+  20279026,
+  20279027,
+  20279028,
+  20279029,
+  20279030,
+  20279031,
+  20279032,
+  20279100,
+  20279101,
+  20279102,
+  20279103,
+  20279104,
+  20279105,
+  20279106,
+  20279107,
+  20279108,
+  20279109,
+  20279110,
+  20279111,
+  20279112,
+  20279113,
+  20279114,
+  20279115,
+  20279116,
+  20279117,
+  20279118,
+  20279119,
+  20279120,
+  20279121,
+  20279122,
+  20279123,
+  20279124,
+  20279125,
+  20279126,
+  20279127,
+  20279128,
+  20279129,
+  20279130,
+  20279131,
+  20279132,
+  20279200,
+  20279201,
+  20279202,
+  20279203,
+  20279204,
+  20279205,
+  20279206,
+  20279207,
+  20279208,
+  20279209,
+  20279210,
+  20279211,
+  20279212,
+  20279213,
+  20279214,
+  20279215,
+  20279216,
+  20279217,
+  20279218,
+  20279219,
+  20279220,
+  20279221,
+  20279222,
+  20279223,
+  20279224,
+  20279225,
+  20279226,
+  20279227,
+  20279228,
+  20279229,
+  20279230,
+  20279231,
+  20279232,
+  20279300,
+  20279301,
+  20279302,
+  20279303,
+  20279304,
+  20279305,
+  20279306,
+  20279307,
+  20279308,
+  20279309,
+  20279310,
+  20279311,
+  20279312,
+  20279313,
+  20279314,
+  20279315,
+  20279316,
+  20279317,
+  20279318,
+  20279319,
+  20279320,
+  20279321,
+  20279322,
+  20279323,
+  20279324,
+  20279325,
+  20279326,
+  20279327,
+  20279328,
+  20279329,
+  20279330,
+  20279331,
+  20279332,
+  20279400,
+  20279401,
+  20279402,
+  20279403,
+  20279404,
+  20279405,
+  20279406,
+  20279407,
+  20279408,
+  20279409,
+  20279410,
+  20279411,
+  20279412,
+  20279413,
+  20279414,
+  20279415,
+  20279416,
+  20279417,
+  20279418,
+  20279419,
+  20279420,
+  20279421,
+  20279422,
+  20279423,
+  20279424,
+  20279425,
+  20279426,
+  20279427,
+  20279428,
+  20279429,
+  20279430,
+  20279431,
+  20279432,
+  20279500,
+  20279501,
+  20279502,
+  20279503,
+  20279504,
+  20279505,
+  20279506,
+  20279507,
+  20279508,
+  20279509,
+  20279510,
+  20279511,
+  20279512,
+  20279513,
+  20279514,
+  20279515,
+  20279516,
+  20279517,
+  20279518,
+  20279519,
+  20279520,
+  20279521,
+  20279522,
+  20279523,
+  20279524,
+  20279525,
+  20279526,
+  20279527,
+  20279528,
+  20279529,
+  20279530,
+  20279531,
+  20279532
+ ],
+ "semillas_permutacion_control": [],
+ "sin_choque": true
+}

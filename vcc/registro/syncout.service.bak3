@@ -1,0 +1,11 @@
+# Regla fija: UN PREFIJO POR SISTEMA DE ARCHIVOS, Y EL NOMBRE DEL PREFIJO ES EL PUNTO
+# DE MONTAJE. datos/ = /datos ; vcc/ = /home/ubuntu/vcc. Nada en la raiz del bucket
+# que no sea un punto de montaje. (fijado 2026-10-28, ver registro/limitaciones.md)
+[Unit]
+Description=Sync vcc out a S3
+[Service]
+User=ubuntu
+ExecStart=/bin/bash -c "while true; do aws s3 sync /home/ubuntu/vcc/ s3://vc-challenge-data/vcc/ --no-progress >/dev/null 2>&1; aws s3 sync /datos/_scratch_techo_metricas/ s3://vc-challenge-data/datos/_scratch_techo_metricas/ --no-progress >/dev/null 2>&1; sleep 120; done"
+Restart=always
+[Install]
+WantedBy=multi-user.target

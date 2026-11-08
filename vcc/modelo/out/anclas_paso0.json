@@ -1,0 +1,63 @@
+{
+  "brazos": {
+    "NT_con_flag": {
+      "b": {
+        "de_wilcoxon_direction_fidelity_yield_raw": 0.0,
+        "de_wilcoxon_direction_reach_raw": 0.3144025983225323,
+        "de_wilcoxon_lfc_nmae": 0.8566860063232432,
+        "de_wilcoxon_sig_jaccard": 0.45454545454545453,
+        "expr_mse_unbiased_capped_norm": 0.9599283464532125,
+        "pds_cosine": 0.48674242424242425
+      },
+      "duracion_s": 62.42,
+      "etiqueta_control": "NT",
+      "flag_control": "NT",
+      "meta": {
+        "comparator": "bulk_lognorm",
+        "config_digest": "aa5115803e1fd36468f499e8185e3a34c9b7e5b7920549dc0805c12bb4ed86d1",
+        "source_fingerprint": "1739af26959640c8bdb9e0bf6e3de60ddb100f426ac2c089885bc40b7e802b64",
+        "source_fingerprint_strict": true
+      },
+      "n_filas_control": 1379,
+      "real_shape": [
+        14579,
+        34025
+      ]
+    },
+    "nontargeting_sin_flag": {
+      "b": {
+        "de_wilcoxon_direction_fidelity_yield_raw": 0.0,
+        "de_wilcoxon_direction_reach_raw": 0.3144025983225323,
+        "de_wilcoxon_lfc_nmae": 0.8566860063232433,
+        "de_wilcoxon_sig_jaccard": 0.45454545454545453,
+        "expr_mse_unbiased_capped_norm": 0.9599283464532125,
+        "pds_cosine": 0.48674242424242425
+      },
+      "duracion_s": 62.86,
+      "etiqueta_control": "non-targeting",
+      "flag_control": null,
+      "meta": {
+        "comparator": "bulk_lognorm",
+        "config_digest": "61d594efe45103c6a1b3b1b187dc95232b2c570ad064558eb6a7cdade96bc329",
+        "source_fingerprint": "5de2fa2f999f7ea1c95f897de24c4b90228894e599c07ccf8f33634d906ab262",
+        "source_fingerprint_strict": true
+      },
+      "n_filas_control": 1379,
+      "real_shape": [
+        14579,
+        34025
+      ]
+    }
+  },
+  "difs_absolutas": {
+    "de_wilcoxon_direction_fidelity_yield_raw": 0.0,
+    "de_wilcoxon_direction_reach_raw": 0.0,
+    "de_wilcoxon_lfc_nmae": 1.1102230246251565e-16,
+    "de_wilcoxon_sig_jaccard": 0.0,
+    "expr_mse_unbiased_capped_norm": 0.0,
+    "pds_cosine": 0.0
+  },
+  "identicas_bit_a_bit": false,
+  "linea": "A549",
+  "n_filas_control_iguales": true
+}

@@ -1,0 +1,13 @@
+de.backend='auto': no CUDA device, so the gpudge GPU backend was skipped -- using pdex. DE numbers differ between engines.
+Running parallel differential expression (against reference):   0%|          | 0/2 [00:00<?, ?it/s]Running parallel differential expression (against reference):  50%|█████     | 1/2 [00:08<00:08,  8.36s/it]Running parallel differential expression (against reference): 100%|██████████| 2/2 [00:08<00:00,  4.18s/it]
+[A] pasa=9929 verif=True (9929) dt=38s
+Running parallel differential expression (against reference):   0%|          | 0/2 [00:00<?, ?it/s]Running parallel differential expression (against reference):  50%|█████     | 1/2 [00:03<00:03,  3.13s/it]Running parallel differential expression (against reference): 100%|██████████| 2/2 [00:03<00:00,  1.57s/it]
+[B] pasa=9626 verif=True (9626) dt=28s
+Running parallel differential expression (against reference):   0%|          | 0/2 [00:00<?, ?it/s]Running parallel differential expression (against reference):  50%|█████     | 1/2 [00:03<00:03,  3.20s/it]Running parallel differential expression (against reference): 100%|██████████| 2/2 [00:03<00:00,  1.60s/it]
+[C] pasa=10124 verif=True (10124) dt=30s
+Running parallel differential expression (against reference):   0%|          | 0/2 [00:00<?, ?it/s]Running parallel differential expression (against reference):  50%|█████     | 1/2 [00:03<00:03,  3.92s/it]Running parallel differential expression (against reference): 100%|██████████| 2/2 [00:03<00:00,  1.96s/it]
+[D] pasa=9633 verif=True (9633) dt=31s
+Running parallel differential expression (against reference):   0%|          | 0/2 [00:00<?, ?it/s]Running parallel differential expression (against reference):  50%|█████     | 1/2 [00:03<00:03,  3.19s/it]Running parallel differential expression (against reference): 100%|██████████| 2/2 [00:03<00:00,  1.59s/it]
+[E] pasa=9743 verif=True (9743) dt=28s
+Running parallel differential expression (against reference):   0%|          | 0/2 [00:00<?, ?it/s]Running parallel differential expression (against reference):  50%|█████     | 1/2 [00:03<00:03,  3.67s/it]Running parallel differential expression (against reference): 100%|██████████| 2/2 [00:03<00:00,  1.84s/it]
+[F] pasa=9537 verif=True (9537) dt=29s

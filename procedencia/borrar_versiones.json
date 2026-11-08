@@ -1,0 +1,249 @@
+{
+    "Objects": [
+        {
+            "Key": "datos/_scratch_techo_metricas/predA_base.h5ad",
+            "VersionId": "Reo3pn6lH7aGueddd3oFdfRrXMs67eSQ"
+        },
+        {
+            "Key": "datos/_scratch_techo_metricas/predA_base.h5ad",
+            "VersionId": "8PGMqhPlIyVroM9Aixz6lsRTJRi0GVzq"
+        },
+        {
+            "Key": "datos/_scratch_techo_metricas/realB.h5ad",
+            "VersionId": "yEdA4hF8oqXRN1PHPmqG1jIU4Owvecix"
+        },
+        {
+            "Key": "datos/_scratch_techo_metricas/realB.h5ad",
+            "VersionId": "jDnwFDQDdCG4mJozmEiqnzUvj2cd0iX5"
+        },
+        {
+            "Key": "datos/_scratch_techo_metricas/split_log.json",
+            "VersionId": "RyI5VyydmWTeD2SaUIfE3mP435TXu7.a"
+        },
+        {
+            "Key": "datos/_scratch_techo_metricas/split_log.json",
+            "VersionId": "GJgSYM2NYSnw8YMdcHzjAPPts900Csgo"
+        },
+        {
+            "Key": "datos/ref/convertido/Seurat_object_IFNB_Perturb_seq.h5ad",
+            "VersionId": "9rcWw9tNA_rpU3r9Eur.r3z1V6UxSfLQ"
+        },
+        {
+            "Key": "datos/ref/convertido/Seurat_object_IFNG_Perturb_seq.h5ad",
+            "VersionId": "CXBMsCmipCsZc.mHS8lKfHLhu.7jlARd"
+        },
+        {
+            "Key": "datos/ref/convertido/Seurat_object_INS_Perturb_seq.h5ad",
+            "VersionId": "HbZP2SDSd1FG6saxhiTB1xXEBbKfoSfJ"
+        },
+        {
+            "Key": "datos/ref/convertido/Seurat_object_TGFB_Perturb_seq.h5ad",
+            "VersionId": "vjdHru8fQptfMgoPq6Sl_4A2dHUJfTdB"
+        },
+        {
+            "Key": "datos/ref/convertido/Seurat_object_TNFA_Perturb_seq.h5ad",
+            "VersionId": "sa1hviKJXehRTAsFejsTXTWEwO.tLILO"
+        },
+        {
+            "Key": "datos/ref/dl.log",
+            "VersionId": "GacBplidn7h8oxbG_d2r_6pNiGGjJ45g"
+        },
+        {
+            "Key": "datos/ref/feng/GenomeWideScreen_LFC_byGene.tsv.gz",
+            "VersionId": "KT5t9nOT33TorqsUDr7dkTLVNj4DB40U"
+        },
+        {
+            "Key": "datos/ref/feng/TargetedScreen_LFC_byGene-perLine.tsv.gz",
+            "VersionId": "8IN819XSDFtBICfQMMDmcwlCg4Qlgzng"
+        },
+        {
+            "Key": "datos/ref/feng/TargetedScreen_LFC_byGene.tsv.gz",
+            "VersionId": "ifJbLGm0RS31DobDFRRwAoT6yvC2LjvT"
+        },
+        {
+            "Key": "datos/ref/nadig/hepg2_raw_sc.h5ad",
+            "VersionId": "ek9ZaXGJQ1r_gtDTo3tPUnbXROcefXrH"
+        },
+        {
+            "Key": "datos/ref/nadig/jurkat_raw_sc.h5ad",
+            "VersionId": "RDBvXZp3yDQFPqdavcJvVA5_aY9wc8YU"
+        },
+        {
+            "Key": "datos/ref/orion/hct116.parquet",
+            "VersionId": "pBUl3cRFhcBujCpoDQOE9LrUuawATVHh"
+        },
+        {
+            "Key": "datos/ref/orion/hek293t.parquet",
+            "VersionId": "Md0e15K8IqzIZpos4UrpbhLTEc9VgFg8"
+        },
+        {
+            "Key": "datos/ref/otros/A_readme.txt",
+            "VersionId": "NTlwErw707M86okfwXIv8RydOLvhswB8"
+        },
+        {
+            "Key": "datos/ref/otros/Bulk_RNAseq_Seurat_object_IFNG_and_TGFB_stim.rds",
+            "VersionId": "TKdspxLFdXKtiwN.NrAcyMJmMd3RKjgY"
+        },
+        {
+            "Key": "datos/ref/otros/DE_results_all_pathway.zip",
+            "VersionId": "xjJ24qnuyFUGWEgXo942AjZTLvv.hr2k"
+        },
+        {
+            "Key": "datos/ref/otros/GSE139944_RAW.tar",
+            "VersionId": "fi0SMF0NhUSlroN.2jdemRjNx0seU9Hv"
+        },
+        {
+            "Key": "datos/ref/otros/GSE225775_RAW.tar",
+            "VersionId": "6hsut2eaFs11eq6b.vpYIX2ryGAPZp.x"
+        },
+        {
+            "Key": "datos/ref/otros/HClust_Pathway_celltype_specific_genelist.rds",
+            "VersionId": "1QCeQ7F1adrX_oS9JQ3aS73kuv_GUEac"
+        },
+        {
+            "Key": "datos/ref/otros/Parse_Guide_Capture_Protocol.pdf",
+            "VersionId": "XIV_w92mDrMWKSoPZDtAmUx2WyS.Lfs9"
+        },
+        {
+            "Key": "datos/ref/otros/Pathway_Exclusive_genelist.rds",
+            "VersionId": "FGWxyfn.QUsJpQOOxTf0tPbnnF6j0N_s"
+        },
+        {
+            "Key": "datos/ref/otros/Pathway_genelist.rds",
+            "VersionId": "7eaMt0z1kvufnp4QmL19IBZwbWJ.pem7"
+        },
+        {
+            "Key": "datos/ref/otros/Seurat_object_IFNB_Perturb_seq.rds",
+            "VersionId": "QewlKqm6bXz1FGSrerIrsP7gf16hjiWG"
+        },
+        {
+            "Key": "datos/ref/otros/Seurat_object_IFNG_Perturb_seq.rds",
+            "VersionId": "tSCqXFSD6GQgN8svCVOsTrEkIi6jYVal"
+        },
+        {
+            "Key": "datos/ref/otros/Seurat_object_INS_Perturb_seq.rds",
+            "VersionId": "ZfI8qbUcAhVqSPGe2Nj21KSmKfGZ5h8G"
+        },
+        {
+            "Key": "datos/ref/otros/Seurat_object_TGFB_Perturb_seq.rds",
+            "VersionId": "AIjexg3vjmhk.WKHywLSOVVYUqxuasOW"
+        },
+        {
+            "Key": "datos/ref/otros/Seurat_object_TNFA_Perturb_seq.rds",
+            "VersionId": "jeNJSpGbjyjlWOE.rEf9_FJNK0VIhoyj"
+        },
+        {
+            "Key": "datos/ref/replogle/k562_essential_raw_bulk.h5ad",
+            "VersionId": "YtOw3FZwc928FEsoMjnH40cnUMR7YFlw"
+        },
+        {
+            "Key": "datos/ref/replogle/k562_essential_raw_sc.h5ad",
+            "VersionId": "PvkNT1EeDPS5ifgiBB0LccHOVdB6BFwU"
+        },
+        {
+            "Key": "datos/ref/replogle/k562_gwps_raw_bulk.h5ad",
+            "VersionId": "lANKRWF6_KGozoO55DBZ0S82UM3gbpVJ"
+        },
+        {
+            "Key": "datos/ref/replogle/k562_gwps_raw_sc.h5ad",
+            "VersionId": "YDx3JoVz2_impiGy5dABR8TfCYH.LDqZ"
+        },
+        {
+            "Key": "datos/ref/replogle/rpe1_raw_bulk.h5ad",
+            "VersionId": "Rz.1H37BCml27Ehd5Cq0EhzuRpBiIdFM"
+        },
+        {
+            "Key": "datos/ref/replogle/rpe1_raw_sc.h5ad",
+            "VersionId": "YDrSTMH38tjaDz4VmHUzmD7BLaYVHW1F"
+        },
+        {
+            "Key": "datos/ref/tfact/TFactprofiler_all.csv",
+            "VersionId": "ANVbbxPPQ.8MGPJ3q0c2huRodpO618Up"
+        },
+        {
+            "Key": "datos/reto/final/context_D.h5ad",
+            "VersionId": "bQzOvbhY_vpjWguESLXRJAjWzytsNM9t"
+        },
+        {
+            "Key": "datos/reto/final/context_E.h5ad",
+            "VersionId": "3Wxe7xXYDVzP.ddGnOfIheaTd0fsATpb"
+        },
+        {
+            "Key": "datos/reto/final/context_F.h5ad",
+            "VersionId": "AEyPWn..Ba9dpQX35LTqds5eJpRPjaHm"
+        },
+        {
+            "Key": "datos/reto/final/gene_names.csv",
+            "VersionId": "hg6fjXTVsEWegKASNzlWPqipnIfbBc4w"
+        },
+        {
+            "Key": "datos/reto/final/manifest.json",
+            "VersionId": "w72wyUrwHxSo1v_waCLa_eTQz9hdw4it"
+        },
+        {
+            "Key": "datos/reto/final/pert_counts.csv",
+            "VersionId": "7ydPjlwuY1vl0CobP7shPToxUUwJmggA"
+        },
+        {
+            "Key": "datos/reto/final/vcc_2026_controls_final.zip",
+            "VersionId": "l50A07IjTcZ.vfo8Z3yQJmKHPYrVEJUQ"
+        },
+        {
+            "Key": "datos/reto/val/context_A.h5ad",
+            "VersionId": "9KbUH4XEjUEN0Si88HI1OYc4eANXRq0Y"
+        },
+        {
+            "Key": "datos/reto/val/context_B.h5ad",
+            "VersionId": "pcEAV862Pj4vPP2NskdJsQrHkaVhvHX7"
+        },
+        {
+            "Key": "datos/reto/val/context_C.h5ad",
+            "VersionId": "q8lpPtjujpCikMf7ZINbLID4UjndgFMV"
+        },
+        {
+            "Key": "datos/reto/val/gene_names.csv",
+            "VersionId": "LuuVob2quXaqyK9.3_vrmtAIXXCBsEq2"
+        },
+        {
+            "Key": "datos/reto/val/manifest.json",
+            "VersionId": "fMZxlpEyukPdW.7pnNihA369acELXKKM"
+        },
+        {
+            "Key": "datos/reto/val/pert_counts.csv",
+            "VersionId": "tpF_D6HQg7U_sWDHDO.axiy.QOC9qk.f"
+        },
+        {
+            "Key": "datos/reto/val/vcc_2026_controls.zip",
+            "VersionId": "QmzXE3NHId2754qCGCZgz9iSKG0ldfuB"
+        },
+        {
+            "Key": "datos/vcc2025/gene_names.csv",
+            "VersionId": "1nNvHadwUOr_qJPe8_TwBU44BVf6zCnt"
+        },
+        {
+            "Key": "datos/vcc2025/test/adata_Test.h5ad",
+            "VersionId": "mGcCVK0OOOW6PcOqKQo1c83S40Nxu2hb"
+        },
+        {
+            "Key": "datos/vcc2025/test/pert_counts_Test.csv",
+            "VersionId": "n_nrxGP90VjsxNFh3krvMo2kA0JqdDKO"
+        },
+        {
+            "Key": "datos/vcc2025/train/adata_Training.h5ad",
+            "VersionId": "0WrEHcDWNgYMSOB76M7H.D83JcypAz6D"
+        },
+        {
+            "Key": "datos/vcc2025/train/pert_counts_Training.csv",
+            "VersionId": "jnTytAthBKWClcI9snMAChi.IXpBHZ0M"
+        },
+        {
+            "Key": "datos/vcc2025/validation/adata_Validation.h5ad",
+            "VersionId": "h4CZxfl3iDIf59jQdqNd3cFGo9HCGQLZ"
+        },
+        {
+            "Key": "datos/vcc2025/validation/pert_counts_Validation.csv",
+            "VersionId": "aj63DAJ0pXBX6cXkCNdzzbLNGSUKI8c6"
+        }
+    ],
+    "Quiet": true
+}

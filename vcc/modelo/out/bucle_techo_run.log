@@ -1,0 +1,169 @@
+panel comun: 33 perturbaciones
+leyendo obs global de IFNB (cell_type, gene)...
+n_obs=328542 n_genes=34025
+
+=== pliegue 1/6: A549 -- particion seed=20262000 ===
+A549: control=1379 celulas (A=689, B=690)
+  -> A549 variante S direccion A... /home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+/home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+OK 61s jac=0.4034 pds=0.8655 cruce_dif=0.00e+00
+  primera corrida: 67s -- proyeccion de 24: 27.0 min
+  -> A549 variante S direccion B... /home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+/home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+OK 58s jac=0.4034 pds=0.8352 cruce_dif=0.00e+00
+  -> A549 variante I direccion A... /home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+/home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+OK 54s jac=0.5622 pds=0.8419 cruce_dif=0.00e+00
+  -> A549 variante I direccion B... /home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+/home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+OK 54s jac=0.5622 pds=0.7822 cruce_dif=0.00e+00
+
+=== pliegue 2/6: BXPC3 -- particion seed=20262001 ===
+BXPC3: control=3228 celulas (A=1614, B=1614)
+  -> BXPC3 variante S direccion A... /home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+/home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+OK 134s jac=0.2478 pds=0.9962 cruce_dif=0.00e+00
+  -> BXPC3 variante S direccion B... /home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+/home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+OK 134s jac=0.2478 pds=0.9972 cruce_dif=0.00e+00
+  -> BXPC3 variante I direccion A... /home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+/home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+OK 121s jac=0.2120 pds=0.9972 cruce_dif=0.00e+00
+  -> BXPC3 variante I direccion B... /home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+/home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+OK 121s jac=0.2120 pds=0.9915 cruce_dif=0.00e+00
+
+=== pliegue 3/6: HAP1 -- particion seed=20262002 ===
+HAP1: control=3172 celulas (A=1586, B=1586)
+  -> HAP1 variante S direccion A... /home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+/home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+FALLO: cell-eval2 score fallo (exit=1). Ver /datos/modelo/out/techo/run_HAP1_S_A/cell_eval2_score.log
+Traceback (most recent call last):
+  File "/home/ubuntu/vcc/modelo/src/bucle_techo.py", line 224, in <module>
+    main()
+  File "/home/ubuntu/vcc/modelo/src/bucle_techo.py", line 180, in main
+    record = run_one(
+             ^^^^^^^^
+  File "/home/ubuntu/vcc/modelo/src/bucle_techo.py", line 74, in run_one
+    scored_path = score_vs_self(agg_path, meta_path, outdir)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/vcc/modelo/src/suelo_arnes.py", line 245, in score_vs_self
+    raise RuntimeError(f"cell-eval2 score fallo (exit={proc.returncode}). Ver {log_path}")
+RuntimeError: cell-eval2 score fallo (exit=1). Ver /datos/modelo/out/techo/run_HAP1_S_A/cell_eval2_score.log
+panel comun: 33 perturbaciones
+leyendo obs global de IFNB (cell_type, gene)...
+n_obs=328542 n_genes=34025
+corridas ya escritas, se saltan: 8
+
+=== pliegue 3/6: HAP1 -- particion seed=20262002 ===
+HAP1: control=3172 celulas (A=1586, B=1586)
+  -> HAP1 variante S direccion A... /home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+/home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+OK 118s jac=0.3383 pds=0.8920 cruce_dif=0.00e+00
+  primera corrida: 120s -- proyeccion de 16: 32.1 min
+  -> HAP1 variante S direccion B... /home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+/home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+OK 117s jac=0.3383 pds=0.9034 cruce_dif=0.00e+00
+  -> HAP1 variante I direccion A... /home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+/home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+OK 103s jac=0.3184 pds=0.9290 cruce_dif=0.00e+00
+  -> HAP1 variante I direccion B... /home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+/home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+OK 103s jac=0.3184 pds=0.9110 cruce_dif=0.00e+00
+
+=== pliegue 4/6: HT29 -- particion seed=20262003 ===
+HT29: control=2736 celulas (A=1368, B=1368)
+  -> HT29 variante S direccion A... /home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+/home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+OK 94s jac=0.1054 pds=0.9148 cruce_dif=0.00e+00
+  -> HT29 variante S direccion B... /home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+/home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+OK 94s jac=0.1054 pds=0.9205 cruce_dif=0.00e+00
+  -> HT29 variante I direccion A... /home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+/home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+OK 85s jac=0.1332 pds=0.9081 cruce_dif=0.00e+00
+  -> HT29 variante I direccion B... /home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+/home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+OK 85s jac=0.1332 pds=0.8409 cruce_dif=0.00e+00
+
+=== pliegue 5/6: K562 -- particion seed=20262004 ===
+K562: control=1398 celulas (A=699, B=699)
+  -> K562 variante S direccion A... /home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+/home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+OK 58s jac=0.2826 pds=0.8551 cruce_dif=0.00e+00
+  -> K562 variante S direccion B... /home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+/home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+OK 58s jac=0.2826 pds=0.8314 cruce_dif=0.00e+00
+  -> K562 variante I direccion A... /home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+/home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+OK 53s jac=0.4033 pds=0.8561 cruce_dif=0.00e+00
+  -> K562 variante I direccion B... /home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+/home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+OK 53s jac=0.4033 pds=0.8097 cruce_dif=0.00e+00
+
+=== pliegue 6/6: MCF7 -- particion seed=20262005 ===
+MCF7: control=2669 celulas (A=1334, B=1335)
+  -> MCF7 variante S direccion A... /home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+/home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+OK 104s jac=0.1363 pds=0.9877 cruce_dif=0.00e+00
+  -> MCF7 variante S direccion B... /home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+/home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+OK 103s jac=0.1363 pds=0.9848 cruce_dif=0.00e+00
+  -> MCF7 variante I direccion A... /home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+/home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+OK 92s jac=0.0956 pds=0.9886 cruce_dif=0.00e+00
+  -> MCF7 variante I direccion B... /home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+/home/ubuntu/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+OK 92s jac=0.0956 pds=0.9858 cruce_dif=0.00e+00
+
+bucle completo: 16 corridas nuevas en /home/ubuntu/vcc/modelo/out/bucle_techo.json

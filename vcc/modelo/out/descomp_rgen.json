@@ -1,0 +1,4804 @@
+{
+  "A549": {
+    "max_dif_vs_bundle": 1.1102230246251565e-16,
+    "r_convencion_media": 0.41818181818181815,
+    "r_convencion_sd": 0.022676711434993585,
+    "r_crudo_media": 0.4732539783617972,
+    "r_crudo_sd": 0.035007558392998815,
+    "r_genuina_media": 0.055072160179979054,
+    "r_genuina_sd": 0.014644855136968032,
+    "splits": [
+      {
+        "E_union_vacia": 14,
+        "componente_convencion": 0.42424242424242425,
+        "componente_genuina": 0.06662510261450393,
+        "dif_vs_bundle": 0.0,
+        "media_genuinos": 0.11571728348834891,
+        "n_genuinos": 19,
+        "n_half_a": 7289,
+        "n_half_b": 7289,
+        "perts_union_vacia": [
+          "AKT1",
+          "BRD9",
+          "CEBPG",
+          "HERC5",
+          "HERC6",
+          "ID2",
+          "IRF7",
+          "MAPK8",
+          "RAP1GAP",
+          "RNF114",
+          "SOCS1",
+          "STAT4",
+          "TRAFD1",
+          "VAV1"
+        ],
+        "seed": 2968811710,
+        "split_index": 0,
+        "suma_genuinos": 2.1986283862786293,
+        "valor_del_bundle": 0.49086752685692814,
+        "valor_recomputado": 0.49086752685692814
+      },
+      {
+        "E_union_vacia": 13,
+        "componente_convencion": 0.3939393939393939,
+        "componente_genuina": 0.041432527244891604,
+        "dif_vs_bundle": 0.0,
+        "media_genuinos": 0.06836366995407114,
+        "n_genuinos": 20,
+        "n_half_a": 7289,
+        "n_half_b": 7289,
+        "perts_union_vacia": [
+          "AKT1",
+          "CEBPG",
+          "ELK1",
+          "H1F0",
+          "HERC5",
+          "IRF7",
+          "RAP1GAP",
+          "SP100",
+          "STAT1",
+          "STAT4",
+          "STAT5A",
+          "VAV1",
+          "ZBP1"
+        ],
+        "seed": 3677149159,
+        "split_index": 1,
+        "suma_genuinos": 1.367273399081423,
+        "valor_del_bundle": 0.4353719211842855,
+        "valor_recomputado": 0.4353719211842855
+      },
+      {
+        "E_union_vacia": 15,
+        "componente_convencion": 0.45454545454545453,
+        "componente_genuina": 0.06151062339631294,
+        "dif_vs_bundle": 1.1102230246251565e-16,
+        "media_genuinos": 0.11276947622657373,
+        "n_genuinos": 18,
+        "n_half_a": 7289,
+        "n_half_b": 7289,
+        "perts_union_vacia": [
+          "AKT1",
+          "BATF2",
+          "BRD9",
+          "CEBPG",
+          "ETS1",
+          "HERC5",
+          "HERC6",
+          "ID2",
+          "IRF7",
+          "SOCS1",
+          "STAT4",
+          "STAT5A",
+          "TRAFD1",
+          "VAV1",
+          "ZBP1"
+        ],
+        "seed": 745650761,
+        "split_index": 2,
+        "suma_genuinos": 2.029850572078327,
+        "valor_del_bundle": 0.5160560779417676,
+        "valor_recomputado": 0.5160560779417674
+      },
+      {
+        "E_union_vacia": 13,
+        "componente_convencion": 0.3939393939393939,
+        "componente_genuina": 0.034162266336486176,
+        "dif_vs_bundle": 0.0,
+        "media_genuinos": 0.056367739455202195,
+        "n_genuinos": 20,
+        "n_half_a": 7289,
+        "n_half_b": 7289,
+        "perts_union_vacia": [
+          "BATF2",
+          "ELK1",
+          "H1F0",
+          "HERC5",
+          "HERC6",
+          "ID2",
+          "IRF7",
+          "RNF114",
+          "SOCS1",
+          "STAT4",
+          "STAT5A",
+          "TRAFD1",
+          "VAV1"
+        ],
+        "seed": 2884920346,
+        "split_index": 3,
+        "suma_genuinos": 1.1273547891040439,
+        "valor_del_bundle": 0.4281016602758801,
+        "valor_recomputado": 0.4281016602758801
+      },
+      {
+        "E_union_vacia": 14,
+        "componente_convencion": 0.42424242424242425,
+        "componente_genuina": 0.07163028130770067,
+        "dif_vs_bundle": 1.1102230246251565e-16,
+        "media_genuinos": 0.12441048858705905,
+        "n_genuinos": 19,
+        "n_half_a": 7289,
+        "n_half_b": 7289,
+        "perts_union_vacia": [
+          "BATF2",
+          "CEBPG",
+          "ETS1",
+          "H1F0",
+          "HERC5",
+          "HERC6",
+          "ID2",
+          "RAP1GAP",
+          "RNF114",
+          "SOCS1",
+          "SP100",
+          "STAT5A",
+          "TRAFD1",
+          "VAV1"
+        ],
+        "seed": 2642120001,
+        "split_index": 4,
+        "suma_genuinos": 2.363799283154122,
+        "valor_del_bundle": 0.4958727055501249,
+        "valor_recomputado": 0.4958727055501248
+      }
+    ]
+  },
+  "BXPC3": {
+    "max_dif_vs_bundle": 2.7755575615628914e-17,
+    "r_convencion_media": 0.06060606060606061,
+    "r_convencion_sd": 0.027103854272724725,
+    "r_crudo_media": 0.20076901968301045,
+    "r_crudo_sd": 0.022771933031142208,
+    "r_genuina_media": 0.14016295907694987,
+    "r_genuina_sd": 0.015287661427008927,
+    "splits": [
+      {
+        "E_union_vacia": 1,
+        "componente_convencion": 0.030303030303030304,
+        "componente_genuina": 0.13324547000595371,
+        "dif_vs_bundle": 2.7755575615628914e-17,
+        "media_genuinos": 0.13740939094363977,
+        "n_genuinos": 32,
+        "n_half_a": 8214,
+        "n_half_b": 8214,
+        "perts_union_vacia": [
+          "VAV1"
+        ],
+        "por_pert": {
+          "AKT1": {
+            "jac": 0.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 1,
+            "n_DE_union": 1
+          },
+          "BATF2": {
+            "jac": 0.08108108108108109,
+            "n_DE_pred": 24,
+            "n_DE_real": 16,
+            "n_DE_union": 37
+          },
+          "BRD9": {
+            "jac": 0.2,
+            "n_DE_pred": 15,
+            "n_DE_real": 21,
+            "n_DE_union": 30
+          },
+          "CEBPG": {
+            "jac": 0.08333333333333333,
+            "n_DE_pred": 1,
+            "n_DE_real": 12,
+            "n_DE_union": 12
+          },
+          "DTX3L": {
+            "jac": 0.3333333333333333,
+            "n_DE_pred": 2,
+            "n_DE_real": 2,
+            "n_DE_union": 3
+          },
+          "ELK1": {
+            "jac": 0.1111111111111111,
+            "n_DE_pred": 9,
+            "n_DE_real": 1,
+            "n_DE_union": 9
+          },
+          "ETS1": {
+            "jac": 0.26291079812206575,
+            "n_DE_pred": 110,
+            "n_DE_real": 159,
+            "n_DE_union": 213
+          },
+          "ETS2": {
+            "jac": 0.0,
+            "n_DE_pred": 6,
+            "n_DE_real": 1,
+            "n_DE_union": 7
+          },
+          "H1F0": {
+            "jac": 0.0,
+            "n_DE_pred": 2,
+            "n_DE_real": 1,
+            "n_DE_union": 3
+          },
+          "HERC5": {
+            "jac": 0.5,
+            "n_DE_pred": 1,
+            "n_DE_real": 2,
+            "n_DE_union": 2
+          },
+          "HERC6": {
+            "jac": 0.0,
+            "n_DE_pred": 6,
+            "n_DE_real": 1,
+            "n_DE_union": 7
+          },
+          "ID2": {
+            "jac": 0.11538461538461539,
+            "n_DE_pred": 22,
+            "n_DE_real": 7,
+            "n_DE_union": 26
+          },
+          "IFNAR1": {
+            "jac": 0.22740524781341107,
+            "n_DE_pred": 155,
+            "n_DE_real": 266,
+            "n_DE_union": 343
+          },
+          "IFNAR2": {
+            "jac": 0.29172714078374457,
+            "n_DE_pred": 509,
+            "n_DE_real": 381,
+            "n_DE_union": 689
+          },
+          "IRF1": {
+            "jac": 0.045454545454545456,
+            "n_DE_pred": 9,
+            "n_DE_real": 14,
+            "n_DE_union": 22
+          },
+          "IRF7": {
+            "jac": 0.5,
+            "n_DE_pred": 2,
+            "n_DE_real": 1,
+            "n_DE_union": 2
+          },
+          "JAK1": {
+            "jac": 0.15294117647058825,
+            "n_DE_pred": 126,
+            "n_DE_real": 70,
+            "n_DE_union": 170
+          },
+          "JUN": {
+            "jac": 0.07692307692307693,
+            "n_DE_pred": 11,
+            "n_DE_real": 3,
+            "n_DE_union": 13
+          },
+          "MAP3K14": {
+            "jac": 0.3,
+            "n_DE_pred": 4,
+            "n_DE_real": 9,
+            "n_DE_union": 10
+          },
+          "MAPK8": {
+            "jac": 0.0967741935483871,
+            "n_DE_pred": 27,
+            "n_DE_real": 7,
+            "n_DE_union": 31
+          },
+          "PARP12": {
+            "jac": 0.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 6,
+            "n_DE_union": 6
+          },
+          "RAP1GAP": {
+            "jac": 0.0,
+            "n_DE_pred": 1,
+            "n_DE_real": 1,
+            "n_DE_union": 2
+          },
+          "RNF114": {
+            "jac": 0.023255813953488372,
+            "n_DE_pred": 41,
+            "n_DE_real": 3,
+            "n_DE_union": 43
+          },
+          "SOCS1": {
+            "jac": 0.0,
+            "n_DE_pred": 6,
+            "n_DE_real": 0,
+            "n_DE_union": 6
+          },
+          "SP100": {
+            "jac": 0.13636363636363635,
+            "n_DE_pred": 5,
+            "n_DE_real": 20,
+            "n_DE_union": 22
+          },
+          "STAT1": {
+            "jac": 0.13725490196078433,
+            "n_DE_pred": 27,
+            "n_DE_real": 89,
+            "n_DE_union": 102
+          },
+          "STAT3": {
+            "jac": 0.0,
+            "n_DE_pred": 1,
+            "n_DE_real": 3,
+            "n_DE_union": 4
+          },
+          "STAT4": {
+            "jac": 0.2,
+            "n_DE_pred": 5,
+            "n_DE_real": 1,
+            "n_DE_union": 5
+          },
+          "STAT5A": {
+            "jac": 0.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 1,
+            "n_DE_union": 1
+          },
+          "TRAFD1": {
+            "jac": 0.0,
+            "n_DE_pred": 16,
+            "n_DE_real": 0,
+            "n_DE_union": 16
+          },
+          "TYK2": {
+            "jac": 0.37898936170212766,
+            "n_DE_pred": 562,
+            "n_DE_real": 475,
+            "n_DE_union": 752
+          },
+          "VAV1": {
+            "jac": 1.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 0,
+            "n_DE_union": 0
+          },
+          "ZBP1": {
+            "jac": 0.14285714285714285,
+            "n_DE_pred": 7,
+            "n_DE_real": 1,
+            "n_DE_union": 7
+          }
+        },
+        "seed": 2968811710,
+        "split_index": 0,
+        "suma_genuinos": 4.397100510196473,
+        "valor_del_bundle": 0.16354850030898402,
+        "valor_recomputado": 0.16354850030898405
+      },
+      {
+        "E_union_vacia": 3,
+        "componente_convencion": 0.09090909090909091,
+        "componente_genuina": 0.11643563150536473,
+        "dif_vs_bundle": 0.0,
+        "media_genuinos": 0.1280791946559012,
+        "n_genuinos": 30,
+        "n_half_a": 8214,
+        "n_half_b": 8214,
+        "perts_union_vacia": [
+          "AKT1",
+          "H1F0",
+          "STAT5A"
+        ],
+        "por_pert": {
+          "AKT1": {
+            "jac": 1.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 0,
+            "n_DE_union": 0
+          },
+          "BATF2": {
+            "jac": 0.125,
+            "n_DE_pred": 11,
+            "n_DE_real": 7,
+            "n_DE_union": 16
+          },
+          "BRD9": {
+            "jac": 0.14035087719298245,
+            "n_DE_pred": 23,
+            "n_DE_real": 42,
+            "n_DE_union": 57
+          },
+          "CEBPG": {
+            "jac": 0.09090909090909091,
+            "n_DE_pred": 8,
+            "n_DE_real": 4,
+            "n_DE_union": 11
+          },
+          "DTX3L": {
+            "jac": 0.5,
+            "n_DE_pred": 2,
+            "n_DE_real": 1,
+            "n_DE_union": 2
+          },
+          "ELK1": {
+            "jac": 0.09090909090909091,
+            "n_DE_pred": 9,
+            "n_DE_real": 3,
+            "n_DE_union": 11
+          },
+          "ETS1": {
+            "jac": 0.3081081081081081,
+            "n_DE_pred": 100,
+            "n_DE_real": 142,
+            "n_DE_union": 185
+          },
+          "ETS2": {
+            "jac": 0.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 2,
+            "n_DE_union": 2
+          },
+          "H1F0": {
+            "jac": 1.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 0,
+            "n_DE_union": 0
+          },
+          "HERC5": {
+            "jac": 0.2,
+            "n_DE_pred": 2,
+            "n_DE_real": 4,
+            "n_DE_union": 5
+          },
+          "HERC6": {
+            "jac": 0.0,
+            "n_DE_pred": 3,
+            "n_DE_real": 2,
+            "n_DE_union": 5
+          },
+          "ID2": {
+            "jac": 0.03333333333333333,
+            "n_DE_pred": 16,
+            "n_DE_real": 15,
+            "n_DE_union": 30
+          },
+          "IFNAR1": {
+            "jac": 0.3018181818181818,
+            "n_DE_pred": 165,
+            "n_DE_real": 193,
+            "n_DE_union": 275
+          },
+          "IFNAR2": {
+            "jac": 0.2946298984034833,
+            "n_DE_pred": 425,
+            "n_DE_real": 467,
+            "n_DE_union": 689
+          },
+          "IRF1": {
+            "jac": 0.0,
+            "n_DE_pred": 11,
+            "n_DE_real": 4,
+            "n_DE_union": 15
+          },
+          "IRF7": {
+            "jac": 0.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 1,
+            "n_DE_union": 1
+          },
+          "JAK1": {
+            "jac": 0.16091954022988506,
+            "n_DE_pred": 78,
+            "n_DE_real": 124,
+            "n_DE_union": 174
+          },
+          "JUN": {
+            "jac": 0.10526315789473684,
+            "n_DE_pred": 15,
+            "n_DE_real": 6,
+            "n_DE_union": 19
+          },
+          "MAP3K14": {
+            "jac": 0.25,
+            "n_DE_pred": 7,
+            "n_DE_real": 8,
+            "n_DE_union": 12
+          },
+          "MAPK8": {
+            "jac": 0.1875,
+            "n_DE_pred": 11,
+            "n_DE_real": 8,
+            "n_DE_union": 16
+          },
+          "PARP12": {
+            "jac": 0.0,
+            "n_DE_pred": 2,
+            "n_DE_real": 1,
+            "n_DE_union": 3
+          },
+          "RAP1GAP": {
+            "jac": 0.0,
+            "n_DE_pred": 2,
+            "n_DE_real": 1,
+            "n_DE_union": 3
+          },
+          "RNF114": {
+            "jac": 0.0,
+            "n_DE_pred": 12,
+            "n_DE_real": 2,
+            "n_DE_union": 14
+          },
+          "SOCS1": {
+            "jac": 0.09090909090909091,
+            "n_DE_pred": 7,
+            "n_DE_real": 5,
+            "n_DE_union": 11
+          },
+          "SP100": {
+            "jac": 0.12121212121212122,
+            "n_DE_pred": 7,
+            "n_DE_real": 30,
+            "n_DE_union": 33
+          },
+          "STAT1": {
+            "jac": 0.11494252873563218,
+            "n_DE_pred": 25,
+            "n_DE_real": 72,
+            "n_DE_union": 87
+          },
+          "STAT3": {
+            "jac": 0.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 2,
+            "n_DE_union": 2
+          },
+          "STAT4": {
+            "jac": 0.16666666666666666,
+            "n_DE_pred": 5,
+            "n_DE_real": 2,
+            "n_DE_union": 6
+          },
+          "STAT5A": {
+            "jac": 1.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 0,
+            "n_DE_union": 0
+          },
+          "TRAFD1": {
+            "jac": 0.0,
+            "n_DE_pred": 1,
+            "n_DE_real": 0,
+            "n_DE_union": 1
+          },
+          "TYK2": {
+            "jac": 0.30990415335463256,
+            "n_DE_pred": 523,
+            "n_DE_real": 707,
+            "n_DE_union": 939
+          },
+          "VAV1": {
+            "jac": 0.0,
+            "n_DE_pred": 3,
+            "n_DE_real": 1,
+            "n_DE_union": 4
+          },
+          "ZBP1": {
+            "jac": 0.25,
+            "n_DE_pred": 3,
+            "n_DE_real": 7,
+            "n_DE_union": 8
+          }
+        },
+        "seed": 3677149159,
+        "split_index": 1,
+        "suma_genuinos": 3.8423758396770364,
+        "valor_del_bundle": 0.20734472241445565,
+        "valor_recomputado": 0.20734472241445565
+      },
+      {
+        "E_union_vacia": 1,
+        "componente_convencion": 0.030303030303030304,
+        "componente_genuina": 0.16306641338682973,
+        "dif_vs_bundle": 2.7755575615628914e-17,
+        "media_genuinos": 0.16816223880516815,
+        "n_genuinos": 32,
+        "n_half_a": 8214,
+        "n_half_b": 8214,
+        "perts_union_vacia": [
+          "AKT1"
+        ],
+        "por_pert": {
+          "AKT1": {
+            "jac": 1.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 0,
+            "n_DE_union": 0
+          },
+          "BATF2": {
+            "jac": 0.0625,
+            "n_DE_pred": 5,
+            "n_DE_real": 12,
+            "n_DE_union": 16
+          },
+          "BRD9": {
+            "jac": 0.14285714285714285,
+            "n_DE_pred": 28,
+            "n_DE_real": 12,
+            "n_DE_union": 35
+          },
+          "CEBPG": {
+            "jac": 0.125,
+            "n_DE_pred": 2,
+            "n_DE_real": 7,
+            "n_DE_union": 8
+          },
+          "DTX3L": {
+            "jac": 0.16666666666666666,
+            "n_DE_pred": 5,
+            "n_DE_real": 2,
+            "n_DE_union": 6
+          },
+          "ELK1": {
+            "jac": 0.125,
+            "n_DE_pred": 4,
+            "n_DE_real": 5,
+            "n_DE_union": 8
+          },
+          "ETS1": {
+            "jac": 0.28865979381443296,
+            "n_DE_pred": 154,
+            "n_DE_real": 96,
+            "n_DE_union": 194
+          },
+          "ETS2": {
+            "jac": 0.0,
+            "n_DE_pred": 2,
+            "n_DE_real": 3,
+            "n_DE_union": 5
+          },
+          "H1F0": {
+            "jac": 0.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 2,
+            "n_DE_union": 2
+          },
+          "HERC5": {
+            "jac": 0.5,
+            "n_DE_pred": 1,
+            "n_DE_real": 2,
+            "n_DE_union": 2
+          },
+          "HERC6": {
+            "jac": 0.0,
+            "n_DE_pred": 1,
+            "n_DE_real": 2,
+            "n_DE_union": 3
+          },
+          "ID2": {
+            "jac": 0.12121212121212122,
+            "n_DE_pred": 25,
+            "n_DE_real": 12,
+            "n_DE_union": 33
+          },
+          "IFNAR1": {
+            "jac": 0.3,
+            "n_DE_pred": 185,
+            "n_DE_real": 179,
+            "n_DE_union": 280
+          },
+          "IFNAR2": {
+            "jac": 0.30326594090202175,
+            "n_DE_pred": 393,
+            "n_DE_real": 445,
+            "n_DE_union": 643
+          },
+          "IRF1": {
+            "jac": 0.0,
+            "n_DE_pred": 2,
+            "n_DE_real": 4,
+            "n_DE_union": 6
+          },
+          "IRF7": {
+            "jac": 1.0,
+            "n_DE_pred": 1,
+            "n_DE_real": 1,
+            "n_DE_union": 1
+          },
+          "JAK1": {
+            "jac": 0.14,
+            "n_DE_pred": 63,
+            "n_DE_real": 165,
+            "n_DE_union": 200
+          },
+          "JUN": {
+            "jac": 0.18181818181818182,
+            "n_DE_pred": 6,
+            "n_DE_real": 7,
+            "n_DE_union": 11
+          },
+          "MAP3K14": {
+            "jac": 0.75,
+            "n_DE_pred": 3,
+            "n_DE_real": 4,
+            "n_DE_union": 4
+          },
+          "MAPK8": {
+            "jac": 0.08571428571428572,
+            "n_DE_pred": 5,
+            "n_DE_real": 33,
+            "n_DE_union": 35
+          },
+          "PARP12": {
+            "jac": 0.0,
+            "n_DE_pred": 2,
+            "n_DE_real": 1,
+            "n_DE_union": 3
+          },
+          "RAP1GAP": {
+            "jac": 0.0,
+            "n_DE_pred": 2,
+            "n_DE_real": 2,
+            "n_DE_union": 4
+          },
+          "RNF114": {
+            "jac": 0.0,
+            "n_DE_pred": 6,
+            "n_DE_real": 8,
+            "n_DE_union": 14
+          },
+          "SOCS1": {
+            "jac": 0.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 4,
+            "n_DE_union": 4
+          },
+          "SP100": {
+            "jac": 0.14285714285714285,
+            "n_DE_pred": 10,
+            "n_DE_real": 14,
+            "n_DE_union": 21
+          },
+          "STAT1": {
+            "jac": 0.13636363636363635,
+            "n_DE_pred": 38,
+            "n_DE_real": 62,
+            "n_DE_union": 88
+          },
+          "STAT3": {
+            "jac": 0.0,
+            "n_DE_pred": 2,
+            "n_DE_real": 7,
+            "n_DE_union": 9
+          },
+          "STAT4": {
+            "jac": 0.3333333333333333,
+            "n_DE_pred": 2,
+            "n_DE_real": 2,
+            "n_DE_union": 3
+          },
+          "STAT5A": {
+            "jac": 0.0,
+            "n_DE_pred": 1,
+            "n_DE_real": 0,
+            "n_DE_union": 1
+          },
+          "TRAFD1": {
+            "jac": 0.0,
+            "n_DE_pred": 2,
+            "n_DE_real": 1,
+            "n_DE_union": 3
+          },
+          "TYK2": {
+            "jac": 0.35094339622641507,
+            "n_DE_pred": 525,
+            "n_DE_real": 549,
+            "n_DE_union": 795
+          },
+          "VAV1": {
+            "jac": 0.0,
+            "n_DE_pred": 2,
+            "n_DE_real": 1,
+            "n_DE_union": 3
+          },
+          "ZBP1": {
+            "jac": 0.125,
+            "n_DE_pred": 3,
+            "n_DE_real": 6,
+            "n_DE_union": 8
+          }
+        },
+        "seed": 745650761,
+        "split_index": 2,
+        "suma_genuinos": 5.381191641765381,
+        "valor_del_bundle": 0.19336944368986003,
+        "valor_recomputado": 0.19336944368986
+      },
+      {
+        "E_union_vacia": 3,
+        "componente_convencion": 0.09090909090909091,
+        "componente_genuina": 0.1427701795019656,
+        "dif_vs_bundle": 2.7755575615628914e-17,
+        "media_genuinos": 0.15704719745216217,
+        "n_genuinos": 30,
+        "n_half_a": 8214,
+        "n_half_b": 8214,
+        "perts_union_vacia": [
+          "AKT1",
+          "STAT5A",
+          "VAV1"
+        ],
+        "por_pert": {
+          "AKT1": {
+            "jac": 1.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 0,
+            "n_DE_union": 0
+          },
+          "BATF2": {
+            "jac": 0.21428571428571427,
+            "n_DE_pred": 10,
+            "n_DE_real": 7,
+            "n_DE_union": 14
+          },
+          "BRD9": {
+            "jac": 0.09259259259259259,
+            "n_DE_pred": 27,
+            "n_DE_real": 32,
+            "n_DE_union": 54
+          },
+          "CEBPG": {
+            "jac": 0.2857142857142857,
+            "n_DE_pred": 5,
+            "n_DE_real": 4,
+            "n_DE_union": 7
+          },
+          "DTX3L": {
+            "jac": 0.3333333333333333,
+            "n_DE_pred": 1,
+            "n_DE_real": 3,
+            "n_DE_union": 3
+          },
+          "ELK1": {
+            "jac": 0.25,
+            "n_DE_pred": 3,
+            "n_DE_real": 2,
+            "n_DE_union": 4
+          },
+          "ETS1": {
+            "jac": 0.27983539094650206,
+            "n_DE_pred": 123,
+            "n_DE_real": 188,
+            "n_DE_union": 243
+          },
+          "ETS2": {
+            "jac": 0.0,
+            "n_DE_pred": 2,
+            "n_DE_real": 3,
+            "n_DE_union": 5
+          },
+          "H1F0": {
+            "jac": 0.0,
+            "n_DE_pred": 1,
+            "n_DE_real": 1,
+            "n_DE_union": 2
+          },
+          "HERC5": {
+            "jac": 0.0,
+            "n_DE_pred": 1,
+            "n_DE_real": 3,
+            "n_DE_union": 4
+          },
+          "HERC6": {
+            "jac": 0.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 8,
+            "n_DE_union": 8
+          },
+          "ID2": {
+            "jac": 0.06060606060606061,
+            "n_DE_pred": 13,
+            "n_DE_real": 22,
+            "n_DE_union": 33
+          },
+          "IFNAR1": {
+            "jac": 0.26480836236933797,
+            "n_DE_pred": 127,
+            "n_DE_real": 236,
+            "n_DE_union": 287
+          },
+          "IFNAR2": {
+            "jac": 0.30338733431516934,
+            "n_DE_pred": 497,
+            "n_DE_real": 388,
+            "n_DE_union": 679
+          },
+          "IRF1": {
+            "jac": 0.0,
+            "n_DE_pred": 15,
+            "n_DE_real": 3,
+            "n_DE_union": 18
+          },
+          "IRF7": {
+            "jac": 1.0,
+            "n_DE_pred": 1,
+            "n_DE_real": 1,
+            "n_DE_union": 1
+          },
+          "JAK1": {
+            "jac": 0.1419753086419753,
+            "n_DE_pred": 128,
+            "n_DE_real": 57,
+            "n_DE_union": 162
+          },
+          "JUN": {
+            "jac": 0.16666666666666666,
+            "n_DE_pred": 5,
+            "n_DE_real": 9,
+            "n_DE_union": 12
+          },
+          "MAP3K14": {
+            "jac": 0.23076923076923078,
+            "n_DE_pred": 7,
+            "n_DE_real": 9,
+            "n_DE_union": 13
+          },
+          "MAPK8": {
+            "jac": 0.07142857142857142,
+            "n_DE_pred": 22,
+            "n_DE_real": 8,
+            "n_DE_union": 28
+          },
+          "PARP12": {
+            "jac": 0.0,
+            "n_DE_pred": 2,
+            "n_DE_real": 2,
+            "n_DE_union": 4
+          },
+          "RAP1GAP": {
+            "jac": 0.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 3,
+            "n_DE_union": 3
+          },
+          "RNF114": {
+            "jac": 0.058823529411764705,
+            "n_DE_pred": 8,
+            "n_DE_real": 10,
+            "n_DE_union": 17
+          },
+          "SOCS1": {
+            "jac": 0.0,
+            "n_DE_pred": 3,
+            "n_DE_real": 10,
+            "n_DE_union": 13
+          },
+          "SP100": {
+            "jac": 0.13333333333333333,
+            "n_DE_pred": 15,
+            "n_DE_real": 19,
+            "n_DE_union": 30
+          },
+          "STAT1": {
+            "jac": 0.12941176470588237,
+            "n_DE_pred": 66,
+            "n_DE_real": 30,
+            "n_DE_union": 85
+          },
+          "STAT3": {
+            "jac": 0.0,
+            "n_DE_pred": 8,
+            "n_DE_real": 1,
+            "n_DE_union": 9
+          },
+          "STAT4": {
+            "jac": 0.0,
+            "n_DE_pred": 1,
+            "n_DE_real": 4,
+            "n_DE_union": 5
+          },
+          "STAT5A": {
+            "jac": 1.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 0,
+            "n_DE_union": 0
+          },
+          "TRAFD1": {
+            "jac": 0.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 5,
+            "n_DE_union": 5
+          },
+          "TYK2": {
+            "jac": 0.3611111111111111,
+            "n_DE_pred": 532,
+            "n_DE_real": 546,
+            "n_DE_union": 792
+          },
+          "VAV1": {
+            "jac": 1.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 0,
+            "n_DE_union": 0
+          },
+          "ZBP1": {
+            "jac": 0.3333333333333333,
+            "n_DE_pred": 4,
+            "n_DE_real": 4,
+            "n_DE_union": 6
+          }
+        },
+        "seed": 2884920346,
+        "split_index": 3,
+        "suma_genuinos": 4.711415923564865,
+        "valor_del_bundle": 0.23367927041105652,
+        "valor_recomputado": 0.2336792704110565
+      },
+      {
+        "E_union_vacia": 2,
+        "componente_convencion": 0.06060606060606061,
+        "componente_genuina": 0.14529710098463555,
+        "dif_vs_bundle": 0.0,
+        "media_genuinos": 0.1546711074997733,
+        "n_genuinos": 31,
+        "n_half_a": 8214,
+        "n_half_b": 8214,
+        "perts_union_vacia": [
+          "STAT5A",
+          "VAV1"
+        ],
+        "por_pert": {
+          "AKT1": {
+            "jac": 0.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 2,
+            "n_DE_union": 2
+          },
+          "BATF2": {
+            "jac": 0.09090909090909091,
+            "n_DE_pred": 5,
+            "n_DE_real": 7,
+            "n_DE_union": 11
+          },
+          "BRD9": {
+            "jac": 0.10638297872340426,
+            "n_DE_pred": 26,
+            "n_DE_real": 26,
+            "n_DE_union": 47
+          },
+          "CEBPG": {
+            "jac": 0.15384615384615385,
+            "n_DE_pred": 2,
+            "n_DE_real": 13,
+            "n_DE_union": 13
+          },
+          "DTX3L": {
+            "jac": 0.2,
+            "n_DE_pred": 2,
+            "n_DE_real": 4,
+            "n_DE_union": 5
+          },
+          "ELK1": {
+            "jac": 0.2857142857142857,
+            "n_DE_pred": 3,
+            "n_DE_real": 6,
+            "n_DE_union": 7
+          },
+          "ETS1": {
+            "jac": 0.3005181347150259,
+            "n_DE_pred": 128,
+            "n_DE_real": 123,
+            "n_DE_union": 193
+          },
+          "ETS2": {
+            "jac": 0.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 3,
+            "n_DE_union": 3
+          },
+          "H1F0": {
+            "jac": 0.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 1,
+            "n_DE_union": 1
+          },
+          "HERC5": {
+            "jac": 0.3333333333333333,
+            "n_DE_pred": 1,
+            "n_DE_real": 3,
+            "n_DE_union": 3
+          },
+          "HERC6": {
+            "jac": 0.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 3,
+            "n_DE_union": 3
+          },
+          "ID2": {
+            "jac": 0.09090909090909091,
+            "n_DE_pred": 11,
+            "n_DE_real": 25,
+            "n_DE_union": 33
+          },
+          "IFNAR1": {
+            "jac": 0.27702702702702703,
+            "n_DE_pred": 142,
+            "n_DE_real": 236,
+            "n_DE_union": 296
+          },
+          "IFNAR2": {
+            "jac": 0.27530364372469635,
+            "n_DE_pred": 378,
+            "n_DE_real": 567,
+            "n_DE_union": 741
+          },
+          "IRF1": {
+            "jac": 0.09090909090909091,
+            "n_DE_pred": 15,
+            "n_DE_real": 9,
+            "n_DE_union": 22
+          },
+          "IRF7": {
+            "jac": 0.5,
+            "n_DE_pred": 2,
+            "n_DE_real": 1,
+            "n_DE_union": 2
+          },
+          "JAK1": {
+            "jac": 0.11049723756906077,
+            "n_DE_pred": 106,
+            "n_DE_real": 95,
+            "n_DE_union": 181
+          },
+          "JUN": {
+            "jac": 0.2,
+            "n_DE_pred": 4,
+            "n_DE_real": 2,
+            "n_DE_union": 5
+          },
+          "MAP3K14": {
+            "jac": 0.3,
+            "n_DE_pred": 5,
+            "n_DE_real": 8,
+            "n_DE_union": 10
+          },
+          "MAPK8": {
+            "jac": 0.14705882352941177,
+            "n_DE_pred": 17,
+            "n_DE_real": 22,
+            "n_DE_union": 34
+          },
+          "PARP12": {
+            "jac": 0.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 2,
+            "n_DE_union": 2
+          },
+          "RAP1GAP": {
+            "jac": 0.0,
+            "n_DE_pred": 2,
+            "n_DE_real": 2,
+            "n_DE_union": 4
+          },
+          "RNF114": {
+            "jac": 0.0,
+            "n_DE_pred": 3,
+            "n_DE_real": 17,
+            "n_DE_union": 20
+          },
+          "SOCS1": {
+            "jac": 0.0,
+            "n_DE_pred": 3,
+            "n_DE_real": 10,
+            "n_DE_union": 13
+          },
+          "SP100": {
+            "jac": 0.17391304347826086,
+            "n_DE_pred": 8,
+            "n_DE_real": 19,
+            "n_DE_union": 23
+          },
+          "STAT1": {
+            "jac": 0.1320754716981132,
+            "n_DE_pred": 46,
+            "n_DE_real": 74,
+            "n_DE_union": 106
+          },
+          "STAT3": {
+            "jac": 0.0,
+            "n_DE_pred": 2,
+            "n_DE_real": 0,
+            "n_DE_union": 2
+          },
+          "STAT4": {
+            "jac": 0.3333333333333333,
+            "n_DE_pred": 3,
+            "n_DE_real": 1,
+            "n_DE_union": 3
+          },
+          "STAT5A": {
+            "jac": 1.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 0,
+            "n_DE_union": 0
+          },
+          "TRAFD1": {
+            "jac": 0.0,
+            "n_DE_pred": 3,
+            "n_DE_real": 1,
+            "n_DE_union": 4
+          },
+          "TYK2": {
+            "jac": 0.35974025974025975,
+            "n_DE_pred": 481,
+            "n_DE_real": 566,
+            "n_DE_union": 770
+          },
+          "VAV1": {
+            "jac": 1.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 0,
+            "n_DE_union": 0
+          },
+          "ZBP1": {
+            "jac": 0.3333333333333333,
+            "n_DE_pred": 2,
+            "n_DE_real": 2,
+            "n_DE_union": 3
+          }
+        },
+        "seed": 2642120001,
+        "split_index": 4,
+        "suma_genuinos": 4.794804332492973,
+        "valor_del_bundle": 0.2059031615906961,
+        "valor_recomputado": 0.2059031615906961
+      }
+    ]
+  },
+  "HAP1": {
+    "max_dif_vs_bundle": 5.551115123125783e-17,
+    "r_convencion_media": 0.3393939393939394,
+    "r_convencion_sd": 0.0822100604015184,
+    "r_crudo_media": 0.4681563146085522,
+    "r_crudo_sd": 0.08446186066815056,
+    "r_genuina_media": 0.12876237521461278,
+    "r_genuina_sd": 0.01020078368416856,
+    "splits": [
+      {
+        "E_union_vacia": 13,
+        "componente_convencion": 0.3939393939393939,
+        "componente_genuina": 0.1301510957860379,
+        "dif_vs_bundle": 0.0,
+        "media_genuinos": 0.21474930804696252,
+        "n_genuinos": 20,
+        "n_half_a": 8186,
+        "n_half_b": 8186,
+        "perts_union_vacia": [
+          "AKT1",
+          "BRD9",
+          "ETS2",
+          "IRF7",
+          "JUN",
+          "MAP3K14",
+          "MAPK8",
+          "RAP1GAP",
+          "SP100",
+          "STAT4",
+          "TRAFD1",
+          "VAV1",
+          "ZBP1"
+        ],
+        "seed": 2968811710,
+        "split_index": 0,
+        "suma_genuinos": 4.29498616093925,
+        "valor_del_bundle": 0.5240904897254319,
+        "valor_recomputado": 0.5240904897254319
+      },
+      {
+        "E_union_vacia": 14,
+        "componente_convencion": 0.42424242424242425,
+        "componente_genuina": 0.1427787569573284,
+        "dif_vs_bundle": 0.0,
+        "media_genuinos": 0.247984156820623,
+        "n_genuinos": 19,
+        "n_half_a": 8186,
+        "n_half_b": 8186,
+        "perts_union_vacia": [
+          "AKT1",
+          "BRD9",
+          "ETS2",
+          "H1F0",
+          "ID2",
+          "IRF1",
+          "JUN",
+          "MAPK8",
+          "RAP1GAP",
+          "SP100",
+          "STAT3",
+          "STAT4",
+          "STAT5A",
+          "TRAFD1"
+        ],
+        "seed": 3677149159,
+        "split_index": 1,
+        "suma_genuinos": 4.711698979591837,
+        "valor_del_bundle": 0.5670211811997526,
+        "valor_recomputado": 0.5670211811997526
+      },
+      {
+        "E_union_vacia": 9,
+        "componente_convencion": 0.2727272727272727,
+        "componente_genuina": 0.1347769472207037,
+        "dif_vs_bundle": 5.551115123125783e-17,
+        "media_genuinos": 0.1853183024284676,
+        "n_genuinos": 24,
+        "n_half_a": 8186,
+        "n_half_b": 8186,
+        "perts_union_vacia": [
+          "AKT1",
+          "BRD9",
+          "ID2",
+          "IRF1",
+          "JUN",
+          "MAPK8",
+          "STAT3",
+          "STAT4",
+          "ZBP1"
+        ],
+        "seed": 745650761,
+        "split_index": 2,
+        "suma_genuinos": 4.447639258283223,
+        "valor_del_bundle": 0.4075042199479765,
+        "valor_recomputado": 0.40750421994797653
+      },
+      {
+        "E_union_vacia": 13,
+        "componente_convencion": 0.3939393939393939,
+        "componente_genuina": 0.11274612040865911,
+        "dif_vs_bundle": 0.0,
+        "media_genuinos": 0.18603109867428752,
+        "n_genuinos": 20,
+        "n_half_a": 8186,
+        "n_half_b": 8186,
+        "perts_union_vacia": [
+          "AKT1",
+          "BRD9",
+          "ETS2",
+          "H1F0",
+          "ID2",
+          "IRF1",
+          "JUN",
+          "MAP3K14",
+          "MAPK8",
+          "RAP1GAP",
+          "STAT3",
+          "STAT5A",
+          "TRAFD1"
+        ],
+        "seed": 2884920346,
+        "split_index": 3,
+        "suma_genuinos": 3.7206219734857506,
+        "valor_del_bundle": 0.5066855143480531,
+        "valor_recomputado": 0.5066855143480531
+      },
+      {
+        "E_union_vacia": 7,
+        "componente_convencion": 0.21212121212121213,
+        "componente_genuina": 0.1233589557003348,
+        "dif_vs_bundle": 0.0,
+        "media_genuinos": 0.15657098223504032,
+        "n_genuinos": 26,
+        "n_half_a": 8186,
+        "n_half_b": 8186,
+        "perts_union_vacia": [
+          "H1F0",
+          "HERC5",
+          "ID2",
+          "IRF1",
+          "MAP3K14",
+          "RAP1GAP",
+          "TRAFD1"
+        ],
+        "seed": 2642120001,
+        "split_index": 4,
+        "suma_genuinos": 4.070845538111048,
+        "valor_del_bundle": 0.3354801678215469,
+        "valor_recomputado": 0.3354801678215469
+      }
+    ]
+  },
+  "HT29": {
+    "max_dif_vs_bundle": 5.551115123125783e-17,
+    "r_convencion_media": 0.1878787878787879,
+    "r_convencion_sd": 0.055546372060070785,
+    "r_crudo_media": 0.2721162219457849,
+    "r_crudo_sd": 0.05847800378529678,
+    "r_genuina_media": 0.08423743406699696,
+    "r_genuina_sd": 0.014006205655449059,
+    "splits": [
+      {
+        "E_union_vacia": 8,
+        "componente_convencion": 0.24242424242424243,
+        "componente_genuina": 0.0804400489934889,
+        "dif_vs_bundle": 0.0,
+        "media_genuinos": 0.10618086467140536,
+        "n_genuinos": 25,
+        "n_half_a": 7968,
+        "n_half_b": 7968,
+        "perts_union_vacia": [
+          "BRD9",
+          "ELK1",
+          "ETS1",
+          "HERC5",
+          "IRF1",
+          "IRF7",
+          "SOCS1",
+          "STAT4"
+        ],
+        "por_pert": {
+          "AKT1": {
+            "jac": 0.0,
+            "n_DE_pred": 2,
+            "n_DE_real": 1,
+            "n_DE_union": 3
+          },
+          "BATF2": {
+            "jac": 0.0,
+            "n_DE_pred": 2,
+            "n_DE_real": 0,
+            "n_DE_union": 2
+          },
+          "BRD9": {
+            "jac": 1.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 0,
+            "n_DE_union": 0
+          },
+          "CEBPG": {
+            "jac": 0.1,
+            "n_DE_pred": 3,
+            "n_DE_real": 8,
+            "n_DE_union": 10
+          },
+          "DTX3L": {
+            "jac": 0.1111111111111111,
+            "n_DE_pred": 3,
+            "n_DE_real": 7,
+            "n_DE_union": 9
+          },
+          "ELK1": {
+            "jac": 1.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 0,
+            "n_DE_union": 0
+          },
+          "ETS1": {
+            "jac": 1.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 0,
+            "n_DE_union": 0
+          },
+          "ETS2": {
+            "jac": 0.09523809523809523,
+            "n_DE_pred": 42,
+            "n_DE_real": 50,
+            "n_DE_union": 84
+          },
+          "H1F0": {
+            "jac": 0.0,
+            "n_DE_pred": 3,
+            "n_DE_real": 2,
+            "n_DE_union": 5
+          },
+          "HERC5": {
+            "jac": 1.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 0,
+            "n_DE_union": 0
+          },
+          "HERC6": {
+            "jac": 0.0,
+            "n_DE_pred": 1,
+            "n_DE_real": 5,
+            "n_DE_union": 6
+          },
+          "ID2": {
+            "jac": 0.3,
+            "n_DE_pred": 9,
+            "n_DE_real": 4,
+            "n_DE_union": 10
+          },
+          "IFNAR1": {
+            "jac": 0.4362745098039216,
+            "n_DE_pred": 161,
+            "n_DE_real": 132,
+            "n_DE_union": 204
+          },
+          "IFNAR2": {
+            "jac": 0.3180778032036613,
+            "n_DE_pred": 356,
+            "n_DE_real": 220,
+            "n_DE_union": 437
+          },
+          "IRF1": {
+            "jac": 1.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 0,
+            "n_DE_union": 0
+          },
+          "IRF7": {
+            "jac": 1.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 0,
+            "n_DE_union": 0
+          },
+          "JAK1": {
+            "jac": 0.41237113402061853,
+            "n_DE_pred": 215,
+            "n_DE_real": 196,
+            "n_DE_union": 291
+          },
+          "JUN": {
+            "jac": 0.0,
+            "n_DE_pred": 16,
+            "n_DE_real": 3,
+            "n_DE_union": 19
+          },
+          "MAP3K14": {
+            "jac": 0.0,
+            "n_DE_pred": 1,
+            "n_DE_real": 1,
+            "n_DE_union": 2
+          },
+          "MAPK8": {
+            "jac": 0.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 12,
+            "n_DE_union": 12
+          },
+          "PARP12": {
+            "jac": 0.0,
+            "n_DE_pred": 33,
+            "n_DE_real": 1,
+            "n_DE_union": 34
+          },
+          "RAP1GAP": {
+            "jac": 0.0,
+            "n_DE_pred": 2,
+            "n_DE_real": 0,
+            "n_DE_union": 2
+          },
+          "RNF114": {
+            "jac": 0.08333333333333333,
+            "n_DE_pred": 8,
+            "n_DE_real": 5,
+            "n_DE_union": 12
+          },
+          "SOCS1": {
+            "jac": 1.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 0,
+            "n_DE_union": 0
+          },
+          "SP100": {
+            "jac": 0.06666666666666667,
+            "n_DE_pred": 12,
+            "n_DE_real": 4,
+            "n_DE_union": 15
+          },
+          "STAT1": {
+            "jac": 0.24175824175824176,
+            "n_DE_pred": 89,
+            "n_DE_real": 137,
+            "n_DE_union": 182
+          },
+          "STAT3": {
+            "jac": 0.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 1,
+            "n_DE_union": 1
+          },
+          "STAT4": {
+            "jac": 1.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 0,
+            "n_DE_union": 0
+          },
+          "STAT5A": {
+            "jac": 0.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 1,
+            "n_DE_union": 1
+          },
+          "TRAFD1": {
+            "jac": 0.0,
+            "n_DE_pred": 3,
+            "n_DE_real": 4,
+            "n_DE_union": 7
+          },
+          "TYK2": {
+            "jac": 0.4896907216494845,
+            "n_DE_pred": 136,
+            "n_DE_real": 153,
+            "n_DE_union": 194
+          },
+          "VAV1": {
+            "jac": 0.0,
+            "n_DE_pred": 3,
+            "n_DE_real": 6,
+            "n_DE_union": 9
+          },
+          "ZBP1": {
+            "jac": 0.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 1,
+            "n_DE_union": 1
+          }
+        },
+        "seed": 2968811710,
+        "split_index": 0,
+        "suma_genuinos": 2.654521616785134,
+        "valor_del_bundle": 0.3228642914177313,
+        "valor_recomputado": 0.3228642914177313
+      },
+      {
+        "E_union_vacia": 6,
+        "componente_convencion": 0.18181818181818182,
+        "componente_genuina": 0.11087530082835921,
+        "dif_vs_bundle": 0.0,
+        "media_genuinos": 0.1355142565679946,
+        "n_genuinos": 27,
+        "n_half_a": 7968,
+        "n_half_b": 7968,
+        "perts_union_vacia": [
+          "HERC6",
+          "IRF1",
+          "IRF7",
+          "RAP1GAP",
+          "STAT5A",
+          "TRAFD1"
+        ],
+        "por_pert": {
+          "AKT1": {
+            "jac": 0.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 4,
+            "n_DE_union": 4
+          },
+          "BATF2": {
+            "jac": 0.0,
+            "n_DE_pred": 3,
+            "n_DE_real": 3,
+            "n_DE_union": 6
+          },
+          "BRD9": {
+            "jac": 0.0,
+            "n_DE_pred": 1,
+            "n_DE_real": 0,
+            "n_DE_union": 1
+          },
+          "CEBPG": {
+            "jac": 1.0,
+            "n_DE_pred": 1,
+            "n_DE_real": 1,
+            "n_DE_union": 1
+          },
+          "DTX3L": {
+            "jac": 0.16666666666666666,
+            "n_DE_pred": 2,
+            "n_DE_real": 5,
+            "n_DE_union": 6
+          },
+          "ELK1": {
+            "jac": 0.0,
+            "n_DE_pred": 1,
+            "n_DE_real": 0,
+            "n_DE_union": 1
+          },
+          "ETS1": {
+            "jac": 0.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 8,
+            "n_DE_union": 8
+          },
+          "ETS2": {
+            "jac": 0.11538461538461539,
+            "n_DE_pred": 33,
+            "n_DE_real": 25,
+            "n_DE_union": 52
+          },
+          "H1F0": {
+            "jac": 0.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 24,
+            "n_DE_union": 24
+          },
+          "HERC5": {
+            "jac": 0.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 8,
+            "n_DE_union": 8
+          },
+          "HERC6": {
+            "jac": 1.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 0,
+            "n_DE_union": 0
+          },
+          "ID2": {
+            "jac": 0.25,
+            "n_DE_pred": 5,
+            "n_DE_real": 5,
+            "n_DE_union": 8
+          },
+          "IFNAR1": {
+            "jac": 0.4354066985645933,
+            "n_DE_pred": 115,
+            "n_DE_real": 185,
+            "n_DE_union": 209
+          },
+          "IFNAR2": {
+            "jac": 0.3569553805774278,
+            "n_DE_pred": 268,
+            "n_DE_real": 249,
+            "n_DE_union": 381
+          },
+          "IRF1": {
+            "jac": 1.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 0,
+            "n_DE_union": 0
+          },
+          "IRF7": {
+            "jac": 1.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 0,
+            "n_DE_union": 0
+          },
+          "JAK1": {
+            "jac": 0.42142857142857143,
+            "n_DE_pred": 185,
+            "n_DE_real": 213,
+            "n_DE_union": 280
+          },
+          "JUN": {
+            "jac": 0.1,
+            "n_DE_pred": 5,
+            "n_DE_real": 6,
+            "n_DE_union": 10
+          },
+          "MAP3K14": {
+            "jac": 0.0,
+            "n_DE_pred": 4,
+            "n_DE_real": 1,
+            "n_DE_union": 5
+          },
+          "MAPK8": {
+            "jac": 0.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 2,
+            "n_DE_union": 2
+          },
+          "PARP12": {
+            "jac": 0.0,
+            "n_DE_pred": 2,
+            "n_DE_real": 122,
+            "n_DE_union": 124
+          },
+          "RAP1GAP": {
+            "jac": 1.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 0,
+            "n_DE_union": 0
+          },
+          "RNF114": {
+            "jac": 0.05555555555555555,
+            "n_DE_pred": 2,
+            "n_DE_real": 17,
+            "n_DE_union": 18
+          },
+          "SOCS1": {
+            "jac": 0.0,
+            "n_DE_pred": 1,
+            "n_DE_real": 7,
+            "n_DE_union": 8
+          },
+          "SP100": {
+            "jac": 0.16666666666666666,
+            "n_DE_pred": 5,
+            "n_DE_real": 2,
+            "n_DE_union": 6
+          },
+          "STAT1": {
+            "jac": 0.11931818181818182,
+            "n_DE_pred": 65,
+            "n_DE_real": 329,
+            "n_DE_union": 352
+          },
+          "STAT3": {
+            "jac": 0.0,
+            "n_DE_pred": 2,
+            "n_DE_real": 4,
+            "n_DE_union": 6
+          },
+          "STAT4": {
+            "jac": 0.0,
+            "n_DE_pred": 1,
+            "n_DE_real": 0,
+            "n_DE_union": 1
+          },
+          "STAT5A": {
+            "jac": 1.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 0,
+            "n_DE_union": 0
+          },
+          "TRAFD1": {
+            "jac": 1.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 0,
+            "n_DE_union": 0
+          },
+          "TYK2": {
+            "jac": 0.47150259067357514,
+            "n_DE_pred": 133,
+            "n_DE_real": 151,
+            "n_DE_union": 193
+          },
+          "VAV1": {
+            "jac": 0.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 8,
+            "n_DE_union": 8
+          },
+          "ZBP1": {
+            "jac": 0.0,
+            "n_DE_pred": 3,
+            "n_DE_real": 7,
+            "n_DE_union": 10
+          }
+        },
+        "seed": 3677149159,
+        "split_index": 1,
+        "suma_genuinos": 3.658884927335854,
+        "valor_del_bundle": 0.292693482646541,
+        "valor_recomputado": 0.292693482646541
+      },
+      {
+        "E_union_vacia": 6,
+        "componente_convencion": 0.18181818181818182,
+        "componente_genuina": 0.07000446793450572,
+        "dif_vs_bundle": 0.0,
+        "media_genuinos": 0.08556101636439589,
+        "n_genuinos": 27,
+        "n_half_a": 7968,
+        "n_half_b": 7968,
+        "perts_union_vacia": [
+          "AKT1",
+          "BATF2",
+          "IRF7",
+          "RAP1GAP",
+          "STAT4",
+          "TRAFD1"
+        ],
+        "por_pert": {
+          "AKT1": {
+            "jac": 1.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 0,
+            "n_DE_union": 0
+          },
+          "BATF2": {
+            "jac": 1.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 0,
+            "n_DE_union": 0
+          },
+          "BRD9": {
+            "jac": 0.0,
+            "n_DE_pred": 2,
+            "n_DE_real": 1,
+            "n_DE_union": 3
+          },
+          "CEBPG": {
+            "jac": 0.1,
+            "n_DE_pred": 10,
+            "n_DE_real": 1,
+            "n_DE_union": 10
+          },
+          "DTX3L": {
+            "jac": 0.25,
+            "n_DE_pred": 4,
+            "n_DE_real": 1,
+            "n_DE_union": 4
+          },
+          "ELK1": {
+            "jac": 0.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 2,
+            "n_DE_union": 2
+          },
+          "ETS1": {
+            "jac": 0.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 1,
+            "n_DE_union": 1
+          },
+          "ETS2": {
+            "jac": 0.06,
+            "n_DE_pred": 16,
+            "n_DE_real": 90,
+            "n_DE_union": 100
+          },
+          "H1F0": {
+            "jac": 0.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 15,
+            "n_DE_union": 15
+          },
+          "HERC5": {
+            "jac": 0.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 1,
+            "n_DE_union": 1
+          },
+          "HERC6": {
+            "jac": 0.0,
+            "n_DE_pred": 2,
+            "n_DE_real": 4,
+            "n_DE_union": 6
+          },
+          "ID2": {
+            "jac": 0.125,
+            "n_DE_pred": 10,
+            "n_DE_real": 8,
+            "n_DE_union": 16
+          },
+          "IFNAR1": {
+            "jac": 0.37344398340248963,
+            "n_DE_pred": 205,
+            "n_DE_real": 126,
+            "n_DE_union": 241
+          },
+          "IFNAR2": {
+            "jac": 0.35537190082644626,
+            "n_DE_pred": 227,
+            "n_DE_real": 265,
+            "n_DE_union": 363
+          },
+          "IRF1": {
+            "jac": 0.0,
+            "n_DE_pred": 1,
+            "n_DE_real": 1,
+            "n_DE_union": 2
+          },
+          "IRF7": {
+            "jac": 1.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 0,
+            "n_DE_union": 0
+          },
+          "JAK1": {
+            "jac": 0.40350877192982454,
+            "n_DE_pred": 205,
+            "n_DE_real": 195,
+            "n_DE_union": 285
+          },
+          "JUN": {
+            "jac": 0.0,
+            "n_DE_pred": 16,
+            "n_DE_real": 6,
+            "n_DE_union": 22
+          },
+          "MAP3K14": {
+            "jac": 0.0,
+            "n_DE_pred": 1,
+            "n_DE_real": 0,
+            "n_DE_union": 1
+          },
+          "MAPK8": {
+            "jac": 0.0,
+            "n_DE_pred": 2,
+            "n_DE_real": 8,
+            "n_DE_union": 10
+          },
+          "PARP12": {
+            "jac": 0.0,
+            "n_DE_pred": 1,
+            "n_DE_real": 33,
+            "n_DE_union": 34
+          },
+          "RAP1GAP": {
+            "jac": 1.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 0,
+            "n_DE_union": 0
+          },
+          "RNF114": {
+            "jac": 0.0,
+            "n_DE_pred": 23,
+            "n_DE_real": 7,
+            "n_DE_union": 30
+          },
+          "SOCS1": {
+            "jac": 0.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 4,
+            "n_DE_union": 4
+          },
+          "SP100": {
+            "jac": 0.018518518518518517,
+            "n_DE_pred": 54,
+            "n_DE_real": 1,
+            "n_DE_union": 54
+          },
+          "STAT1": {
+            "jac": 0.13945578231292516,
+            "n_DE_pred": 260,
+            "n_DE_real": 75,
+            "n_DE_union": 294
+          },
+          "STAT3": {
+            "jac": 0.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 1,
+            "n_DE_union": 1
+          },
+          "STAT4": {
+            "jac": 1.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 0,
+            "n_DE_union": 0
+          },
+          "STAT5A": {
+            "jac": 0.0,
+            "n_DE_pred": 2,
+            "n_DE_real": 15,
+            "n_DE_union": 17
+          },
+          "TRAFD1": {
+            "jac": 1.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 0,
+            "n_DE_union": 0
+          },
+          "TYK2": {
+            "jac": 0.48484848484848486,
+            "n_DE_pred": 149,
+            "n_DE_real": 145,
+            "n_DE_union": 198
+          },
+          "VAV1": {
+            "jac": 0.0,
+            "n_DE_pred": 4,
+            "n_DE_real": 2,
+            "n_DE_union": 6
+          },
+          "ZBP1": {
+            "jac": 0.0,
+            "n_DE_pred": 1,
+            "n_DE_real": 0,
+            "n_DE_union": 1
+          }
+        },
+        "seed": 745650761,
+        "split_index": 2,
+        "suma_genuinos": 2.310147441838689,
+        "valor_del_bundle": 0.25182264975268753,
+        "valor_recomputado": 0.25182264975268753
+      },
+      {
+        "E_union_vacia": 8,
+        "componente_convencion": 0.24242424242424243,
+        "componente_genuina": 0.082870589496624,
+        "dif_vs_bundle": 5.551115123125783e-17,
+        "media_genuinos": 0.10938917813554369,
+        "n_genuinos": 25,
+        "n_half_a": 7968,
+        "n_half_b": 7968,
+        "perts_union_vacia": [
+          "AKT1",
+          "BATF2",
+          "ELK1",
+          "ETS1",
+          "MAP3K14",
+          "RAP1GAP",
+          "STAT3",
+          "STAT4"
+        ],
+        "por_pert": {
+          "AKT1": {
+            "jac": 1.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 0,
+            "n_DE_union": 0
+          },
+          "BATF2": {
+            "jac": 1.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 0,
+            "n_DE_union": 0
+          },
+          "BRD9": {
+            "jac": 0.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 3,
+            "n_DE_union": 3
+          },
+          "CEBPG": {
+            "jac": 0.25,
+            "n_DE_pred": 2,
+            "n_DE_real": 3,
+            "n_DE_union": 4
+          },
+          "DTX3L": {
+            "jac": 0.05263157894736842,
+            "n_DE_pred": 8,
+            "n_DE_real": 12,
+            "n_DE_union": 19
+          },
+          "ELK1": {
+            "jac": 1.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 0,
+            "n_DE_union": 0
+          },
+          "ETS1": {
+            "jac": 1.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 0,
+            "n_DE_union": 0
+          },
+          "ETS2": {
+            "jac": 0.12,
+            "n_DE_pred": 32,
+            "n_DE_real": 52,
+            "n_DE_union": 75
+          },
+          "H1F0": {
+            "jac": 0.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 3,
+            "n_DE_union": 3
+          },
+          "HERC5": {
+            "jac": 0.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 1,
+            "n_DE_union": 1
+          },
+          "HERC6": {
+            "jac": 0.0,
+            "n_DE_pred": 4,
+            "n_DE_real": 2,
+            "n_DE_union": 6
+          },
+          "ID2": {
+            "jac": 0.36363636363636365,
+            "n_DE_pred": 9,
+            "n_DE_real": 6,
+            "n_DE_union": 11
+          },
+          "IFNAR1": {
+            "jac": 0.441747572815534,
+            "n_DE_pred": 161,
+            "n_DE_real": 136,
+            "n_DE_union": 206
+          },
+          "IFNAR2": {
+            "jac": 0.3506849315068493,
+            "n_DE_pred": 268,
+            "n_DE_real": 225,
+            "n_DE_union": 365
+          },
+          "IRF1": {
+            "jac": 0.0,
+            "n_DE_pred": 2,
+            "n_DE_real": 4,
+            "n_DE_union": 6
+          },
+          "IRF7": {
+            "jac": 0.0,
+            "n_DE_pred": 1,
+            "n_DE_real": 0,
+            "n_DE_union": 1
+          },
+          "JAK1": {
+            "jac": 0.3280757097791798,
+            "n_DE_pred": 189,
+            "n_DE_real": 232,
+            "n_DE_union": 317
+          },
+          "JUN": {
+            "jac": 0.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 5,
+            "n_DE_union": 5
+          },
+          "MAP3K14": {
+            "jac": 1.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 0,
+            "n_DE_union": 0
+          },
+          "MAPK8": {
+            "jac": 0.0,
+            "n_DE_pred": 2,
+            "n_DE_real": 6,
+            "n_DE_union": 8
+          },
+          "PARP12": {
+            "jac": 0.0,
+            "n_DE_pred": 1,
+            "n_DE_real": 10,
+            "n_DE_union": 11
+          },
+          "RAP1GAP": {
+            "jac": 1.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 0,
+            "n_DE_union": 0
+          },
+          "RNF114": {
+            "jac": 0.0,
+            "n_DE_pred": 1,
+            "n_DE_real": 3,
+            "n_DE_union": 4
+          },
+          "SOCS1": {
+            "jac": 0.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 7,
+            "n_DE_union": 7
+          },
+          "SP100": {
+            "jac": 0.14285714285714285,
+            "n_DE_pred": 1,
+            "n_DE_real": 7,
+            "n_DE_union": 7
+          },
+          "STAT1": {
+            "jac": 0.15384615384615385,
+            "n_DE_pred": 273,
+            "n_DE_real": 57,
+            "n_DE_union": 286
+          },
+          "STAT3": {
+            "jac": 1.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 0,
+            "n_DE_union": 0
+          },
+          "STAT4": {
+            "jac": 1.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 0,
+            "n_DE_union": 0
+          },
+          "STAT5A": {
+            "jac": 0.0,
+            "n_DE_pred": 1,
+            "n_DE_real": 2,
+            "n_DE_union": 3
+          },
+          "TRAFD1": {
+            "jac": 0.0,
+            "n_DE_pred": 1,
+            "n_DE_real": 0,
+            "n_DE_union": 1
+          },
+          "TYK2": {
+            "jac": 0.53125,
+            "n_DE_pred": 157,
+            "n_DE_real": 137,
+            "n_DE_union": 192
+          },
+          "VAV1": {
+            "jac": 0.0,
+            "n_DE_pred": 3,
+            "n_DE_real": 2,
+            "n_DE_union": 5
+          },
+          "ZBP1": {
+            "jac": 0.0,
+            "n_DE_pred": 2,
+            "n_DE_real": 2,
+            "n_DE_union": 4
+          }
+        },
+        "seed": 2884920346,
+        "split_index": 3,
+        "suma_genuinos": 2.734729453388592,
+        "valor_del_bundle": 0.32529483192086645,
+        "valor_recomputado": 0.3252948319208664
+      },
+      {
+        "E_union_vacia": 3,
+        "componente_convencion": 0.09090909090909091,
+        "componente_genuina": 0.076996763082007,
+        "dif_vs_bundle": 0.0,
+        "media_genuinos": 0.0846964393902077,
+        "n_genuinos": 30,
+        "n_half_a": 7968,
+        "n_half_b": 7968,
+        "perts_union_vacia": [
+          "RAP1GAP",
+          "STAT4",
+          "STAT5A"
+        ],
+        "por_pert": {
+          "AKT1": {
+            "jac": 0.0,
+            "n_DE_pred": 1,
+            "n_DE_real": 3,
+            "n_DE_union": 4
+          },
+          "BATF2": {
+            "jac": 0.0,
+            "n_DE_pred": 3,
+            "n_DE_real": 0,
+            "n_DE_union": 3
+          },
+          "BRD9": {
+            "jac": 0.0,
+            "n_DE_pred": 1,
+            "n_DE_real": 0,
+            "n_DE_union": 1
+          },
+          "CEBPG": {
+            "jac": 0.2,
+            "n_DE_pred": 4,
+            "n_DE_real": 2,
+            "n_DE_union": 5
+          },
+          "DTX3L": {
+            "jac": 0.14285714285714285,
+            "n_DE_pred": 7,
+            "n_DE_real": 1,
+            "n_DE_union": 7
+          },
+          "ELK1": {
+            "jac": 0.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 1,
+            "n_DE_union": 1
+          },
+          "ETS1": {
+            "jac": 0.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 4,
+            "n_DE_union": 4
+          },
+          "ETS2": {
+            "jac": 0.07142857142857142,
+            "n_DE_pred": 46,
+            "n_DE_real": 14,
+            "n_DE_union": 56
+          },
+          "H1F0": {
+            "jac": 0.0,
+            "n_DE_pred": 5,
+            "n_DE_real": 0,
+            "n_DE_union": 5
+          },
+          "HERC5": {
+            "jac": 0.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 1,
+            "n_DE_union": 1
+          },
+          "HERC6": {
+            "jac": 0.0,
+            "n_DE_pred": 1,
+            "n_DE_real": 1,
+            "n_DE_union": 2
+          },
+          "ID2": {
+            "jac": 0.21052631578947367,
+            "n_DE_pred": 17,
+            "n_DE_real": 6,
+            "n_DE_union": 19
+          },
+          "IFNAR1": {
+            "jac": 0.4258373205741627,
+            "n_DE_pred": 134,
+            "n_DE_real": 164,
+            "n_DE_union": 209
+          },
+          "IFNAR2": {
+            "jac": 0.35013262599469497,
+            "n_DE_pred": 274,
+            "n_DE_real": 235,
+            "n_DE_union": 377
+          },
+          "IRF1": {
+            "jac": 0.0,
+            "n_DE_pred": 2,
+            "n_DE_real": 0,
+            "n_DE_union": 2
+          },
+          "IRF7": {
+            "jac": 0.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 1,
+            "n_DE_union": 1
+          },
+          "JAK1": {
+            "jac": 0.4020979020979021,
+            "n_DE_pred": 202,
+            "n_DE_real": 199,
+            "n_DE_union": 286
+          },
+          "JUN": {
+            "jac": 0.0,
+            "n_DE_pred": 1,
+            "n_DE_real": 11,
+            "n_DE_union": 12
+          },
+          "MAP3K14": {
+            "jac": 0.0,
+            "n_DE_pred": 3,
+            "n_DE_real": 1,
+            "n_DE_union": 4
+          },
+          "MAPK8": {
+            "jac": 0.0,
+            "n_DE_pred": 1,
+            "n_DE_real": 3,
+            "n_DE_union": 4
+          },
+          "PARP12": {
+            "jac": 0.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 6,
+            "n_DE_union": 6
+          },
+          "RAP1GAP": {
+            "jac": 1.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 0,
+            "n_DE_union": 0
+          },
+          "RNF114": {
+            "jac": 0.0625,
+            "n_DE_pred": 5,
+            "n_DE_real": 12,
+            "n_DE_union": 16
+          },
+          "SOCS1": {
+            "jac": 0.0,
+            "n_DE_pred": 13,
+            "n_DE_real": 1,
+            "n_DE_union": 14
+          },
+          "SP100": {
+            "jac": 0.0,
+            "n_DE_pred": 1,
+            "n_DE_real": 5,
+            "n_DE_union": 6
+          },
+          "STAT1": {
+            "jac": 0.1728395061728395,
+            "n_DE_pred": 221,
+            "n_DE_real": 64,
+            "n_DE_union": 243
+          },
+          "STAT3": {
+            "jac": 0.0,
+            "n_DE_pred": 1,
+            "n_DE_real": 3,
+            "n_DE_union": 4
+          },
+          "STAT4": {
+            "jac": 1.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 0,
+            "n_DE_union": 0
+          },
+          "STAT5A": {
+            "jac": 1.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 0,
+            "n_DE_union": 0
+          },
+          "TRAFD1": {
+            "jac": 0.0,
+            "n_DE_pred": 2,
+            "n_DE_real": 0,
+            "n_DE_union": 2
+          },
+          "TYK2": {
+            "jac": 0.5026737967914439,
+            "n_DE_pred": 142,
+            "n_DE_real": 139,
+            "n_DE_union": 187
+          },
+          "VAV1": {
+            "jac": 0.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 4,
+            "n_DE_union": 4
+          },
+          "ZBP1": {
+            "jac": 0.0,
+            "n_DE_pred": 2,
+            "n_DE_real": 8,
+            "n_DE_union": 10
+          }
+        },
+        "seed": 2642120001,
+        "split_index": 4,
+        "suma_genuinos": 2.540893181706231,
+        "valor_del_bundle": 0.16790585399109792,
+        "valor_recomputado": 0.16790585399109792
+      }
+    ]
+  },
+  "K562": {
+    "max_dif_vs_bundle": 1.1102230246251565e-16,
+    "r_convencion_media": 0.36363636363636365,
+    "r_convencion_sd": 0.06356417261637282,
+    "r_crudo_media": 0.4899956300928854,
+    "r_crudo_sd": 0.06788744562594046,
+    "r_genuina_media": 0.1263592664565218,
+    "r_genuina_sd": 0.019366151381717017,
+    "splits": [
+      {
+        "E_union_vacia": 10,
+        "componente_convencion": 0.30303030303030304,
+        "componente_genuina": 0.13040249547592433,
+        "dif_vs_bundle": 5.551115123125783e-17,
+        "media_genuinos": 0.1870992326393697,
+        "n_genuinos": 23,
+        "n_half_a": 7299,
+        "n_half_b": 7299,
+        "perts_union_vacia": [
+          "CEBPG",
+          "H1F0",
+          "HERC5",
+          "IRF1",
+          "MAPK8",
+          "RAP1GAP",
+          "RNF114",
+          "TRAFD1",
+          "VAV1",
+          "ZBP1"
+        ],
+        "por_pert": {
+          "AKT1": {
+            "jac": 0.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 1,
+            "n_DE_union": 1
+          },
+          "BATF2": {
+            "jac": 0.5,
+            "n_DE_pred": 1,
+            "n_DE_real": 2,
+            "n_DE_union": 2
+          },
+          "BRD9": {
+            "jac": 0.0,
+            "n_DE_pred": 11,
+            "n_DE_real": 0,
+            "n_DE_union": 11
+          },
+          "CEBPG": {
+            "jac": 1.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 0,
+            "n_DE_union": 0
+          },
+          "DTX3L": {
+            "jac": 1.0,
+            "n_DE_pred": 1,
+            "n_DE_real": 1,
+            "n_DE_union": 1
+          },
+          "ELK1": {
+            "jac": 0.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 9,
+            "n_DE_union": 9
+          },
+          "ETS1": {
+            "jac": 0.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 5,
+            "n_DE_union": 5
+          },
+          "ETS2": {
+            "jac": 0.07692307692307693,
+            "n_DE_pred": 5,
+            "n_DE_real": 9,
+            "n_DE_union": 13
+          },
+          "H1F0": {
+            "jac": 1.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 0,
+            "n_DE_union": 0
+          },
+          "HERC5": {
+            "jac": 1.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 0,
+            "n_DE_union": 0
+          },
+          "HERC6": {
+            "jac": 0.0,
+            "n_DE_pred": 1,
+            "n_DE_real": 1,
+            "n_DE_union": 2
+          },
+          "ID2": {
+            "jac": 0.0,
+            "n_DE_pred": 3,
+            "n_DE_real": 0,
+            "n_DE_union": 3
+          },
+          "IFNAR1": {
+            "jac": 0.4953271028037383,
+            "n_DE_pred": 76,
+            "n_DE_real": 84,
+            "n_DE_union": 107
+          },
+          "IFNAR2": {
+            "jac": 0.2517985611510791,
+            "n_DE_pred": 238,
+            "n_DE_real": 110,
+            "n_DE_union": 278
+          },
+          "IRF1": {
+            "jac": 1.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 0,
+            "n_DE_union": 0
+          },
+          "IRF7": {
+            "jac": 0.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 4,
+            "n_DE_union": 4
+          },
+          "JAK1": {
+            "jac": 0.33098591549295775,
+            "n_DE_pred": 127,
+            "n_DE_real": 62,
+            "n_DE_union": 142
+          },
+          "JUN": {
+            "jac": 0.0,
+            "n_DE_pred": 4,
+            "n_DE_real": 0,
+            "n_DE_union": 4
+          },
+          "MAP3K14": {
+            "jac": 0.0,
+            "n_DE_pred": 2,
+            "n_DE_real": 0,
+            "n_DE_union": 2
+          },
+          "MAPK8": {
+            "jac": 1.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 0,
+            "n_DE_union": 0
+          },
+          "PARP12": {
+            "jac": 0.0,
+            "n_DE_pred": 2,
+            "n_DE_real": 0,
+            "n_DE_union": 2
+          },
+          "RAP1GAP": {
+            "jac": 1.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 0,
+            "n_DE_union": 0
+          },
+          "RNF114": {
+            "jac": 1.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 0,
+            "n_DE_union": 0
+          },
+          "SOCS1": {
+            "jac": 0.0,
+            "n_DE_pred": 1,
+            "n_DE_real": 0,
+            "n_DE_union": 1
+          },
+          "SP100": {
+            "jac": 1.0,
+            "n_DE_pred": 1,
+            "n_DE_real": 1,
+            "n_DE_union": 1
+          },
+          "STAT1": {
+            "jac": 0.2318840579710145,
+            "n_DE_pred": 51,
+            "n_DE_real": 34,
+            "n_DE_union": 69
+          },
+          "STAT3": {
+            "jac": 0.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 1,
+            "n_DE_union": 1
+          },
+          "STAT4": {
+            "jac": 0.0,
+            "n_DE_pred": 2,
+            "n_DE_real": 0,
+            "n_DE_union": 2
+          },
+          "STAT5A": {
+            "jac": 0.13636363636363635,
+            "n_DE_pred": 20,
+            "n_DE_real": 5,
+            "n_DE_union": 22
+          },
+          "TRAFD1": {
+            "jac": 1.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 0,
+            "n_DE_union": 0
+          },
+          "TYK2": {
+            "jac": 0.28,
+            "n_DE_pred": 103,
+            "n_DE_real": 57,
+            "n_DE_union": 125
+          },
+          "VAV1": {
+            "jac": 1.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 0,
+            "n_DE_union": 0
+          },
+          "ZBP1": {
+            "jac": 1.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 0,
+            "n_DE_union": 0
+          }
+        },
+        "seed": 2968811710,
+        "split_index": 0,
+        "suma_genuinos": 4.303282350705503,
+        "valor_del_bundle": 0.43343279850622735,
+        "valor_recomputado": 0.4334327985062273
+      },
+      {
+        "E_union_vacia": 14,
+        "componente_convencion": 0.42424242424242425,
+        "componente_genuina": 0.14940422749143592,
+        "dif_vs_bundle": 1.1102230246251565e-16,
+        "media_genuinos": 0.25949155301144133,
+        "n_genuinos": 19,
+        "n_half_a": 7299,
+        "n_half_b": 7299,
+        "perts_union_vacia": [
+          "AKT1",
+          "CEBPG",
+          "H1F0",
+          "HERC5",
+          "HERC6",
+          "IRF1",
+          "MAP3K14",
+          "PARP12",
+          "SOCS1",
+          "STAT3",
+          "STAT4",
+          "TRAFD1",
+          "VAV1",
+          "ZBP1"
+        ],
+        "por_pert": {
+          "AKT1": {
+            "jac": 1.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 0,
+            "n_DE_union": 0
+          },
+          "BATF2": {
+            "jac": 0.3333333333333333,
+            "n_DE_pred": 1,
+            "n_DE_real": 3,
+            "n_DE_union": 3
+          },
+          "BRD9": {
+            "jac": 0.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 4,
+            "n_DE_union": 4
+          },
+          "CEBPG": {
+            "jac": 1.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 0,
+            "n_DE_union": 0
+          },
+          "DTX3L": {
+            "jac": 1.0,
+            "n_DE_pred": 1,
+            "n_DE_real": 1,
+            "n_DE_union": 1
+          },
+          "ELK1": {
+            "jac": 0.2,
+            "n_DE_pred": 2,
+            "n_DE_real": 4,
+            "n_DE_union": 5
+          },
+          "ETS1": {
+            "jac": 0.0,
+            "n_DE_pred": 1,
+            "n_DE_real": 0,
+            "n_DE_union": 1
+          },
+          "ETS2": {
+            "jac": 0.2727272727272727,
+            "n_DE_pred": 4,
+            "n_DE_real": 10,
+            "n_DE_union": 11
+          },
+          "H1F0": {
+            "jac": 1.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 0,
+            "n_DE_union": 0
+          },
+          "HERC5": {
+            "jac": 1.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 0,
+            "n_DE_union": 0
+          },
+          "HERC6": {
+            "jac": 1.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 0,
+            "n_DE_union": 0
+          },
+          "ID2": {
+            "jac": 0.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 1,
+            "n_DE_union": 1
+          },
+          "IFNAR1": {
+            "jac": 0.4778761061946903,
+            "n_DE_pred": 86,
+            "n_DE_real": 81,
+            "n_DE_union": 113
+          },
+          "IFNAR2": {
+            "jac": 0.4,
+            "n_DE_pred": 89,
+            "n_DE_real": 135,
+            "n_DE_union": 160
+          },
+          "IRF1": {
+            "jac": 1.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 0,
+            "n_DE_union": 0
+          },
+          "IRF7": {
+            "jac": 0.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 5,
+            "n_DE_union": 5
+          },
+          "JAK1": {
+            "jac": 0.5443037974683544,
+            "n_DE_pred": 52,
+            "n_DE_real": 70,
+            "n_DE_union": 79
+          },
+          "JUN": {
+            "jac": 0.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 1,
+            "n_DE_union": 1
+          },
+          "MAP3K14": {
+            "jac": 1.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 0,
+            "n_DE_union": 0
+          },
+          "MAPK8": {
+            "jac": 0.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 1,
+            "n_DE_union": 1
+          },
+          "PARP12": {
+            "jac": 1.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 0,
+            "n_DE_union": 0
+          },
+          "RAP1GAP": {
+            "jac": 0.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 1,
+            "n_DE_union": 1
+          },
+          "RNF114": {
+            "jac": 0.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 1,
+            "n_DE_union": 1
+          },
+          "SOCS1": {
+            "jac": 1.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 0,
+            "n_DE_union": 0
+          },
+          "SP100": {
+            "jac": 1.0,
+            "n_DE_pred": 1,
+            "n_DE_real": 1,
+            "n_DE_union": 1
+          },
+          "STAT1": {
+            "jac": 0.3157894736842105,
+            "n_DE_pred": 27,
+            "n_DE_real": 23,
+            "n_DE_union": 38
+          },
+          "STAT3": {
+            "jac": 1.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 0,
+            "n_DE_union": 0
+          },
+          "STAT4": {
+            "jac": 1.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 0,
+            "n_DE_union": 0
+          },
+          "STAT5A": {
+            "jac": 0.0625,
+            "n_DE_pred": 29,
+            "n_DE_real": 5,
+            "n_DE_union": 32
+          },
+          "TRAFD1": {
+            "jac": 1.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 0,
+            "n_DE_union": 0
+          },
+          "TYK2": {
+            "jac": 0.3238095238095238,
+            "n_DE_pred": 61,
+            "n_DE_real": 78,
+            "n_DE_union": 105
+          },
+          "VAV1": {
+            "jac": 1.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 0,
+            "n_DE_union": 0
+          },
+          "ZBP1": {
+            "jac": 1.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 0,
+            "n_DE_union": 0
+          }
+        },
+        "seed": 3677149159,
+        "split_index": 1,
+        "suma_genuinos": 4.9303395072173855,
+        "valor_del_bundle": 0.5736466517338602,
+        "valor_recomputado": 0.5736466517338601
+      },
+      {
+        "E_union_vacia": 10,
+        "componente_convencion": 0.30303030303030304,
+        "componente_genuina": 0.14046673661732476,
+        "dif_vs_bundle": 0.0,
+        "media_genuinos": 0.20153923079877029,
+        "n_genuinos": 23,
+        "n_half_a": 7299,
+        "n_half_b": 7299,
+        "perts_union_vacia": [
+          "AKT1",
+          "HERC5",
+          "ID2",
+          "MAP3K14",
+          "MAPK8",
+          "PARP12",
+          "RAP1GAP",
+          "STAT4",
+          "VAV1",
+          "ZBP1"
+        ],
+        "por_pert": {
+          "AKT1": {
+            "jac": 1.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 0,
+            "n_DE_union": 0
+          },
+          "BATF2": {
+            "jac": 0.125,
+            "n_DE_pred": 7,
+            "n_DE_real": 2,
+            "n_DE_union": 8
+          },
+          "BRD9": {
+            "jac": 0.0,
+            "n_DE_pred": 1,
+            "n_DE_real": 3,
+            "n_DE_union": 4
+          },
+          "CEBPG": {
+            "jac": 0.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 1,
+            "n_DE_union": 1
+          },
+          "DTX3L": {
+            "jac": 1.0,
+            "n_DE_pred": 1,
+            "n_DE_real": 1,
+            "n_DE_union": 1
+          },
+          "ELK1": {
+            "jac": 0.25,
+            "n_DE_pred": 7,
+            "n_DE_real": 3,
+            "n_DE_union": 8
+          },
+          "ETS1": {
+            "jac": 0.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 5,
+            "n_DE_union": 5
+          },
+          "ETS2": {
+            "jac": 0.07692307692307693,
+            "n_DE_pred": 8,
+            "n_DE_real": 6,
+            "n_DE_union": 13
+          },
+          "H1F0": {
+            "jac": 0.0,
+            "n_DE_pred": 2,
+            "n_DE_real": 1,
+            "n_DE_union": 3
+          },
+          "HERC5": {
+            "jac": 1.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 0,
+            "n_DE_union": 0
+          },
+          "HERC6": {
+            "jac": 0.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 1,
+            "n_DE_union": 1
+          },
+          "ID2": {
+            "jac": 1.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 0,
+            "n_DE_union": 0
+          },
+          "IFNAR1": {
+            "jac": 0.43119266055045874,
+            "n_DE_pred": 75,
+            "n_DE_real": 81,
+            "n_DE_union": 109
+          },
+          "IFNAR2": {
+            "jac": 0.38011695906432746,
+            "n_DE_pred": 111,
+            "n_DE_real": 125,
+            "n_DE_union": 171
+          },
+          "IRF1": {
+            "jac": 0.0,
+            "n_DE_pred": 1,
+            "n_DE_real": 4,
+            "n_DE_union": 5
+          },
+          "IRF7": {
+            "jac": 0.0,
+            "n_DE_pred": 2,
+            "n_DE_real": 1,
+            "n_DE_union": 3
+          },
+          "JAK1": {
+            "jac": 0.43119266055045874,
+            "n_DE_pred": 92,
+            "n_DE_real": 64,
+            "n_DE_union": 109
+          },
+          "JUN": {
+            "jac": 0.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 2,
+            "n_DE_union": 2
+          },
+          "MAP3K14": {
+            "jac": 1.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 0,
+            "n_DE_union": 0
+          },
+          "MAPK8": {
+            "jac": 1.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 0,
+            "n_DE_union": 0
+          },
+          "PARP12": {
+            "jac": 1.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 0,
+            "n_DE_union": 0
+          },
+          "RAP1GAP": {
+            "jac": 1.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 0,
+            "n_DE_union": 0
+          },
+          "RNF114": {
+            "jac": 0.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 1,
+            "n_DE_union": 1
+          },
+          "SOCS1": {
+            "jac": 0.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 1,
+            "n_DE_union": 1
+          },
+          "SP100": {
+            "jac": 1.0,
+            "n_DE_pred": 1,
+            "n_DE_real": 1,
+            "n_DE_union": 1
+          },
+          "STAT1": {
+            "jac": 0.425,
+            "n_DE_pred": 20,
+            "n_DE_real": 37,
+            "n_DE_union": 40
+          },
+          "STAT3": {
+            "jac": 0.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 1,
+            "n_DE_union": 1
+          },
+          "STAT4": {
+            "jac": 1.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 0,
+            "n_DE_union": 0
+          },
+          "STAT5A": {
+            "jac": 0.13043478260869565,
+            "n_DE_pred": 17,
+            "n_DE_real": 9,
+            "n_DE_union": 23
+          },
+          "TRAFD1": {
+            "jac": 0.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 2,
+            "n_DE_union": 2
+          },
+          "TYK2": {
+            "jac": 0.3855421686746988,
+            "n_DE_pred": 50,
+            "n_DE_real": 65,
+            "n_DE_union": 83
+          },
+          "VAV1": {
+            "jac": 1.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 0,
+            "n_DE_union": 0
+          },
+          "ZBP1": {
+            "jac": 1.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 0,
+            "n_DE_union": 0
+          }
+        },
+        "seed": 745650761,
+        "split_index": 2,
+        "suma_genuinos": 4.635402308371717,
+        "valor_del_bundle": 0.44349703964762777,
+        "valor_recomputado": 0.44349703964762777
+      },
+      {
+        "E_union_vacia": 11,
+        "componente_convencion": 0.3333333333333333,
+        "componente_genuina": 0.09392380056143863,
+        "dif_vs_bundle": 5.551115123125783e-17,
+        "media_genuinos": 0.14088570084215796,
+        "n_genuinos": 22,
+        "n_half_a": 7299,
+        "n_half_b": 7299,
+        "perts_union_vacia": [
+          "HERC6",
+          "IRF1",
+          "JUN",
+          "MAP3K14",
+          "PARP12",
+          "RAP1GAP",
+          "RNF114",
+          "SOCS1",
+          "STAT4",
+          "VAV1",
+          "ZBP1"
+        ],
+        "por_pert": {
+          "AKT1": {
+            "jac": 0.0,
+            "n_DE_pred": 2,
+            "n_DE_real": 0,
+            "n_DE_union": 2
+          },
+          "BATF2": {
+            "jac": 0.5,
+            "n_DE_pred": 1,
+            "n_DE_real": 2,
+            "n_DE_union": 2
+          },
+          "BRD9": {
+            "jac": 0.0,
+            "n_DE_pred": 3,
+            "n_DE_real": 3,
+            "n_DE_union": 6
+          },
+          "CEBPG": {
+            "jac": 0.0,
+            "n_DE_pred": 1,
+            "n_DE_real": 0,
+            "n_DE_union": 1
+          },
+          "DTX3L": {
+            "jac": 0.5,
+            "n_DE_pred": 1,
+            "n_DE_real": 2,
+            "n_DE_union": 2
+          },
+          "ELK1": {
+            "jac": 0.0625,
+            "n_DE_pred": 14,
+            "n_DE_real": 3,
+            "n_DE_union": 16
+          },
+          "ETS1": {
+            "jac": 0.0,
+            "n_DE_pred": 2,
+            "n_DE_real": 0,
+            "n_DE_union": 2
+          },
+          "ETS2": {
+            "jac": 0.07692307692307693,
+            "n_DE_pred": 12,
+            "n_DE_real": 2,
+            "n_DE_union": 13
+          },
+          "H1F0": {
+            "jac": 0.0,
+            "n_DE_pred": 1,
+            "n_DE_real": 0,
+            "n_DE_union": 1
+          },
+          "HERC5": {
+            "jac": 0.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 2,
+            "n_DE_union": 2
+          },
+          "HERC6": {
+            "jac": 1.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 0,
+            "n_DE_union": 0
+          },
+          "ID2": {
+            "jac": 0.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 2,
+            "n_DE_union": 2
+          },
+          "IFNAR1": {
+            "jac": 0.4153846153846154,
+            "n_DE_pred": 99,
+            "n_DE_real": 85,
+            "n_DE_union": 130
+          },
+          "IFNAR2": {
+            "jac": 0.375,
+            "n_DE_pred": 137,
+            "n_DE_real": 94,
+            "n_DE_union": 168
+          },
+          "IRF1": {
+            "jac": 1.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 0,
+            "n_DE_union": 0
+          },
+          "IRF7": {
+            "jac": 0.0,
+            "n_DE_pred": 1,
+            "n_DE_real": 0,
+            "n_DE_union": 1
+          },
+          "JAK1": {
+            "jac": 0.43434343434343436,
+            "n_DE_pred": 75,
+            "n_DE_real": 67,
+            "n_DE_union": 99
+          },
+          "JUN": {
+            "jac": 1.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 0,
+            "n_DE_union": 0
+          },
+          "MAP3K14": {
+            "jac": 1.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 0,
+            "n_DE_union": 0
+          },
+          "MAPK8": {
+            "jac": 0.0,
+            "n_DE_pred": 2,
+            "n_DE_real": 0,
+            "n_DE_union": 2
+          },
+          "PARP12": {
+            "jac": 1.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 0,
+            "n_DE_union": 0
+          },
+          "RAP1GAP": {
+            "jac": 1.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 0,
+            "n_DE_union": 0
+          },
+          "RNF114": {
+            "jac": 1.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 0,
+            "n_DE_union": 0
+          },
+          "SOCS1": {
+            "jac": 1.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 0,
+            "n_DE_union": 0
+          },
+          "SP100": {
+            "jac": 0.0,
+            "n_DE_pred": 1,
+            "n_DE_real": 0,
+            "n_DE_union": 1
+          },
+          "STAT1": {
+            "jac": 0.35,
+            "n_DE_pred": 18,
+            "n_DE_real": 36,
+            "n_DE_union": 40
+          },
+          "STAT3": {
+            "jac": 0.0,
+            "n_DE_pred": 2,
+            "n_DE_real": 0,
+            "n_DE_union": 2
+          },
+          "STAT4": {
+            "jac": 1.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 0,
+            "n_DE_union": 0
+          },
+          "STAT5A": {
+            "jac": 0.07692307692307693,
+            "n_DE_pred": 11,
+            "n_DE_real": 17,
+            "n_DE_union": 26
+          },
+          "TRAFD1": {
+            "jac": 0.0,
+            "n_DE_pred": 1,
+            "n_DE_real": 0,
+            "n_DE_union": 1
+          },
+          "TYK2": {
+            "jac": 0.308411214953271,
+            "n_DE_pred": 87,
+            "n_DE_real": 53,
+            "n_DE_union": 107
+          },
+          "VAV1": {
+            "jac": 1.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 0,
+            "n_DE_union": 0
+          },
+          "ZBP1": {
+            "jac": 1.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 0,
+            "n_DE_union": 0
+          }
+        },
+        "seed": 2884920346,
+        "split_index": 3,
+        "suma_genuinos": 3.099485418527475,
+        "valor_del_bundle": 0.427257133894772,
+        "valor_recomputado": 0.42725713389477193
+      },
+      {
+        "E_union_vacia": 15,
+        "componente_convencion": 0.45454545454545453,
+        "componente_genuina": 0.1175990721364852,
+        "dif_vs_bundle": 0.0,
+        "media_genuinos": 0.21559829891688953,
+        "n_genuinos": 18,
+        "n_half_a": 7299,
+        "n_half_b": 7299,
+        "perts_union_vacia": [
+          "CEBPG",
+          "H1F0",
+          "HERC5",
+          "HERC6",
+          "IRF1",
+          "MAP3K14",
+          "MAPK8",
+          "RAP1GAP",
+          "RNF114",
+          "SOCS1",
+          "STAT3",
+          "STAT4",
+          "TRAFD1",
+          "VAV1",
+          "ZBP1"
+        ],
+        "por_pert": {
+          "AKT1": {
+            "jac": 0.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 1,
+            "n_DE_union": 1
+          },
+          "BATF2": {
+            "jac": 1.0,
+            "n_DE_pred": 1,
+            "n_DE_real": 1,
+            "n_DE_union": 1
+          },
+          "BRD9": {
+            "jac": 0.0,
+            "n_DE_pred": 4,
+            "n_DE_real": 0,
+            "n_DE_union": 4
+          },
+          "CEBPG": {
+            "jac": 1.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 0,
+            "n_DE_union": 0
+          },
+          "DTX3L": {
+            "jac": 0.5,
+            "n_DE_pred": 2,
+            "n_DE_real": 1,
+            "n_DE_union": 2
+          },
+          "ELK1": {
+            "jac": 0.0,
+            "n_DE_pred": 3,
+            "n_DE_real": 2,
+            "n_DE_union": 5
+          },
+          "ETS1": {
+            "jac": 0.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 2,
+            "n_DE_union": 2
+          },
+          "ETS2": {
+            "jac": 0.17647058823529413,
+            "n_DE_pred": 9,
+            "n_DE_real": 11,
+            "n_DE_union": 17
+          },
+          "H1F0": {
+            "jac": 1.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 0,
+            "n_DE_union": 0
+          },
+          "HERC5": {
+            "jac": 1.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 0,
+            "n_DE_union": 0
+          },
+          "HERC6": {
+            "jac": 1.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 0,
+            "n_DE_union": 0
+          },
+          "ID2": {
+            "jac": 0.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 1,
+            "n_DE_union": 1
+          },
+          "IFNAR1": {
+            "jac": 0.4473684210526316,
+            "n_DE_pred": 78,
+            "n_DE_real": 87,
+            "n_DE_union": 114
+          },
+          "IFNAR2": {
+            "jac": 0.43537414965986393,
+            "n_DE_pred": 92,
+            "n_DE_real": 119,
+            "n_DE_union": 147
+          },
+          "IRF1": {
+            "jac": 1.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 0,
+            "n_DE_union": 0
+          },
+          "IRF7": {
+            "jac": 0.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 3,
+            "n_DE_union": 3
+          },
+          "JAK1": {
+            "jac": 0.42424242424242425,
+            "n_DE_pred": 84,
+            "n_DE_real": 57,
+            "n_DE_union": 99
+          },
+          "JUN": {
+            "jac": 0.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 2,
+            "n_DE_union": 2
+          },
+          "MAP3K14": {
+            "jac": 1.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 0,
+            "n_DE_union": 0
+          },
+          "MAPK8": {
+            "jac": 1.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 0,
+            "n_DE_union": 0
+          },
+          "PARP12": {
+            "jac": 0.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 1,
+            "n_DE_union": 1
+          },
+          "RAP1GAP": {
+            "jac": 1.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 0,
+            "n_DE_union": 0
+          },
+          "RNF114": {
+            "jac": 1.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 0,
+            "n_DE_union": 0
+          },
+          "SOCS1": {
+            "jac": 1.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 0,
+            "n_DE_union": 0
+          },
+          "SP100": {
+            "jac": 0.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 5,
+            "n_DE_union": 5
+          },
+          "STAT1": {
+            "jac": 0.45714285714285713,
+            "n_DE_pred": 28,
+            "n_DE_real": 23,
+            "n_DE_union": 35
+          },
+          "STAT3": {
+            "jac": 1.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 0,
+            "n_DE_union": 0
+          },
+          "STAT4": {
+            "jac": 1.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 0,
+            "n_DE_union": 0
+          },
+          "STAT5A": {
+            "jac": 0.05555555555555555,
+            "n_DE_pred": 15,
+            "n_DE_real": 4,
+            "n_DE_union": 18
+          },
+          "TRAFD1": {
+            "jac": 1.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 0,
+            "n_DE_union": 0
+          },
+          "TYK2": {
+            "jac": 0.38461538461538464,
+            "n_DE_pred": 64,
+            "n_DE_real": 62,
+            "n_DE_union": 91
+          },
+          "VAV1": {
+            "jac": 1.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 0,
+            "n_DE_union": 0
+          },
+          "ZBP1": {
+            "jac": 1.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 0,
+            "n_DE_union": 0
+          }
+        },
+        "seed": 2642120001,
+        "split_index": 4,
+        "suma_genuinos": 3.8807693805040113,
+        "valor_del_bundle": 0.5721445266819397,
+        "valor_recomputado": 0.5721445266819397
+      }
+    ]
+  },
+  "MCF7": {
+    "max_dif_vs_bundle": 1.3877787807814457e-17,
+    "r_convencion_media": 0.01818181818181818,
+    "r_convencion_sd": 0.024242424242424242,
+    "r_crudo_media": 0.07224314934793305,
+    "r_crudo_sd": 0.024236949564231853,
+    "r_genuina_media": 0.054061331166114855,
+    "r_genuina_sd": 0.0007840959893468795,
+    "splits": [
+      {
+        "E_union_vacia": 0,
+        "componente_convencion": 0.0,
+        "componente_genuina": 0.05290390760877192,
+        "dif_vs_bundle": 0.0,
+        "media_genuinos": 0.05290390760877192,
+        "n_genuinos": 33,
+        "n_half_a": 7934,
+        "n_half_b": 7934,
+        "perts_union_vacia": [],
+        "por_pert": {
+          "AKT1": {
+            "jac": 0.0,
+            "n_DE_pred": 112,
+            "n_DE_real": 2,
+            "n_DE_union": 114
+          },
+          "BATF2": {
+            "jac": 0.09302325581395349,
+            "n_DE_pred": 34,
+            "n_DE_real": 13,
+            "n_DE_union": 43
+          },
+          "BRD9": {
+            "jac": 0.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 20,
+            "n_DE_union": 20
+          },
+          "CEBPG": {
+            "jac": 0.0875,
+            "n_DE_pred": 30,
+            "n_DE_real": 57,
+            "n_DE_union": 80
+          },
+          "DTX3L": {
+            "jac": 0.02702702702702703,
+            "n_DE_pred": 7,
+            "n_DE_real": 31,
+            "n_DE_union": 37
+          },
+          "ELK1": {
+            "jac": 0.175,
+            "n_DE_pred": 55,
+            "n_DE_real": 39,
+            "n_DE_union": 80
+          },
+          "ETS1": {
+            "jac": 0.0,
+            "n_DE_pred": 63,
+            "n_DE_real": 1,
+            "n_DE_union": 64
+          },
+          "ETS2": {
+            "jac": 0.19230769230769232,
+            "n_DE_pred": 13,
+            "n_DE_real": 18,
+            "n_DE_union": 26
+          },
+          "H1F0": {
+            "jac": 0.0,
+            "n_DE_pred": 27,
+            "n_DE_real": 42,
+            "n_DE_union": 69
+          },
+          "HERC5": {
+            "jac": 0.03773584905660377,
+            "n_DE_pred": 21,
+            "n_DE_real": 254,
+            "n_DE_union": 265
+          },
+          "HERC6": {
+            "jac": 0.024390243902439025,
+            "n_DE_pred": 12,
+            "n_DE_real": 30,
+            "n_DE_union": 41
+          },
+          "ID2": {
+            "jac": 0.05486284289276808,
+            "n_DE_pred": 263,
+            "n_DE_real": 160,
+            "n_DE_union": 401
+          },
+          "IFNAR1": {
+            "jac": 0.32608695652173914,
+            "n_DE_pred": 306,
+            "n_DE_real": 365,
+            "n_DE_union": 506
+          },
+          "IFNAR2": {
+            "jac": 0.1192468619246862,
+            "n_DE_pred": 275,
+            "n_DE_real": 260,
+            "n_DE_union": 478
+          },
+          "IRF1": {
+            "jac": 0.07692307692307693,
+            "n_DE_pred": 10,
+            "n_DE_real": 46,
+            "n_DE_union": 52
+          },
+          "IRF7": {
+            "jac": 0.03968253968253968,
+            "n_DE_pred": 105,
+            "n_DE_real": 26,
+            "n_DE_union": 126
+          },
+          "JAK1": {
+            "jac": 0.0,
+            "n_DE_pred": 16,
+            "n_DE_real": 1,
+            "n_DE_union": 17
+          },
+          "JUN": {
+            "jac": 0.019417475728155338,
+            "n_DE_pred": 62,
+            "n_DE_real": 43,
+            "n_DE_union": 103
+          },
+          "MAP3K14": {
+            "jac": 0.014285714285714285,
+            "n_DE_pred": 56,
+            "n_DE_real": 15,
+            "n_DE_union": 70
+          },
+          "MAPK8": {
+            "jac": 0.06231454005934718,
+            "n_DE_pred": 640,
+            "n_DE_real": 76,
+            "n_DE_union": 674
+          },
+          "PARP12": {
+            "jac": 0.0,
+            "n_DE_pred": 7,
+            "n_DE_real": 0,
+            "n_DE_union": 7
+          },
+          "RAP1GAP": {
+            "jac": 0.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 5,
+            "n_DE_union": 5
+          },
+          "RNF114": {
+            "jac": 0.02197802197802198,
+            "n_DE_pred": 11,
+            "n_DE_real": 82,
+            "n_DE_union": 91
+          },
+          "SOCS1": {
+            "jac": 0.030612244897959183,
+            "n_DE_pred": 79,
+            "n_DE_real": 22,
+            "n_DE_union": 98
+          },
+          "SP100": {
+            "jac": 0.038461538461538464,
+            "n_DE_pred": 8,
+            "n_DE_real": 46,
+            "n_DE_union": 52
+          },
+          "STAT1": {
+            "jac": 0.0,
+            "n_DE_pred": 31,
+            "n_DE_real": 2,
+            "n_DE_union": 33
+          },
+          "STAT3": {
+            "jac": 0.0,
+            "n_DE_pred": 20,
+            "n_DE_real": 1,
+            "n_DE_union": 21
+          },
+          "STAT4": {
+            "jac": 0.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 5,
+            "n_DE_union": 5
+          },
+          "STAT5A": {
+            "jac": 0.013333333333333334,
+            "n_DE_pred": 14,
+            "n_DE_real": 62,
+            "n_DE_union": 75
+          },
+          "TRAFD1": {
+            "jac": 0.008995502248875561,
+            "n_DE_pred": 636,
+            "n_DE_real": 37,
+            "n_DE_union": 667
+          },
+          "TYK2": {
+            "jac": 0.21660649819494585,
+            "n_DE_pred": 382,
+            "n_DE_real": 292,
+            "n_DE_union": 554
+          },
+          "VAV1": {
+            "jac": 0.0660377358490566,
+            "n_DE_pred": 69,
+            "n_DE_real": 44,
+            "n_DE_union": 106
+          },
+          "ZBP1": {
+            "jac": 0.0,
+            "n_DE_pred": 262,
+            "n_DE_real": 2,
+            "n_DE_union": 264
+          }
+        },
+        "seed": 2968811710,
+        "split_index": 0,
+        "suma_genuinos": 1.7458289510894733,
+        "valor_del_bundle": 0.05290390760877192,
+        "valor_recomputado": 0.05290390760877192
+      },
+      {
+        "E_union_vacia": 2,
+        "componente_convencion": 0.06060606060606061,
+        "componente_genuina": 0.054066785566647124,
+        "dif_vs_bundle": 1.3877787807814457e-17,
+        "media_genuinos": 0.057554965280624364,
+        "n_genuinos": 31,
+        "n_half_a": 7934,
+        "n_half_b": 7934,
+        "perts_union_vacia": [
+          "RAP1GAP",
+          "STAT4"
+        ],
+        "por_pert": {
+          "AKT1": {
+            "jac": 0.0,
+            "n_DE_pred": 17,
+            "n_DE_real": 2,
+            "n_DE_union": 19
+          },
+          "BATF2": {
+            "jac": 0.078125,
+            "n_DE_pred": 50,
+            "n_DE_real": 19,
+            "n_DE_union": 64
+          },
+          "BRD9": {
+            "jac": 0.0,
+            "n_DE_pred": 5,
+            "n_DE_real": 0,
+            "n_DE_union": 5
+          },
+          "CEBPG": {
+            "jac": 0.05504587155963303,
+            "n_DE_pred": 14,
+            "n_DE_real": 101,
+            "n_DE_union": 109
+          },
+          "DTX3L": {
+            "jac": 0.058823529411764705,
+            "n_DE_pred": 14,
+            "n_DE_real": 4,
+            "n_DE_union": 17
+          },
+          "ELK1": {
+            "jac": 0.18309859154929578,
+            "n_DE_pred": 35,
+            "n_DE_real": 49,
+            "n_DE_union": 71
+          },
+          "ETS1": {
+            "jac": 0.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 35,
+            "n_DE_union": 35
+          },
+          "ETS2": {
+            "jac": 0.0,
+            "n_DE_pred": 23,
+            "n_DE_real": 2,
+            "n_DE_union": 25
+          },
+          "H1F0": {
+            "jac": 0.0,
+            "n_DE_pred": 66,
+            "n_DE_real": 11,
+            "n_DE_union": 77
+          },
+          "HERC5": {
+            "jac": 0.09345794392523364,
+            "n_DE_pred": 67,
+            "n_DE_real": 50,
+            "n_DE_union": 107
+          },
+          "HERC6": {
+            "jac": 0.045454545454545456,
+            "n_DE_pred": 18,
+            "n_DE_real": 5,
+            "n_DE_union": 22
+          },
+          "ID2": {
+            "jac": 0.030927835051546393,
+            "n_DE_pred": 422,
+            "n_DE_real": 78,
+            "n_DE_union": 485
+          },
+          "IFNAR1": {
+            "jac": 0.3181818181818182,
+            "n_DE_pred": 411,
+            "n_DE_real": 285,
+            "n_DE_union": 528
+          },
+          "IFNAR2": {
+            "jac": 0.13786008230452676,
+            "n_DE_pred": 244,
+            "n_DE_real": 309,
+            "n_DE_union": 486
+          },
+          "IRF1": {
+            "jac": 0.14814814814814814,
+            "n_DE_pred": 10,
+            "n_DE_real": 21,
+            "n_DE_union": 27
+          },
+          "IRF7": {
+            "jac": 0.0594059405940594,
+            "n_DE_pred": 74,
+            "n_DE_real": 33,
+            "n_DE_union": 101
+          },
+          "JAK1": {
+            "jac": 0.05555555555555555,
+            "n_DE_pred": 3,
+            "n_DE_real": 16,
+            "n_DE_union": 18
+          },
+          "JUN": {
+            "jac": 0.018518518518518517,
+            "n_DE_pred": 61,
+            "n_DE_real": 49,
+            "n_DE_union": 108
+          },
+          "MAP3K14": {
+            "jac": 0.018518518518518517,
+            "n_DE_pred": 52,
+            "n_DE_real": 3,
+            "n_DE_union": 54
+          },
+          "MAPK8": {
+            "jac": 0.1037463976945245,
+            "n_DE_pred": 227,
+            "n_DE_real": 156,
+            "n_DE_union": 347
+          },
+          "PARP12": {
+            "jac": 0.0,
+            "n_DE_pred": 10,
+            "n_DE_real": 2,
+            "n_DE_union": 12
+          },
+          "RAP1GAP": {
+            "jac": 1.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 0,
+            "n_DE_union": 0
+          },
+          "RNF114": {
+            "jac": 0.03636363636363636,
+            "n_DE_pred": 16,
+            "n_DE_real": 41,
+            "n_DE_union": 55
+          },
+          "SOCS1": {
+            "jac": 0.0125,
+            "n_DE_pred": 75,
+            "n_DE_real": 6,
+            "n_DE_union": 80
+          },
+          "SP100": {
+            "jac": 0.0,
+            "n_DE_pred": 4,
+            "n_DE_real": 13,
+            "n_DE_union": 17
+          },
+          "STAT1": {
+            "jac": 0.0,
+            "n_DE_pred": 10,
+            "n_DE_real": 2,
+            "n_DE_union": 12
+          },
+          "STAT3": {
+            "jac": 0.0,
+            "n_DE_pred": 7,
+            "n_DE_real": 6,
+            "n_DE_union": 13
+          },
+          "STAT4": {
+            "jac": 1.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 0,
+            "n_DE_union": 0
+          },
+          "STAT5A": {
+            "jac": 0.022222222222222223,
+            "n_DE_pred": 18,
+            "n_DE_real": 28,
+            "n_DE_union": 45
+          },
+          "TRAFD1": {
+            "jac": 0.027472527472527472,
+            "n_DE_pred": 303,
+            "n_DE_real": 71,
+            "n_DE_union": 364
+          },
+          "TYK2": {
+            "jac": 0.22393822393822393,
+            "n_DE_pred": 325,
+            "n_DE_real": 309,
+            "n_DE_union": 518
+          },
+          "VAV1": {
+            "jac": 0.037037037037037035,
+            "n_DE_pred": 124,
+            "n_DE_real": 16,
+            "n_DE_union": 135
+          },
+          "ZBP1": {
+            "jac": 0.019801980198019802,
+            "n_DE_pred": 89,
+            "n_DE_real": 14,
+            "n_DE_union": 101
+          }
+        },
+        "seed": 3677149159,
+        "split_index": 1,
+        "suma_genuinos": 1.7842039236993552,
+        "valor_del_bundle": 0.11467284617270775,
+        "valor_recomputado": 0.11467284617270776
+      },
+      {
+        "E_union_vacia": 0,
+        "componente_convencion": 0.0,
+        "componente_genuina": 0.055373403171209756,
+        "dif_vs_bundle": 6.938893903907228e-18,
+        "media_genuinos": 0.055373403171209756,
+        "n_genuinos": 33,
+        "n_half_a": 7934,
+        "n_half_b": 7934,
+        "perts_union_vacia": [],
+        "por_pert": {
+          "AKT1": {
+            "jac": 0.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 25,
+            "n_DE_union": 25
+          },
+          "BATF2": {
+            "jac": 0.11267605633802817,
+            "n_DE_pred": 40,
+            "n_DE_real": 39,
+            "n_DE_union": 71
+          },
+          "BRD9": {
+            "jac": 0.0,
+            "n_DE_pred": 1,
+            "n_DE_real": 21,
+            "n_DE_union": 22
+          },
+          "CEBPG": {
+            "jac": 0.04838709677419355,
+            "n_DE_pred": 45,
+            "n_DE_real": 20,
+            "n_DE_union": 62
+          },
+          "DTX3L": {
+            "jac": 0.023809523809523808,
+            "n_DE_pred": 32,
+            "n_DE_real": 11,
+            "n_DE_union": 42
+          },
+          "ELK1": {
+            "jac": 0.1774193548387097,
+            "n_DE_pred": 22,
+            "n_DE_real": 51,
+            "n_DE_union": 62
+          },
+          "ETS1": {
+            "jac": 0.0,
+            "n_DE_pred": 86,
+            "n_DE_real": 1,
+            "n_DE_union": 87
+          },
+          "ETS2": {
+            "jac": 0.11428571428571428,
+            "n_DE_pred": 20,
+            "n_DE_real": 19,
+            "n_DE_union": 35
+          },
+          "H1F0": {
+            "jac": 0.0,
+            "n_DE_pred": 35,
+            "n_DE_real": 48,
+            "n_DE_union": 83
+          },
+          "HERC5": {
+            "jac": 0.041666666666666664,
+            "n_DE_pred": 15,
+            "n_DE_real": 135,
+            "n_DE_union": 144
+          },
+          "HERC6": {
+            "jac": 0.034482758620689655,
+            "n_DE_pred": 15,
+            "n_DE_real": 15,
+            "n_DE_union": 29
+          },
+          "ID2": {
+            "jac": 0.017878426698450536,
+            "n_DE_pred": 48,
+            "n_DE_real": 806,
+            "n_DE_union": 839
+          },
+          "IFNAR1": {
+            "jac": 0.34303534303534305,
+            "n_DE_pred": 370,
+            "n_DE_real": 276,
+            "n_DE_union": 481
+          },
+          "IFNAR2": {
+            "jac": 0.11375212224108659,
+            "n_DE_pred": 472,
+            "n_DE_real": 184,
+            "n_DE_union": 589
+          },
+          "IRF1": {
+            "jac": 0.16666666666666666,
+            "n_DE_pred": 21,
+            "n_DE_real": 14,
+            "n_DE_union": 30
+          },
+          "IRF7": {
+            "jac": 0.028735632183908046,
+            "n_DE_pred": 153,
+            "n_DE_real": 26,
+            "n_DE_union": 174
+          },
+          "JAK1": {
+            "jac": 0.047619047619047616,
+            "n_DE_pred": 21,
+            "n_DE_real": 1,
+            "n_DE_union": 21
+          },
+          "JUN": {
+            "jac": 0.01358695652173913,
+            "n_DE_pred": 348,
+            "n_DE_real": 25,
+            "n_DE_union": 368
+          },
+          "MAP3K14": {
+            "jac": 0.0,
+            "n_DE_pred": 8,
+            "n_DE_real": 5,
+            "n_DE_union": 13
+          },
+          "MAPK8": {
+            "jac": 0.07613168724279835,
+            "n_DE_pred": 385,
+            "n_DE_real": 138,
+            "n_DE_union": 486
+          },
+          "PARP12": {
+            "jac": 0.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 4,
+            "n_DE_union": 4
+          },
+          "RAP1GAP": {
+            "jac": 0.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 11,
+            "n_DE_union": 11
+          },
+          "RNF114": {
+            "jac": 0.017857142857142856,
+            "n_DE_pred": 38,
+            "n_DE_real": 19,
+            "n_DE_union": 56
+          },
+          "SOCS1": {
+            "jac": 0.017543859649122806,
+            "n_DE_pred": 12,
+            "n_DE_real": 46,
+            "n_DE_union": 57
+          },
+          "SP100": {
+            "jac": 0.05,
+            "n_DE_pred": 18,
+            "n_DE_real": 3,
+            "n_DE_union": 20
+          },
+          "STAT1": {
+            "jac": 0.0,
+            "n_DE_pred": 7,
+            "n_DE_real": 22,
+            "n_DE_union": 29
+          },
+          "STAT3": {
+            "jac": 0.0,
+            "n_DE_pred": 2,
+            "n_DE_real": 0,
+            "n_DE_union": 2
+          },
+          "STAT4": {
+            "jac": 0.0,
+            "n_DE_pred": 2,
+            "n_DE_real": 0,
+            "n_DE_union": 2
+          },
+          "STAT5A": {
+            "jac": 0.05454545454545454,
+            "n_DE_pred": 25,
+            "n_DE_real": 33,
+            "n_DE_union": 55
+          },
+          "TRAFD1": {
+            "jac": 0.014563106796116505,
+            "n_DE_pred": 363,
+            "n_DE_real": 55,
+            "n_DE_union": 412
+          },
+          "TYK2": {
+            "jac": 0.22884615384615384,
+            "n_DE_pred": 324,
+            "n_DE_real": 315,
+            "n_DE_union": 520
+          },
+          "VAV1": {
+            "jac": 0.05442176870748299,
+            "n_DE_pred": 27,
+            "n_DE_real": 128,
+            "n_DE_union": 147
+          },
+          "ZBP1": {
+            "jac": 0.029411764705882353,
+            "n_DE_pred": 23,
+            "n_DE_real": 47,
+            "n_DE_union": 68
+          }
+        },
+        "seed": 745650761,
+        "split_index": 2,
+        "suma_genuinos": 1.8273223046499218,
+        "valor_del_bundle": 0.05537340317120975,
+        "valor_recomputado": 0.055373403171209756
+      },
+      {
+        "E_union_vacia": 1,
+        "componente_convencion": 0.030303030303030304,
+        "componente_genuina": 0.05397780458703702,
+        "dif_vs_bundle": 0.0,
+        "media_genuinos": 0.055664610980381925,
+        "n_genuinos": 32,
+        "n_half_a": 7934,
+        "n_half_b": 7934,
+        "perts_union_vacia": [
+          "RAP1GAP"
+        ],
+        "por_pert": {
+          "AKT1": {
+            "jac": 0.0,
+            "n_DE_pred": 5,
+            "n_DE_real": 108,
+            "n_DE_union": 113
+          },
+          "BATF2": {
+            "jac": 0.17142857142857143,
+            "n_DE_pred": 22,
+            "n_DE_real": 19,
+            "n_DE_union": 35
+          },
+          "BRD9": {
+            "jac": 0.0,
+            "n_DE_pred": 3,
+            "n_DE_real": 13,
+            "n_DE_union": 16
+          },
+          "CEBPG": {
+            "jac": 0.08433734939759036,
+            "n_DE_pred": 57,
+            "n_DE_real": 33,
+            "n_DE_union": 83
+          },
+          "DTX3L": {
+            "jac": 0.034482758620689655,
+            "n_DE_pred": 12,
+            "n_DE_real": 18,
+            "n_DE_union": 29
+          },
+          "ELK1": {
+            "jac": 0.16049382716049382,
+            "n_DE_pred": 75,
+            "n_DE_real": 19,
+            "n_DE_union": 81
+          },
+          "ETS1": {
+            "jac": 0.0,
+            "n_DE_pred": 2,
+            "n_DE_real": 69,
+            "n_DE_union": 71
+          },
+          "ETS2": {
+            "jac": 0.08,
+            "n_DE_pred": 4,
+            "n_DE_real": 23,
+            "n_DE_union": 25
+          },
+          "H1F0": {
+            "jac": 0.0,
+            "n_DE_pred": 120,
+            "n_DE_real": 6,
+            "n_DE_union": 126
+          },
+          "HERC5": {
+            "jac": 0.10344827586206896,
+            "n_DE_pred": 44,
+            "n_DE_real": 84,
+            "n_DE_union": 116
+          },
+          "HERC6": {
+            "jac": 0.04,
+            "n_DE_pred": 12,
+            "n_DE_real": 14,
+            "n_DE_union": 25
+          },
+          "ID2": {
+            "jac": 0.017902813299232736,
+            "n_DE_pred": 34,
+            "n_DE_real": 762,
+            "n_DE_union": 782
+          },
+          "IFNAR1": {
+            "jac": 0.31153846153846154,
+            "n_DE_pred": 279,
+            "n_DE_real": 403,
+            "n_DE_union": 520
+          },
+          "IFNAR2": {
+            "jac": 0.112,
+            "n_DE_pred": 275,
+            "n_DE_real": 281,
+            "n_DE_union": 500
+          },
+          "IRF1": {
+            "jac": 0.09836065573770492,
+            "n_DE_pred": 24,
+            "n_DE_real": 43,
+            "n_DE_union": 61
+          },
+          "IRF7": {
+            "jac": 0.03676470588235294,
+            "n_DE_pred": 128,
+            "n_DE_real": 13,
+            "n_DE_union": 136
+          },
+          "JAK1": {
+            "jac": 0.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 12,
+            "n_DE_union": 12
+          },
+          "JUN": {
+            "jac": 0.00390625,
+            "n_DE_pred": 7,
+            "n_DE_real": 250,
+            "n_DE_union": 256
+          },
+          "MAP3K14": {
+            "jac": 0.023255813953488372,
+            "n_DE_pred": 1,
+            "n_DE_real": 43,
+            "n_DE_union": 43
+          },
+          "MAPK8": {
+            "jac": 0.07112970711297072,
+            "n_DE_pred": 82,
+            "n_DE_real": 430,
+            "n_DE_union": 478
+          },
+          "PARP12": {
+            "jac": 0.0,
+            "n_DE_pred": 2,
+            "n_DE_real": 1,
+            "n_DE_union": 3
+          },
+          "RAP1GAP": {
+            "jac": 1.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 0,
+            "n_DE_union": 0
+          },
+          "RNF114": {
+            "jac": 0.038461538461538464,
+            "n_DE_pred": 4,
+            "n_DE_real": 50,
+            "n_DE_union": 52
+          },
+          "SOCS1": {
+            "jac": 0.012658227848101266,
+            "n_DE_pred": 69,
+            "n_DE_real": 11,
+            "n_DE_union": 79
+          },
+          "SP100": {
+            "jac": 0.022727272727272728,
+            "n_DE_pred": 3,
+            "n_DE_real": 42,
+            "n_DE_union": 44
+          },
+          "STAT1": {
+            "jac": 0.0,
+            "n_DE_pred": 10,
+            "n_DE_real": 8,
+            "n_DE_union": 18
+          },
+          "STAT3": {
+            "jac": 0.0,
+            "n_DE_pred": 3,
+            "n_DE_real": 7,
+            "n_DE_union": 10
+          },
+          "STAT4": {
+            "jac": 0.0,
+            "n_DE_pred": 1,
+            "n_DE_real": 0,
+            "n_DE_union": 1
+          },
+          "STAT5A": {
+            "jac": 0.03076923076923077,
+            "n_DE_pred": 9,
+            "n_DE_real": 58,
+            "n_DE_union": 65
+          },
+          "TRAFD1": {
+            "jac": 0.023809523809523808,
+            "n_DE_pred": 144,
+            "n_DE_real": 157,
+            "n_DE_union": 294
+          },
+          "TYK2": {
+            "jac": 0.22764227642276422,
+            "n_DE_pred": 405,
+            "n_DE_real": 199,
+            "n_DE_union": 492
+          },
+          "VAV1": {
+            "jac": 0.06349206349206349,
+            "n_DE_pred": 45,
+            "n_DE_real": 89,
+            "n_DE_union": 126
+          },
+          "ZBP1": {
+            "jac": 0.012658227848101266,
+            "n_DE_pred": 11,
+            "n_DE_real": 149,
+            "n_DE_union": 158
+          }
+        },
+        "seed": 2884920346,
+        "split_index": 3,
+        "suma_genuinos": 1.7812675513722216,
+        "valor_del_bundle": 0.08428083489006731,
+        "valor_recomputado": 0.08428083489006731
+      },
+      {
+        "E_union_vacia": 0,
+        "componente_convencion": 0.0,
+        "componente_genuina": 0.053984754896908446,
+        "dif_vs_bundle": 6.938893903907228e-18,
+        "media_genuinos": 0.053984754896908446,
+        "n_genuinos": 33,
+        "n_half_a": 7934,
+        "n_half_b": 7934,
+        "perts_union_vacia": [],
+        "por_pert": {
+          "AKT1": {
+            "jac": 0.015384615384615385,
+            "n_DE_pred": 7,
+            "n_DE_real": 59,
+            "n_DE_union": 65
+          },
+          "BATF2": {
+            "jac": 0.14,
+            "n_DE_pred": 12,
+            "n_DE_real": 45,
+            "n_DE_union": 50
+          },
+          "BRD9": {
+            "jac": 0.0,
+            "n_DE_pred": 5,
+            "n_DE_real": 5,
+            "n_DE_union": 10
+          },
+          "CEBPG": {
+            "jac": 0.07058823529411765,
+            "n_DE_pred": 26,
+            "n_DE_real": 65,
+            "n_DE_union": 85
+          },
+          "DTX3L": {
+            "jac": 0.03571428571428571,
+            "n_DE_pred": 4,
+            "n_DE_real": 25,
+            "n_DE_union": 28
+          },
+          "ELK1": {
+            "jac": 0.10588235294117647,
+            "n_DE_pred": 19,
+            "n_DE_real": 75,
+            "n_DE_union": 85
+          },
+          "ETS1": {
+            "jac": 0.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 103,
+            "n_DE_union": 103
+          },
+          "ETS2": {
+            "jac": 0.06896551724137931,
+            "n_DE_pred": 11,
+            "n_DE_real": 20,
+            "n_DE_union": 29
+          },
+          "H1F0": {
+            "jac": 0.0,
+            "n_DE_pred": 4,
+            "n_DE_real": 57,
+            "n_DE_union": 61
+          },
+          "HERC5": {
+            "jac": 0.04895104895104895,
+            "n_DE_pred": 271,
+            "n_DE_real": 29,
+            "n_DE_union": 286
+          },
+          "HERC6": {
+            "jac": 0.11538461538461539,
+            "n_DE_pred": 21,
+            "n_DE_real": 8,
+            "n_DE_union": 26
+          },
+          "ID2": {
+            "jac": 0.010180995475113122,
+            "n_DE_pred": 30,
+            "n_DE_real": 863,
+            "n_DE_union": 884
+          },
+          "IFNAR1": {
+            "jac": 0.33769063180827885,
+            "n_DE_pred": 265,
+            "n_DE_real": 349,
+            "n_DE_union": 459
+          },
+          "IFNAR2": {
+            "jac": 0.1033434650455927,
+            "n_DE_pred": 465,
+            "n_DE_real": 261,
+            "n_DE_union": 658
+          },
+          "IRF1": {
+            "jac": 0.08928571428571429,
+            "n_DE_pred": 23,
+            "n_DE_real": 38,
+            "n_DE_union": 56
+          },
+          "IRF7": {
+            "jac": 0.05027932960893855,
+            "n_DE_pred": 51,
+            "n_DE_real": 137,
+            "n_DE_union": 179
+          },
+          "JAK1": {
+            "jac": 0.05,
+            "n_DE_pred": 6,
+            "n_DE_real": 15,
+            "n_DE_union": 20
+          },
+          "JUN": {
+            "jac": 0.0,
+            "n_DE_pred": 18,
+            "n_DE_real": 57,
+            "n_DE_union": 75
+          },
+          "MAP3K14": {
+            "jac": 0.041666666666666664,
+            "n_DE_pred": 12,
+            "n_DE_real": 38,
+            "n_DE_union": 48
+          },
+          "MAPK8": {
+            "jac": 0.0706713780918728,
+            "n_DE_pred": 122,
+            "n_DE_real": 484,
+            "n_DE_union": 566
+          },
+          "PARP12": {
+            "jac": 0.0,
+            "n_DE_pred": 1,
+            "n_DE_real": 3,
+            "n_DE_union": 4
+          },
+          "RAP1GAP": {
+            "jac": 0.0,
+            "n_DE_pred": 3,
+            "n_DE_real": 0,
+            "n_DE_union": 3
+          },
+          "RNF114": {
+            "jac": 0.006134969325153374,
+            "n_DE_pred": 160,
+            "n_DE_real": 4,
+            "n_DE_union": 163
+          },
+          "SOCS1": {
+            "jac": 0.0125,
+            "n_DE_pred": 27,
+            "n_DE_real": 54,
+            "n_DE_union": 80
+          },
+          "SP100": {
+            "jac": 0.05555555555555555,
+            "n_DE_pred": 1,
+            "n_DE_real": 18,
+            "n_DE_union": 18
+          },
+          "STAT1": {
+            "jac": 0.0,
+            "n_DE_pred": 14,
+            "n_DE_real": 10,
+            "n_DE_union": 24
+          },
+          "STAT3": {
+            "jac": 0.0,
+            "n_DE_pred": 5,
+            "n_DE_real": 3,
+            "n_DE_union": 8
+          },
+          "STAT4": {
+            "jac": 0.0,
+            "n_DE_pred": 0,
+            "n_DE_real": 9,
+            "n_DE_union": 9
+          },
+          "STAT5A": {
+            "jac": 0.06,
+            "n_DE_pred": 12,
+            "n_DE_real": 41,
+            "n_DE_union": 50
+          },
+          "TRAFD1": {
+            "jac": 0.01910828025477707,
+            "n_DE_pred": 77,
+            "n_DE_real": 243,
+            "n_DE_union": 314
+          },
+          "TYK2": {
+            "jac": 0.22330097087378642,
+            "n_DE_pred": 309,
+            "n_DE_real": 321,
+            "n_DE_union": 515
+          },
+          "VAV1": {
+            "jac": 0.039735099337748346,
+            "n_DE_pred": 16,
+            "n_DE_real": 141,
+            "n_DE_union": 151
+          },
+          "ZBP1": {
+            "jac": 0.0111731843575419,
+            "n_DE_pred": 38,
+            "n_DE_real": 143,
+            "n_DE_union": 179
+          }
+        },
+        "seed": 2642120001,
+        "split_index": 4,
+        "suma_genuinos": 1.7814969115979786,
+        "valor_del_bundle": 0.053984754896908446,
+        "valor_recomputado": 0.05398475489690845
+      }
+    ]
+  }
+}

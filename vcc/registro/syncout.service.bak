@@ -1,0 +1,8 @@
+[Unit]
+Description=Sync vcc out a S3
+[Service]
+User=ubuntu
+ExecStart=/bin/bash -c "while true; do aws s3 sync /home/ubuntu/vcc/ s3://vc-challenge-data/vcc/ --exclude "corpus/*" --exclude "out/*.npz" --no-progress >/dev/null 2>&1; sleep 120; done"
+Restart=always
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,8 @@
+[Unit]
+Description=Sync vcc out a S3
+[Service]
+User=ubuntu
+ExecStart=/bin/bash -c "while true; do aws s3 sync /home/ubuntu/vcc/ s3://vc-challenge-data/vcc/ --no-progress >/dev/null 2>&1; aws s3 sync /datos/_scratch_techo_metricas/ s3://vc-challenge-data/scratch_techo/ --no-progress >/dev/null 2>&1; sleep 120; done"
+Restart=always
+[Install]
+WantedBy=multi-user.target

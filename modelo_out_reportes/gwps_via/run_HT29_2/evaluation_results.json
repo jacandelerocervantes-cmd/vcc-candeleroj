@@ -1,0 +1,718 @@
+{
+  "schema_version": 1,
+  "suite": {
+    "name": "cell_eval2",
+    "version": "0.20.0",
+    "commit": null,
+    "settings": {
+      "pert_col": "target_gene",
+      "control": "non-targeting",
+      "version": "v2",
+      "control_source": "real",
+      "max_counts_per_cell": 1000000.0,
+      "target_sum": 1000000.0,
+      "allow_discrete": false,
+      "autodetect_input_type": false,
+      "validate_input": true,
+      "filter": {
+        "filter_gene_min_cpm_cell": 5.0
+      },
+      "device": "cpu",
+      "pert_chunk": 512,
+      "discrimination": {
+        "distance": "cosine",
+        "rank_denominator": "n-1",
+        "exclude_target_gene": true,
+        "embed_key": null,
+        "tie_policy": "midrank",
+        "exclusion_scope": "panel"
+      },
+      "de": {
+        "p_adj_threshold": 0.05,
+        "min_abs_log2fc": 0.0,
+        "sort_by": "abs_log2_fold_change",
+        "method": "wilcoxon",
+        "nan_lfc_policy": "mask",
+        "backend": "pdex",
+        "replicate_col": null,
+        "mean_calc": "arithmetic",
+        "epsilon": 1e-09,
+        "clip_value": null,
+        "fdr_scope": "per_pert",
+        "auc_pval_floor": "min_nonzero",
+        "auc_pval_floor_value": 1e-10,
+        "engine": {
+          "name": "pdex",
+          "version": "0.3.0",
+          "provenance": "release",
+          "commit": null
+        }
+      },
+      "target_gene_map": null,
+      "bulk_target_sum": 50000.0,
+      "input_type_real": "counts",
+      "input_type_pred": "counts",
+      "comparator": "bulk_lognorm",
+      "scoring_path": "in_memory"
+    }
+  },
+  "statistics": {
+    "count": {
+      "display_name": "Count",
+      "description": "Number of the metric's values along its axis, null values included.",
+      "combine": "sum"
+    },
+    "null_count": {
+      "display_name": "Null count",
+      "description": "Number of null values along the metric's axis.",
+      "combine": "sum"
+    },
+    "mean": {
+      "display_name": "Mean",
+      "description": "Arithmetic mean of the metric's values along its axis, excluding null values.",
+      "combine": "mean"
+    },
+    "std": {
+      "display_name": "Standard deviation",
+      "description": "Sample standard deviation of the metric's values along its axis, excluding null values; null when fewer than 2 values remain.",
+      "combine": "none"
+    },
+    "min": {
+      "display_name": "Minimum",
+      "description": "Smallest of the metric's values along its axis, excluding null values.",
+      "combine": "none"
+    },
+    "max": {
+      "display_name": "Maximum",
+      "description": "Largest of the metric's values along its axis, excluding null values.",
+      "combine": "none"
+    },
+    "median": {
+      "display_name": "Median",
+      "description": "Median of the metric's values along its axis, excluding null values.",
+      "combine": "none"
+    },
+    "value": {
+      "display_name": "Value",
+      "description": "The metric's single value for the scoring call, computed over the whole context.",
+      "combine": "mean"
+    },
+    "ratio_of_sums": {
+      "display_name": "Ratio of sums",
+      "description": "Sum of the metric's numerator over the scored perturbations divided by the sum of its denominator, over the perturbations where both are finite.",
+      "combine": "mean"
+    }
+  },
+  "axes": {
+    "perturbation": {
+      "display_name": "Perturbation",
+      "description": "One perturbation of the scored context, labeled as in the input data.",
+      "labels": [
+        "AKT1",
+        "BATF2",
+        "BRD9",
+        "CEBPG",
+        "DTX3L",
+        "ELK1",
+        "ETS1",
+        "ETS2",
+        "H1F0",
+        "HERC5",
+        "HERC6",
+        "ID2",
+        "IFNAR1",
+        "IFNAR2",
+        "IRF1",
+        "IRF7",
+        "JAK1",
+        "JUN",
+        "MAP3K14",
+        "MAPK8",
+        "PARP12",
+        "RAP1GAP",
+        "RNF114",
+        "SOCS1",
+        "SP100",
+        "STAT1",
+        "STAT3",
+        "STAT4",
+        "STAT5A",
+        "TRAFD1",
+        "TYK2",
+        "VAV1",
+        "ZBP1"
+      ]
+    }
+  },
+  "facets": {
+    "family": {
+      "display_name": "Family",
+      "description": "The topic group of the metric."
+    },
+    "kind": {
+      "display_name": "Input",
+      "description": "What the metric reads: a differential-expression table (de), pseudobulk expression profiles (anndata), or single cells (cell)."
+    },
+    "de_method": {
+      "display_name": "DE method",
+      "description": "The differential-expression test that produced the DE tables."
+    }
+  },
+  "metrics": {
+    "pds_cosine": {
+      "version": 1,
+      "headline": {
+        "statistic": "mean",
+        "direction": "higher",
+        "min": 0.0,
+        "max": 1.0
+      },
+      "display_name": "Discrimination (cosine)",
+      "description": "One minus the normalized rank of the real perturbation's effect among all real effects by cosine distance to the predicted effect, over all genes except the target genes the discrimination settings exclude (by default, every target gene of the panel); 1 means the prediction is closest to its own perturbation.",
+      "aliases": [
+        "discrimination_score_cosine"
+      ],
+      "facets": {
+        "family": "pds",
+        "kind": "anndata"
+      },
+      "statistics": {
+        "count": 33,
+        "null_count": 0,
+        "mean": 0.4962121212121212,
+        "std": 0.3236070637725401,
+        "min": 0.0,
+        "max": 1.0,
+        "median": 0.5
+      },
+      "axis": "perturbation",
+      "values": [
+        0.5625,
+        0.5,
+        0.78125,
+        0.40625,
+        1.0,
+        0.90625,
+        0.75,
+        0.9375,
+        0.8125,
+        0.0,
+        0.40625,
+        0.125,
+        0.09375,
+        0.03125,
+        0.75,
+        0.25,
+        0.09375,
+        0.21875,
+        0.875,
+        0.78125,
+        0.15625,
+        0.34375,
+        0.3125,
+        0.3125,
+        0.65625,
+        0.0,
+        0.25,
+        0.71875,
+        0.84375,
+        1.0,
+        0.1875,
+        0.71875,
+        0.59375
+      ]
+    },
+    "expr_mse_unbiased": {
+      "version": 1,
+      "headline": {
+        "statistic": "mean",
+        "direction": null
+      },
+      "display_name": "Expression MSE, bias-corrected",
+      "description": "Squared error between the predicted and real pseudobulk expression over all genes except the perturbation's own, with both sides' sampling variance subtracted, so it can be negative.",
+      "facets": {
+        "family": "expr",
+        "kind": "anndata"
+      },
+      "statistics": {
+        "count": 33,
+        "null_count": 0,
+        "mean": 0.04197947903126227,
+        "std": 0.02145017370881224,
+        "min": 0.00018182171927018113,
+        "max": 0.06632235482514814,
+        "median": 0.049008167212574685
+      },
+      "axis": "perturbation",
+      "values": [
+        0.04873077322971779,
+        0.049672726026318,
+        0.059593092412207005,
+        0.061529114585167646,
+        0.0003615671713540067,
+        0.049008167212574685,
+        0.04612667097516463,
+        0.06229347971755812,
+        0.0003783737380058313,
+        0.00048189379487865655,
+        0.00037280716687733406,
+        0.05196900562860228,
+        0.05647788903108088,
+        0.06632235482514814,
+        0.039689164683103365,
+        0.05207811131156143,
+        0.05379662759443424,
+        0.0561640641680366,
+        0.00018182171927018113,
+        0.030269661267993377,
+        0.05379299233453713,
+        0.04718694376460902,
+        0.057674503649426,
+        0.03060413656141743,
+        0.05416561463970671,
+        0.043069862170969905,
+        0.0573565515084063,
+        0.05339262526057432,
+        0.045569994216808914,
+        0.04654463154512762,
+        0.06346813282487904,
+        0.04651142490446214,
+        0.00048802839167600163
+      ]
+    },
+    "expr_mse_unbiased_capped": {
+      "version": 1,
+      "headline": {
+        "statistic": "mean",
+        "direction": null
+      },
+      "display_name": "Expression MSE, capped correction",
+      "description": "Bias-corrected squared error in which the prediction's variance correction is capped by the reference's; the numerator of expr_mse_unbiased_capped_norm.",
+      "facets": {
+        "family": "expr",
+        "kind": "anndata"
+      },
+      "statistics": {
+        "count": 33,
+        "null_count": 0,
+        "mean": 0.04242704954225848,
+        "std": 0.02158287490409768,
+        "min": 0.00029777107360266504,
+        "max": 0.06680352064551283,
+        "median": 0.049427834164433554
+      },
+      "axis": "perturbation",
+      "values": [
+        0.049081165543279646,
+        0.05014513200962217,
+        0.06023373988262923,
+        0.062191598001619226,
+        0.0007601988896447801,
+        0.049427834164433554,
+        0.04640496817066465,
+        0.06317943846454431,
+        0.0006115600407257582,
+        0.0006610102145947896,
+        0.0006187079275788964,
+        0.05247599847625005,
+        0.056874157297029486,
+        0.06680352064551283,
+        0.04016385992366862,
+        0.05265114200861707,
+        0.05396702256551618,
+        0.05684443825039634,
+        0.00029777107360266504,
+        0.03053275780048403,
+        0.054331621968479266,
+        0.04758400440260795,
+        0.05840210365582827,
+        0.030948088800379574,
+        0.054494465064779604,
+        0.043610395750279994,
+        0.05794828693610518,
+        0.05401144839610221,
+        0.04615892647443809,
+        0.046875412141748826,
+        0.06409645689726787,
+        0.04709646039878184,
+        0.0006089426573165871
+      ]
+    },
+    "expr_distance_unbiased": {
+      "version": 1,
+      "headline": {
+        "statistic": "mean",
+        "direction": null
+      },
+      "display_name": "Real effect size, bias-corrected",
+      "description": "Squared distance between the real perturbation's and the real control's pseudobulk expression over all genes except the perturbation's own, with sampling variance subtracted; the denominator of expr_mse_unbiased_capped_norm.",
+      "facets": {
+        "family": "expr",
+        "kind": "anndata"
+      },
+      "statistics": {
+        "count": 33,
+        "null_count": 0,
+        "mean": 0.0004853689826538512,
+        "std": 0.0009980364762707508,
+        "min": -7.06619619562153e-05,
+        "max": 0.0038948813946267868,
+        "median": 0.00010623496796038764
+      },
+      "axis": "perturbation",
+      "values": [
+        3.6770655051834256e-05,
+        9.484554720955452e-05,
+        2.0471175438186002e-06,
+        0.00011930082217417188,
+        0.00017809710890991364,
+        0.0001405414143681262,
+        0.00015795705323475858,
+        0.0005856437218778492,
+        5.976176003344243e-05,
+        0.00013934954515491184,
+        9.071069252843021e-05,
+        0.00032658396403706375,
+        0.002071448267618332,
+        0.0038948813946267868,
+        6.373227055714127e-05,
+        -3.964689139249522e-06,
+        0.0033729651554723766,
+        0.00032312625312311857,
+        0.00010623496796038764,
+        0.00013511435028620473,
+        4.503189378986485e-05,
+        -7.977608364724218e-07,
+        3.311895302780138e-05,
+        8.91955158137737e-06,
+        7.187642810254059e-05,
+        0.000816361563692316,
+        8.933568304286906e-05,
+        8.580722688304431e-05,
+        -7.06619619562153e-05,
+        6.364208095658276e-05,
+        0.002711990828641933,
+        0.00015677737577848532,
+        0.00011062719224399425
+      ]
+    },
+    "expr_real_mass_ratio": {
+      "version": 1,
+      "headline": {
+        "statistic": "mean",
+        "direction": null,
+        "min": 0.0
+      },
+      "display_name": "Real expression mass ratio",
+      "description": "Total expression of the real perturbation's pseudobulk in linear units divided by the comparator's target sum; no value for lognorm input without a numeric target_sum.",
+      "facets": {
+        "family": "expr",
+        "kind": "anndata"
+      },
+      "statistics": {
+        "count": 33,
+        "null_count": 0,
+        "mean": 1.0,
+        "std": 6.798699777552591e-17,
+        "min": 0.9999999999999999,
+        "max": 1.0000000000000002,
+        "median": 1.0
+      },
+      "axis": "perturbation",
+      "values": [
+        1.0,
+        1.0000000000000002,
+        1.0,
+        0.9999999999999999,
+        0.9999999999999999,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0000000000000002,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.9999999999999999,
+        1.0,
+        1.0,
+        0.9999999999999999,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "expr_mse_unbiased_capped_norm": {
+      "version": 1,
+      "headline": {
+        "statistic": "ratio_of_sums",
+        "direction": "lower"
+      },
+      "display_name": "Normalized expression error",
+      "description": "Sum over the perturbations of expr_mse_unbiased_capped divided by the sum of expr_distance_unbiased, over the perturbations where both are finite; 0 is a perfect prediction and about 1 is predicting the control.",
+      "facets": {
+        "family": "expr",
+        "kind": "anndata"
+      },
+      "statistics": {
+        "ratio_of_sums": 87.41195061596267
+      }
+    },
+    "de_wilcoxon_lfc_nmae": {
+      "version": 1,
+      "headline": {
+        "statistic": "mean",
+        "direction": "lower",
+        "min": 0.0
+      },
+      "display_name": "LFC normalized MAE",
+      "description": "Mean absolute error between the predicted and real log2 fold changes over the real significant DE genes with a finite real log2 fold change, except the perturbation's own, divided by the mean absolute real log2 fold change; no value when fewer than 10 such genes remain or all their real log2 fold changes are 0.",
+      "facets": {
+        "family": "lfc",
+        "kind": "de",
+        "de_method": "wilcoxon"
+      },
+      "statistics": {
+        "count": 33,
+        "null_count": 18,
+        "mean": 1.5381615345966648,
+        "std": 0.3309113259210086,
+        "min": 1.0029966614451622,
+        "max": 2.137314340160873,
+        "median": 1.522545413526622
+      },
+      "axis": "perturbation",
+      "values": [
+        null,
+        null,
+        null,
+        1.7178093844682423,
+        1.0029966614451622,
+        null,
+        null,
+        1.7591373505340109,
+        1.078000526972216,
+        null,
+        null,
+        1.640155047895006,
+        1.3348820764234843,
+        1.6141872611078718,
+        null,
+        null,
+        1.3247240845975123,
+        1.522545413526622,
+        null,
+        null,
+        1.965179633295409,
+        null,
+        2.137314340160873,
+        null,
+        1.3954205570412124,
+        1.964943804120939,
+        null,
+        null,
+        null,
+        null,
+        1.31932974452787,
+        1.2957971328335427,
+        null
+      ]
+    },
+    "de_wilcoxon_direction_fidelity_yield_raw": {
+      "version": 1,
+      "headline": {
+        "statistic": "mean",
+        "direction": "higher",
+        "min": 0.0,
+        "max": 1.0
+      },
+      "display_name": "Direction fidelity-yield, raw",
+      "description": "Number of correctly signed predicted significant genes divided by the larger of the number of predicted significant genes with a real direction and the number of real significant genes, every count excluding the perturbation's own gene; no value when both counts are 0.",
+      "facets": {
+        "family": "direction",
+        "kind": "de",
+        "de_method": "wilcoxon"
+      },
+      "statistics": {
+        "count": 33,
+        "null_count": 1,
+        "mean": 0.43551450815376913,
+        "std": 0.19173979089332246,
+        "min": 0.0,
+        "max": 0.5781430886779347,
+        "median": 0.515955583736567
+      },
+      "axis": "perturbation",
+      "values": [
+        0.5171047893410154,
+        0.5259826782145236,
+        0.536115569823435,
+        0.4965753424657534,
+        0.0,
+        0.529757785467128,
+        0.5122902848224736,
+        0.5781430886779347,
+        0.0,
+        null,
+        0.0,
+        0.5243713132567526,
+        0.4780839073262367,
+        0.473018147086915,
+        0.5183044315992292,
+        0.5225360576923077,
+        0.47352342158859473,
+        0.5197836606888699,
+        0.0,
+        0.5285400658616904,
+        0.513250076149863,
+        0.5212845407020165,
+        0.52368573079145,
+        0.5148063781321185,
+        0.5283556568823027,
+        0.4854537559704733,
+        0.5021822149481724,
+        0.538135593220339,
+        0.5139977603583427,
+        0.5433151432469304,
+        0.4724467303453343,
+        0.5454201362604087,
+        0.0
+      ]
+    },
+    "de_wilcoxon_direction_reach_raw": {
+      "version": 1,
+      "headline": {
+        "statistic": "mean",
+        "direction": "higher",
+        "min": 0.0,
+        "max": 1.0
+      },
+      "display_name": "Direction reach, raw",
+      "description": "Share of the real significant genes reached by the longest prefix of the prediction's ranking of them whose sign purity is at least 0.9, every count and ranking excluding the perturbation's own gene; no value when the reference has no significant gene.",
+      "facets": {
+        "family": "direction",
+        "kind": "de",
+        "de_method": "wilcoxon"
+      },
+      "statistics": {
+        "count": 33,
+        "null_count": 6,
+        "mean": 0.1519199557506301,
+        "std": 0.29827393365868793,
+        "min": 0.0,
+        "max": 1.0,
+        "median": 0.0036363636363636364
+      },
+      "axis": "perturbation",
+      "values": [
+        0.6666666666666666,
+        0.0,
+        null,
+        0.1,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.09090909090909091,
+        null,
+        0.0,
+        0.0,
+        0.0036363636363636364,
+        0.004878048780487805,
+        0.0,
+        null,
+        0.004728132387706856,
+        0.023809523809523808,
+        1.0,
+        0.3333333333333333,
+        0.0,
+        null,
+        0.02040816326530612,
+        0.3333333333333333,
+        0.0,
+        0.002150537634408602,
+        null,
+        null,
+        0.0,
+        0.5,
+        0.017985611510791366,
+        0.0,
+        0.0
+      ]
+    },
+    "de_wilcoxon_sig_jaccard": {
+      "version": 1,
+      "headline": {
+        "statistic": "mean",
+        "direction": "higher",
+        "min": 0.0,
+        "max": 1.0
+      },
+      "display_name": "DE gene Jaccard",
+      "description": "Jaccard index of the real and predicted significant DE gene sets, excluding the perturbation's own gene; 1 when both sets are empty.",
+      "facets": {
+        "family": "significance",
+        "kind": "de",
+        "de_method": "wilcoxon"
+      },
+      "statistics": {
+        "count": 33,
+        "null_count": 0,
+        "mean": 0.037524374508611236,
+        "std": 0.17352279513259064,
+        "min": 0.0,
+        "max": 1.0,
+        "median": 0.000333000333000333
+      },
+      "axis": "perturbation",
+      "values": [
+        0.0,
+        0.000333000333000333,
+        0.0,
+        0.0010520778537611783,
+        0.0,
+        0.00034602076124567473,
+        0.000779423226812159,
+        0.015076507650765077,
+        0.0,
+        1.0,
+        0.0,
+        0.0012376237623762376,
+        0.025421223765888266,
+        0.06947227788911156,
+        0.0,
+        0.0,
+        0.03981481481481482,
+        0.0028208744710860366,
+        0.0,
+        0.0,
+        0.005731523378582202,
+        0.0,
+        0.004577968526466381,
+        0.0,
+        0.0011370096645821489,
+        0.04452830188679245,
+        0.0,
+        0.0,
+        0.0,
+        0.00034071550255536625,
+        0.025634995296331137,
+        0.0,
+        0.0
+      ]
+    }
+  }
+}

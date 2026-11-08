@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "/home/ubuntu/vcc/modelo/src/control_o_no_estricto.py", line 233, in <module>
+    main()
+  File "/home/ubuntu/vcc/modelo/src/control_o_no_estricto.py", line 151, in main
+    Cross[i] = Zi.T @ E[masks[i]]
+    ~~~~~^^^
+ValueError: could not broadcast input array from shape (22,33) into shape (33,22)
+BXPC3  ESTRICTO ridge R_agr=-0.0091 med=+0.0307 pos=20/33 | nulo=-0.0201 sd=0.0872 z=+0.13 MDE80=0.2445 p=0.4631 | recortado=+0.0409 | GB=-0.0324
+HAP1   ESTRICTO ridge R_agr=-0.2043 med=-0.0636 pos=12/33 | nulo=-0.0334 sd=0.1061 z=-1.61 MDE80=0.2972 p=0.9401 | recortado=-0.0014 | GB=-0.0068
+HT29   ESTRICTO ridge R_agr=+0.0685 med=+0.0457 pos=21/33 | nulo=-0.0313 sd=0.1015 z=+0.98 MDE80=0.2844 p=0.1856 | recortado=+0.0583 | GB=+0.0725
+K562   ESTRICTO ridge R_agr=-0.0560 med=-0.0370 pos=10/31 | nulo=-0.0091 sd=0.0673 z=-0.70 MDE80=0.1886 p=0.7804 | recortado=-0.0713 | GB=-0.0524
+MCF7   ESTRICTO ridge R_agr=+0.0560 med=+0.0526 pos=22/33 | nulo=-0.0090 sd=0.0490 z=+1.33 MDE80=0.1373 p=0.0998 | recortado=+0.0801 | GB=-0.0153
+escrito /home/ubuntu/vcc/modelo/out/control_o_no/estricto.json
